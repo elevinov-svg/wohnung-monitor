@@ -5,7 +5,13 @@ on:
     # Каждые 30 минут. GitHub Actions иногда задерживает cron на несколько
     # минут при высокой нагрузке на их стороне — это нормально, не баг.
     - cron: "*/30 * * * *"
-  workflow_dispatch: {}   # позволяет запускать вручную кнопкой "Run workflow" на GitHub
+  workflow_dispatch:
+    inputs:
+      self_test:
+        description: "Записать одну тестовую строку в таблицу (для проверки доступа), затем можно удалить её вручную"
+        required: false
+        default: "false"
+        type: boolean
 
 permissions:
   contents: write   # нужно, чтобы коммитить обновлённый seen.json обратно в репозиторий
@@ -30,6 +36,7 @@ jobs:
           # Секреты можно оставить пустыми/не создавать, пока не понадобится.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SELF_TEST_SHEETS: ${{ github.event.inputs.self_test }}
         run: python monitor.py
 
       - name: Сохранить обновлённое состояние (seen.json)
