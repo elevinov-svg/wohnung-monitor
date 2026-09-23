@@ -33,6 +33,11 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 USE_TELEGRAM = os.environ.get("USE_TELEGRAM", "false").lower() == "true"
 
+# Разовая самопроверка: пишет одну тестовую строку в таблицу и выходит,
+# не трогая реальный мониторинг. Включается через workflow_dispatch
+# input "self_test" на GitHub (см. .github/workflows/monitor.yml).
+SELF_TEST_SHEETS = os.environ.get("SELF_TEST_SHEETS", "false").lower() == "true"
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -170,7 +175,26 @@ def build_sheet_row(item: dict, source_name: str) -> list:
     ]
 
 
+def run_self_test() -> int:
+    """Пишет одну явно помеченную тестовую строку в таблицу и выходит."""
+    print("[self-test] Пишу тестовую строку в таблицу 'Объявления'...")
+    test_item = {
+        "title": "ТЕСТ — эту строку можно удалить",
+        "link": "(нет ссылки, тестовая запись из self_test)",
+    }
+    try:
+        append_rows([build_sheet_row(test_item, "self-test (проверка записи)")])
+    except Exception as exc:  # noqa: BLE001
+        print(f"[self-test] ОШИБКА при записи в таблицу: {exc}")
+        return 1
+    print("[self-test] Успешно записано. Проверь таблицу и удали тестовую строку вручную.")
+    return 0
+
+
 def main() -> int:
+    if SELF_TEST_SHEETS:
+        return run_self_test()
+
     if not SOURCES_FILE.exists():
         print(f"[error] Не найден {SOURCES_FILE}")
         return 1
