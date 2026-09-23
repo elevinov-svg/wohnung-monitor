@@ -1,0 +1,41 @@
+name: Wohnung Monitor
+
+on:
+  schedule:
+    # Каждые 30 минут. GitHub Actions иногда задерживает cron на несколько
+    # минут при высокой нагрузке на их стороне — это нормально, не баг.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}   # позволяет запускать вручную кнопкой "Run workflow" на GitHub
+
+permissions:
+  contents: write   # нужно, чтобы коммитить обновлённый seen.json обратно в репозиторий
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Запустить мониторинг
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          # Telegram пока отключён (USE_TELEGRAM=false по умолчанию в monitor.py).
+          # Секреты можно оставить пустыми/не создавать, пока не понадобится.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
+
+      - name: Сохранить обновлённое состояние (seen.json)
+        run: |
+          git config user.name "wohnung-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add seen.json
+          git diff --staged --quiet || git commit -m "update seen state [skip ci]"
+          git push
