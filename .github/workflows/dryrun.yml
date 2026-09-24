@@ -1,4 +1,5 @@
 name: Dry run (проверка парсеров без записи в таблицу)
+# перезапуск: distance filter check
 
 on:
   push:
