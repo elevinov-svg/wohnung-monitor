@@ -2,8 +2,10 @@ name: Wohnung Monitor
 
 on:
   schedule:
-    # Каждые 30 минут. GitHub Actions иногда задерживает cron на несколько
-    # минут при высокой нагрузке на их стороне — это нормально, не баг.
+    # Запуск каждые 30 минут. Каждый прогон сам работает ~50 минут и проверяет
+    # сайты каждые CHECK_INTERVAL секунд. Благодаря concurrency следующий
+    # прогон ждёт окончания текущего — получается почти непрерывный мониторинг,
+    # даже если GitHub задержит cron.
     - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
@@ -17,13 +19,17 @@ permissions:
   contents: write   # нужно, чтобы коммитить обновлённое состояние обратно в репозиторий
 
 concurrency:
-  group: wohnung-monitor   # не запускать два прогона одновременно
+  group: wohnung-monitor   # не запускать два прогона одновременно, следующий ждёт в очереди
   cancel-in-progress: false
+
+env:
+  LOOP_MINUTES: "50"      # сколько минут работает один прогон
+  CHECK_INTERVAL: "180"   # пауза между проверками, секунд (3 минуты)
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
 
@@ -35,19 +41,33 @@ jobs:
       - name: Установить зависимости
         run: pip install -r requirements.txt
 
-      - name: Запустить мониторинг
+      - name: Самопроверка записи в таблицу
+        if: github.event.inputs.self_test == 'true'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SELF_TEST_SHEETS: "true"
+        run: python monitor.py
+
+      - name: Мониторинг в цикле
+        if: github.event.inputs.self_test != 'true'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           # Telegram пока отключён (USE_TELEGRAM=false по умолчанию в monitor.py).
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SELF_TEST_SHEETS: ${{ github.event.inputs.self_test }}
-        run: python monitor.py
-
-      - name: Сохранить состояние (seen.json, timing.json, geocache.json)
         run: |
           git config user.name "wohnung-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in seen.json timing.json geocache.json; do [ -f "$f" ] && git add "$f"; done
-          git diff --staged --quiet || git commit -m "update seen state [skip ci]"
-          git pull --rebase && git push
+          end=$((SECONDS + LOOP_MINUTES * 60))
+          while [ $SECONDS -lt $end ]; do
+            echo "===== проверка $(TZ=Europe/Berlin date '+%Y-%m-%d %H:%M:%S') ====="
+            python monitor.py || echo "[error] monitor.py завершился с ошибкой, продолжаю"
+            # сохраняем состояние после каждой проверки, чтобы не потерять его при сбое
+            for f in seen.json timing.json geocache.json; do [ -f "$f" ] && git add "$f"; done
+            if ! git diff --staged --quiet; then
+              git commit -q -m "update seen state [skip ci]"
+              git pull -q --rebase && git push -q || echo "[warn] не удалось запушить состояние, попробую в следующий раз"
+            fi
+            [ $((SECONDS + CHECK_INTERVAL)) -lt $end ] || break
+            sleep "$CHECK_INTERVAL"
+          done
