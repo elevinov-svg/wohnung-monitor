@@ -28,6 +28,7 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
+import geo
 from landeseigene import COMPANY_CHECKERS
 from sheets import append_rows
 
@@ -149,6 +150,35 @@ def passes_filters(it: dict, f: dict) -> bool:
     return True
 
 
+def passes_distance(it: dict, f: dict) -> bool:
+    """Фильтр по расстоянию до Boxhagener Platz. Считаем только для квартир,
+    уже прошедших остальные фильтры (чтобы не дёргать геокодер лишний раз)."""
+    max_km = f.get("max_km_boxhagener_platz")
+    if not max_km:
+        return True
+    km, how = geo.distance_to_boxi(it)
+    it["dist_km"], it["dist_src"] = km, how
+    if km is None:
+        print(f"[info] не удалось определить место: {it.get('address')} — пропускаю")
+        return False
+    return km <= max_km
+
+
+def distance_label(it: dict) -> str:
+    km = it.get("dist_km")
+    if km is None:
+        return ""
+    approx = "~" if it.get("dist_src") == "индекс" else ""
+    return f"{approx}{km:.1f} км до Boxhagener Pl.".replace(".", ",")
+
+
+def priority_label(it: dict, f: dict) -> str:
+    km = it.get("dist_km")
+    if km is None:
+        return ""
+    return "🟢 рядом" if km <= f.get("green_km", 2.0) else "🟡 в радиусе"
+
+
 def jobcenter_note(it: dict) -> str:
     kalt, neben, warm = it.get("kalt"), it.get("neben"), it.get("warm")
     if kalt is not None and neben is not None:
@@ -173,7 +203,7 @@ def fmt_num(v) -> str:
 
 # ----------------------------------------------------------------- строка таблицы
 
-def build_sheet_row(item: dict, source_name: str) -> list:
+def build_sheet_row(item: dict, source_name: str, filters: dict | None = None) -> list:
     """
     Колонки вкладки "Объявления":
     ID, Дата обнаружения, Источник, Ссылка, Район, Адрес, Тип жилья,
@@ -212,9 +242,9 @@ def build_sheet_row(item: dict, source_name: str) -> list:
         fmt_num(item.get("warm")),                  # Warmmiete
         item.get("wbs") or ("неизвестно" if is_company else ""),
         jobcenter_note(item) if is_company else "",
-        "",                                         # До Ostkreuz
+        distance_label(item),                       # «До Ostkreuz» — км до Boxhagener Platz
         item.get("company") or "",                  # Контакт — кто сдаёт
-        "",                                         # Приоритет
+        priority_label(item, filters or {}),        # Приоритет
         "Найдено",                                  # Статус
         comment,                                    # Комментарий AI
         ts,                                         # Дата обновления
@@ -303,6 +333,8 @@ def main() -> int:
             if stype == "company":
                 if it.get("key") in sheet_keys or not passes_filters(it, filters):
                     continue
+                if not passes_distance(it, filters):
+                    continue
                 sheet_keys.add(it.get("key"))
             new_items.append(it)
 
@@ -312,7 +344,7 @@ def main() -> int:
             for it in new_items:
                 if source.get("company") == "inberlinwohnen":
                     label = f"inberlinwohnen → {it.get('company')}"
-                rows.append(build_sheet_row(it, label))
+                rows.append(build_sheet_row(it, label, filters))
             if DRY_RUN:
                 for r in rows:
                     print("[dry-run]", r)
@@ -337,6 +369,7 @@ def main() -> int:
 
     seen["_sheet_keys"] = sorted(k for k in sheet_keys if k)
     prune_timing(timing)
+    geo.save_cache()
     if not DRY_RUN:
         save_json(SEEN_FILE, seen)
         save_json(TIMING_FILE, timing)

@@ -120,8 +120,9 @@ def _howoge_query(kiez: str, wbs: str) -> list[dict]:
         "tx_howrealestate_json_list[lang]": "",
         "tx_howrealestate_json_list[rooms]": "",
         "tx_howrealestate_json_list[wbs]": wbs,
-        "tx_howrealestate_json_list[kiez][]": kiez,
     }
+    if kiez:
+        form["tx_howrealestate_json_list[kiez][]"] = kiez
     return http_post(HOWOGE_URL, data=form).json().get("immoobjects") or []
 
 
@@ -129,6 +130,10 @@ def howoge() -> list[dict]:
     """HOWOGE отдаёт не больше 30 квартир за запрос, поэтому дробим запрос
     по районам (Brandenburg не берём), а если район упёрся в 30 — ещё и по WBS да/нет."""
     uniq = {}
+    # базовый запрос без района — на случай, если фильтр по району сервер не понимает
+    for o in _howoge_query("", ""):
+        it = _howoge_item(o)
+        uniq.setdefault(it["key"], it)
     for kiez in HOWOGE_KIEZE:
         objs = _howoge_query(kiez, "")
         if len(objs) >= HOWOGE_CAP:
@@ -152,7 +157,8 @@ def _howoge_item(o: dict) -> dict:
     return item(key=norm_key(oid), id=link, link=link, company="HOWOGE",
                 title=o.get("notice") or o.get("title"), address=o.get("title"),
                 district=o.get("district"), rooms=num(o.get("rooms")), area=num(o.get("area")),
-                warm=num(o.get("rent")), wbs=wbs)
+                warm=num(o.get("rent")), wbs=wbs,
+                lat=(o.get("coordinates") or {}).get("lat"), lon=(o.get("coordinates") or {}).get("lng"))
 
 
 # ----------------------------------------------------------------- Stadt und Land (JSON)
@@ -424,6 +430,12 @@ def inberlinwohnen() -> list[dict]:
         if wbs_raw:
             wbs = "нет" if "nicht" in wbs_raw.lower() else ("да" if "erforderlich" in wbs_raw.lower() else wbs_raw)
         addr = facts.get("adresse")
+        lat = lon = None
+        btn = box.find("button", attrs={"wire:click": re.compile("flatClicked")})
+        if btn:
+            mc = re.search(r'"lat":"([\d.]+)","lon":"([\d.]+)"', btn["wire:click"])
+            if mc:
+                lat, lon = mc.group(1), mc.group(2)
         title_el = box.find(["h2", "h3"])
         out.append(item(
             key=key, id=link, link=link, company=company,
@@ -433,7 +445,7 @@ def inberlinwohnen() -> list[dict]:
             kalt=num(facts.get("kaltmiete")), neben=num(facts.get("nebenkosten")),
             # «Gesamtmiete» без известных Nebenkosten = просто Kaltmiete, не путаем с Warmmiete
             warm=num(facts.get("gesamtmiete")) if num(facts.get("nebenkosten")) else None, wbs=wbs,
-            published=facts.get("eingestellt am"),
+            published=facts.get("eingestellt am"), lat=lat, lon=lon,
             portal_uploaded=uploaded.isoformat() if uploaded else None))
     return out
 
