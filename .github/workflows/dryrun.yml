@@ -3,7 +3,7 @@ name: Dry run (проверка парсеров без записи в табл
 on:
   push:
     branches: [probe]
-    paths: ["monitor.py", "landeseigene.py", "sources.yaml", ".github/workflows/dryrun.yml"]
+    paths: ["monitor.py", "landeseigene.py", "geo.py", "sources.yaml", ".github/workflows/dryrun.yml"]
   workflow_dispatch:
 
 permissions:
@@ -33,11 +33,13 @@ jobs:
                   out[n] = {'error': repr(e)}
           json.dump(out, open('probe_out/live_items.json', 'w'), ensure_ascii=False, indent=1, default=str)
           "
+          python probe.py > probe_out/probe3.txt 2>&1 || true
           python monitor.py 2>&1 | tee probe_out/dryrun.txt
+          cp geocache.json probe_out/ 2>/dev/null || true
       - name: Сохранить результаты
         run: |
           git config user.name "wohnung-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
           git add probe_out
           git diff --staged --quiet || git commit -m "dry-run results [skip ci]"
-          git push
+          git pull --rebase && git push

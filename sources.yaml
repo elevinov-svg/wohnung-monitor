@@ -14,6 +14,8 @@ filters:
   max_rooms: 2         # 1–2 комнаты
   max_warm: 750        # € Warmmiete — грубый верхний порог
   max_kalt: 600        # € Kaltmiete — используется, если Warmmiete неизвестна
+  max_km_boxhagener_platz: 3.5   # радиус от Boxhagener Platz, км (по прямой)
+  green_km: 2.0                  # до этого расстояния — приоритет 🟢
   # Лимит Jobcenter (AV Wohnen 2026, 1 чел.): Bruttokaltmiete 449 €, с надбавкой до ~539 €.
   # Точная оценка — в колонке «Jobcenter» таблицы, а не здесь.
 
