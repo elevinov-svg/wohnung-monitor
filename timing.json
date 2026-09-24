@@ -1188,6 +1188,12 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T11:32:05+00:00"
   },
+  "esq17702083047": {
+    "address": "Rutnikstraße 5, 10367, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-24T16:40:18+02:00",
+    "portal_uploaded": "2026-09-24T11:27:07+00:00"
+  },
   "esq17702088568": {
     "address": "Möllendorffstraße 40, 10367, Lichtenberg",
     "company": "HOWOGE",
@@ -1233,6 +1239,8 @@
   "w11000072800260203": {
     "address": "Wilhelm-Kuhr-Straße 50",
     "company": "degewo",
+    "portal_first_seen": "2026-09-24T16:40:18+02:00",
+    "portal_uploaded": "2026-09-24T11:08:48+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
   },
   "w11000252000700070": {
