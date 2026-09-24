@@ -1,0 +1,307 @@
+{
+ "howoge": {
+  "(1, 12)": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "(2, 12)": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "(3, 12)": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "(12, 12)": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "(1, 12, '1')": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "(1, 12, '2')": {
+   "count": 112,
+   "n": 28,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    2,
+    3,
+    4
+   ]
+  },
+  "(2, 12, '2')": {
+   "count": 112,
+   "n": 28,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    2,
+    3,
+    4
+   ]
+  },
+  "(1, 50, '2')": {
+   "count": 112,
+   "n": 28,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    2,
+    3,
+    4
+   ]
+  },
+  "(2, 30)": {
+   "count": 138,
+   "n": 30,
+   "uids": [
+    7556,
+    8483,
+    8484,
+    9133,
+    9245
+   ],
+   "rooms": [
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ "degewo": {
+  "log": [
+   {
+    "url": "https://www.degewo.de/immosuche",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     2,
+     3,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=b297c411c7d2f679b959f8798a2cf5f9",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     1,
+     2,
+     3,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=4890575179449e64d3b0f18aa9152432",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     1,
+     2,
+     3,
+     4,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=598a5f28c177cee2268e9f49aa3fd1a1",
+    "teasers": 10,
+    "ids": 9,
+    "links": [
+     1,
+     5,
+     6
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=d026f9a0ac992cfd90739f27a5d89d58",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     2,
+     3,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=dc77193574a65251335c794d5c5a1acf",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     1,
+     3,
+     4,
+     5,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=308f0098c4a2e18b7695ab73d561ccef",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     1,
+     4,
+     5,
+     6,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   },
+   {
+    "url": "x_openimmo_immobilie%5Bsearch%5D=paginate&cHash=aa7e6b44b28a8cda27c8f5ff845c8528",
+    "teasers": 11,
+    "ids": 10,
+    "links": [
+     1,
+     5,
+     6,
+     7
+    ],
+    "count": "69 Ergebnisse"
+   }
+  ],
+  "unique_ids": 50,
+  "nochash_page6": [
+   404,
+   0
+  ]
+ },
+ "gesobau": [
+  {
+   "page": 1,
+   "entries": 6,
+   "first": "se-10-03243-00002-1013-370ae914-8e40-4f56-9078-45550b0537a9/",
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  },
+  {
+   "page": 2,
+   "entries": 6,
+   "first": "se-10-03243-00016-1283-0e7af51c-130b-4456-81be-aeaa85930652/",
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  },
+  {
+   "page": 3,
+   "entries": 2,
+   "first": "mm-10-00920-00001-1610-a42fc207-aa8b-4037-b18d-403c548739c1/",
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  },
+  {
+   "page": 4,
+   "entries": 0,
+   "first": null,
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  },
+  {
+   "page": 5,
+   "entries": 0,
+   "first": null,
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  },
+  {
+   "page": 6,
+   "entries": 0,
+   "first": null,
+   "count_text": null,
+   "has_wilhelmsruher118": false
+  }
+ ],
+ "gesobau_deeplink": [
+  404,
+  "https://www.gesobau.de/mieten/wohnungssuche/detailseite/-1"
+ ]
+}
