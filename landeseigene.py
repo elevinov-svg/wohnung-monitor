@@ -105,26 +105,43 @@ def item(**kw) -> dict:
 HOWOGE_URL = "https://www.howoge.de/?type=999&tx_howrealestate_json_list[action]=immoList"
 
 
+HOWOGE_KIEZE = [
+    "Charlottenburg-Wilmersdorf", "Friedrichshain-Kreuzberg", "Marzahn-Hellersdorf", "Mitte",
+    "Neukölln", "Lichtenberg", "Pankow", "Reinickendorf", "Spandau", "Steglitz-Zehlendorf",
+    "Tempelhof-Schöneberg", "Treptow-Köpenick",
+]
+HOWOGE_CAP = 30  # сервер отдаёт максимум 30 объектов и игнорирует page/limit
+
+
+def _howoge_query(kiez: str, wbs: str) -> list[dict]:
+    form = {
+        "tx_howrealestate_json_list[page]": "1",
+        "tx_howrealestate_json_list[limit]": "12",
+        "tx_howrealestate_json_list[lang]": "",
+        "tx_howrealestate_json_list[rooms]": "",
+        "tx_howrealestate_json_list[wbs]": wbs,
+        "tx_howrealestate_json_list[kiez][]": kiez,
+    }
+    return http_post(HOWOGE_URL, data=form).json().get("immoobjects") or []
+
+
 def howoge() -> list[dict]:
-    out, page = [], 1
-    while page <= MAX_PAGES:
-        form = {
-            "tx_howrealestate_json_list[page]": str(page),
-            "tx_howrealestate_json_list[limit]": "100",
-            "tx_howrealestate_json_list[lang]": "",
-            "tx_howrealestate_json_list[rent]": "",
-            "tx_howrealestate_json_list[area]": "",
-            "tx_howrealestate_json_list[rooms]": "egal",
-            "tx_howrealestate_json_list[wbs]": "all-offers",
-        }
-        data = http_post(HOWOGE_URL, data=form).json()
-        objs = data.get("immoobjects") or []
-        out += [_howoge_item(o) for o in objs]
-        total = int(data.get("immocount") or 0)
-        if not objs or len(out) >= total:
-            break
-        page += 1
-    return out
+    """HOWOGE отдаёт не больше 30 квартир за запрос, поэтому дробим запрос
+    по районам (Brandenburg не берём), а если район упёрся в 30 — ещё и по WBS да/нет."""
+    uniq = {}
+    for kiez in HOWOGE_KIEZE:
+        objs = _howoge_query(kiez, "")
+        if len(objs) >= HOWOGE_CAP:
+            objs = []
+            for wbs in ("yes", "no"):
+                part = _howoge_query(kiez, wbs)
+                if len(part) >= HOWOGE_CAP:
+                    print(f"[warn] HOWOGE {kiez}, WBS={wbs}: упёрлись в лимит 30 — часть квартир может быть не видна")
+                objs += part
+        for o in objs:
+            it = _howoge_item(o)
+            uniq.setdefault(it["key"], it)
+    return list(uniq.values())
 
 
 def _howoge_item(o: dict) -> dict:
@@ -174,7 +191,17 @@ DEGEWO_URL = "https://www.degewo.de/immosuche"
 
 
 def degewo() -> list[dict]:
-    out, todo, done = [], [DEGEWO_URL], set()
+    """По умолчанию degewo сортирует по числу комнат, и при равенстве порядок между
+    запросами «плавает» — страницы пересекаются и часть квартир теряется.
+    Поэтому сначала переключаем сортировку на Warmmiete (состояние поиска хранится
+    в cookie сессии), потом идём по страницам."""
+    soup = BeautifulSoup(http_get(DEGEWO_URL).text, "html.parser")
+    start = DEGEWO_URL
+    for opt in soup.select("select[name=sort-order] option"):
+        if "warmmiete" in (opt.get("value") or ""):
+            start = urljoin(DEGEWO_URL, opt["value"].split("#")[0])
+            break
+    out, todo, done = [], [start], set()
     while todo and len(done) < MAX_PAGES:
         url = todo.pop(0)
         if url in done:
@@ -198,6 +225,10 @@ def degewo() -> list[dict]:
     uniq = {}
     for it in out:
         uniq.setdefault(it["key"], it)
+    rc = soup.select_one(".results-count")
+    total = int(num(rc.get_text()) or 0) if rc else 0
+    if total and len(uniq) < total:
+        print(f"[warn] degewo: собрано {len(uniq)} из {total} — пагинация неполная")
     return list(uniq.values())
 
 
