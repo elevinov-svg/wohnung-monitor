@@ -14,17 +14,23 @@ on:
         type: boolean
 
 permissions:
-  contents: write   # нужно, чтобы коммитить обновлённый seen.json обратно в репозиторий
+  contents: write   # нужно, чтобы коммитить обновлённое состояние обратно в репозиторий
+
+concurrency:
+  group: wohnung-monitor   # не запускать два прогона одновременно
+  cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Установить зависимости
         run: pip install -r requirements.txt
@@ -33,16 +39,15 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           # Telegram пока отключён (USE_TELEGRAM=false по умолчанию в monitor.py).
-          # Секреты можно оставить пустыми/не создавать, пока не понадобится.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SELF_TEST_SHEETS: ${{ github.event.inputs.self_test }}
         run: python monitor.py
 
-      - name: Сохранить обновлённое состояние (seen.json)
+      - name: Сохранить состояние (seen.json, timing.json, geocache.json)
         run: |
           git config user.name "wohnung-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add seen.json
+          for f in seen.json timing.json geocache.json; do [ -f "$f" ] && git add "$f"; done
           git diff --staged --quiet || git commit -m "update seen state [skip ci]"
-          git push
+          git pull --rebase && git push
