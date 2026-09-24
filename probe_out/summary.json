@@ -1,0 +1,143 @@
+[
+  {
+    "name": "inberlinwohnen_finder",
+    "method": "GET",
+    "url": "https://www.inberlinwohnen.de/wohnungsfinder/",
+    "status": 200,
+    "final_url": "https://www.inberlinwohnen.de/wohnungsfinder/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 615496,
+    "seconds": 1.35,
+    "title": "Der Wohnungsfinder der Landeseigenen | inberlinwohnen.de",
+    "json_hint": [],
+    "has_livewire": true,
+    "has_next_data": false
+  },
+  {
+    "name": "degewo_search_json",
+    "method": "GET",
+    "url": "https://immosuche.degewo.de/de/search.json?utf8=%E2%9C%93&property_type_id=1&categories%5B%5D=1&order=rent_total_without_vat_asc&per_page=100",
+    "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='immosuche.degewo.de', port=443): Max retries exceeded with url: /de/search.json?utf8=%E2%9C%93&property_type_id=1&categories%5B%5D=1&order=rent_total_without_vat_asc&per_page=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='immosuche.degewo.de', port=443) at 0x7f0285e92390>, 'Connection to immosuche.degewo.de timed out. (connect timeout=40)'))\"))"
+  },
+  {
+    "name": "degewo_immosuche_html",
+    "method": "GET",
+    "url": "https://www.degewo.de/immosuche",
+    "status": 200,
+    "final_url": "https://www.degewo.de/immosuche",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 209139,
+    "seconds": 2.17,
+    "title": "Immobiliensuche: degewo",
+    "json_hint": [
+      "https://www.degewo.de/immosuche/openimmo.json?no_cache=1&tx_openimmo_jsonapi%5Baction%5D=bookmark&tx_openimmo_jsonapi%5Bcontroller%5D=JsonApi&cHash=591de459fddee0430e6a247743d180a2"
+    ],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "howoge_json",
+    "method": "POST",
+    "url": "https://www.howoge.de/?type=999&tx_howrealestate_json_list[action]=immoList",
+    "status": 200,
+    "final_url": "https://www.howoge.de/?type=999&tx_howrealestate_json_list%5Baction%5D=immoList",
+    "content_type": "application/json",
+    "bytes": 20029,
+    "seconds": 0.66,
+    "title": "",
+    "json_hint": [],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "howoge_html",
+    "method": "GET",
+    "url": "https://www.howoge.de/immobiliensuche/wohnungssuche.html",
+    "status": 200,
+    "final_url": "https://www.howoge.de/immobiliensuche/wohnungssuche.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 100979,
+    "seconds": 0.86,
+    "title": "Mietwohnungen | HOWOGE",
+    "json_hint": [],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "wbm_html",
+    "method": "GET",
+    "url": "https://www.wbm.de/wohnungen-berlin/angebote/",
+    "status": 200,
+    "final_url": "https://www.wbm.de/wohnungen-berlin/angebote/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 116317,
+    "seconds": 1.45,
+    "title": "Wohnungen in Berlin - Wohnungsangebote der WBM, Wohnungsbaugesellschaft Berlin-Mitte mbH",
+    "json_hint": [
+      "https://www.wbm.de/wohnungen-berlin/angebote/openimmo.json?no_cache=1&amp;tx_openimmo_jsonapi%5Baction%5D=bookmark&amp;tx_openimmo_jsonapi%5Bcontroller%5D=JsonApi&amp;cHash=536faecef0e74e33f6c838dc68325f73"
+    ],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "gesobau_html",
+    "method": "GET",
+    "url": "https://www.gesobau.de/mieten/wohnungssuche/?resultsPerPage=100",
+    "status": 200,
+    "final_url": "https://www.gesobau.de/mieten/wohnungssuche/?resultsPerPage=100",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 568132,
+    "seconds": 1.44,
+    "title": "Wohnungssuche | GESOBAU",
+    "json_hint": [],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "gewobag_html",
+    "method": "GET",
+    "url": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/?objekttyp%5B%5D=wohnung&sort-by=recent",
+    "status": 200,
+    "final_url": "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/?objekttyp%5B%5D=wohnung&sort-by=recent",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 586299,
+    "seconds": 1.08,
+    "title": "Wohnungsangebote finden",
+    "json_hint": [
+      "https://www.gewobag.de/manifest.json",
+      "https://www.gewobag.de/wp-admin/admin-ajax.php",
+      "https://www.gewobag.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.4.2.2-180",
+      "https://www.gewobag.de/wp-content/plugins/dd-contact-search/assets/js/contact-search.js"
+    ],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "stadtundland_api",
+    "method": "POST",
+    "url": "https://d2396ha8oiavw0.cloudfront.net/sul-main/immoSearch",
+    "status": 200,
+    "final_url": "https://d2396ha8oiavw0.cloudfront.net/sul-main/immoSearch",
+    "content_type": "application/json",
+    "bytes": 7033,
+    "seconds": 0.49,
+    "title": "",
+    "json_hint": [],
+    "has_livewire": false,
+    "has_next_data": false
+  },
+  {
+    "name": "stadtundland_html",
+    "method": "GET",
+    "url": "https://www.stadtundland.de/wohnungssuche",
+    "status": 200,
+    "final_url": "https://stadtundland.de/wohnungssuche",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 520573,
+    "seconds": 1.39,
+    "title": "Wohnungssuche — alle Wohngebiete | Stadt und Land",
+    "json_hint": [],
+    "has_livewire": false,
+    "has_next_data": false
+  }
+]
