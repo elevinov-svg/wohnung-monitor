@@ -1,0 +1,43 @@
+name: Dry run (проверка парсеров без записи в таблицу)
+
+on:
+  push:
+    branches: [probe]
+    paths: ["monitor.py", "landeseigene.py", "sources.yaml", ".github/workflows/dryrun.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Прогон без записи
+        env:
+          DRY_RUN: "true"
+        run: |
+          mkdir -p probe_out
+          python -c "
+          import json, landeseigene as L
+          out = {}
+          for n, f in L.COMPANY_CHECKERS.items():
+              try:
+                  items = f(); out[n] = {'count': len(items), 'items': items}
+              except Exception as e:
+                  out[n] = {'error': repr(e)}
+          json.dump(out, open('probe_out/live_items.json', 'w'), ensure_ascii=False, indent=1, default=str)
+          "
+          python monitor.py 2>&1 | tee probe_out/dryrun.txt
+      - name: Сохранить результаты
+        run: |
+          git config user.name "wohnung-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add probe_out
+          git diff --staged --quiet || git commit -m "dry-run results [skip ci]"
+          git push

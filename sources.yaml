@@ -1,13 +1,24 @@
 # Источники для мониторинга.
 #
-# Каждый источник — это либо:
-#   type: rss         — обычный RSS/Atom-фид (самый надёжный вариант)
-#   type: html_links   — страница без RSS: скрипт скачивает HTML и ищет
-#                        ссылки, подходящие под regex в link_pattern
-#
-# Проверено вручную и работает прямо сейчас:
+# Типы источников:
+#   type: rss         — обычный RSS/Atom-фид
+#   type: html_links  — страница без RSS: ищем ссылки по regex в link_pattern
+#   type: company     — сайт городской жилищной компании, парсер в landeseigene.py
+#                       (company: howoge | degewo | wbm | gesobau | gewobag |
+#                        stadtundland | inberlinwohnen)
+
+# Фильтр для источников type: company. Если у объявления поле неизвестно,
+# оно по этому полю НЕ отсеивается (лучше лишняя строка, чем пропущенная квартира).
+filters:
+  berlin_only: true    # отбрасываем Бранденбург (Panketal, Fredersdorf и т.п.)
+  max_rooms: 2         # 1–2 комнаты
+  max_warm: 750        # € Warmmiete — грубый верхний порог
+  max_kalt: 600        # € Kaltmiete — используется, если Warmmiete неизвестна
+  # Лимит Jobcenter (AV Wohnen 2026, 1 чел.): Bruttokaltmiete 449 €, с надбавкой до ~539 €.
+  # Точная оценка — в колонке «Jobcenter» таблицы, а не здесь.
 
 sources:
+  # --- Кооперативы -----------------------------------------------------------
   - name: "FriedrichsHeim eG — для всех"
     type: rss
     url: "https://www.friedrichsheim-eg.de/category/wohnungsangebote-fuer-alle/feed/"
@@ -16,24 +27,34 @@ sources:
     type: rss
     url: "https://www.friedrichsheim-eg.de/category/wohnungsangebote-fuer-mitglieder/feed/"
 
-  # --- Шаблоны для следующих источников -------------------------------
-  # Раскомментируй и донастрой, когда будем добавлять их по очереди.
-  # Для html_links нужно один раз открыть страницу в браузере, посмотреть
-  # на реальные ссылки в исходном коде (Ctrl+U) и подобрать link_pattern —
-  # кусок URL, который есть у ссылки на объявление, но нет у остальных
-  # ссылок на странице (меню, футер и т.п.).
+  # --- Городские жилищные компании (landeseigene), прямо с их сайтов ----------
+  - name: "HOWOGE"
+    type: company
+    company: howoge
 
-  # - name: "Gewobag — Mietangebote"
-  #   type: html_links
-  #   url: "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/"
-  #   link_pattern: "/fuer-mietinteressentinnen/mietangebote/[0-9]"
+  - name: "degewo"
+    type: company
+    company: degewo
 
-  # - name: "degewo — Immosuche"
-  #   type: html_links
-  #   url: "https://www.degewo.de/immosuche"
-  #   link_pattern: "/immosuche/details/"
+  - name: "WBM"
+    type: company
+    company: wbm
 
-  # - name: "SelbstBau eG"
-  #   type: html_links
-  #   url: "https://www.selbstbau-eg.de/wohnungsangebote/"   # уточнить точный URL
-  #   link_pattern: "..."                                     # уточнить паттерн
+  - name: "GESOBAU"
+    type: company
+    company: gesobau
+
+  - name: "Gewobag"
+    type: company
+    company: gewobag
+
+  - name: "Stadt und Land"
+    type: company
+    company: stadtundland
+
+  # --- Общий портал: контроль и замер задержки относительно сайтов компаний ---
+  # Стоит ПОСЛЕ компаний: если квартира уже найдена на сайте компании,
+  # второй строки в таблице не будет — только отметка времени в timing.json.
+  - name: "inberlinwohnen.de"
+    type: company
+    company: inberlinwohnen
