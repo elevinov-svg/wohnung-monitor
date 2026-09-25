@@ -252,6 +252,16 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000160204050207": {
+    "address": "Hofackerzeile 15, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T21:28:39+02:00"
+  },
+  "01000160210020341": {
+    "address": "Heilmannring 26A, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T21:28:39+02:00"
+  },
   "01000172901010006": {
     "address": "Thomasstr. 9, 12053 Berlin/Neukölln",
     "company": "Gewobag",
@@ -349,6 +359,16 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "03000563302020033": {
+    "address": "Halemweg 4, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T21:28:39+02:00"
+  },
+  "03000563302030031": {
+    "address": "Halemweg 2, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T21:28:39+02:00"
   },
   "10000015302090262": {
     "address": "Conrad-Blenkle-Str. 41, 10407 Berlin/Pankow",
@@ -458,6 +478,8 @@
   "1001045000558": {
     "address": "Coloniaallee 22, 12524 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-25T21:28:43+02:00",
+    "portal_uploaded": "2026-09-25T18:16:06+00:00",
     "site_first_seen": "2026-09-25T17:27:58+02:00"
   },
   "1001045000586": {
@@ -1743,6 +1765,8 @@
   "w11004190803730201": {
     "address": "Bohnsdorfer Weg 105",
     "company": "degewo",
+    "portal_first_seen": "2026-09-25T21:28:43+02:00",
+    "portal_uploaded": "2026-09-25T17:42:05+00:00",
     "site_first_seen": "2026-09-25T17:27:26+02:00"
   },
   "w11004190804090102": {
@@ -2058,6 +2082,8 @@
   "w14005181100570202": {
     "address": "Pöhlbergstraße 9",
     "company": "degewo",
+    "portal_first_seen": "2026-09-25T21:28:43+02:00",
+    "portal_uploaded": "2026-09-25T19:28:04+00:00",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
   },
   "w14005181100690306": {
