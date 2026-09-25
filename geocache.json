@@ -1,4 +1,8 @@
 {
+ "Ackerstraße 116, Berlin": [
+  52.5377479,
+  13.3851155
+ ],
  "Alandstr. 51, 13599 Berlin": [
   52.5511136,
   13.243041
@@ -55,6 +59,10 @@
   52.5556907,
   13.1491524
  ],
+ "Fritzi-Massary-Straße 83, 12057 Berlin": [
+  52.4616523,
+  13.4760994
+ ],
  "Große-Leege-Straße 68A, 13055 Berlin": [
   52.5376574,
   13.4882538
@@ -71,9 +79,21 @@
   52.4622259,
   13.5276704
  ],
+ "Köthener Straße 22, Berlin": [
+  52.5671981,
+  13.5557088
+ ],
+ "Lilli-Henoch-Straße 19, 10405 Berlin": [
+  52.5402198,
+  13.4334872
+ ],
  "Ludwig-Renn-Straße 60, Berlin": [
   52.5539139,
   13.5616511
+ ],
+ "Mariannenplatz 8, Berlin": [
+  52.5016851,
+  13.4247235
  ],
  "Maximilian-Kaller-Straße 23D, Berlin": [
   52.4159966,
@@ -82,6 +102,14 @@
  "Moderlieschenstr. 32, 13599 Berlin": [
   52.5513866,
   13.2406612
+ ],
+ "Neuköllnische Allee 147, 12057 Berlin": [
+  52.4607012,
+  13.474313
+ ],
+ "Neuköllnische Allee 149, 12057 Berlin": [
+  52.4606986,
+  13.4748208
  ],
  "Otto-Franke-Straße 55, 12489 Berlin": [
   52.4339556,
