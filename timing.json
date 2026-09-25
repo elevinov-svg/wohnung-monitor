@@ -258,6 +258,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000173204020062": {
+    "address": "Friederike-Nadig-Str. 29, 12355 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T17:27:52+02:00"
+  },
   "01000192101010036": {
     "address": "Heerstr. 455, 13593 Berlin/Spandau",
     "company": "Gewobag",
@@ -275,6 +280,21 @@
     "portal_uploaded": "2026-09-24T09:05:04+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "01000250901110201": {
+    "address": "Koppenstr. 31, 10243 Berlin/Friedrichshain-Kreuzberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T17:27:52+02:00"
+  },
+  "01000251001070117": {
+    "address": "Karl-Marx-Allee 95, 10243 Berlin/Friedrichshain-Kreuzberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T17:27:52+02:00"
+  },
+  "01000251201060136": {
+    "address": "Karl-Marx-Allee 143, 10243 Berlin/Friedrichshain-Kreuzberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-25T17:27:52+02:00"
   },
   "01000252005020272": {
     "address": "Große-Leege-Str. 68A, 13055 Berlin/Lichtenberg",
@@ -429,6 +449,41 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001044900122": {
+    "address": "Kalker Str. 2, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001045000558": {
+    "address": "Coloniaallee 22, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001045000586": {
+    "address": "Coloniaallee 30, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001045700024": {
+    "address": "Ortolfstr. 194, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001047100096": {
+    "address": "Betulaweg 3, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001047100101": {
+    "address": "Betulaweg 3, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001047100131": {
+    "address": "Betulaweg 11, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
   },
   "1001368200033": {
     "address": "Martin-Luther-Str. 10, 15370 Fredersdorf",
@@ -672,6 +727,26 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-09-24T16:04:20+02:00"
   },
+  "1050517700084": {
+    "address": "Kienbergstr. 21, 12685 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1050517700089": {
+    "address": "Kienbergstr. 21, 12685 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1050523200106": {
+    "address": "Schönefelder Chaussee 205, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1050523200150": {
+    "address": "Schönefelder Chaussee 213, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
   "1050821700198": {
     "address": "Ernst-Bloch-Straße 8, 12619 Berlin",
     "company": "Stadt und Land",
@@ -870,6 +945,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "17711241583": {
+    "address": "Wustrower Straße 53, 13051 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-25T17:27:10+02:00"
   },
   "17711244183": {
     "address": "Wiecker Straße 13, 13051 Berlin",
@@ -1071,6 +1151,11 @@
     "company": "WBM",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "51910111": {
+    "address": "Eckertstrasse 2, 10249 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-25T17:27:28+02:00"
   },
   "60113104501030039": {
     "address": "Moderlieschenstr. 14, 13599 Berlin/Spandau",
@@ -1494,6 +1579,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11000253200140103": {
+    "address": "Clara-Müller-Jahnke-Straße 26",
+    "company": "degewo",
+    "site_first_seen": "2026-09-25T17:27:26+02:00"
+  },
   "w11000253200460101": {
     "address": "Clara-Müller-Jahnke-Straße 38",
     "company": "degewo",
@@ -1650,6 +1740,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11004190803730201": {
+    "address": "Bohnsdorfer Weg 105",
+    "company": "degewo",
+    "site_first_seen": "2026-09-25T17:27:26+02:00"
+  },
   "w11004190804090102": {
     "address": "Bohnsdorfer Weg 113",
     "company": "degewo",
@@ -1795,6 +1890,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13002030100760202": {
+    "address": "Fontanestraße 3",
+    "company": "degewo",
+    "site_first_seen": "2026-09-25T17:27:26+02:00"
+  },
   "w13002110300120403": {
     "address": "Kottmeierstraße 27",
     "company": "degewo",
@@ -1938,6 +2038,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w14004072302500103": {
+    "address": "Belziger Ring 32",
+    "company": "degewo",
+    "site_first_seen": "2026-09-25T17:27:26+02:00"
   },
   "w14005180501200702": {
     "address": "Eugen-Roth-Weg 10",
