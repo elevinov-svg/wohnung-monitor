@@ -45,6 +45,7 @@ jobs:
         if: github.event.inputs.self_test == 'true'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           SELF_TEST_SHEETS: "true"
         run: python monitor.py
 
@@ -52,6 +53,7 @@ jobs:
         if: github.event.inputs.self_test != 'true'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           # Telegram пока отключён (USE_TELEGRAM=false по умолчанию в monitor.py).
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

@@ -36,6 +36,7 @@ import yaml
 from playwright.sync_api import sync_playwright
 
 from sheets import append_rows
+from db import insert_listings
 
 BASE_DIR = Path(__file__).parent
 SOURCES_FILE = BASE_DIR / "local_sources.yaml"
@@ -152,6 +153,12 @@ def main() -> int:
 
             if new_items:
                 rows = [build_sheet_row(it, name) for it in new_items]
+                # база Supabase — независимо от таблицы (дубли игнорируются)
+                insert_listings([{
+                    "source": name, "source_type": "local", "external_id": it["id"],
+                    "link": it["link"], "title": it.get("title"), "status": "Найдено",
+                    "comment": "Добавлено автоматически (локальный скрипт), требует проверки",
+                } for it in new_items])
                 try:
                     append_rows(rows)
                 except Exception as exc:  # noqa: BLE001
