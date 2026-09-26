@@ -3,33 +3,36 @@ name: Wohnung Monitor
 on:
   schedule:
     # Запуск каждые 30 минут. Каждый прогон сам работает ~50 минут и проверяет
-    # сайты каждые CHECK_INTERVAL секунд. Благодаря concurrency следующий
-    # прогон ждёт окончания текущего — получается почти непрерывный мониторинг,
-    # даже если GitHub задержит cron.
+    # сайты каждые 3 минуты. Благодаря concurrency следующий прогон ждёт окончания
+    # текущего — получается почти непрерывный мониторинг.
     - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       self_test:
-        description: "Записать одну тестовую строку в таблицу (для проверки доступа), затем можно удалить её вручную"
+        description: "Тестовая строка в таблицу и в базу (проверка доступа)"
         required: false
-        default: "false"
+        default: false
+        type: boolean
+      dry_run:
+        description: "Только лог: ничего не писать ни в таблицу, ни в базу"
+        required: false
+        default: false
         type: boolean
 
 permissions:
-  contents: write   # нужно, чтобы коммитить обновлённое состояние обратно в репозиторий
+  contents: read   # состояние хранится в Supabase, в репозиторий ничего не коммитим
 
 concurrency:
-  group: wohnung-monitor   # не запускать два прогона одновременно, следующий ждёт в очереди
+  group: wohnung-monitor
   cancel-in-progress: false
-
-env:
-  LOOP_MINUTES: "50"      # сколько минут работает один прогон
-  CHECK_INTERVAL: "180"   # пауза между проверками, секунд (3 минуты)
 
 jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 58
+    env:
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -41,35 +44,14 @@ jobs:
       - name: Установить зависимости
         run: pip install -r requirements.txt
 
-      - name: Самопроверка записи в таблицу
+      - name: Самопроверка записи (таблица + база)
         if: github.event.inputs.self_test == 'true'
-        env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          SELF_TEST_SHEETS: "true"
-        run: python monitor.py
+        run: python run.py --self-test
 
       - name: Мониторинг в цикле
         if: github.event.inputs.self_test != 'true'
         env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          # Telegram пока отключён (USE_TELEGRAM=false по умолчанию в monitor.py).
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          git config user.name "wohnung-monitor-bot"
-          git config user.email "actions@users.noreply.github.com"
-          end=$((SECONDS + LOOP_MINUTES * 60))
-          while [ $SECONDS -lt $end ]; do
-            echo "===== проверка $(TZ=Europe/Berlin date '+%Y-%m-%d %H:%M:%S') ====="
-            python monitor.py || echo "[error] monitor.py завершился с ошибкой, продолжаю"
-            # сохраняем состояние после каждой проверки, чтобы не потерять его при сбое
-            for f in seen.json timing.json geocache.json; do [ -f "$f" ] && git add "$f"; done
-            if ! git diff --staged --quiet; then
-              git commit -q -m "update seen state [skip ci]"
-              git pull -q --rebase && git push -q || echo "[warn] не удалось запушить состояние, попробую в следующий раз"
-            fi
-            [ $((SECONDS + CHECK_INTERVAL)) -lt $end ] || break
-            sleep "$CHECK_INTERVAL"
-          done
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
+        # Код выхода 1 только когда парсер компании ПЕРЕШЁЛ в состояние alert —
+        # тогда прогон красный и GitHub присылает письмо (один раз, а не каждые 30 минут).
+        run: python run.py --loop-minutes 50 --interval 180

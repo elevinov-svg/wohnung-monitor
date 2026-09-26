@@ -1,0 +1,68 @@
+# Настройки мониторинга. Главный принцип: лучше лишняя строка, чем пропущенная квартира.
+# Если у объявления поле неизвестно — по этому полю оно НЕ отсеивается.
+
+filters:
+  berlin_plz: [10115, 14199]   # индексы Берлина; всё вне диапазона (Panketal, Fredersdorf…) — отсев
+  max_rooms: 2                 # 1–2 комнаты
+  max_warm: 750                # € Warmmiete
+  max_kalt: 600                # € Kaltmiete — применяется, только если Warmmiete неизвестна
+  max_km: 3.5                  # радиус от Boxhagener Platz, км (по прямой)
+  green_km: 2.0                # до этого расстояния — приоритет 🟢
+
+# AV Wohnen Berlin, 1 человек: Richtwert Bruttokaltmiete (Kalt + холодные NK, без отопления).
+# Надбавка до +20% (Neuanmietung/особые случаи). Перед подачей заявки перепроверить.
+jobcenter:
+  bruttokalt: 449
+  surcharge: 0.20              # 449 * 1.2 ≈ 539
+
+# Отсев по типу жилья. Ищем только в заголовке и типе объекта (не в описании/удобствах).
+# Шаблоны — регулярные выражения без учёта регистра. WBS причиной отсева НЕ является.
+housing_type_exclude:
+  student:
+    reason: "студенческое жильё"
+    patterns:
+      - 'studentenwohn'
+      - 'studenten[- ]?(?:wg|zimmer|apartment|appartement)'
+      - 'studentenzimmer'
+      - 'only for students'
+      - 'nur für studierende'
+      - 'nur für studenten'
+      - 'wg-zimmer'
+      - 'möblierte[sn]? (?:studenten)?zimmer'
+      - 'azubi-?wohn'
+  senior:
+    reason: "жильё для пожилых"
+    patterns:
+      - 'senioren'
+      - 'rentnerwohnung'
+      - 'servicewohnen'
+      - '\b(?:55|60|65|70) ?\+'
+      - 'ab \d{2} jahre'
+      - '\bab (?:55|60|65|70)(?![\d.,])(?! ?(?:m|qm|€|euro))'   # «ab 60», но не «ab 60 m²» и не дата
+      - 'betreutes wohnen'
+      - 'wohnen im alter'
+      - 'älteren generation'
+      - 'altersgerecht'
+  commercial:
+    reason: "не жильё (Gewerbe/Stellplatz/Garage/Lager)"
+    patterns:
+      - 'gewerbe'
+      - 'laden(?:fläche|lokal|geschäft)'
+      - 'büro(?:fläche|raum|räume)?\b'
+      - 'stellplatz'
+      - 'tiefgarage'
+      - '\bgarage'
+      - 'lager(?:fläche|raum|halle)?\b'
+      - 'praxis(?:fläche|räume)'
+    # если в заголовке есть одно из этих слов — это квартира («2-Zimmer mit Tiefgaragenstellplatz»)
+    unless:
+      - 'wohnung'
+      - 'zimmer'
+      - '\bwhg\b'
+      - 'apartment'
+      - 'maisonette'
+
+relist_after_days: 14          # объявления не было дольше — при появлении считаем новым
+geo_max_attempts: 10           # после стольких временных ошибок геокодера — запасной вариант по индексу
+alert_after_failures: 3        # столько циклов подряд 0 объявлений или ошибка → [ALERT]
+parser_runs_keep_days: 30

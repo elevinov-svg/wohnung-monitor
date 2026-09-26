@@ -1,32 +1,27 @@
 """
-Расстояние от квартиры до Boxhagener Platz (главный ориентир поиска).
+Расстояние от квартиры до Boxhagener Platz.
 
-Порядок определения координат:
-  1. координаты уже есть в объявлении (HOWOGE, inberlinwohnen) — берём их;
-  2. иначе адрес -> координаты через OpenStreetMap Nominatim (бесплатно,
-     не чаще 1 запроса в секунду), результат кэшируется в geocache.json;
-  3. если адрес не нашёлся — грубая оценка по почтовому индексу (PLZ_NEAR).
+Порядок:
+  1. координаты уже есть в объявлении (HOWOGE, GESOBAU, Gewobag) — берём их;
+  2. иначе адрес -> координаты через OpenStreetMap Nominatim (не чаще 1 запроса
+     в секунду), результат кэшируется (Supabase, таблица geocache);
+  3. адрес не нашёлся — грубая оценка по почтовому индексу (PLZ_NEAR).
 
-Модуль общий: его можно использовать для любого источника (Kleinanzeigen,
-ImmoScout и т.д.) — нужен только адрес или хотя бы почтовый индекс.
+Временная ошибка геокодера (сеть, 429, 5xx…) — это GeoTempError: объявление
+не считается обработанным, в следующем цикле пробуем снова.
 """
 
-import json
 import math
 import re
 import time
-from pathlib import Path
 
 import requests
 
 BOXHAGENER_PLATZ = (52.51065, 13.46160)
-
-CACHE_FILE = Path(__file__).parent / "geocache.json"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
-NOMINATIM_UA = "wohnung-monitor/1.0 (personal apartment search; github.com/elevinov-svg)"
+NOMINATIM_UA = "wohnung-monitor/2.0 (personal apartment search; github.com/elevinov-svg)"
 
 # Индексы вокруг Boxhagener Platz и примерное расстояние от их центра, км.
-# Используются только если по адресу координаты найти не удалось.
 PLZ_NEAR = {
     "10243": 1.8, "10245": 0.9, "10247": 0.6, "10249": 1.6,   # Friedrichshain
     "10317": 1.8, "10365": 2.4, "10367": 2.9, "10369": 3.4,   # Lichtenberg / Rummelsburg
@@ -37,8 +32,9 @@ PLZ_NEAR = {
     "12047": 3.6, "12045": 3.6, "12059": 3.3,                 # Neukölln (север)
 }
 
-_cache = None
-_last_call = 0.0
+
+class GeoTempError(Exception):
+    """Геокодер временно недоступен — повторить позже."""
 
 
 def haversine_km(a, b) -> float:
@@ -49,62 +45,85 @@ def haversine_km(a, b) -> float:
     return 2 * 6371.0 * math.asin(math.sqrt(h))
 
 
-def _load_cache() -> dict:
-    global _cache
-    if _cache is None:
-        _cache = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
-    return _cache
-
-
-def save_cache() -> None:
-    if _cache is not None:
-        CACHE_FILE.write_text(json.dumps(_cache, ensure_ascii=False, indent=1, sort_keys=True),
-                              encoding="utf-8")
-
-
-def _clean_address(address: str) -> str:
+def clean_address(address: str) -> str:
     a = re.sub(r"\s+", " ", address or "").strip()
-    a = re.sub(r"Berlin/[\wäöüß-]+", "Berlin", a)       # 'Berlin/Pankow' -> 'Berlin'
-    a = re.sub(r"\bStr\.", "Straße", a)
+    a = re.sub(r"Berlin/[\wäöüß-]+", "Berlin", a)        # 'Berlin/Pankow' -> 'Berlin'
+    a = re.sub(r"\bStr\.", "Straße", a)                  # 'Köpenicker Str.' -> 'Köpenicker Straße'
+    a = re.sub(r"(?<=[a-zäöüß])str\.", "straße", a)      # 'Thomasstr.' -> 'Thomasstraße'
+    a = re.sub(r"(?<=[Ss])trasse\b", "traße", a)         # WBM пишет 'Strasse'
     if "berlin" not in a.lower():
         a += ", Berlin"
     return a
 
 
-def geocode(address: str):
-    """Адрес -> (lat, lon) или None. С кэшем и паузой 1 с между запросами."""
-    global _last_call
-    if not address:
+def street_only(address: str, postcode: str | None) -> str | None:
+    """'Arnbrucker Straße 1, 10318 Berlin' -> 'Arnbrucker Straße, 10318 Berlin'."""
+    street = re.split(r",", address or "")[0]
+    bare = re.sub(r"\s+\d+\s*[a-zA-Z]?(?:\s*[-–]\s*\d+\s*[a-zA-Z]?)?\s*$", "", street).strip()
+    if not bare or bare == street.strip():
         return None
-    q = _clean_address(address)
-    cache = _load_cache()
-    if q in cache:
-        return tuple(cache[q]) if cache[q] else None
-    wait = 1.1 - (time.time() - _last_call)
-    if wait > 0:
-        time.sleep(wait)
-    try:
-        r = requests.get(NOMINATIM, params={"q": q, "format": "json", "limit": 1, "countrycodes": "de"},
-                         headers={"User-Agent": NOMINATIM_UA}, timeout=20)
-        _last_call = time.time()
-        r.raise_for_status()
-        data = r.json()
-    except Exception as exc:  # noqa: BLE001
-        print(f"[warn] geocode не удался для '{q}': {exc}")
-        return None  # не кэшируем ошибку — попробуем в следующий раз
-    coords = (float(data[0]["lat"]), float(data[0]["lon"])) if data else None
-    cache[q] = list(coords) if coords else None
-    return coords
+    return f"{bare}, {postcode + ' ' if postcode else ''}Berlin"
 
 
-def distance_to_boxi(item: dict):
-    """Возвращает (км, способ) или (None, None). Способ: 'коорд.', 'адрес', 'индекс'."""
-    if item.get("lat") and item.get("lon"):
-        return round(haversine_km(BOXHAGENER_PLATZ, (float(item["lat"]), float(item["lon"]))), 1), "коорд."
-    coords = geocode(item.get("address") or "")
-    if coords:
-        return round(haversine_km(BOXHAGENER_PLATZ, coords), 1), "адрес"
-    plz = item.get("postcode")
-    if plz in PLZ_NEAR:
-        return PLZ_NEAR[plz], "индекс"
-    return None, None
+class Geocoder:
+    def __init__(self, cache: dict | None = None):
+        # cache: запрос -> (lat, lon) или None («точно не найдено»)
+        self.cache = dict(cache or {})
+        self.new_entries: dict = {}
+        self._last_call = 0.0
+
+    def geocode(self, address: str):
+        """Адрес -> (lat, lon) | None. Бросает GeoTempError при временной ошибке."""
+        if not address:
+            return None
+        q = clean_address(address)
+        if q in self.cache:
+            return self.cache[q]
+        wait = 1.1 - (time.time() - self._last_call)
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            r = requests.get(NOMINATIM, params={"q": q, "format": "json", "limit": 1, "countrycodes": "de"},
+                             headers={"User-Agent": NOMINATIM_UA}, timeout=20)
+        except requests.RequestException as exc:
+            raise GeoTempError(f"сеть: {exc}") from exc
+        finally:
+            self._last_call = time.time()
+        if not r.ok:   # 429, 5xx, блокировка — всё считаем временным
+            raise GeoTempError(f"Nominatim HTTP {r.status_code}")
+        try:
+            data = r.json()
+        except ValueError as exc:
+            raise GeoTempError("Nominatim вернул не JSON") from exc
+        coords = (float(data[0]["lat"]), float(data[0]["lon"])) if data else None
+        self.cache[q] = coords
+        self.new_entries[q] = coords
+        return coords
+
+    def distance(self, x, allow_temp_error: bool = True):
+        """-> (км, способ) или (None, None). Способ: 'коорд.', 'адрес', 'улица', 'индекс'.
+        allow_temp_error=False — вместо GeoTempError сразу запасной вариант по индексу."""
+        if x.lat is not None and x.lon is not None:
+            return round(haversine_km(BOXHAGENER_PLATZ, (float(x.lat), float(x.lon))), 1), "коорд."
+        try:
+            coords = self.geocode(x.address or "")
+        except GeoTempError:
+            if allow_temp_error:
+                raise
+            coords = None
+        if coords:
+            x.lat, x.lon = coords
+            return round(haversine_km(BOXHAGENER_PLATZ, coords), 1), "адрес"
+        street = street_only(x.address or "", x.postcode)
+        if street:   # новостройки: дома ещё нет в OSM, а улица есть
+            try:
+                coords = self.geocode(street)
+            except GeoTempError:
+                if allow_temp_error:
+                    raise
+                coords = None
+            if coords:
+                return round(haversine_km(BOXHAGENER_PLATZ, coords), 1), "улица"
+        if x.postcode in PLZ_NEAR:
+            return PLZ_NEAR[x.postcode], "индекс"
+        return None, None

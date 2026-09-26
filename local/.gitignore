@@ -1,6 +1,0 @@
-service-account.json
-local_seen.json
-local_sources.yaml
-monitor.log
-__pycache__/
-*.pyc

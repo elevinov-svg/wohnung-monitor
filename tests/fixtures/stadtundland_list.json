@@ -1,0 +1,343 @@
+{
+ "data": [
+  {
+   "headline": "Helle 3 Zimmer Wohnung im Dachgeschoss  - Aufzug, Balkon und Badewanne",
+   "address": {
+    "postal_code": "12349",
+    "city": "Berlin",
+    "street": "In den Bauerngärten",
+    "house_number": "8",
+    "precinct": "Buckower Felder"
+   },
+   "details": {
+    "immoNumber": "1001/5248/00243",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "70.36",
+    "rooms": "3.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "1.118,02",
+    "warmRent": "1.399,46",
+    "additionalCosts": "158,31",
+    "heatingCosts": "123,13",
+    "totalRent": "1.399,46",
+    "deposit": "3.354,06",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_7e08549c-8f02-4473-9e03-0f9b38b060fe.jpg",
+    "alt": "Musterfoto_Zimmer 1",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Familienwohnung mit 4 Zimmern",
+   "address": {
+    "postal_code": "12685",
+    "city": "Berlin",
+    "street": "Kienbergstr.",
+    "house_number": "21",
+    "precinct": "An den Gärten der Welt"
+   },
+   "details": {
+    "immoNumber": "1050/5177/00084",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "82.55",
+    "rooms": "4.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "990,6",
+    "warmRent": "1.253,6",
+    "additionalCosts": "177",
+    "heatingCosts": "86",
+    "totalRent": "1.253,6",
+    "deposit": "2.971,8",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_Bildimport1-2024-06-07_STADTUNDLAND_1050_WE_5177_Musterwohnungen_010.-wp-Kienbergstr._21_EG_Links_Rechts.19.jpg.jpg",
+    "alt": "STADTUNDLAND/1050/WE_5177/Musterwohnungen/010.-wp-Kienbergstr._21_EG_Links_Rechts.19.jpg",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "großzügige 2 Zimmer Wohnung in ruhiger Lage im Betulaweg 3, 1.OG RE",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Betulaweg",
+    "house_number": "3",
+    "precinct": "Altglienicke"
+   },
+   "details": {
+    "immoNumber": "1001/0471/00101",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "61.26",
+    "rooms": "2.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "784,74",
+    "warmRent": "999,74",
+    "additionalCosts": "134",
+    "heatingCosts": "81",
+    "totalRent": "999,74",
+    "deposit": "2.354,22",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_f6da4de4-4ed7-4c20-9446-6adeaa2662d9.jpg",
+    "alt": "Ansicht 2",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Große 3 Zimmer Wohnung",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Betulaweg",
+    "house_number": "11",
+    "precinct": "Altglienicke"
+   },
+   "details": {
+    "immoNumber": "1001/0471/00131",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "73.19",
+    "rooms": "3.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "1.042,96",
+    "warmRent": "1.299,96",
+    "additionalCosts": "160",
+    "heatingCosts": "97",
+    "totalRent": "1.299,96",
+    "deposit": "3.128,88",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_105c056d-4697-475d-98d4-1a87b81c7874.jpg",
+    "alt": "Wohnzimmer",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Vielleicht Ihr neues Zuhause? 2 Zimmer, Balkon, offene Küche",
+   "address": {
+    "postal_code": "12685",
+    "city": "Berlin",
+    "street": "Kienbergstr.",
+    "house_number": "21",
+    "precinct": "An den Gärten der Welt"
+   },
+   "details": {
+    "immoNumber": "1050/5177/00089",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "52.71",
+    "rooms": "2.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "641,76",
+    "warmRent": "811,76",
+    "additionalCosts": "114",
+    "heatingCosts": "56",
+    "totalRent": "811,76",
+    "deposit": "1.925,28",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_d4a319ff-6ab9-4c52-a2af-63790d8464fc.jpg",
+    "alt": "Wohnzimmer",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "ruhige 2-Zimmer mit großer Terrasse im Betulaweg 3, EG LI",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Betulaweg",
+    "house_number": "3",
+    "precinct": "Altglienicke"
+   },
+   "details": {
+    "immoNumber": "1001/0471/00096",
+    "immoType": "wohnung",
+    "immoSubType": "ERDGESCHOSS",
+    "livingSpace": "61.10",
+    "rooms": "2.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": true
+   },
+   "costs": {
+    "coldRent": "785,14",
+    "warmRent": "999,14",
+    "additionalCosts": "124",
+    "heatingCosts": "90",
+    "totalRent": "999,14",
+    "deposit": "2.355,42",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_8d2ce79c-48ca-4797-afb5-28fb8dc3f77c.jpg",
+    "alt": "Ansicht 4",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Coloniaallee 30, DG LI - WBS 140 mit besonderen Wohnbedarf!",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Coloniaallee",
+    "house_number": "30"
+   },
+   "details": {
+    "immoNumber": "1001/0450/00586",
+    "immoType": "wohnung",
+    "immoSubType": "DACHGESCHOSS",
+    "livingSpace": "47.10",
+    "rooms": "2.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "635,98",
+    "warmRent": "806,98",
+    "additionalCosts": "97",
+    "heatingCosts": "74",
+    "totalRent": "618,45",
+    "deposit": "1.907,94",
+    "discount": "-188.53"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_Bildimport1-2024-06-07_STADTUNDLAND_1001_WE_0450_AA08_1001_0450.jpg.jpg",
+    "alt": "STADTUNDLAND/1001/WE_0450/AA08_1001_0450.jpg",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Coloniaallee 22, 3.G LI - WBS 140 mit besonderen Wohnbedarf",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Coloniaallee",
+    "house_number": "22"
+   },
+   "details": {
+    "immoNumber": "1001/0450/00558",
+    "immoType": "wohnung",
+    "immoSubType": "ETAGE",
+    "livingSpace": "76.14",
+    "rooms": "3.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "1.028,1",
+    "warmRent": "1.304,1",
+    "additionalCosts": "156",
+    "heatingCosts": "120",
+    "totalRent": "999,33",
+    "deposit": "3.084,3",
+    "discount": "-304.77"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_Bildimport1-2024-06-07_STADTUNDLAND_1001_WE_0450_AA08_1001_0450.jpg.jpg",
+    "alt": "STADTUNDLAND/1001/WE_0450/AA08_1001_0450.jpg",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Ab sofort !! mit WBS für 5 Zimmer Brandenburg",
+   "address": {
+    "postal_code": "15370",
+    "city": "Fredersdorf",
+    "street": "Martin-Luther-Str.",
+    "house_number": "10",
+    "precinct": "Fredersdorf"
+   },
+   "details": {
+    "immoNumber": "1001/3682/00033",
+    "immoType": "wohnung",
+    "immoSubType": "DACHGESCHOSS",
+    "livingSpace": "100.66",
+    "rooms": "5.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "605,42",
+    "warmRent": "873,42",
+    "additionalCosts": "172",
+    "heatingCosts": "96",
+    "totalRent": "873,42",
+    "deposit": "1.816,26",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_7c522fa8-80bc-48d0-8cb2-3778e5ea5893.jpg",
+    "alt": "Wohnzimmer",
+    "format": "image/jpeg"
+   }
+  },
+  {
+   "headline": "Schönefelder Chaussee 213",
+   "address": {
+    "postal_code": "12524",
+    "city": "Berlin",
+    "street": "Schönefelder Chaussee",
+    "house_number": "213",
+    "precinct": "Kosmosviertel Betrauungsakt"
+   },
+   "details": {
+    "immoNumber": "1050/5232/00150",
+    "immoType": "wohnung",
+    "immoSubType": "ERDGESCHOSS",
+    "livingSpace": "32.63",
+    "rooms": "1.00",
+    "wheelchairFriendly": false,
+    "seniorsFriendly": false,
+    "barrierFree": false
+   },
+   "costs": {
+    "coldRent": "241,46",
+    "warmRent": "361,46",
+    "additionalCosts": "65",
+    "heatingCosts": "55",
+    "totalRent": "361,46",
+    "deposit": "724,38",
+    "discount": "0.00"
+   },
+   "image": {
+    "filename": "wohnungshelden/stadt_und_land_7a178136-78ff-47fc-abcc-a6ae0f590996.jpg",
+    "alt": "Außenansicht",
+    "format": "image/jpeg"
+   }
+  }
+ ],
+ "count": 31
+}
