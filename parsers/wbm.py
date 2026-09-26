@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (clean, get, get_detail, normalize_id, num, page_lines, plz_of,
-                            price_pairs, value_after, wbs_from_text, wbs_in_description, wbs_type)
+                            price_pairs, require, value_after, wbs_from_text, wbs_in_description, wbs_type)
 
 COMPANY = "WBM"
 URL = "https://www.wbm.de/wohnungen-berlin/angebote/"
@@ -20,7 +20,11 @@ META: dict = {}
 
 
 def fetch() -> list[Listing]:
-    out = parse_list(get(URL).text)
+    html = get(URL).text
+    out = parse_list(html)
+    # страница поиска: форма есть всегда, в т.ч. когда предложений нет
+    require("openimmo-search-form" in html, "нет формы поиска openimmo-search-form")
+    require(out or "openimmo-search-list-item" not in html, "строки списка есть, но ни одна не разобрана")
     META.clear()
     META.update(site_count=None, pages=1)   # счётчика на сайте нет, всё на одной странице
     return out

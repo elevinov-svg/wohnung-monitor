@@ -88,6 +88,9 @@ class Supabase:
     def delete(self, table: str, params: dict) -> None:
         self._req("DELETE", table, params=params, prefer="return=minimal")
 
+    def rpc(self, fn: str, args: dict):
+        return self._req("POST", f"rpc/{fn}", json=args).json()
+
     # ------------------------------------------------------------ seen_listings
 
     def load_seen(self, company: str) -> dict[str, dict]:

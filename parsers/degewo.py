@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (MAX_PAGES, TIMEOUT, clean, get_detail, new_session, normalize_id, num,
-                            page_lines, plz_of, price_pairs, value_after, wbs_from_text, wbs_in_description,
+                            page_lines, plz_of, price_pairs, require, value_after, wbs_from_text, wbs_in_description,
                             wbs_type)
 
 COMPANY = "degewo"
@@ -31,7 +31,10 @@ def fetch() -> list[Listing]:
     def load(url):
         r = s.get(url, timeout=TIMEOUT)
         r.raise_for_status()
-        return BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(r.text, "html.parser")
+        # счётчик «N Ergebnisse» есть на странице поиска всегда, в т.ч. при 0 результатов
+        require(soup.select_one(".results-count"), f"нет счётчика результатов .results-count ({url[:80]})")
+        return soup
 
     soup = load(URL)
     wbs_ids = _wbs_filter(s, soup)
@@ -67,6 +70,8 @@ def fetch() -> list[Listing]:
                 x.wbs, x.wbs_source = "да", "фильтр сайта"
     META.clear()
     META.update(site_count=total or None, pages=len(done), wbs_filter=len(wbs_ids) if wbs_ids is not None else None)
+    if wbs_ids is None:
+        META["warning"] = "форма поиска с фильтром WBS не найдена"
     if total and len(uniq) < total:
         print(f"[warn] degewo: собрано {len(uniq)} из {total} — пагинация неполная")
     return list(uniq.values())

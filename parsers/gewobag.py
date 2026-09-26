@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (MAX_PAGES, TIMEOUT, clean, coords_from_html, get_detail, normalize_id, num,
-                            page_lines, plz_of, price_pairs, session, value_after, wbs_from_text,
+                            page_lines, plz_of, price_pairs, require, session, value_after, wbs_from_text,
                             wbs_in_description, wbs_type)
 
 COMPANY = "Gewobag"
@@ -26,9 +26,13 @@ def _crawl(qs: str) -> tuple[dict, int, int]:
     for page in range(1, MAX_PAGES + 1):
         r = session.get(URL + ("" if page == 1 else f"page/{page}/") + qs, timeout=TIMEOUT)
         pages += 1
-        if r.status_code == 404:   # страницы кончились
+        if r.status_code == 404 and page > 1:   # страницы кончились
             break
-        r.raise_for_status()
+        r.raise_for_status()                    # 404 на первой странице — поломка, а не «0 объявлений»
+        if page == 1:
+            # контейнер списка есть всегда, в т.ч. когда по фильтру ничего не найдено
+            require("filtered-mietangebote" in r.text, f"нет контейнера списка filtered-mietangebote ({qs[:60]})")
+            require("angebot-big-box" not in r.text or parse_list(r.text), "карточки есть, но ни одна не разобрана")
         max_page = max([max_page] + [int(n) for n in re.findall(r"/mietangebote/page/(\d+)/", r.text)])
         new = 0
         for x in parse_list(r.text):
@@ -40,8 +44,16 @@ def _crawl(qs: str) -> tuple[dict, int, int]:
     return uniq, max_page, pages
 
 
-def fetch() -> list[Listing]:
+def fetch(known: set | None = None, force_wbs: bool = False) -> list[Listing]:
+    """known — уже известные ID: если новых нет (и не force_wbs), фильтры WBS не обходим,
+    WBS известных объявлений берётся из базы (x.extra["wbs_filters_skipped"])."""
     uniq, max_page, pages = _crawl(QS)
+    META.clear()
+    if known is not None and not force_wbs and set(uniq) <= known:
+        for x in uniq.values():
+            x.extra["wbs_filters_skipped"] = True
+        META.update(site_count=None, site_pages=max_page, pages=pages, wbs_filters="пропущены: новых ID нет")
+        return list(uniq.values())
     # WBS — из двух фильтров сайта: «WBS» (wohnungstyp[]=wbs) и «kein WBS nötig» (keinwbs=1).
     # Только в одном — да/нет. В обоих (26.09: 3 квартиры) — фильтры противоречат, остаётся
     # то, что сказано в заголовке/описании, иначе неизвестно. Ни в одном — тоже неизвестно.
@@ -53,8 +65,7 @@ def fetch() -> list[Listing]:
             x.wbs, x.wbs_source = ("да" if yes else "нет"), "фильтр сайта"
         elif yes and no:
             x.extra["wbs_filters_conflict"] = True
-    META.clear()
-    META.update(site_count=None, site_pages=max_page, pages=pages + pages2 + pages3,
+    META.update(site_count=None, site_pages=max_page, pages=pages + pages2 + pages3, wbs_filters="обойдены",
                 keinwbs=len(no_wbs), wbs=len(with_wbs), wbs_conflict=len(set(no_wbs) & set(with_wbs)))
     return list(uniq.values())
 

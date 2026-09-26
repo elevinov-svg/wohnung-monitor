@@ -1,24 +1,28 @@
-name: Collect-only (замер сбора)
+name: Сбор объявлений
 
-# Замер качества СБОРА с IP GitHub Actions. Ничего не пишет ни в Supabase, ни в
-# Google-таблицу (секреты не передаются). Результат — артефакт workflow.
-# Запуск: push в ветку collect-measure или вручную (Re-run / workflow_dispatch).
+# Сбор ВСЕХ объявлений шести компаний в Supabase (collected_listings,
+# listing_changes, parser_runs, parser_health). Без фильтров, без Google-таблицы.
+# Запуск каждые 30 минут; прогон работает ~50 минут и проверяет сайты каждые
+# 3 минуты. Благодаря concurrency следующий прогон ждёт окончания текущего.
+# В репозиторий ничего не коммитится — всё состояние в Supabase.
 on:
-  push:
-    branches: [collect-measure]
+  schedule:
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: collect-measure
+  group: collect
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 58
+    env:
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,22 +34,7 @@ jobs:
       - name: Установить зависимости
         run: pip install -r requirements.txt
 
-      - name: Ответы сайтов (статус, заголовки CDN/защиты)
-        run: python scripts/probe_sites.py | tee probe.txt
-
-      - name: Сбор (один полный прогон + один повторный через 3 минуты)
-        run: |
-          python collect.py --out data/collect 2>&1 | tee collect.log
-          sleep 180
-          python collect.py --out data/collect 2>&1 | tee -a collect.log
-
-      - name: Артефакт
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: collect-${{ github.run_id }}-${{ github.run_attempt }}
-          path: |
-            data/collect/
-            collect.log
-            probe.txt
-          retention-days: 14
+      # Код выхода 1 — только когда компания ПЕРЕШЛА в alert (3 цикла подряд ошибка
+      # или подозрительное «пусто»): прогон красный, GitHub присылает письмо.
+      - name: Сбор в цикле
+        run: python collect.py --loop-minutes 50 --interval 180

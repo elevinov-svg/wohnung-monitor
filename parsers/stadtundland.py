@@ -3,7 +3,8 @@
 from urllib.parse import quote
 
 from models import Listing
-from parsers.common import (MAX_PAGES, clean, normalize_id, num, page_lines, post, price_pairs, value_after,
+from parsers.common import (MAX_PAGES, clean, json_of, normalize_id, num, page_lines, post, price_pairs, require,
+                            value_after,
                             wbs_from_text, wbs_type)
 
 COMPANY = "Stadt und Land"
@@ -14,8 +15,9 @@ META: dict = {}
 def fetch() -> list[Listing]:
     uniq, offset, total = {}, 0, 0
     for _ in range(MAX_PAGES):
-        data = post(URL, json={"offset": offset, "cat": "wohnung"}).json()
-        rows = data.get("data") or []
+        data = json_of(post(URL, json={"offset": offset, "cat": "wohnung"}), "data", "count")
+        require(isinstance(data["data"], list), "data не список")
+        rows = data["data"]
         total = int(data.get("count") or 0)
         for x in parse_list(rows):
             uniq.setdefault(x.external_id, x)

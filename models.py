@@ -21,7 +21,11 @@ class Listing:
     wbs: str | None = None          # "да" / "нет" / None
     lat: float | None = None
     lon: float | None = None
-    published: str | None = None
+    published: str | None = None    # дата публикации с сайта (Gewobag: datePublished)
+    floor: str | None = None        # этаж как на сайте: «3. OG», «Erdgeschoss»
+    available_from: str | None = None   # «доступна с»: «01.11.2026», «sofort»
+    deposit: float | None = None    # Kaution, если указана суммой
+    deposit_text: str | None = None     # Kaution как на сайте («3.354,06», «drei Nettokaltmieten»)
     heiz_in_neben: bool = False     # HOWOGE/WBM: отопление входит в Nebenkosten, отдельно не указано
     # WBS: «да» / «нет» (сайт явно пишет, что не нужен, или подтверждено фильтром) / None = неизвестно
     wbs_source: str | None = None   # откуда: «фильтр сайта», «поле API», «метка на сайте», «подробная страница», «описание», «заголовок»

@@ -16,8 +16,8 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from models import Listing
-from parsers.common import (clean, get, get_detail, normalize_id, num, page_lines, plz_of, post,
-                            price_pairs, value_after, wbs_from_text, wbs_in_description, wbs_type)
+from parsers.common import (clean, get, get_detail, json_of, normalize_id, num, page_lines, plz_of, post,
+                            price_pairs, require, value_after, wbs_from_text, wbs_in_description, wbs_type)
 
 COMPANY = "HOWOGE"
 BASE = "https://www.howoge.de"
@@ -34,7 +34,8 @@ META: dict = {}
 
 
 def fetch() -> list[Listing]:
-    data = post(LIST_URL, data=FORM).json()
+    data = json_of(post(LIST_URL, data=FORM), "immoobjects", "immocount")
+    require(isinstance(data["immoobjects"], list), "immoobjects не список")
     out = parse_list(data)
     known = {x.external_id for x in out}
     project_units = 0

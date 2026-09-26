@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (MAX_PAGES, clean, coords_from_html, get, get_detail, normalize_id, num,
-                            page_lines, plz_of, price_pairs, value_after, wbs_from_text, wbs_in_description,
+                            page_lines, plz_of, price_pairs, require, value_after, wbs_from_text, wbs_in_description,
                             wbs_type)
 
 COMPANY = "GESOBAU"
@@ -29,6 +29,11 @@ def fetch() -> list[Listing]:
         new = 0
         html = get(url).text
         pages += 1
+        # фасеты фильтра (solr) есть на странице поиска всегда, в т.ч. при 0 результатов
+        require("data-facet-label" in html or "results-list" in html,
+                f"нет списка результатов / фильтров solr (стр. {page})")
+        require(page > 1 or "results-entry" not in html or parse_list(html),
+                "карточки есть, но ни одна не разобрана")
         max_page = max([max_page] + [int(n) for n in re.findall(r"tx_solr%5Bpage%5D=(\d+)", html)])
         for x in parse_list(html):
             if x.external_id not in uniq:
