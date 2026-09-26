@@ -42,13 +42,20 @@ def _crawl(qs: str) -> tuple[dict, int, int]:
 
 def fetch() -> list[Listing]:
     uniq, max_page, pages = _crawl(QS)
-    # WBS — из фильтра сайта «kein WBS nötig»: кто не попал в него, тому WBS нужен
+    # WBS — из двух фильтров сайта: «WBS» (wohnungstyp[]=wbs) и «kein WBS nötig» (keinwbs=1).
+    # Только в одном — да/нет. В обоих (26.09: 3 квартиры) — фильтры противоречат, остаётся
+    # то, что сказано в заголовке/описании, иначе неизвестно. Ни в одном — тоже неизвестно.
     no_wbs, _, pages2 = _crawl(QS + "&keinwbs=1")
-    if uniq and len(no_wbs) <= len(uniq):
-        for x in uniq.values():
-            x.wbs, x.wbs_source = ("нет" if x.external_id in no_wbs else "да"), "фильтр сайта"
+    with_wbs, _, pages3 = _crawl(QS + "&wohnungstyp%5B%5D=wbs")
+    for x in uniq.values():
+        yes, no = x.external_id in with_wbs, x.external_id in no_wbs
+        if yes != no:
+            x.wbs, x.wbs_source = ("да" if yes else "нет"), "фильтр сайта"
+        elif yes and no:
+            x.extra["wbs_filters_conflict"] = True
     META.clear()
-    META.update(site_count=None, site_pages=max_page, pages=pages + pages2, keinwbs=len(no_wbs))
+    META.update(site_count=None, site_pages=max_page, pages=pages + pages2 + pages3,
+                keinwbs=len(no_wbs), wbs=len(with_wbs), wbs_conflict=len(set(no_wbs) & set(with_wbs)))
     return list(uniq.values())
 
 

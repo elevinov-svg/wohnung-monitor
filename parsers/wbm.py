@@ -72,7 +72,9 @@ def parse_detail(html: str, x: Listing) -> None:
     if wbs:
         x.wbs = wbs_from_text(f"WBS erforderlich: {wbs}") or x.wbs
         x.wbs_source = "подробная страница"
-    x.wbs_type = x.wbs_type or wbs_in_description(lines)[1]
+    # ниже «WBS vorhanden» — форма заявки с вариантами «WBS 100 / 140 / 160 …», это не про квартиру
+    desc = lines[:lines.index("WBS vorhanden")] if "WBS vorhanden" in lines else lines
+    x.wbs_type = x.wbs_type or wbs_in_description(desc)[1]
     x.detail_loaded = True
 
 

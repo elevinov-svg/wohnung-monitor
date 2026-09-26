@@ -95,7 +95,7 @@ WBS_YES = re.compile(r"(?:wohnberechtigungsschein|\bwbs\b)[^.]{0,80}?(?:benötig
                      r"|nur\s+mit\s+wbs|\bmit\s+wbs\b|wbs[- ]pflicht|\bwbs[- ]?\d{3}", re.I)
 # строки меню/подвала, где «WBS» есть на каждой странице сайта
 WBS_BOILERPLATE = re.compile(r"schnell-?check|wbs-rechner|^wohnberechtigungsschein \(wbs\)$|^\* wohnberechtigungsschein\.?$"
-                             r"|^wbs$", re.I)
+                             r"|^wbs$|^alles zum wohnberechtigungsschein", re.I)
 
 
 def wbs_type(text: str | None) -> str | None:
