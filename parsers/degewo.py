@@ -17,7 +17,8 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (MAX_PAGES, TIMEOUT, clean, get_detail, new_session, normalize_id, num,
-                            page_lines, plz_of, price_pairs, value_after, wbs_from_text)
+                            page_lines, plz_of, price_pairs, value_after, wbs_from_text, wbs_in_description,
+                            wbs_type)
 
 COMPANY = "degewo"
 URL = "https://www.degewo.de/immosuche"
@@ -57,9 +58,13 @@ def fetch() -> list[Listing]:
         for n in sorted(pages):
             if pages[n] not in done and pages[n] not in todo:
                 todo.append(pages[n])
-    if wbs_ids is not None:   # фильтр сайта «Wohnberechtigungsschein vorhanden»
+    if wbs_ids is not None:
+        # фильтр «Wohnberechtigungsschein vorhanden» надёжен только для «да»: квартиры, где WBS
+        # указан лишь в описании («WBS 160, 180 oder 220 benötigt»), он не находит (проверено 26.09).
+        # Поэтому «нет» ставим только при явном «ohne WBS», иначе — неизвестно до подробной страницы.
         for x in uniq.values():
-            x.wbs, x.wbs_source = ("да" if x.external_id in wbs_ids else "нет"), "фильтр сайта"
+            if x.external_id in wbs_ids:
+                x.wbs, x.wbs_source = "да", "фильтр сайта"
     META.clear()
     META.update(site_count=total or None, pages=len(done), wbs_filter=len(wbs_ids) if wbs_ids is not None else None)
     if total and len(uniq) < total:
@@ -126,12 +131,15 @@ def parse_list(soup) -> list[Listing]:
         title = clean(a.get_text(" ", strip=True))
         out.append(Listing(
             prices={"Warmmiete (список)": facts["warmmiete"]} if facts.get("warmmiete") else {},
-            wbs_source="заголовок" if wbs_from_text(f"{title} {tags}") else None,
+            wbs_source=("метка на сайте" if "Mit WBS" in tags else
+                        "заголовок" if wbs_from_text(title) else None),
+            wbs_type=wbs_type(title),
             extra={"list_raw": t.get_text(" | ", strip=True)[:2000]},
             company=COMPANY, external_id=normalize_id(btn["data-openimmo-bookmark-item-uid"]), link=link,
             title=title, address=clean(street), postcode=plz_of(street), district=clean(district),
             rooms=num(facts.get("zimmer")), area=num(facts.get("m²")), warm=num(facts.get("warmmiete")),
-            wbs=wbs_from_text(f"{title} {tags}"), tags=" ".join(filter(None, [title, tags]))))
+            wbs="да" if "Mit WBS" in tags else wbs_from_text(title),
+            tags=" ".join(filter(None, [title, tags]))))
     return out
 
 
@@ -148,10 +156,12 @@ def parse_detail(html: str, x: Listing) -> None:
     objektart = value_after(lines, "Objektart")
     if objektart:
         x.tags = f"{x.tags} {objektart}".strip()
-    wbs = value_after(lines, "WBS", "Wohnberechtigungsschein", "WBS erforderlich")
-    if wbs and x.wbs_source != "фильтр сайта":
-        x.wbs = wbs_from_text(f"WBS: {wbs}") or x.wbs
-        x.wbs_source = "подробная страница"
+    if x.wbs != "да" and any(ln in ("WBS Pflicht", "WBS-Pflicht") for ln in lines):
+        x.wbs, x.wbs_source = "да", "метка на сайте"
+    desc_wbs, desc_type = wbs_in_description(lines)
+    if desc_wbs and (x.wbs is None or (desc_wbs == "да" and x.wbs != "да")):
+        x.wbs, x.wbs_source = desc_wbs, "описание"
+    x.wbs_type = x.wbs_type or desc_type
     addr = next((ln for ln in lines if ln.startswith("Adresse:")), None)
     if addr:
         full = clean(addr.removeprefix("Adresse:"))

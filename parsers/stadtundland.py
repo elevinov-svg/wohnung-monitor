@@ -3,7 +3,8 @@
 from urllib.parse import quote
 
 from models import Listing
-from parsers.common import MAX_PAGES, clean, normalize_id, num, page_lines, post, price_pairs, value_after, wbs_from_text
+from parsers.common import (MAX_PAGES, clean, normalize_id, num, page_lines, post, price_pairs, value_after,
+                            wbs_from_text, wbs_type)
 
 COMPANY = "Stadt und Land"
 URL = "https://d2396ha8oiavw0.cloudfront.net/sul-main/immoSearch"
@@ -66,7 +67,7 @@ def parse_list(rows: list[dict]) -> list[Listing]:
             title=headline, address=clean(f"{street}, {city}"), postcode=a.get("postal_code"),
             district=clean(a.get("precinct")), rooms=num(d.get("rooms")), area=num(d.get("livingSpace")),
             kalt=num(c.get("coldRent")), neben=neben, heiz=num(c.get("heatingCosts")), warm=warm,
-            wbs=wbs_from_text(headline),
+            wbs=wbs_from_text(headline), wbs_type=wbs_type(headline),
             tags=" ".join(filter(None, [headline, d.get("immoType"), d.get("immoSubType")])),
             detail_loaded=True))
     return out

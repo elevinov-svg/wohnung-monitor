@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (clean, get, get_detail, normalize_id, num, page_lines, plz_of,
-                            price_pairs, value_after, wbs_from_text)
+                            price_pairs, value_after, wbs_from_text, wbs_in_description, wbs_type)
 
 COMPANY = "WBM"
 URL = "https://www.wbm.de/wohnungen-berlin/angebote/"
@@ -45,6 +45,7 @@ def parse_list(html: str) -> list[Listing]:
             title=title, address=address, postcode=plz_of(address), district=clean(_text(row, ".area")),
             rooms=num(_text(row, ".main-property-rooms")), area=num(_text(row, ".main-property-size")),
             warm=num(_text(row, ".main-property-rent")), wbs=wbs_from_text(f"{title} {checks}"),
+            wbs_type=wbs_type(f"{title} {checks}"),
             tags=title or ""))
     return out
 
@@ -71,6 +72,7 @@ def parse_detail(html: str, x: Listing) -> None:
     if wbs:
         x.wbs = wbs_from_text(f"WBS erforderlich: {wbs}") or x.wbs
         x.wbs_source = "подробная страница"
+    x.wbs_type = x.wbs_type or wbs_in_description(lines)[1]
     x.detail_loaded = True
 
 

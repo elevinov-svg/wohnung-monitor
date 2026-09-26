@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 from models import Listing
 from parsers.common import (clean, get, get_detail, normalize_id, num, page_lines, plz_of, post,
-                            price_pairs, value_after, wbs_from_text)
+                            price_pairs, value_after, wbs_from_text, wbs_in_description, wbs_type)
 
 COMPANY = "HOWOGE"
 BASE = "https://www.howoge.de"
@@ -76,7 +76,7 @@ def parse_list(data: dict) -> list[Listing]:
             title=title, address=clean(o.get("title")), postcode=plz_of(o.get("title")),
             district=clean(o.get("district")), rooms=num(o.get("rooms")), area=num(o.get("area")),
             warm=num(o.get("rent")),
-            wbs=api_wbs or wbs_from_text(title),
+            wbs=api_wbs or wbs_from_text(title), wbs_type=wbs_type(title),
             lat=num(coords.get("lat")), lon=num(coords.get("lng")),
             tags=title or ""))   # только заголовок: в «features» бывает «Stellplatz» у обычных квартир
     return out
@@ -104,7 +104,7 @@ def parse_project(html: str) -> list[Listing]:
             company=COMPANY, external_id=normalize_id(m.group(1)), link=link,
             title=title, address=address, postcode=plz_of(address), district=clean(_text(a, ".district")),
             rooms=num(facts.get("zimmer")), area=num(facts.get("wohnfläche")),
-            warm=num(facts.get("warmmiete")), wbs=wbs_from_text(title),
+            warm=num(facts.get("warmmiete")), wbs=wbs_from_text(title), wbs_type=wbs_type(title),
             tags=" ".join(filter(None, [title, "Neubau"]))))
     return out
 
@@ -134,9 +134,11 @@ def parse_detail(html: str, x: Listing) -> None:
         i = lines.index("Adresse:")          # «Adresse: / Straße 13, / 13125 Berlin, Buch»
         x.postcode = plz_of(" ".join(lines[i + 1:i + 3]))
     if x.wbs_source != "поле API":
-        # у обычных квартир проверено 37 из 37: строка «WBS erforderlich» есть ⇔ в API wbs=ja
+        # у обычных квартир проверено 37 из 37: признак «WBS erforderlich» есть ⇔ в API wbs=ja,
+        # нет признака ⇔ wbs=nein. Сумма по новостройкам сверяется с фильтром сайта (collect.py).
         x.wbs = "да" if "WBS erforderlich" in lines else "нет"
         x.wbs_source = "подробная страница"
+    x.wbs_type = x.wbs_type or wbs_in_description(lines)[1]
     x.detail_loaded = True
 
 

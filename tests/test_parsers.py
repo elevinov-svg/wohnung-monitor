@@ -197,3 +197,35 @@ def test_howoge_wbs_from_detail_for_project_units():
     y = howoge.parse_list(json.loads(html("howoge_list.json")))[1]
     howoge.parse_detail(html("howoge_detail.html"), y)
     assert y.wbs_source == "поле API"
+
+
+# ----------------------------------------------------------------- WBS: да / нет / неизвестно и тип
+
+@pytest.mark.parametrize("lines,expected", [
+    (["Bitte beachten Sie, dass zur Anmietung der Wohnung ein Wohnberechtigungsschein (WBS 160, 180 oder 220) "
+      "benötigt wird (für zwei Räume)."], ("да", "160/180/220")),
+    (["Mehr als die Hälfte aller Wohnungen sind vom Land Berlin gefördert."], (None, None)),   # неизвестно
+    (["WBS-Schnellcheck", "Wohnberechtigungsschein (WBS)", "* Wohnberechtigungsschein.",
+      "Hinweis: Alle Ergebnisse des WBS-Rechners sind ohne Gewähr."], (None, None)),            # меню/подвал
+    (["Neubau Zweitbezug - Nähe Gärten der Welt - ohne WBS"], ("нет", None)),
+])
+def test_wbs_in_description(lines, expected):
+    from parsers.common import wbs_in_description
+    assert wbs_in_description(lines) == expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("Coloniaallee 30, DG LI - WBS 140 mit besonderen Wohnbedarf!", "140 + besonderer Wohnbedarf"),
+    ("*Neubau in Altglienicke – mit WBS 180, WBS 160, WBS 140*", "140/160/180"),
+    ("Helle Wohnung im Dachgeschoss / Bad mit Wanne und Dusche / WBS 220", "220"),
+    ("Helle 2-Zimmer-Wohnung mit Balkon", None),
+])
+def test_wbs_type(text, expected):
+    from parsers.common import wbs_type
+    assert wbs_type(text) == expected
+
+
+def test_stadtundland_no_wbs_mention_is_unknown():
+    rows = json.loads(html("stadtundland_list.json"))["data"]
+    x = stadtundland.parse_list(rows)[0]
+    assert x.wbs is None and x.wbs_source is None

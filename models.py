@@ -23,7 +23,9 @@ class Listing:
     lon: float | None = None
     published: str | None = None
     heiz_in_neben: bool = False     # HOWOGE/WBM: отопление входит в Nebenkosten, отдельно не указано
-    wbs_source: str | None = None   # откуда WBS: «фильтр сайта», «поле API», «подробная страница», «заголовок»
+    # WBS: «да» / «нет» (сайт явно пишет, что не нужен, или подтверждено фильтром) / None = неизвестно
+    wbs_source: str | None = None   # откуда: «фильтр сайта», «поле API», «метка на сайте», «подробная страница», «описание», «заголовок»
+    wbs_type: str | None = None     # «140», «160/180/220», «… + besonderer Wohnbedarf»
     prices: dict = field(default_factory=dict)   # ВСЕ ценовые поля как есть: метка -> строка с сайта
     tags: str = ""                  # заголовок + метки — текст для фильтра по типу жилья
     detail_loaded: bool = False     # подробная страница уже прочитана

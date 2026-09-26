@@ -89,6 +89,39 @@ def plz_of(text: str | None) -> str | None:
     return found[-1] if found else None
 
 
+WBS_NO = re.compile(r"ohne\s+wbs|kein(?:en)?\s+wbs|wbs\s+(?:ist\s+)?nicht\s+(?:erforderlich|nötig|notwendig)"
+                    r"|wbs\s*(?:erforderlich)?\s*:\s*nein|freifinanziert", re.I)
+WBS_YES = re.compile(r"(?:wohnberechtigungsschein|\bwbs\b)[^.]{0,80}?(?:benötigt|erforderlich|pflicht|notwendig|voraussetzung)"
+                     r"|nur\s+mit\s+wbs|\bmit\s+wbs\b|wbs[- ]pflicht|\bwbs[- ]?\d{3}", re.I)
+# строки меню/подвала, где «WBS» есть на каждой странице сайта
+WBS_BOILERPLATE = re.compile(r"schnell-?check|wbs-rechner|^wohnberechtigungsschein \(wbs\)$|^\* wohnberechtigungsschein\.?$"
+                             r"|^wbs$", re.I)
+
+
+def wbs_type(text: str | None) -> str | None:
+    """Тип WBS из текста: 'WBS 160, 180 oder 220' -> '160/180/220'; + besonderer Wohnbedarf."""
+    t = text or ""
+    nums = []
+    for m in re.finditer(r"(?:wbs|wohnberechtigungsschein)[^.]{0,40}", t, re.I):
+        nums += re.findall(r"\b(100|140|160|180|220)\b", m.group(0))
+    kinds = sorted(set(nums), key=int)
+    out = "/".join(kinds)
+    if re.search(r"besonder\w*\s+wohnbedarf", t, re.I):
+        out = (out + " + " if out else "") + "besonderer Wohnbedarf"
+    return out or None
+
+
+def wbs_in_description(lines: list[str]) -> tuple[str | None, str | None]:
+    """(«да»/«нет»/None, тип) по тексту описания подробной страницы, без меню и подвала."""
+    text = " ".join(ln for ln in lines if not WBS_BOILERPLATE.search(ln.strip()))
+    if WBS_NO.search(text):
+        return "нет", None
+    if WBS_YES.search(text):
+        hits = " ".join(m.group(0) + text[m.end():m.end() + 60] for m in WBS_YES.finditer(text))
+        return "да", wbs_type(hits)
+    return None, None
+
+
 def wbs_from_text(text: str | None) -> str | None:
     """Только для конкретных полей (заголовок, метки, «WBS erforderlich: …»),
     не для всей страницы — в меню сайтов везде есть слово «WBS»."""
