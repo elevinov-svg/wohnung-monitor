@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Wohnung-Monitor: проверяет источники объявлений о квартирах и складывает
-новые подходящие объявления во вкладку "Объявления" Google-таблицы.
+новые подходящие объявления во вкладку "Объявления" Google-таблицы
+и в базу Supabase (таблица listings, см. db.py).
 
 Запускается периодически (см. .github/workflows/monitor.yml).
 Состояние хранится рядом со скриптом:
@@ -31,6 +32,7 @@ from bs4 import BeautifulSoup
 import geo
 from landeseigene import COMPANY_CHECKERS
 from sheets import append_rows
+from db import insert_listings
 
 BASE_DIR = Path(__file__).parent
 SOURCES_FILE = BASE_DIR / "sources.yaml"
@@ -251,6 +253,46 @@ def build_sheet_row(item: dict, source_name: str, filters: dict | None = None) -
     ]
 
 
+def build_db_record(item: dict, source_name: str, source_type: str,
+                    filters: dict | None = None) -> dict:
+    """Та же информация, что в строке таблицы, но структурно — для базы Supabase."""
+    is_company = item.get("company") is not None
+    title = item.get("title") or ""
+    rooms = item.get("rooms")
+    if rooms is None:
+        m = re.search(r"(\d+(?:[.,]\d+)?)\s*[- ]?Zimmer", title, re.IGNORECASE)
+        rooms = m.group(1).replace(",", ".") if m else None
+    raw = {k: v for k, v in item.items() if isinstance(v, (str, int, float, bool, type(None)))}
+    return {
+        "source": source_name,
+        "source_type": source_type,
+        "external_id": item["id"],
+        "listing_key": item.get("key"),
+        "link": item.get("link"),
+        "title": title,
+        "company": item.get("company"),
+        "address": item.get("address"),
+        "district": item.get("district"),
+        "postcode": item.get("postcode"),
+        "housing_type": "Wohnung" if is_company else None,
+        "rooms": rooms,
+        "area_m2": item.get("area"),
+        "kalt": item.get("kalt"),
+        "neben": item.get("neben"),
+        "heiz": item.get("heiz"),
+        "warm": item.get("warm"),
+        "wbs": item.get("wbs") or ("неизвестно" if is_company else None),
+        "jobcenter_note": jobcenter_note(item) if is_company else None,
+        "distance_km": item.get("dist_km"),
+        "distance_src": item.get("dist_src"),
+        "priority": priority_label(item, filters or {}) or None,
+        "status": "Найдено",
+        "comment": "Добавлено автоматически, требует проверки",
+        "published_at": item.get("published"),
+        "raw": raw,
+    }
+
+
 def run_self_test() -> int:
     print("[self-test] Пишу тестовую строку в таблицу 'Объявления'...")
     test_item = {"title": "ТЕСТ — эту строку можно удалить",
@@ -261,6 +303,17 @@ def run_self_test() -> int:
         print(f"[self-test] ОШИБКА при записи в таблицу: {exc}")
         return 1
     print("[self-test] Успешно записано.")
+    print("[self-test] Пишу тестовую запись в базу Supabase...")
+    import db
+    if not db.SUPABASE_KEY:
+        print("[self-test] SUPABASE_KEY не задан — база не проверена")
+        return 0
+    rec = build_db_record({"id": f"self-test-{now_berlin().isoformat()}", **test_item},
+                          "self-test (проверка записи)", "self_test")
+    if db.insert_listings([rec]) != 1:
+        print("[self-test] ОШИБКА при записи в базу (см. сообщение выше)")
+        return 1
+    print("[self-test] В базу записано.")
     return 0
 
 
@@ -340,11 +393,16 @@ def main() -> int:
 
         if new_items:
             label = name
-            rows = []
+            rows, records = [], []
             for it in new_items:
                 if source.get("company") == "inberlinwohnen":
                     label = f"inberlinwohnen → {it.get('company')}"
                 rows.append(build_sheet_row(it, label, filters))
+                records.append(build_db_record(it, label, stype, filters))
+            if not DRY_RUN:
+                # база — независимо от таблицы; её ошибки не роняют прогон,
+                # а повторная вставка того же объявления игнорируется
+                insert_listings(records)
             if DRY_RUN:
                 for r in rows:
                     print("[dry-run]", r)
