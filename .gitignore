@@ -4,3 +4,8 @@ __pycache__/
 service-account*.json
 data/
 collect.log
+
+# secrets and caches (never commit)
+.env
+keys.json
+*.key
