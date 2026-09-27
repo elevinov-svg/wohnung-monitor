@@ -1,0 +1,4 @@
+# Только для локальных парсеров (Kleinanzeigen): подключение к Chrome по CDP.
+# Браузеры Playwright скачивать не нужно — используется уже установленный Chrome.
+-r requirements.txt
+playwright==1.63.0

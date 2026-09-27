@@ -63,6 +63,47 @@ Workflow «Сбор объявлений» (`.github/workflows/collect.yml`, `co
 | `config.yaml` | фильтры, лимит Jobcenter, слова для отсева по типу жилья |
 | `supabase/migrations/` | схема таблиц |
 | `tests/` | тесты разбора страниц (`tests/fixtures` — образцы) и логики |
+| `kleinanzeigen_collect.py`, `parsers/kleinanzeigen.py` | сбор Kleinanzeigen — только локально (см. ниже) |
+| `scripts/*kleinanzeigen*.ps1`, `scripts/copy_chrome_profile.ps1` | Chrome с портом 9222 и задача в Планировщике |
+| `.envrc.ps1` | переменные окружения для локального запуска — только `Get-Secret` из Bitwarden, без значений |
+
+## Kleinanzeigen (локально, не в Actions)
+
+Kleinanzeigen банит IP дата-центров, поэтому сбор идёт на домашнем компьютере через
+настоящий Chrome с уже выполненным входом. Пишет **только** в Supabase
+`collected_listings` (`company = 'Kleinanzeigen'`) — сырые данные без оценки.
+
+Что собирается: ID, ссылка, заголовок, полное описание, Kaltmiete / Warmmiete /
+Nebenkosten / Heizkosten / Kaution (что есть), площадь, комнаты, этаж, район и адрес
+как на сайте, частный / коммерческий продавец (`seller_type`), имя, телефон и e-mail
+(если видны без клика или есть в Impressum), `contact` (userId, «Aktiv seit», сайт
+компании, Impressum, есть ли форма отклика и нужен ли вход), дата создания (`published`;
+дата «поднятия» — в `raw.detail.bumped_at`), `found_via` — в каких поисках найдено.
+
+Поиски (фильтры — через URL сайта, значения в `config.yaml` → `kleinanzeigen`):
+Friedrichshain и Mitte × {все, чекбокс WBS сайта, текстовый поиск «wbs»}, Kaltmiete ≤ 850 €
+(черновой ориентир, не лимит Jobcenter), 1–1,5 комнаты. Одно объявление из нескольких
+поисков — одна строка. Лента листается до первого уже известного ID. Первый запуск —
+«точка отсчёта»: текущие объявления пишутся с `baseline = true` без подробных страниц.
+
+Установка (один раз, PowerShell 7):
+
+```powershell
+pip install -r requirements-local.txt
+# 1. закрыть Chrome полностью, затем скопировать профиль (порт 9222 для основного профиля Chrome не открывает)
+pwsh -File scripts\copy_chrome_profile.ps1
+# 2. открыть Chrome с портом 9222 (+ ярлык «Chrome Kleinanzeigen» на рабочем столе); проверить, что вход в Kleinanzeigen есть
+pwsh -File scripts\start_kleinanzeigen_chrome.ps1 -CreateShortcut
+# 3. секрет Supabase в Bitwarden (имя — как в .envrc.ps1)
+Add-Secret wohnung-monitor-supabase-key
+# 4. проверка без записи в базу, затем задача каждые 30 минут
+python kleinanzeigen_collect.py --no-db --now
+pwsh -File scripts\register_kleinanzeigen_task.ps1
+```
+
+Поведение: окно Chrome с портом закрыто → запуск ничего не делает и откладывает
+следующую попытку на 2 часа (`data/kleinanzeigen/state.json`); капча / блокировка →
+стоп целиком, пауза 6 часов, в `parser_runs` — ошибка. Лог — `data/kleinanzeigen/collect.log`.
 
 ## Фильтры (config.yaml)
 
