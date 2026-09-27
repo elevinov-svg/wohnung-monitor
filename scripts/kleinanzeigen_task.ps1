@@ -11,6 +11,7 @@ $log = Join-Path $logDir "collect.log"
 
 try {
     . (Join-Path $repo ".envrc.ps1")
+    Add-Content $log "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') [секрет] SUPABASE_KEY: $global:WmSecretSource"
 } catch {
     Add-Content $log "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') [error] .envrc.ps1: $($_.Exception.Message)"
     exit 1

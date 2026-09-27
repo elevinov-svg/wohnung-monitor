@@ -97,10 +97,18 @@ pwsh -File scripts\start_kleinanzeigen_chrome.ps1 -CreateShortcut
 # 3. секрет Supabase в Bitwarden (имя — как в .envrc.ps1)
 # если записи ещё нет: создать в Bitwarden запись «wohnung-monitor-supabase-key» (ключ — в поле пароля), затем разблокировать хранилище
 $env:BW_SESSION = bw unlock --raw
-# 4. проверка без записи в базу, затем задача каждые 30 минут
-python kleinanzeigen_collect.py --no-db --now
+# 4. прочитать ключ (заодно сохранится зашифрованная копия для Планировщика) и проверить сбор
+. .\.envrc.ps1; python kleinanzeigen_collect.py --no-db --now
+# 5. задача каждые 30 минут
 pwsh -File scripts\register_kleinanzeigen_task.ps1
 ```
+
+Секреты: `Get-Secret` (`scripts/secrets.ps1`) берёт ключ из Bitwarden, если хранилище
+разблокировано, и заодно обновляет копию в `%LOCALAPPDATA%\wohnung-monitor\secrets`
+(зашифрована Windows DPAPI — читается только твоей учётной записью на этом компьютере).
+Задача Планировщика Bitwarden разблокировать не может и берёт копию; мастер-пароль нигде
+не хранится. Поменяла ключ в Bitwarden — один раз `$env:BW_SESSION = bw unlock --raw; . .\.envrc.ps1`.
+В логе задачи видно, откуда взят ключ (`[секрет] SUPABASE_KEY: …`).
 
 Поведение: окно Chrome с портом закрыто → запуск ничего не делает и откладывает
 следующую попытку на 2 часа (`data/kleinanzeigen/state.json`); капча / блокировка →
