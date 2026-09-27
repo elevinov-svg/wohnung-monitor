@@ -315,7 +315,12 @@ class Monitor:
         uniq = {}
         for x in items:
             uniq.setdefault(x.external_id, x)
-        items = list(uniq.values())
+        self.process_items(company, parser, list(uniq.values()), st, result, pending)
+
+    def process_items(self, company: str, parser, items: list[Listing], st: CompanyStats,
+                      result: CycleResult, pending: list[Pending]) -> None:
+        """Уже полученный список компании: отсев увиденных, фильтр, очередь на запись."""
+        now = st.started_at
         st.items = len(items)
 
         seen, unfinished = {}, {}
@@ -528,19 +533,39 @@ class Monitor:
 
     # ------------------------------------------------------------ цикл целиком
 
+    def save_geocache(self) -> None:
+        if self.dry_run or not self._store_ok():
+            return
+        entries = self.geo.take_new()
+        if not entries:
+            return
+        try:
+            self.store.save_geocache(entries)
+        except SupabaseError as exc:
+            self.geo.put_back(entries)
+            self.log(f"[warn] не удалось сохранить geocache: {exc}")
+
+    def handle(self, company: str, parser, items: list[Listing]) -> CycleResult:
+        """Список, уже собранный collect.py: фильтр и запись в таблицу и listings.
+        Журнал прогонов и здоровье парсера ведёт сам collect.py."""
+        result, pending = CycleResult(), []
+        st = CompanyStats(company, started_at=self.clock())
+        result.stats[company] = st
+        self.process_items(company, parser, items, st, result, pending)
+        self.write(pending, result)
+        self.save_geocache()
+        if st.new or pending or result.errors:
+            self.log(f"[фильтр] {company}: новых {st.new}, прошло фильтр {st.passed}, "
+                     f"в таблицу {st.sheet_written}, в базу {st.db_written}, ошибок {result.errors}")
+        return result
+
     def run_cycle(self) -> CycleResult:
         result, pending = CycleResult(), []
         for company, parser in self.parsers.items():
             self.process_company(company, parser, result, pending)
         self.write(pending, result)
         self.update_health(result)
-
-        if self.geo.new_entries and self._store_ok() and not self.dry_run:
-            try:
-                self.store.save_geocache(self.geo.new_entries)
-                self.geo.new_entries = {}
-            except SupabaseError as exc:
-                self.log(f"[warn] не удалось сохранить geocache: {exc}")
+        self.save_geocache()
 
         if self._store_ok() and not self.dry_run:
             gh = os.environ.get("GITHUB_RUN_ID")

@@ -251,3 +251,36 @@ def test_alert_after_three_errors(monkeypatch):
         w.cycle()
     assert w.alerted and w.db.health["Test"]["state"] == "alert"
     assert [r["status"] for r in w.db.runs] == ["error"] * 3
+
+
+class FakeMonitor:
+    def __init__(self, fail=False):
+        self.calls, self.fail = [], fail
+
+    def handle(self, company, parser, items):
+        if self.fail:
+            raise RuntimeError("Sheets API 500")
+        self.calls.append((company, [x.external_id for x in items]))
+
+
+def test_filter_step_gets_collected_items(monkeypatch):
+    w = make_worker(monkeypatch)
+    w.monitor = FakeMonitor()
+    w.parser.items = [Listing(company="Test", external_id="A", link="a", warm=500.0)]
+    w.cycle()
+    assert w.monitor.calls == [("Test", ["A"])]
+
+    def boom():
+        raise requests.Timeout()
+
+    w.parser.fetch = boom           # список не получен — фильтр не вызывается
+    w.cycle()
+    assert len(w.monitor.calls) == 1
+
+
+def test_filter_step_failure_does_not_break_collect(monkeypatch):
+    w = make_worker(monkeypatch)
+    w.monitor = FakeMonitor(fail=True)
+    w.parser.items = [Listing(company="Test", external_id="A", link="a", warm=500.0)]
+    w.cycle()
+    assert "A" in w.db.listings and w.db.runs[-1]["status"] == "ok"

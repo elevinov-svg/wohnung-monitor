@@ -89,6 +89,13 @@ class FakeGeo:
     def __init__(self, km=1.0):
         self.km, self.fail, self.new_entries = km, False, {}
 
+    def take_new(self):
+        out, self.new_entries = self.new_entries, {}
+        return out
+
+    def put_back(self, entries):
+        self.new_entries.update(entries)
+
     def distance(self, x, allow_temp_error=True):
         if self.fail and allow_temp_error:
             raise GeoTempError("HTTP 429")
@@ -338,3 +345,27 @@ def test_legacy_link_match_counts_as_seen():
         "written_sheet": True, "written_db": True, "legacy": True}
     r = mon.run_cycle()
     assert r.sheet_written == 0 and store.seen[("TestCo", "A")]["legacy"]
+
+
+# ================================================================ handle(): список уже собран collect.py
+
+def test_handle_uses_given_items_and_does_not_fetch():
+    mon, store, sheet, geo, parser, clock, logs = make([])
+    parser.fail = True                       # fetch не должен вызываться
+    geo.new_entries = {"q": (52.5, 13.4)}
+    r = mon.handle("TestCo", parser, [L("A"), L("B", warm=900)])
+    assert (r.sheet_written, r.db_written) == (1, 1)
+    assert sheet.rows[0][0] == "TestCo:A"
+    assert store.seen[("TestCo", "B")]["passed_filter"] is False
+    assert store.geocache == {"q": (52.5, 13.4)} and geo.new_entries == {}
+    assert store.runs == [] and store.health == {}     # журнал и здоровье ведёт collect.py
+    r = mon.handle("TestCo", parser, [L("A"), L("B", warm=900)])
+    assert (r.sheet_written, r.db_written) == (0, 0) and len(sheet.rows) == 1
+
+
+def test_handle_geocache_put_back_on_db_error():
+    mon, store, sheet, geo, parser, *_ = make([])
+    geo.new_entries = {"q": None}
+    store.save_geocache = lambda e: (_ for _ in ()).throw(SupabaseError("geocache: HTTP 503"))
+    mon.handle("TestCo", parser, [L("A")])
+    assert geo.new_entries == {"q": None}

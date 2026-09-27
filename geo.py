@@ -13,6 +13,7 @@
 
 import math
 import re
+import threading
 import time
 
 import requests
@@ -71,12 +72,28 @@ class Geocoder:
         self.cache = dict(cache or {})
         self.new_entries: dict = {}
         self._last_call = 0.0
+        # один геокодер на все потоки collect.py: кэш общий, Nominatim — строго по очереди
+        self._lock = threading.RLock()
+
+    def take_new(self) -> dict:
+        """Новые записи кэша для сохранения в базу (и очистить список)."""
+        with self._lock:
+            out, self.new_entries = self.new_entries, {}
+            return out
+
+    def put_back(self, entries: dict) -> None:
+        """Сохранить не удалось — вернуть, попробуем в следующий раз."""
+        with self._lock:
+            self.new_entries = {**entries, **self.new_entries}
 
     def geocode(self, address: str):
         """Адрес -> (lat, lon) | None. Бросает GeoTempError при временной ошибке."""
         if not address:
             return None
-        q = clean_address(address)
+        with self._lock:
+            return self._geocode(clean_address(address))
+
+    def _geocode(self, q: str):
         if q in self.cache:
             return self.cache[q]
         wait = 1.1 - (time.time() - self._last_call)

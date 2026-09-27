@@ -7,6 +7,11 @@
   parser_runs         строка на компанию за цикл: статус, счётчики, время, повторы, ошибка
   parser_health       состояние парсера: ok / suspect / alert
 
+Второй шаг того же цикла — фильтр (pipeline.py, config.yaml): новые объявления,
+прошедшие фильтр, дописываются в Google-таблицу «Поиск квартиры Берлин»
+(вкладка «Объявления») и в Supabase listings. Что уже видели и куда записали —
+seen_listings. Сайты при этом повторно не опрашиваются.
+
 Каждая компания собирается в своём потоке со своим расписанием — медленная или
 зависшая компания не задерживает остальные. Подробная страница читается сразу
 для новых объявлений; для известных — раз в сутки (не больше REFRESH_PER_CYCLE
@@ -15,6 +20,8 @@
   python collect.py                               один цикл
   python collect.py --loop-minutes 50 --interval 180
   python collect.py --no-db --only WBM            без базы: только лог (для отладки)
+  python collect.py --no-filter                   только сбор, без фильтра и таблицы
+  python collect.py --self-test                   тестовая строка в таблицу и в listings
 
 Код выхода 1 — если какая-то компания в этом запуске ПЕРЕШЛА в alert
 (прогон красный, GitHub присылает письмо).
@@ -28,13 +35,20 @@ import threading
 import time
 import traceback
 from dataclasses import fields
+from pathlib import Path
 
 import requests
+import yaml
 
+from geo import Geocoder
 from models import Listing
 from parsers import PARSERS
 from parsers.common import StructureError, detail_extras, detail_pairs, fill_deposit, get_detail, stats
+from pipeline import BERLIN, Monitor, db_record, sheet_row
+from storage.sheets import Sheet
 from storage.supabase import Supabase, SupabaseError
+
+CONFIG = Path(__file__).parent / "config.yaml"
 
 REFRESH_AFTER = dt.timedelta(hours=24)   # известные объявления: подробная страница раз в сутки
 REFRESH_PER_CYCLE = 20                   # не больше стольких подробных за цикл (перепроверка и первый цикл)
@@ -88,10 +102,13 @@ def same(a, b) -> bool:
 class Worker(threading.Thread):
     """Одна компания: свой поток, своё расписание, свой клиент базы."""
 
-    def __init__(self, company: str, parser, args, end: float):
+    def __init__(self, company: str, parser, args, end: float, cfg: dict | None = None, geo: Geocoder | None = None):
         super().__init__(name=company, daemon=True)
         self.company, self.parser, self.args, self.end = company, parser, args, end
         self.db = None if args.no_db else Supabase()
+        # фильтр и запись в таблицу: свой Monitor на поток, геокодер общий
+        self.monitor = None if cfg is None else Monitor(
+            cfg, {company: parser}, self.db, Sheet(), geo, dry_run=args.no_db, log=log, clock=utcnow)
         self.known: dict[str, dict] | None = None     # external_id -> строка базы (без raw)
         self.health: dict = {}
         self.alerted = False
@@ -164,6 +181,7 @@ class Worker(threading.Thread):
             if meta.get("warning"):
                 rec["error"] = "; ".join(filter(None, [rec["error"], meta["warning"]]))
 
+        fetched = rec["status"] in ("ok", "partial")
         if rec["status"] in ("ok", "empty", "partial"):
             t1 = time.monotonic()
             self.process(items, ts, rec, mark_gone)
@@ -179,6 +197,15 @@ class Worker(threading.Thread):
             f"изменилось {rec.get('changed_count', 0)}, подробных {rec.get('detail_new', 0)}+{rec.get('detail_refresh', 0)}, "
             f"{rec['list_sec']}с/{rec['requests']} запр., повторов {rec['retries']}"
             + (f" — {rec['error']}" if rec.get("error") else ""))
+        if self.monitor is not None and fetched and items:
+            self.filter_step(items)
+
+    def filter_step(self, items: list[Listing]) -> None:
+        """Новые объявления через фильтр -> Google-таблица и listings. Ошибка не мешает сбору."""
+        try:
+            self.monitor.handle(self.company, self.parser, items)
+        except Exception:  # noqa: BLE001
+            log(f"[error] {self.company}: фильтр / запись в таблицу упали:\n{traceback.format_exc(limit=4)}")
 
     def fetch(self) -> list[Listing]:
         if self.company == "Gewobag":
@@ -365,19 +392,60 @@ class Worker(threading.Thread):
             log(f"[db-error] {self.company}: parser_runs: {exc}")
 
 
+def self_test(cfg: dict) -> int:
+    """Одна тестовая строка в таблицу и в listings — проверка доступа."""
+    now = utcnow()
+    x = Listing(company="self-test", external_id=now.strftime("%Y%m%d-%H%M%S"),
+                link="(тестовая запись self_test — строку можно удалить)",
+                title="ТЕСТ — эту строку можно удалить", address="Boxhagener Platz, 10245 Berlin")
+    x.extra.update(km=0.0, km_src="коорд.", priority="тест")
+    ok = True
+    try:
+        Sheet().append([sheet_row(x, cfg, now.astimezone(BERLIN).strftime("%Y-%m-%d %H:%M"))])
+        log(f"[self-test] таблица: записано ({x.sheet_id})")
+    except Exception as exc:  # noqa: BLE001
+        ok = False
+        log(f"[self-test] таблица: ОШИБКА {exc}")
+    try:
+        Supabase().upsert_listings([db_record(x, cfg, now.isoformat())])
+        log(f"[self-test] база: записано (listings, external_id={x.external_id})")
+    except Exception as exc:  # noqa: BLE001
+        ok = False
+        log(f"[self-test] база: ОШИБКА {exc}")
+    return 0 if ok else 1
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--loop-minutes", type=float, default=0)
     ap.add_argument("--interval", type=int, default=180)
     ap.add_argument("--only", help="одна компания, напр. --only WBM")
-    ap.add_argument("--no-db", action="store_true", help="без базы: только лог, подробных не больше 3")
+    ap.add_argument("--no-db", action="store_true",
+                    help="без базы: только лог, подробных не больше 3, в таблицу ничего не пишется")
+    ap.add_argument("--no-filter", action="store_true", help="только сбор: без фильтра и Google-таблицы")
+    ap.add_argument("--self-test", action="store_true", help="тестовая строка в таблицу и в listings")
     args = ap.parse_args()
+    cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
+    if args.self_test:
+        return self_test(cfg)
     if not args.no_db and not Supabase().configured:
         log("[error] SUPABASE_KEY не задан (или запустите с --no-db)")
         return 2
+
+    geo = None
+    if not args.no_filter:
+        cache = {}
+        if not args.no_db:
+            try:
+                cache = Supabase().load_geocache()
+            except SupabaseError as exc:
+                log(f"[warn] geocache не прочитан: {exc}")
+        geo = Geocoder(cache)
     end = time.monotonic() + args.loop_minutes * 60
-    log(f"===== сбор {utcnow().isoformat()}: {args.loop_minutes} мин, проверка каждые {args.interval} с =====")
-    workers = [Worker(c, p, args, end) for c, p in PARSERS.items() if not args.only or c == args.only]
+    log(f"===== сбор {utcnow().isoformat()}: {args.loop_minutes} мин, проверка каждые {args.interval} с"
+        f"{'' if args.no_filter else ', фильтр -> таблица'} =====")
+    workers = [Worker(c, p, args, end, None if args.no_filter else cfg, geo)
+               for c, p in PARSERS.items() if not args.only or c == args.only]
     for w in workers:
         w.start()
     for w in workers:
