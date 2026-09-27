@@ -24,7 +24,10 @@ $chrome = @("$env:ProgramW6432\Google\Chrome\Application\chrome.exe",
 if (-not $chrome) { throw "chrome.exe не найден" }
 if (-not (Test-Path $ProfileDir)) { throw "Нет папки профиля $ProfileDir — сначала scripts\copy_chrome_profile.ps1" }
 
+# флаги против «заморозки» фоновых вкладок и свёрнутых окон: иначе сбор зависает, пока окно не на экране
 $chromeArgs = @("--remote-debugging-port=$Port", "--user-data-dir=`"$ProfileDir`"", "--profile-directory=Default",
+                "--disable-background-timer-throttling", "--disable-backgrounding-occluded-windows",
+                "--disable-renderer-backgrounding", "--disable-features=CalculateNativeWinOcclusion",
                 "https://www.kleinanzeigen.de/")
 
 if ($CreateShortcut) {

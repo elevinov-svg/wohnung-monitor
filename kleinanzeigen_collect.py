@@ -41,6 +41,7 @@ import json
 import os
 import random
 import sys
+import threading
 import time
 import traceback
 from dataclasses import dataclass, fields
@@ -60,6 +61,7 @@ STATE = ROOT / "data" / "kleinanzeigen" / "state.json"
 ALERT_AFTER = 3                 # прогонов подряд с ошибкой / блокировкой -> alert
 MODEL_COLS = [f.name for f in fields(Listing) if f.name not in ("company", "detail_loaded", "extra")]
 NO_DB_DETAILS = 2
+WATCHDOG_MIN = 20               # прогон дольше — принудительный выход (Планировщик убивает на 25-й минуте)
 # страница готова к разбору: список, пустая выдача или карточка объявления
 READY = "#srchrslt-adtable, #srchrslt-content, #viewad-title, #viewad-main"
 
@@ -103,7 +105,11 @@ def cdp_alive(cdp_url: str) -> bool:
 
 
 class Browser:
-    """Своя вкладка в уже запущенном Chrome (CDP). Браузер и чужие вкладки не трогаем."""
+    """Своё окно в уже запущенном Chrome (CDP). Браузер и чужие вкладки не трогаем.
+
+    Отдельное окно в фоне: активная вкладка своего окна не считается «фоновой», и Chrome её
+    не замораживает (иначе чтение страницы зависает, пока окно не на экране). Вдобавок Chrome
+    запускается с флагами против заморозки (scripts/start_kleinanzeigen_chrome.ps1)."""
 
     def __init__(self, cdp_url: str):
         from playwright.sync_api import sync_playwright
@@ -111,7 +117,13 @@ class Browser:
         try:
             self.browser = self.pw.chromium.connect_over_cdp(cdp_url, timeout=15000)
             ctx = self.browser.contexts[0] if self.browser.contexts else self.browser.new_context()
-            self.page = ctx.new_page()
+            try:
+                cdp = self.browser.new_browser_cdp_session()
+                with ctx.expect_page(timeout=10000) as info:
+                    cdp.send("Target.createTarget", {"url": "about:blank", "newWindow": True, "background": True})
+                self.page = info.value
+            except Exception:  # noqa: BLE001 — не вышло с окном: обычная вкладка
+                self.page = ctx.new_page()
         except Exception:
             self.pw.stop()
             raise
@@ -119,14 +131,21 @@ class Browser:
 
     def get(self, url: str) -> tuple[str, int | None, str]:
         self.requests += 1
-        resp = self.page.goto(url, wait_until="domcontentloaded", timeout=45000)
-        self.page.wait_for_timeout(random.randint(800, 2000))      # «прочитать» страницу
-        # событие «load» может не наступить (реклама, трекеры) — ждём нужные элементы, а не полной загрузки.
-        # Страница может ещё перенаправляться — тогда content() падает; ждём и повторяем
+        # Не ждём событий загрузки: в свёрнутом / фоновом окне и при перенаправлении сайта на канонический
+        # адрес они приходят поздно или прерываются («interrupted by another navigation»). Достаточно
+        # начала ответа, дальше — ждём нужные элементы страницы.
+        resp = None
         try:
-            self.page.wait_for_selector(READY, state="attached", timeout=15000)
-        except Exception:  # noqa: BLE001 — капча / пустая выдача / другая вёрстка: разберёт parse_*
+            resp = self.page.goto(url, wait_until="commit", timeout=45000)
+        except Exception as exc:  # noqa: BLE001
+            if "interrupted by another navigation" not in str(exc) and "Timeout" not in type(exc).__name__:
+                raise
+        try:
+            self.page.wait_for_selector(READY, state="attached", timeout=40000)
+        except Exception:  # noqa: BLE001 — капча / другая вёрстка / не загрузилось: разберёт parse_*
             pass
+        self.page.wait_for_timeout(random.randint(800, 2000))      # «прочитать» страницу
+        # страница может ещё перенаправляться — тогда content() падает; ждём и повторяем
         for attempt in range(4):
             try:
                 return self.page.content(), (resp.status if resp else None), self.page.url
@@ -294,9 +313,15 @@ def run(args, kc: dict) -> int:
     meta = dict(health.get("meta") or {})
     baseline_feeds = set(meta.get("baseline_feeds") or [])
 
+    # сторожевой таймер: зависший браузер не должен держать прогон до убийства Планировщиком
+    watchdog = threading.Timer(WATCHDOG_MIN * 60, lambda: (
+        log(f"[error] прогон висит дольше {WATCHDOG_MIN} мин — принудительное завершение"), os._exit(4)))
+    watchdog.daemon = True
+    watchdog.start()
     try:
         browser = Browser(kc["cdp_url"])
     except Exception as exc:  # noqa: BLE001
+        watchdog.cancel()
         defer(state, kc["retry_hours"], f"не удалось подключиться к браузеру: {type(exc).__name__}: {str(exc)[:150]}")
         return 0
 
@@ -322,7 +347,7 @@ def run(args, kc: dict) -> int:
             except ka.BlockDetected:
                 raise
             except Exception as exc:  # noqa: BLE001 — одна лента не должна ронять остальные
-                err = f"структура: {exc}" if isinstance(exc, StructureError) else f"{type(exc).__name__}: {str(exc)[:200]}"
+                err = f"структура: {exc}" if isinstance(exc, StructureError) else f"{type(exc).__name__}: {str(exc)[:400]}"
                 feeds_meta[feed.name] = {"error": err}
                 rec["status"], rec["error"] = "error", f"{feed.name}: {err}"
             log(f"  [лента] {feed.name}: {feeds_meta[feed.name]}")
@@ -345,6 +370,7 @@ def run(args, kc: dict) -> int:
         log(f"[error] прогон упал:\n{traceback.format_exc(limit=4)}")
     finally:
         browser.close()
+        watchdog.cancel()
 
     n_fresh = sum(bool(x.extra.get("fresh")) for x in found.values())
     rec.update(finished_at=utcnow().isoformat(), items_count=len(found), new_count=n_fresh,

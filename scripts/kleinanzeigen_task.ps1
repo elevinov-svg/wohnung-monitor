@@ -17,6 +17,10 @@ try {
     exit 1
 }
 
+# Python пишет UTF-8; без этого PowerShell читает его вывод в кодировке консоли и в логе кракозябры
 $env:PYTHONIOENCODING = "utf-8"
+$env:PYTHONUTF8 = "1"
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new($false)
+$OutputEncoding = [Text.UTF8Encoding]::new($false)
 python kleinanzeigen_collect.py *>> $log
 exit $LASTEXITCODE
