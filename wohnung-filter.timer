@@ -1,0 +1,11 @@
+[Unit]
+Description=Запуск фильтра wohnung-monitor каждые 30 минут
+Requires=wohnung-filter.service
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=30min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
