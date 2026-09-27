@@ -12,9 +12,15 @@ param(
 )
 $ErrorActionPreference = "Stop"
 
-$chrome = @("$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+# ProgramW6432 — настоящая «Program Files» даже в 32-битном PowerShell (там ProgramFiles = «Program Files (x86)»)
+$appPath = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe",
+             "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe") |
+    ForEach-Object { (Get-ItemProperty $_ -ErrorAction SilentlyContinue).'(default)' }
+$chrome = @("$env:ProgramW6432\Google\Chrome\Application\chrome.exe",
+            "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
             "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe",
-            "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe") | Where-Object { Test-Path $_ } | Select-Object -First 1
+            "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe") + $appPath |
+    Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
 if (-not $chrome) { throw "chrome.exe не найден" }
 if (-not (Test-Path $ProfileDir)) { throw "Нет папки профиля $ProfileDir — сначала scripts\copy_chrome_profile.ps1" }
 
