@@ -95,7 +95,8 @@ pwsh -File scripts\copy_chrome_profile.ps1
 # 2. открыть Chrome с портом 9222 (+ ярлык «Chrome Kleinanzeigen» на рабочем столе); проверить, что вход в Kleinanzeigen есть
 pwsh -File scripts\start_kleinanzeigen_chrome.ps1 -CreateShortcut
 # 3. секрет Supabase в Bitwarden (имя — как в .envrc.ps1)
-Add-Secret wohnung-monitor-supabase-key
+# если записи ещё нет: создать в Bitwarden запись «wohnung-monitor-supabase-key» (ключ — в поле пароля), затем разблокировать хранилище
+$env:BW_SESSION = bw unlock --raw
 # 4. проверка без записи в базу, затем задача каждые 30 минут
 python kleinanzeigen_collect.py --no-db --now
 pwsh -File scripts\register_kleinanzeigen_task.ps1
