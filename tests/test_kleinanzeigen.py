@@ -298,3 +298,14 @@ def test_runs_before_retry_time_exit_quietly(tmp_path, monkeypatch):
     kc.save_state({"next_try_after": (kc.utcnow() + dt.timedelta(hours=1)).isoformat(), "deferred_reason": "тест"})
     monkeypatch.setattr(kc, "cdp_alive", lambda url: pytest.fail("не должен проверять браузер во время паузы"))
     assert kc.run(run_args(), KC) == 0
+
+
+def test_second_run_is_locked_out(tmp_path, monkeypatch):
+    monkeypatch.setattr(kc, "LOCK", tmp_path / "run.lock")
+    first = kc.acquire_lock()
+    assert first is not None
+    assert kc.acquire_lock() is None          # пока первый прогон идёт — второй не стартует
+    first.close()
+    again = kc.acquire_lock()
+    assert again is not None
+    again.close()

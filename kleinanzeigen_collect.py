@@ -58,6 +58,7 @@ from storage.supabase import Supabase, SupabaseError
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "config.yaml"
 STATE = ROOT / "data" / "kleinanzeigen" / "state.json"
+LOCK = ROOT / "data" / "kleinanzeigen" / "run.lock"
 ALERT_AFTER = 3                 # прогонов подряд с ошибкой / блокировкой -> alert
 MODEL_COLS = [f.name for f in fields(Listing) if f.name not in ("company", "detail_loaded", "extra")]
 NO_DB_DETAILS = 2
@@ -88,6 +89,24 @@ def save_state(state: dict) -> None:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def acquire_lock():
+    """Один прогон за раз (задача Планировщика + ручной запуск). Блокировка снимается сама,
+    когда процесс завершается, — даже если он упал или был убит."""
+    LOCK.parent.mkdir(parents=True, exist_ok=True)
+    f = open(LOCK, "a+")
+    try:
+        if os.name == "nt":
+            import msvcrt
+            msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        return f
+    except OSError:
+        f.close()
+        return None
+
+
 def defer(state: dict, hours: float, why: str) -> None:
     until = utcnow() + dt.timedelta(hours=hours)
     state.update(next_try_after=until.isoformat(), deferred_reason=why)
@@ -115,7 +134,12 @@ class Browser:
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
         try:
-            self.browser = self.pw.chromium.connect_over_cdp(cdp_url, timeout=15000)
+            # в профиле много целей CDP (реклама, расширения) — подключение бывает небыстрым; одна повторная попытка
+            try:
+                self.browser = self.pw.chromium.connect_over_cdp(cdp_url, timeout=60000)
+            except Exception:  # noqa: BLE001
+                time.sleep(10)
+                self.browser = self.pw.chromium.connect_over_cdp(cdp_url, timeout=60000)
             ctx = self.browser.contexts[0] if self.browser.contexts else self.browser.new_context()
             try:
                 cdp = self.browser.new_browser_cdp_session()
@@ -421,7 +445,14 @@ def main() -> int:
         log("[error] Kleinanzeigen запускается только локально (банит IP дата-центров)")
         return 1
     cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
-    return run(args, cfg["kleinanzeigen"])
+    lock = acquire_lock()
+    if lock is None:
+        log("[пропуск] другой прогон Kleinanzeigen ещё идёт")
+        return 0
+    try:
+        return run(args, cfg["kleinanzeigen"])
+    finally:
+        lock.close()
 
 
 if __name__ == "__main__":
