@@ -1,0 +1,53 @@
+name: Сбор объявлений
+
+# Сбор ВСЕХ объявлений шести компаний в Supabase (collected_listings,
+# listing_changes, parser_runs, parser_health), без фильтров. В том же цикле
+# новые объявления проходят фильтр (config.yaml), подходящие дописываются
+# в Google-таблицу «Поиск квартиры Берлин» и в Supabase listings.
+# Запуск каждые 30 минут; прогон работает ~50 минут и проверяет сайты каждые
+# 3 минуты. Благодаря concurrency следующий прогон ждёт окончания текущего.
+# В репозиторий ничего не коммитится — всё состояние в Supabase.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      self_test:
+        description: "Только записать одну тестовую строку в таблицу и listings (проверка доступа)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    env:
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      # Код выхода 1 — только когда компания ПЕРЕШЛА в alert (3 цикла подряд ошибка
+      # или подозрительное «пусто»): прогон красный, GitHub присылает письмо.
+      - name: Самопроверка записи
+        if: inputs.self_test == true
+        run: python collect.py --self-test
+
+      - name: Сбор в цикле
+        if: inputs.self_test != true
+        run: python collect.py --loop-minutes 50 --interval 180

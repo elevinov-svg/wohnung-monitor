@@ -1,0 +1,18 @@
+---
+name: Git workflow
+alwaysApply: true
+---
+
+# Git workflow
+
+After finishing each task, commit and push your changes:
+
+```
+git add -A && git commit -m "<short description in English>" && git push
+```
+
+If the terminal does not support `&&` (Windows PowerShell 5.1), run the three commands one by one and stop if one fails.
+
+- Before committing, run `git status` and check what is staged.
+- Never commit `.env`, `keys.json` or `*.key` files. If one of them is staged, unstage it (`git restore --staged <file>`), add it to `.gitignore` and tell the user.
+- If `git push` is rejected, run `git pull --rebase --autostash`, resolve conflicts if any, then push again. Never use `git push --force`.

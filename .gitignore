@@ -1,2 +1,11 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+service-account*.json
+data/
+collect.log
+
+# secrets and caches (never commit)
+.env
+keys.json
+*.key
