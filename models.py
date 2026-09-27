@@ -31,6 +31,13 @@ class Listing:
     wbs_source: str | None = None   # откуда: «фильтр сайта», «поле API», «метка на сайте», «подробная страница», «описание», «заголовок»
     wbs_type: str | None = None     # «140», «160/180/220», «… + besonderer Wohnbedarf»
     prices: dict = field(default_factory=dict)   # ВСЕ ценовые поля как есть: метка -> строка с сайта
+    description: str | None = None      # полный текст объявления, без обрезки
+    seller_type: str | None = None      # «private» / «commercial» / None = неизвестно
+    seller_name: str | None = None
+    contact_phone: str | None = None
+    contact_email: str | None = None
+    contact: dict = field(default_factory=dict)  # user_id, website, imprint, form{available, login_required, fields}…
+    found_via: list = field(default_factory=list)  # через какие поиски найдено (Kleinanzeigen: general / wbs_filter / wbs_text)
     tags: str = ""                  # заголовок + метки — текст для фильтра по типу жилья
     detail_loaded: bool = False     # подробная страница уже прочитана
     extra: dict = field(default_factory=dict)   # служебное: расстояние, приоритет, ошибки и т.п.
