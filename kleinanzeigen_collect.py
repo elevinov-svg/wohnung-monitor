@@ -18,9 +18,11 @@ Boxhagener Platz, WBS в тексте оценивает фильтр (отде�
 Совпадения между лентами склеиваются по ID объявления (found_via — где нашлось).
 
 Каждая лента листается от новых к старым до первого уже известного ID
-(stop_after_known; TOP-объявления закреплены сверху и не считаются). Первый запуск
-(в базе ещё нет Kleinanzeigen) — «точка отсчёта»: всё текущее пишется с baseline = true,
-без подробных страниц. Дальше подробная страница читается только для новых.
+(stop_after_known; TOP-объявления закреплены сверху и не считаются). Первый успешный
+обход КАЖДОЙ ленты — её «точка отсчёта»: найденное пишется с baseline = true, без
+подробных страниц (список таких лент — parser_health.meta.baseline_feeds). Дальше
+подробная страница читается только для новых. Ошибка одной ленты / карточки не
+останавливает остальные; стоп целиком — только капча.
 
   Браузер недоступен   -> ничего не делаем, следующая попытка через retry_hours (2 ч).
   Капча / блокировка   -> стоп целиком, уже собранное пишется, пауза block_retry_hours.
@@ -58,6 +60,8 @@ STATE = ROOT / "data" / "kleinanzeigen" / "state.json"
 ALERT_AFTER = 3                 # прогонов подряд с ошибкой / блокировкой -> alert
 MODEL_COLS = [f.name for f in fields(Listing) if f.name not in ("company", "detail_loaded", "extra")]
 NO_DB_DETAILS = 2
+# страница готова к разбору: список, пустая выдача или карточка объявления
+READY = "#srchrslt-adtable, #srchrslt-content, #viewad-title, #viewad-main"
 
 
 def log(msg: str) -> None:
@@ -117,10 +121,14 @@ class Browser:
         self.requests += 1
         resp = self.page.goto(url, wait_until="domcontentloaded", timeout=45000)
         self.page.wait_for_timeout(random.randint(800, 2000))      # «прочитать» страницу
-        # страница может ещё перенаправляться / догружаться — тогда content() падает; ждём и повторяем
+        # событие «load» может не наступить (реклама, трекеры) — ждём нужные элементы, а не полной загрузки.
+        # Страница может ещё перенаправляться — тогда content() падает; ждём и повторяем
+        try:
+            self.page.wait_for_selector(READY, state="attached", timeout=15000)
+        except Exception:  # noqa: BLE001 — капча / пустая выдача / другая вёрстка: разберёт parse_*
+            pass
         for attempt in range(4):
             try:
-                self.page.wait_for_load_state("load", timeout=15000)
                 return self.page.content(), (resp.status if resp else None), self.page.url
             except Exception as exc:  # noqa: BLE001
                 if "navigating" not in str(exc) or attempt == 3:
@@ -160,8 +168,10 @@ def make_feeds(kc: dict) -> list[Feed]:
     return out
 
 
-def scan_feed(browser: Browser, feed: Feed, known: set, found: dict, kc: dict, max_pages: int) -> dict:
-    """Листает ленту до первого известного ID. Новые — в found (склейка по ID)."""
+def scan_feed(browser: Browser, feed: Feed, known: set, found: dict, kc: dict, max_pages: int,
+              fresh: bool = True) -> dict:
+    """Листает ленту до первого известного ID. Новые — в found (склейка по ID).
+    fresh=False — у ленты ещё не было точки отсчёта: её находки — уже висевшие объявления."""
     url, pages, streak, new, stop = feed.url, 0, 0, 0, "конец ленты"
     total = None
     while url:
@@ -190,6 +200,8 @@ def scan_feed(browser: Browser, feed: Feed, known: set, found: dict, kc: dict, m
                 new += 1
             if feed.name not in cur.found_via:
                 cur.found_via.append(feed.name)
+            if fresh:
+                cur.extra["fresh"] = True      # новое хотя бы в одной ленте с точкой отсчёта
             if feed.kind == "wbs_filter":
                 cur.wbs, cur.wbs_source = "да", "фильтр сайта"
         url = page.next_url
@@ -197,7 +209,10 @@ def scan_feed(browser: Browser, feed: Feed, known: set, found: dict, kc: dict, m
 
 
 def read_detail(browser: Browser, x: Listing) -> tuple[bool, str | None]:
-    html, status, final = browser.get(x.link)
+    try:
+        html, status, final = browser.get(x.link)
+    except Exception as exc:  # noqa: BLE001 — таймаут одной карточки не должен ронять прогон
+        return False, f"загрузка: {type(exc).__name__}: {str(exc)[:150]}"
     if status in (404, 410) or ka.ad_id(final) not in (None, x.external_id) or \
             (status and status < 400 and "/s-anzeige/" not in final):
         return False, f"объявление недоступно (HTTP {status}, {final[:120]})"
@@ -215,6 +230,11 @@ def load_known(db: Supabase) -> set:
     return {r["external_id"] for r in rows}
 
 
+def load_health(db: Supabase) -> dict:
+    rows = db.select("parser_health", {"select": "*", "company": f"eq.{ka.COMPANY}"})
+    return rows[0] if rows else {"company": ka.COMPANY, "state": "ok", "fail_streak": 0, "empty_streak": 0, "meta": {}}
+
+
 def db_row(x: Listing, tsi: str, baseline: bool) -> dict:
     row = {c: getattr(x, c) for c in MODEL_COLS}
     raw = {"list": x.extra.get("list_raw"), "detail": x.extra.get("detail_raw"), "top": x.extra.get("top")}
@@ -224,9 +244,7 @@ def db_row(x: Listing, tsi: str, baseline: bool) -> dict:
     return row
 
 
-def update_health(db: Supabase, status: str, error: str | None, n_items: int, tsi: str) -> None:
-    rows = db.select("parser_health", {"select": "*", "company": f"eq.{ka.COMPANY}"})
-    h = rows[0] if rows else {"company": ka.COMPANY, "state": "ok", "fail_streak": 0, "empty_streak": 0, "meta": {}}
+def update_health(db: Supabase, h: dict, status: str, error: str | None, n_items: int, tsi: str) -> None:
     prev = h.get("state") or "ok"
     if status == "error":
         h["fail_streak"] = (h.get("fail_streak") or 0) + 1
@@ -267,10 +285,14 @@ def run(args, kc: dict) -> int:
         return 1
     try:
         known = load_known(db) if db else set()
+        health = load_health(db) if db else {"meta": {}}
     except SupabaseError as exc:
-        log(f"[db-error] не удалось прочитать известные ID, прогон пропущен: {exc}")
+        log(f"[db-error] не удалось прочитать базу, прогон пропущен: {exc}")
         return 1
-    baseline = db is not None and not known
+    # ленты, у которых уже есть точка отсчёта (первый успешный обход); у новых лент —
+    # всё найденное считается уже висевшим: baseline = true, без подробных страниц
+    meta = dict(health.get("meta") or {})
+    baseline_feeds = set(meta.get("baseline_feeds") or [])
 
     try:
         browser = Browser(kc["cdp_url"])
@@ -283,6 +305,7 @@ def run(args, kc: dict) -> int:
     rec = {"company": ka.COMPANY, "started_at": tsi, "status": "ok", "error": None}
     found: dict[str, Listing] = {}
     feeds_meta: dict = {}
+    new_baseline: list[str] = []
     blocked: Exception | None = None
     n_det = det_err = 0
     t0 = time.monotonic()
@@ -290,16 +313,24 @@ def run(args, kc: dict) -> int:
     try:
         max_pages = 1 if args.no_db else kc["max_pages"]
         for feed in make_feeds(kc):
+            fresh = db is None or feed.name in baseline_feeds
             try:
-                feeds_meta[feed.name] = scan_feed(browser, feed, known, found, kc, max_pages)
-            except StructureError as exc:
-                feeds_meta[feed.name] = {"error": str(exc)}
-                rec["status"], rec["error"] = "error", f"{feed.name}: структура: {exc}"
+                feeds_meta[feed.name] = scan_feed(browser, feed, known, found, kc, max_pages, fresh=fresh)
+                if not fresh:
+                    new_baseline.append(feed.name)
+                    feeds_meta[feed.name]["baseline"] = True
+            except ka.BlockDetected:
+                raise
+            except Exception as exc:  # noqa: BLE001 — одна лента не должна ронять остальные
+                err = f"структура: {exc}" if isinstance(exc, StructureError) else f"{type(exc).__name__}: {str(exc)[:200]}"
+                feeds_meta[feed.name] = {"error": err}
+                rec["status"], rec["error"] = "error", f"{feed.name}: {err}"
             log(f"  [лента] {feed.name}: {feeds_meta[feed.name]}")
         t1 = time.monotonic()
-        if not baseline:
-            limit = NO_DB_DETAILS if args.no_db else (args.max_details if args.max_details is not None else len(found))
-            for x in list(found.values())[:limit]:
+        fresh_items = [x for x in found.values() if x.extra.get("fresh")]
+        if fresh_items:
+            limit = NO_DB_DETAILS if args.no_db else (args.max_details if args.max_details is not None else len(fresh_items))
+            for x in fresh_items[:limit]:
                 pause(kc["detail_pause"])
                 ok, err = read_detail(browser, x)
                 x.extra.update(detail_ok=ok, detail_error=err)
@@ -315,18 +346,19 @@ def run(args, kc: dict) -> int:
     finally:
         browser.close()
 
-    rec.update(finished_at=utcnow().isoformat(), items_count=len(found), new_count=len(found),
+    n_fresh = sum(bool(x.extra.get("fresh")) for x in found.values())
+    rec.update(finished_at=utcnow().isoformat(), items_count=len(found), new_count=n_fresh,
                detail_new=n_det, detail_errors=det_err, requests=browser.requests,
                list_sec=round((t1 or time.monotonic()) - t0, 1),
                detail_sec=round(time.monotonic() - t1, 1) if t1 else None,
-               meta={"feeds": feeds_meta, "baseline": baseline})
+               meta={"feeds": feeds_meta, "baseline_items": len(found) - n_fresh})
     if rec["status"] == "ok" and not found:
         rec["status"] = "empty"
-    log(f"[сбор] Kleinanzeigen: {rec['status']}, новых {len(found)}"
-        f"{' (точка отсчёта, без подробных)' if baseline else ''}, подробных {n_det} (ошибок {det_err}), "
-        f"запросов {browser.requests}" + (f" — {rec['error']}" if rec["error"] else ""))
+    log(f"[сбор] Kleinanzeigen: {rec['status']}, новых {n_fresh}, точка отсчёта {len(found) - n_fresh} "
+        f"(без подробных), подробных {n_det} (ошибок {det_err}), запросов {browser.requests}"
+        + (f" — {rec['error']}" if rec["error"] else ""))
 
-    rows = [db_row(x, tsi, baseline) for x in found.values()]
+    rows = [db_row(x, tsi, baseline=not x.extra.get("fresh")) for x in found.values()]
     if db is None:
         for r in rows[:5]:
             log(f"  [no-db] {r['external_id']} {r['title']!r} kalt={r['kalt']} warm={r['warm']} neben={r['neben']} "
@@ -336,7 +368,9 @@ def run(args, kc: dict) -> int:
         try:
             db.upsert("collected_listings", rows, "company,external_id")
             db.insert("parser_runs", [rec])
-            update_health(db, rec["status"], rec["error"], len(found), tsi)
+            # точка отсчёта ленты фиксируется только после того, как её находки записаны
+            health["meta"] = {**meta, "baseline_feeds": sorted(baseline_feeds | set(new_baseline))}
+            update_health(db, health, rec["status"], rec["error"], len(found), tsi)
         except SupabaseError as exc:
             log(f"[db-error] запись в базу: {exc}")
             return 1

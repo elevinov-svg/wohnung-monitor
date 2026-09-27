@@ -188,6 +188,72 @@ def test_scan_merges_feeds_by_id_and_marks_wbs_filter():
     assert (x.wbs, x.wbs_source) == ("да", "фильтр сайта")
 
 
+def test_scan_baseline_feed_items_are_not_fresh():
+    wbs_url = MITTE + "+wohnung_mieten.wbs_b:true"
+    b = FakeBrowser({MITTE: html("kleinanzeigen_list.html"), wbs_url: html("kleinanzeigen_list.html")})
+    found = {}
+    kc.scan_feed(b, feed(), set(), found, CFG, max_pages=1, fresh=False)      # у ленты ещё нет точки отсчёта
+    assert not any(x.extra.get("fresh") for x in found.values())
+    kc.scan_feed(b, feed("wbs_filter", wbs_url), set(), found, CFG, max_pages=1, fresh=True)
+    assert all(x.extra.get("fresh") for x in found.values())     # новое для ленты с точкой отсчёта
+
+
+class FakeDB:
+    configured = True
+
+    def __init__(self, known=(), meta=None):
+        self.known, self.meta, self.written = set(known), meta or {}, {}
+
+    def select(self, table, params):
+        if table == "collected_listings":
+            return [{"external_id": i} for i in self.known]
+        return [{"company": "Kleinanzeigen", "state": "ok", "fail_streak": 0, "empty_streak": 0, "meta": self.meta}]
+
+    def upsert(self, table, rows, on_conflict):
+        self.written.setdefault(table, []).extend(rows)
+
+    def insert(self, table, rows):
+        self.written.setdefault(table, []).extend(rows)
+
+
+def test_run_feed_error_does_not_stop_others_and_baseline_per_feed(tmp_path, monkeypatch):
+    monkeypatch.setattr(kc, "STATE", tmp_path / "state.json")
+    monkeypatch.setattr(kc, "cdp_alive", lambda url: True)
+    monkeypatch.setattr(kc, "pause", lambda span: None)
+    listing = html("kleinanzeigen_list.html")
+    detail = html("kleinanzeigen_detail_private.html")
+
+    class B(FakeBrowser):
+        def __init__(self, url):
+            super().__init__({})
+
+        def get(self, url):
+            self.requests += 1
+            if "/s-anzeige/" in url:
+                return detail.replace("3524524449", url.split("/")[-1].split("-")[0]), 200, url
+            if "wbs_b:true" in url:
+                raise TimeoutError("Timeout 15000ms exceeded.")
+            return listing, 200, url
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(kc, "Browser", B)
+    db = FakeDB(meta={"baseline_feeds": ["mitte:general"]})
+    monkeypatch.setattr(kc, "Supabase", lambda: db)
+    cfg = {**KC, "locations": [{"name": "mitte", "slug": "mitte", "id": 3518}], "max_price": 850, "rooms": [1, 1.5],
+           "wbs_keyword": "wbs", "stop_after_known": 1, "max_pages": 1, "page_pause": (0, 0), "detail_pause": (0, 0)}
+    assert kc.run(SimpleNamespace(now=True, no_db=False, max_details=None), cfg) == 1      # ошибка ленты -> код 1
+    run = db.written["parser_runs"][0]
+    assert "error" in run["meta"]["feeds"]["mitte:wbs_filter"]
+    assert run["meta"]["feeds"]["mitte:wbs_text"]["pages"] == 1           # следующая лента всё равно прошла
+    rows = {r["external_id"]: r for r in db.written["collected_listings"]}
+    assert len(rows) == 5 and not any(r["baseline"] for r in rows.values())   # general уже с точкой отсчёта
+    assert all(r["detail_ok"] for r in rows.values())
+    health = db.written["parser_health"][0]
+    assert health["meta"]["baseline_feeds"] == ["mitte:general", "mitte:wbs_text"]   # wbs_filter упал — не отмечен
+
+
 def test_make_feeds():
     feeds = kc.make_feeds({"locations": [{"name": "mitte", "slug": "mitte", "id": 3518}], "max_price": 850,
                            "rooms": [1, 1.5], "wbs_keyword": "wbs"})
