@@ -18,8 +18,12 @@ if ($Remove) {
 
 $pwsh = (Get-Command pwsh).Source
 $script = Join-Path $PSScriptRoot "kleinanzeigen_task.ps1"
-$action = New-ScheduledTaskAction -Execute $pwsh `
-    -Argument "-NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$script`"" `
+# conhost --headless: консоль без окна. Иначе Windows 11 открывает окно в Windows Terminal
+# (-WindowStyle Hidden там не работает), и если его закрыть — сбор обрывается (код 0xC000013A).
+# Путь через %windir%\System32 — задачу запускает 64-битный Планировщик, подмены на SysWOW64 нет.
+$conhost = Join-Path $env:windir "System32\conhost.exe"
+$action = New-ScheduledTaskAction -Execute $conhost `
+    -Argument "--headless `"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$script`"" `
     -WorkingDirectory (Split-Path $PSScriptRoot -Parent)
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) `
     -RepetitionInterval (New-TimeSpan -Minutes 30)
