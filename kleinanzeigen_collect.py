@@ -117,7 +117,15 @@ class Browser:
         self.requests += 1
         resp = self.page.goto(url, wait_until="domcontentloaded", timeout=45000)
         self.page.wait_for_timeout(random.randint(800, 2000))      # «прочитать» страницу
-        return self.page.content(), (resp.status if resp else None), self.page.url
+        # страница может ещё перенаправляться / догружаться — тогда content() падает; ждём и повторяем
+        for attempt in range(4):
+            try:
+                self.page.wait_for_load_state("load", timeout=15000)
+                return self.page.content(), (resp.status if resp else None), self.page.url
+            except Exception as exc:  # noqa: BLE001
+                if "navigating" not in str(exc) or attempt == 3:
+                    raise
+                self.page.wait_for_timeout(1500)
 
     def close(self) -> None:
         try:
