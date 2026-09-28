@@ -1512,6 +1512,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "71007820101010005": {
+    "address": "Am Großen Wannsee 39, 14109 Berlin/Steglitz-Zehlendorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-28T10:59:00+02:00"
+  },
   "esq177020101153": {
     "address": "Alfred-Jung-Straße 22, 10369, Lichtenberg",
     "company": "HOWOGE",
@@ -2145,7 +2150,8 @@
     "address": "Allee der Kosmonauten 68, 12681, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-09-28T10:54:17+02:00",
-    "portal_uploaded": "2026-09-28T08:53:05+00:00"
+    "portal_uploaded": "2026-09-28T08:53:05+00:00",
+    "site_first_seen": "2026-09-28T10:58:32+02:00"
   },
   "w14004002800800204": {
     "address": "Allee der Kosmonauten 74",
@@ -2158,7 +2164,8 @@
     "address": "Martha-Arendsee-Straße 20, 12681, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-09-28T10:54:17+02:00",
-    "portal_uploaded": "2026-09-28T08:54:05+00:00"
+    "portal_uploaded": "2026-09-28T08:54:05+00:00",
+    "site_first_seen": "2026-09-28T10:58:32+02:00"
   },
   "w14004038104900406": {
     "address": "Wittenberger Straße 21",
@@ -2182,6 +2189,11 @@
     "address": "Belziger Ring 32",
     "company": "degewo",
     "site_first_seen": "2026-09-25T17:27:26+02:00"
+  },
+  "w14004074201500601": {
+    "address": "Schorfheidestraße 20",
+    "company": "degewo",
+    "site_first_seen": "2026-09-28T10:58:32+02:00"
   },
   "w14005003802600403": {
     "address": "Allee der Kosmonauten 97C, 12681, Marzahn-Hellersdorf",
