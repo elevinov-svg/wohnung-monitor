@@ -1158,6 +1158,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T10:17:55+02:00"
   },
+  "195033554242": {
+    "address": "Rosenfelder Ring 125, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T10:53:32+02:00"
+  },
   "5086750010144": {
     "address": "Konrad-Wolf-Strasse 42C, 13055 Berlin",
     "company": "WBM",
@@ -2136,12 +2141,24 @@
     "company": "degewo",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
   },
+  "w14004002702000504": {
+    "address": "Allee der Kosmonauten 68, 12681, Marzahn-Hellersdorf",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-28T10:54:17+02:00",
+    "portal_uploaded": "2026-09-28T08:53:05+00:00"
+  },
   "w14004002800800204": {
     "address": "Allee der Kosmonauten 74",
     "company": "degewo",
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T12:54:05+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w14004009107900101": {
+    "address": "Martha-Arendsee-Straße 20, 12681, Marzahn-Hellersdorf",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-28T10:54:17+02:00",
+    "portal_uploaded": "2026-09-28T08:54:05+00:00"
   },
   "w14004038104900406": {
     "address": "Wittenberger Straße 21",
