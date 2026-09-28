@@ -108,6 +108,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-25T12:26:56+02:00"
   },
+  "01000103215010453": {
+    "address": "Daumstr. 205, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T11:29:04+00:00",
+    "site_first_seen": "2026-09-28T18:56:05+02:00"
+  },
   "01000103215010458": {
     "address": "Daumstr. 205, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -222,6 +229,23 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000123802070339": {
+    "address": "Schluchseestr. 65, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-28T18:56:05+02:00"
+  },
+  "01000123803030684": {
+    "address": "Schluchseestr. 77, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T12:05:02+00:00",
+    "site_first_seen": "2026-09-28T18:56:05+02:00"
+  },
+  "01000124018010960": {
+    "address": "Tegernauer Zeile 2, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-28T18:56:05+02:00"
+  },
   "01000150701020019": {
     "address": "Goltzstr. 10, 13587 Berlin/Spandau",
     "company": "Gewobag",
@@ -311,6 +335,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "01000255902010046": {
+    "address": "Henriette-Herz-Allee 9, 13057 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-28T18:56:05+02:00"
   },
   "01000255906040177": {
     "address": "David-Friedländer-Weg 104, 13057 Berlin/Lichtenberg",
@@ -428,6 +457,13 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T12:30:08+00:00"
   },
+  "1001002100155": {
+    "address": "Bayernring 25c, 12101 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T13:29:06+00:00",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
+  },
   "1001002100218": {
     "address": "Badener Ring 40g, 12101 Berlin",
     "company": "Stadt und Land",
@@ -448,6 +484,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001002100336": {
+    "address": "Bayernring 27, 12101 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
   },
   "1001018300023": {
     "address": "Fritzi-Massary-Str. 83, 12057 Berlin",
@@ -478,6 +519,18 @@
     "address": "Kalker Str. 2, 12524 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1001045000280": {
+    "address": "Rodenkirchener Str. 10, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
+  },
+  "1001045000427": {
+    "address": "Rodenkirchener Str. 9, 12524 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T10:07:05+00:00",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
   },
   "1001045000558": {
     "address": "Coloniaallee 22, 12524 Berlin",
@@ -522,6 +575,16 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001511000092": {
+    "address": "Kletterrosenweg 8, 12526 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
+  },
+  "1001513400318": {
+    "address": "Warthestr. 42 C, 12051 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-28T18:56:07+02:00"
   },
   "1001514100099": {
     "address": "Bornsdorfer Str. 37B, 12053 Berlin",
@@ -834,6 +897,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T20:34:29+02:00"
   },
+  "17702058423": {
+    "address": "Marie-Curie-Allee 11, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T18:55:03+02:00"
+  },
   "177020596144": {
     "address": "Konrad-Wolf-Straße 82B, 13055 Berlin",
     "company": "HOWOGE",
@@ -922,11 +990,31 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "177026318177": {
+    "address": "Ilsestraße 36 B, 10318 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T18:55:03+02:00"
+  },
   "177026318270": {
     "address": "Ilsestraße 18, 10318 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "17702645065": {
+    "address": "Roßmäßlerstraße 19, 10318 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T18:55:03+02:00"
+  },
+  "177027640105": {
+    "address": "Schwarzmeerstraße 68, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T18:55:03+02:00"
+  },
+  "177027649140": {
+    "address": "Schwarzmeerstraße 36, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-28T18:55:03+02:00"
   },
   "17702768630": {
     "address": "Melli-Beese-Straße 68, 12487 Berlin",
@@ -1565,6 +1653,12 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T11:29:05+00:00"
   },
+  "esq177026318177": {
+    "address": "Ilsestraße 36B, 10318, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T14:46:06+00:00"
+  },
   "esq17711144643": {
     "address": "Seefelder Straße 48, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -1612,6 +1706,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T15:01:08+00:00"
+  },
+  "esq17711455964": {
+    "address": "Anne-Frank-Straße 6, 12524, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T12:16:06+00:00"
   },
   "esq177131125326": {
     "address": "Fahrenheitstraße 21, 12207, Steglitz-Zehlendorf",
@@ -1842,6 +1942,8 @@
   "w11004190801390102": {
     "address": "Kleeblattstraße 16",
     "company": "degewo",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T16:33:04+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -1936,6 +2038,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11004220105360303": {
+    "address": "Eisenhutweg 76",
+    "company": "degewo",
+    "site_first_seen": "2026-09-28T18:55:37+02:00"
+  },
   "w11004220105820702": {
     "address": "Eisenhutweg 76B",
     "company": "degewo",
@@ -1965,9 +2072,23 @@
     "company": "degewo",
     "site_first_seen": "2026-09-25T07:37:40+02:00"
   },
+  "w11400063900390202": {
+    "address": "Horst-Caspar-Steig 24",
+    "company": "degewo",
+    "site_first_seen": "2026-09-28T18:55:37+02:00"
+  },
+  "w11400065400400401": {
+    "address": "Sandsteinweg 33",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T09:53:04+00:00",
+    "site_first_seen": "2026-09-28T18:55:37+02:00"
+  },
   "w11400067500600702": {
     "address": "Fritz-Erler-Allee 166",
     "company": "degewo",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T13:41:05+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -2194,6 +2315,13 @@
     "address": "Schorfheidestraße 20",
     "company": "degewo",
     "site_first_seen": "2026-09-28T10:58:32+02:00"
+  },
+  "w14004079205500403": {
+    "address": "Klandorfer Straße 16",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-28T18:56:10+02:00",
+    "portal_uploaded": "2026-09-28T15:06:07+00:00",
+    "site_first_seen": "2026-09-28T18:55:37+02:00"
   },
   "w14005003802600403": {
     "address": "Allee der Kosmonauten 97C, 12681, Marzahn-Hellersdorf",
