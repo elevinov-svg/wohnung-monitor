@@ -179,12 +179,16 @@
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-14591-79.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31120-16.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31125-325.html",
+    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31125-326.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31125-338.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31125-717.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31125-727.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31130-115.html",
+    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31130-292.html",
     "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1771-31130-350.html",
-    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1901-33030-9.html"
+    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1901-33030-9.html",
+    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1910-33140-114.html",
+    "https://www.howoge.de/immobiliensuche/wohnungssuche/detail/1910-33140-125.html"
   ],
   "Stadt und Land": [
     "https://stadtundland.de/wohnungssuche/1001%2F0021%2F00218",
@@ -234,6 +238,7 @@
     "https://stadtundland.de/wohnungssuche/1050%2F5177%2F00089",
     "https://stadtundland.de/wohnungssuche/1050%2F5232%2F00106",
     "https://stadtundland.de/wohnungssuche/1050%2F5232%2F00150",
+    "https://stadtundland.de/wohnungssuche/1050%2F8114%2F00545",
     "https://stadtundland.de/wohnungssuche/1050%2F8217%2F00198"
   ],
   "WBM": [
@@ -332,6 +337,7 @@
     "https://www.degewo.de/immosuche/details/nachmieter-fuer-2-uimmerwohnung-gesucht",
     "https://www.degewo.de/immosuche/details/nachmieter-gesucht-2-zimmer-nur-mit-wbs-100-1",
     "https://www.degewo.de/immosuche/details/nachmieter-gesucht-24",
+    "https://www.degewo.de/immosuche/details/nachmieter-in-tempelhof-gesucht-2",
     "https://www.degewo.de/immosuche/details/nachmieter-zum-01112026-gesucht-2-zimmer-wohnung-in-der-naehe-vom-s-springpfuhl",
     "https://www.degewo.de/immosuche/details/naehe-gaerten-der-welt-ohne-wbs-2",
     "https://www.degewo.de/immosuche/details/nettes-wohnen-mit-der-aelteren-generation",
@@ -392,6 +398,7 @@
     "https://www.degewo.de/de/properties/W1100-22406-0069-0601.html",
     "https://www.degewo.de/de/properties/W1100-22406-0073-0102.html",
     "https://www.degewo.de/de/properties/W1100-41908-0373-0201.html",
+    "https://www.degewo.de/de/properties/W1150-00502-0002-0201.html",
     "https://www.degewo.de/de/properties/W1300-41901-0026-0204.html",
     "https://www.degewo.de/de/properties/W1400-40028-0080-0204.html",
     "https://www.degewo.de/de/properties/W1400-40381-0490-0406.html",
@@ -415,6 +422,9 @@
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-12601-40.html?t=ibw",
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-14559-270.html?t=ibw",
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-14559-325.html?t=ibw",
-    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-14559-387.html?t=ibw"
+    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-14559-387.html?t=ibw",
+    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-31125-326.html?t=ibw",
+    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1910-33140-114.html?t=ibw",
+    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1910-33140-125.html?t=ibw"
   ]
 }
