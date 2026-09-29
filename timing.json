@@ -428,6 +428,12 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "1000915000020103780c60b2fee9408bae21ba9b502aad5c": {
+    "address": "Senftenberger Ring 76, 13435, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-09-29T04:12:22+02:00",
+    "portal_uploaded": "2026-09-29T02:01:07+00:00"
+  },
   "10009200000111119de5fbc1dc664b86954dc0000e7a9143": {
     "address": "Wilhelmsruher Damm 148, 13439 Berlin",
     "company": "GESOBAU",
@@ -588,6 +594,8 @@
   "1001513400318": {
     "address": "Warthestr. 42 C, 12051 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-29T04:12:22+02:00",
+    "portal_uploaded": "2026-09-29T00:15:03+00:00",
     "site_first_seen": "2026-09-28T18:56:07+02:00"
   },
   "1001514100099": {
@@ -1235,6 +1243,12 @@
     "address": "Daumstrasse 91, 13599 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-24T16:04:10+02:00"
+  },
+  "18142601608": {
+    "address": "Alte Hellersdorfer Straße 125, 12629, Marzahn-Hellersdorf",
+    "company": "berlinovo",
+    "portal_first_seen": "2026-09-29T04:12:22+02:00",
+    "portal_uploaded": "2026-09-29T00:19:04+00:00"
   },
   "1901330309": {
     "address": "Kaiser-Wilhelm-Straße 18a, 12247 Berlin",
