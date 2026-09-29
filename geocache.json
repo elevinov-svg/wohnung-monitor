@@ -1,4 +1,8 @@
 {
+ "Ackerstraße 106, 13355 Berlin": [
+  52.5395449,
+  13.3815933
+ ],
  "Ackerstraße 116, Berlin": [
   52.5377479,
   13.3851155
@@ -35,6 +39,10 @@
   52.5436845,
   13.2333378
  ],
+ "Cecilienstraße 234, 12619 Berlin": [
+  52.522686,
+  13.5903774
+ ],
  "Clara-Müller-Jahnke-Straße 26, Berlin": [
   52.4305006,
   13.7158358
@@ -50,6 +58,10 @@
  "Dröpkeweg 9, 12353 Berlin": [
   52.4193493,
   13.4465908
+ ],
+ "Eisenhutweg 60C, Berlin": [
+  52.4306473,
+  13.5070283
  ],
  "Eisenhutweg 66B, Berlin": [
   52.4299764,
@@ -154,6 +166,10 @@
  "Parchimer Allee 58, Berlin": [
   52.4458844,
   13.450929
+ ],
+ "Potsdamer Straße 134- 136, 10783 Berlin": [
+  52.4987205,
+  13.3621389
  ],
  "Regattastraße 103, Berlin": [
   52.4191066,
