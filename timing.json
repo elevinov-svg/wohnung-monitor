@@ -115,6 +115,13 @@
     "portal_uploaded": "2026-09-28T11:29:04+00:00",
     "site_first_seen": "2026-09-28T18:56:05+02:00"
   },
+  "01000103215010454": {
+    "address": "Daumstr. 205, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T07:28:06+00:00",
+    "site_first_seen": "2026-09-29T10:54:25+02:00"
+  },
   "01000103215010458": {
     "address": "Daumstr. 205, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -637,6 +644,8 @@
   "1001524600218": {
     "address": "Knyphausenweg 8, 12349 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T07:47:06+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
   },
   "1001524800187": {
@@ -702,6 +711,20 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001527600037": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T06:59:02+00:00",
+    "site_first_seen": "2026-09-29T10:54:26+02:00"
+  },
+  "1001527600038": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T06:57:04+00:00",
+    "site_first_seen": "2026-09-29T10:54:26+02:00"
   },
   "1001527600039": {
     "address": "Dröpkeweg 9, 12353 Berlin",
@@ -797,6 +820,17 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "10032430001612795654d859de2c436697d3e8ed3e0706ff": {
+    "address": "Zossener Straße 152, 12629, Marzahn-Hellersdorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T05:42:06+00:00"
+  },
+  "10032430001612798b01badb12034c8789f9a2154b981b39": {
+    "address": "Zossener Straße 152, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-09-29T10:54:08+02:00"
+  },
   "10032430001612830e7af51c130b445681beaeaa85930652": {
     "address": "Zossener Straße 152, 12629 Berlin",
     "company": "GESOBAU",
@@ -820,6 +854,11 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
+  },
+  "100324700011117432ee3015cb5949a29b4cb9ba724d4e9d": {
+    "address": "Sarah-Kirsch-Straße 7, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-09-29T10:54:08+02:00"
   },
   "10032470001813267c3939356a944777ad30c10e45557c09": {
     "address": "Ingeborg-Feustel-Straße 1, 12629 Berlin",
@@ -1138,6 +1177,11 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "17711332051": {
+    "address": "Demminer Straße 47, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-29T10:53:48+02:00"
+  },
   "1771145369997": {
     "address": "Streitstraße 5, 13587 Berlin",
     "company": "HOWOGE",
@@ -1270,6 +1314,12 @@
     "address": "Rosenfelder Ring 125, 10315 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T10:53:32+02:00"
+  },
+  "31032314215": {
+    "address": "Fischerinsel 10,18.11, 10179, Mitte",
+    "company": "berlinovo",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T06:56:06+00:00"
   },
   "5086750010144": {
     "address": "Konrad-Wolf-Strasse 42C, 13055 Berlin",
@@ -1419,6 +1469,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104601070103": {
+    "address": "Alandstr. 51, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-29T10:54:25+02:00"
+  },
   "60113104601070109": {
     "address": "Alandstr. 51, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -1430,6 +1485,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104603010223": {
+    "address": "Alandstr. 53, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-29T10:54:25+02:00"
   },
   "60113104603010234": {
     "address": "Alandstr. 53, 13599 Berlin/Spandau",
@@ -1490,6 +1550,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104701050165": {
+    "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-09-29T10:54:25+02:00"
   },
   "60113104701050168": {
     "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
@@ -1709,6 +1774,12 @@
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T16:14:06+00:00"
   },
+  "esq17711332051": {
+    "address": "Demminer Straße 47, 13059, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T06:06:08+00:00"
+  },
   "esq177114559270": {
     "address": "Anne-Frank-Straße 18, 12524, Treptow-Köpenick",
     "company": "HOWOGE",
@@ -1738,6 +1809,18 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:02:05+00:00"
+  },
+  "esq177131130115": {
+    "address": "Mercatorweg 9, 12207, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T07:23:06+00:00"
+  },
+  "esq177131130292": {
+    "address": "Réaumurstraße 18, 12207, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T07:22:05+00:00"
   },
   "esq191033140114": {
     "address": "Soldiner Straße 71, 13359, Mitte",
@@ -2096,6 +2179,13 @@
     "address": "Horst-Caspar-Steig 24",
     "company": "degewo",
     "site_first_seen": "2026-09-28T18:55:37+02:00"
+  },
+  "w11400064801900704": {
+    "address": "Feuchtwangerweg 7",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-29T10:54:27+02:00",
+    "portal_uploaded": "2026-09-29T06:41:06+00:00",
+    "site_first_seen": "2026-09-29T10:54:04+02:00"
   },
   "w11400065400400401": {
     "address": "Sandsteinweg 33",
