@@ -2398,7 +2398,16 @@
   "w13002030100760202": {
     "address": "Fontanestraße 3",
     "company": "degewo",
+    "portal_first_seen": "2026-09-29T17:58:32+02:00",
+    "portal_uploaded": "2026-09-29T15:57:04+00:00",
     "site_first_seen": "2026-09-25T17:27:26+02:00"
+  },
+  "w13002070600070302": {
+    "address": "Griechische Allee 15",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-29T17:58:32+02:00",
+    "portal_uploaded": "2026-09-29T15:55:04+00:00",
+    "site_first_seen": "2026-09-29T17:58:09+02:00"
   },
   "w13002110300120403": {
     "address": "Kottmeierstraße 27",
