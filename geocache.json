@@ -27,6 +27,10 @@
   52.4235884,
   13.5901598
  ],
+ "An den Buckower Feldern 16, 12349 Berlin": [
+  52.4148971,
+  13.4339724
+ ],
  "Barbarastraße 26, Berlin": [
   52.4324425,
   13.3413802
@@ -59,6 +63,14 @@
   52.4193493,
   13.4465908
  ],
+ "Dyrekeweg 1, 12349 Berlin": [
+  52.4166887,
+  13.4365674
+ ],
+ "Dyrekeweg 4, 12349 Berlin": [
+  52.4162822,
+  13.4363585
+ ],
  "Eisenhutweg 60C, Berlin": [
   52.4306473,
   13.5070283
@@ -79,6 +91,10 @@
   52.4205278,
   13.4789504
  ],
+ "Fischerinsel 2, 10179 Berlin": [
+  52.5141012,
+  13.4086751
+ ],
  "Freudstr. 11, 13589 Berlin": [
   52.5556907,
   13.1491524
@@ -86,6 +102,10 @@
  "Fritzi-Massary-Straße 83, 12057 Berlin": [
   52.4616523,
   13.4760994
+ ],
+ "Graunstraße 12, Berlin": [
+  52.5457023,
+  13.3985653
  ],
  "Griechische Allee 15, Berlin": [
   52.4648191,
@@ -102,6 +122,10 @@
  "Heilmannring 26A, 13627 Berlin": [
   52.5372409,
   13.2898481
+ ],
+ "Intzestraße 21, Berlin": [
+  52.4143501,
+  13.3713891
  ],
  "Johanna-Tesch-Straße 17, 12439 Berlin": [
   52.452069,
@@ -126,6 +150,10 @@
  "Kottmeierstraße 27, Berlin": [
   52.4622259,
   13.5276704
+ ],
+ "Köpenicker Strasse 112, 10179 Berlin": [
+  52.5096901,
+  13.4193726
  ],
  "Köthener Straße 22, Berlin": [
   52.5671981,
@@ -191,9 +219,17 @@
   52.4036128,
   13.5265248
  ],
+ "Seydlitzstrasse 19, 10557 Berlin": [
+  52.5267292,
+  13.3615156
+ ],
  "Spießweg 38, 13437 Berlin": [
   52.5946501,
   13.3257589
+ ],
+ "Südekumzeile 7C, 13591 Berlin": [
+  52.5299312,
+  13.1554284
  ],
  "Thaliaweg 13, Berlin": [
   52.4344636,
@@ -211,6 +247,10 @@
   52.4692729,
   13.4223806
  ],
+ "Wasserwerkstrasse 1, 13589 Berlin": [
+  52.55177,
+  13.1652527
+ ],
  "Wilhelm-Kuhr-Straße 50, Berlin": [
   52.5648645,
   13.3880116
@@ -219,6 +259,10 @@
   52.5967504,
   13.3516846
  ],
+ "Wilsnacker Strasse 59, 10559 Berlin": [
+  52.5278216,
+  13.3513109
+ ],
  "Wittenberger Straße 21, Berlin": [
   52.5653058,
   13.5668922
@@ -226,5 +270,9 @@
  "Zobeltitzstr. 117, 13403 Berlin": [
   52.5724671,
   13.3067635
+ ],
+ "Zwickauer Damm 12, Berlin": [
+  52.4231626,
+  13.483328
  ]
 }

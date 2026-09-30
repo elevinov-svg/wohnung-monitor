@@ -350,6 +350,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000255101030053": {
+    "address": "Kiefholzstr. 403 B, 12435 Berlin/Treptow-Köpenick",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T08:35:04+00:00",
+    "site_first_seen": "2026-09-30T12:41:12+02:00"
+  },
   "01000255902010046": {
     "address": "Henriette-Herz-Allee 9, 13057 Berlin/Lichtenberg",
     "company": "Gewobag",
@@ -442,6 +449,12 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "1000794000010007bb64f5723cb5469cbccb376ea3dcb033": {
+    "address": "Gartenplatz 2, 13355, Mitte",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T08:13:03+00:00"
+  },
   "1000794000010007eb5c88112c17467c8059b8164e05ca6a": {
     "address": "Gartenplatz 2, 13355 Berlin",
     "company": "GESOBAU",
@@ -467,6 +480,12 @@
     "address": "Schönwalder Straße 1, 13347 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-09-29T17:24:59+02:00"
+  },
+  "1000855000010027cacf9bee331948d988f8feb8910dd4d2": {
+    "address": "Senftenberger Ring 45, 13435, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T10:41:03+00:00"
   },
   "1000915000020103780c60b2fee9408bae21ba9b502aad5c": {
     "address": "Senftenberger Ring 76, 13435, Reinickendorf",
@@ -675,6 +694,16 @@
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
+  "1001514700020": {
+    "address": "An den Buckower Feldern 16, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1001514700048": {
+    "address": "An den Buckower Feldern 18, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
   "1001515600094": {
     "address": "Vereinsstr. 12A, 12487 Berlin",
     "company": "Stadt und Land",
@@ -685,6 +714,16 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001524600111": {
+    "address": "Dyrekeweg 4, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1001524600117": {
+    "address": "Dyrekeweg 4, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001524600182": {
     "address": "Am Mühlanger 5, 12349 Berlin",
@@ -699,11 +738,33 @@
     "portal_uploaded": "2026-09-29T07:47:06+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
   },
+  "1001524600263": {
+    "address": "Dyrekeweg 1, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1001524600267": {
+    "address": "Dyrekeweg 1, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1001524600268": {
+    "address": "Dyrekeweg 1, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
   "1001524800187": {
     "address": "An den Buckower Feldern 19, 12349 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001524800191": {
+    "address": "An den Buckower Feldern 17, 12349 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T09:04:05+00:00",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001524800194": {
     "address": "An den Buckower Feldern 17, 12349 Berlin",
@@ -729,6 +790,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001527600006": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001527600026": {
     "address": "Dröpkeweg 9, 12353 Berlin",
@@ -793,6 +859,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001527600051": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001527600053": {
     "address": "Dröpkeweg 9, 12353 Berlin",
@@ -990,6 +1061,25 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
   },
+  "1050899700038": {
+    "address": "Hoyerswerdaer Str. 37, 12627 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T10:11:05+00:00",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1050899700067": {
+    "address": "Hoyerswerdaer Str. 41, 12627 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T10:37:04+00:00",
+    "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "153255313": {
+    "address": "Köpenicker Strasse 112, 10179 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
   "1532711": {
     "address": "Köpenicker Strasse 105, 10179 Berlin",
     "company": "WBM",
@@ -1026,6 +1116,16 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "153791100": {
+    "address": "Fischerinsel 2, 10179 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "153791125": {
+    "address": "Fischerinsel 2, 10179 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
   "177020101153": {
     "address": "Alfred-Jung-Straße 22, 10369 Berlin",
     "company": "HOWOGE",
@@ -1035,6 +1135,11 @@
     "address": "Atzpodienstraße 24 A, 10365 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T17:24:35+02:00"
+  },
+  "177020279457": {
+    "address": "Schulze-Boysen-Straße 31, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-30T12:40:00+02:00"
   },
   "17702054918": {
     "address": "Sewanstraße 222, 10319 Berlin",
@@ -1261,6 +1366,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T20:34:29+02:00"
   },
+  "17711266218": {
+    "address": "Am Berl 16, 13051 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-09-30T12:40:00+02:00"
+  },
   "17711266229": {
     "address": "Am Berl 16, 13051 Berlin",
     "company": "HOWOGE",
@@ -1427,10 +1537,45 @@
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T06:56:06+00:00"
   },
+  "501201711508": {
+    "address": "Seydlitzstrasse 19, 10557 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "50120282234": {
+    "address": "Wilsnacker Strasse 59, 10559 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
   "50517516125": {
     "address": "Eidechsenweg 3, 13591 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-29T17:24:55+02:00"
+  },
+  "5051850411184": {
+    "address": "Haberlandweg 2, 13591 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "5051850522621": {
+    "address": "Südekumzeile 7C, 13591 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "505185126181": {
+    "address": "Wasserwerkstrasse 1, 13589 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "505185126230": {
+    "address": "Wasserwerkstrasse 1, 13589 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "505185126269": {
+    "address": "Wasserwerkstrasse 1, 13589 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
   },
   "5086750010144": {
     "address": "Konrad-Wolf-Strasse 42C, 13055 Berlin",
@@ -1486,11 +1631,26 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "51439384": {
+    "address": "Friedenstrasse 87, 10249 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "51453144": {
+    "address": "Strausberger Strasse 37, 10243 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
   "515306221": {
     "address": "Gärtnerstrasse 8A, 10245 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "51751012": {
+    "address": "Heinersdorfer Strasse 10, 13086 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-09-30T12:40:42+02:00"
   },
   "51910111": {
     "address": "Eckertstrasse 2, 10249 Berlin",
@@ -1819,6 +1979,12 @@
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T18:27:06+00:00"
   },
+  "esq177020279457": {
+    "address": "Schulze-Boysen-Straße 31, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T10:07:07+00:00"
+  },
   "esq177020575146": {
     "address": "Huronseestraße 34, 10319, Lichtenberg",
     "company": "HOWOGE",
@@ -1896,6 +2062,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T16:14:06+00:00"
+  },
+  "esq17711266218": {
+    "address": "Am Berl 16, 13051, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T10:06:07+00:00"
   },
   "esq17711332051": {
     "address": "Demminer Straße 47, 13059, Lichtenberg",
@@ -2075,6 +2247,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11001210400710203": {
+    "address": "Lipschitzallee 45",
+    "company": "degewo",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
   "w11002221100340401": {
     "address": "Avenue Jean Mermoz 31",
     "company": "degewo",
@@ -2204,6 +2381,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11004190804130302": {
+    "address": "Bohnsdorfer Weg 113",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T08:38:04+00:00",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
   "w11004190804160201": {
     "address": "Bohnsdorfer Weg 111",
     "company": "degewo",
@@ -2282,6 +2466,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11400051500070301": {
+    "address": "Intzestraße 21",
+    "company": "degewo",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
   "w11400052702210201": {
     "address": "Waldsassener Straße 44",
     "company": "degewo",
@@ -2314,6 +2503,11 @@
     "address": "Horst-Caspar-Steig 24",
     "company": "degewo",
     "site_first_seen": "2026-09-28T18:55:37+02:00"
+  },
+  "w11400064401521408": {
+    "address": "Zwickauer Damm 12",
+    "company": "degewo",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
   },
   "w11400064801900704": {
     "address": "Feuchtwangerweg 7",
@@ -2394,6 +2588,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w13002023500050202": {
+    "address": "Goethestraße 36",
+    "company": "degewo",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
   },
   "w13002030100760202": {
     "address": "Fontanestraße 3",
@@ -2614,6 +2813,18 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w14005700108800402": {
+    "address": "Zornstraße 1",
+    "company": "degewo",
+    "portal_first_seen": "2026-09-30T12:41:17+02:00",
+    "portal_uploaded": "2026-09-30T09:23:05+00:00",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w15000075700390101": {
+    "address": "Graunstraße 12",
+    "company": "degewo",
+    "site_first_seen": "2026-09-30T12:40:37+02:00"
   },
   "w15000080700970101": {
     "address": "Dannenwalder Weg 140",
