@@ -329,6 +329,13 @@
     "portal_uploaded": "2026-09-29T14:26:05+00:00",
     "site_first_seen": "2026-09-29T17:25:17+02:00"
   },
+  "01000250901080155": {
+    "address": "Karl-Marx-Allee 86, 10243 Berlin/Friedrichshain-Kreuzberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-09-30T13:24:02+02:00",
+    "portal_uploaded": "2026-09-30T11:20:07+00:00",
+    "site_first_seen": "2026-09-30T13:23:56+02:00"
+  },
   "01000250901110201": {
     "address": "Koppenstr. 31, 10243 Berlin/Friedrichshain-Kreuzberg",
     "company": "Gewobag",
@@ -2774,7 +2781,8 @@
     "address": "Franz-Stenzer-Straße 15, 12679, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-09-30T13:20:07+02:00",
-    "portal_uploaded": "2026-09-30T11:19:03+00:00"
+    "portal_uploaded": "2026-09-30T11:19:03+00:00",
+    "site_first_seen": "2026-09-30T13:23:36+02:00"
   },
   "w14004038104900406": {
     "address": "Wittenberger Straße 21",
