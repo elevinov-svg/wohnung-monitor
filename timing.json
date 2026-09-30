@@ -2220,6 +2220,12 @@
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T16:11:07+00:00"
   },
+  "esq17711235395": {
+    "address": "Zingster Straße 37, 13051, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-09-30T23:15:11+02:00",
+    "portal_uploaded": "2026-09-30T11:51:07+00:00"
+  },
   "esq17711244183": {
     "address": "Wiecker Straße 13, 13051, Lichtenberg",
     "company": "HOWOGE",
@@ -3053,6 +3059,8 @@
   "w15003170300310502": {
     "address": "Tramper Weg 6",
     "company": "degewo",
+    "portal_first_seen": "2026-09-30T23:15:11+02:00",
+    "portal_uploaded": "2026-09-30T17:36:06+00:00",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
   },
   "w31102191400200102": {
