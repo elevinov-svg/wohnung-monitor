@@ -39,6 +39,10 @@
   52.475197,
   13.4379958
  ],
+ "Brigittenstraße 28, Berlin": [
+  52.4322535,
+  13.3409911
+ ],
  "Burscheider Weg 58A, 13599 Berlin": [
   52.5436845,
   13.2333378
@@ -127,6 +131,10 @@
   52.4143501,
   13.3713891
  ],
+ "Joachim-Ringelnatz-Straße 2, Berlin": [
+  52.527606,
+  13.5751016
+ ],
  "Johanna-Tesch-Straße 17, 12439 Berlin": [
   52.452069,
   13.5389318
@@ -154,6 +162,10 @@
  "Kottmeierstraße 27, Berlin": [
   52.4622259,
   13.5276704
+ ],
+ "Krautstrasse 7, 10243 Berlin": [
+  52.5165363,
+  13.428295
  ],
  "Köpenicker Strasse 112, 10179 Berlin": [
   52.5096901,
@@ -211,9 +223,17 @@
   52.4987205,
   13.3621389
  ],
+ "Raoul-Wallenberg-Straße 13, Berlin": [
+  52.5502969,
+  13.5519625
+ ],
  "Regattastraße 103, Berlin": [
   52.4191066,
   13.5793001
+ ],
+ "Rhinstr. 143 C, 10315 Berlin": [
+  52.5321916,
+  13.5164185
  ],
  "Rotfederstraße 60, 13599 Berlin": [
   52.5523892,
