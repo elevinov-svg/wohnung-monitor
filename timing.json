@@ -220,6 +220,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000110902030055": {
+    "address": "Hohenzollernring 171B, 13585 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-01T09:42:23+02:00",
+    "portal_uploaded": "2026-10-01T07:40:03+00:00",
+    "site_first_seen": "2026-10-01T09:42:20+02:00"
+  },
   "01000110904020097": {
     "address": "Petersenweg 3, 13583, Spandau",
     "company": "Gewobag",
