@@ -7,9 +7,21 @@
   52.5377479,
   13.3851155
  ],
+ "Agnes-Straub-Weg 2, Berlin": [
+  52.4249625,
+  13.4811923
+ ],
  "Alandstr. 51, 13599 Berlin": [
   52.5511136,
   13.243041
+ ],
+ "Alfred-Randt-Straße 42, Berlin": [
+  52.4392904,
+  13.6029102
+ ],
+ "Alfred-Randt-Straße 48, Berlin": [
+  52.4392733,
+  13.6038677
  ],
  "Allee der Kosmonauten 68, Berlin": [
   52.5254839,
@@ -26,6 +38,10 @@
  "Am Kietzer Feld 17, Berlin": [
   52.4235884,
   13.5901598
+ ],
+ "An den Buckower Feldern 13, 12349 Berlin": [
+  52.4148234,
+  13.4348321
  ],
  "An den Buckower Feldern 16, 12349 Berlin": [
   52.4148971,
@@ -66,6 +82,14 @@
  "Daumstr. 52A, 13599 Berlin": [
   52.5509974,
   13.2270378
+ ],
+ "Dolgenseestr. 8a, 10319 Berlin": [
+  52.4939026,
+  13.50757
+ ],
+ "Dominicusstraße 37, Berlin": [
+  52.4811176,
+  13.350501
  ],
  "Dröpkeweg 9, 12353 Berlin": [
   52.4193493,
@@ -139,6 +163,10 @@
   52.5391253,
   13.1953276
  ],
+ "Im Eck 3, Berlin": [
+  52.4155672,
+  13.3957491
+ ],
  "Intzestraße 21, Berlin": [
   52.4143501,
   13.3713891
@@ -203,6 +231,10 @@
   52.5016851,
   13.4247235
  ],
+ "Marienstr. 15, 12459 Berlin": [
+  52.4605746,
+  13.5243079
+ ],
  "Martha-Arendsee-Straße 20, Berlin": [
   52.5364916,
   13.5403297
@@ -210,6 +242,10 @@
  "Marzahner Promenade 32, Berlin": [
   52.5442769,
   13.5499498
+ ],
+ "Marzahner Promenade 44, Berlin": [
+  52.545216,
+  13.5538782
  ],
  "Maximilian-Kaller-Straße 23D, Berlin": [
   52.4159966,
@@ -227,6 +263,10 @@
   52.4606986,
   13.4748208
  ],
+ "Nossener Straße 75, 12627 Berlin": [
+  52.5296534,
+  13.6092489
+ ],
  "Otto-Franke-Straße 55, 12489 Berlin": [
   52.4339556,
   13.5536064
@@ -234,6 +274,10 @@
  "Parchimer Allee 58, Berlin": [
   52.4458844,
   13.450929
+ ],
+ "Pechsteinstraße 64A, Berlin": [
+  52.388182,
+  13.4163225
  ],
  "Potsdamer Straße 134- 136, 10783 Berlin": [
   52.4987205,
@@ -262,6 +306,10 @@
  "Schönefelder Chaussee 213, 12524 Berlin": [
   52.4036128,
   13.5265248
+ ],
+ "Senftenberger Straße 1B, 12627 Berlin": [
+  52.5382134,
+  13.6001468
  ],
  "Seydlitzstrasse 19, 10557 Berlin": [
   52.5267292,
