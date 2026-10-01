@@ -1503,6 +1503,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T10:53:48+02:00"
   },
+  "177113630209": {
+    "address": "Friedrich-Richter-Straße 49, 13125 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-01T08:54:12+02:00"
+  },
   "1771145369997": {
     "address": "Streitstraße 5, 13587 Berlin",
     "company": "HOWOGE",
@@ -2136,6 +2141,8 @@
   "71007820101010005": {
     "address": "Am Großen Wannsee 39, 14109 Berlin/Steglitz-Zehlendorf",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-01T08:55:00+02:00",
+    "portal_uploaded": "2026-10-01T05:18:04+00:00",
     "site_first_seen": "2026-09-28T10:59:00+02:00"
   },
   "esq177020101153": {
@@ -2257,6 +2264,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T06:06:08+00:00"
+  },
+  "esq177113630209": {
+    "address": "Friedrich-Richter-Straße 49, 13125, Pankow",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-01T08:55:00+02:00",
+    "portal_uploaded": "2026-10-01T05:16:05+00:00"
   },
   "esq177114559270": {
     "address": "Anne-Frank-Straße 18, 12524, Treptow-Köpenick",
@@ -2745,6 +2758,13 @@
     "portal_uploaded": "2026-09-28T07:04:05+00:00",
     "site_first_seen": "2026-09-28T10:18:12+02:00"
   },
+  "w11500139300300701": {
+    "address": "Helmholtzstraße 34",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-01T08:55:00+02:00",
+    "portal_uploaded": "2026-10-01T06:51:05+00:00",
+    "site_first_seen": "2026-10-01T08:54:30+02:00"
+  },
   "w11500142200340302": {
     "address": "Brigittenstraße 28",
     "company": "degewo",
@@ -2955,6 +2975,13 @@
     "portal_uploaded": "2026-09-28T08:54:05+00:00",
     "site_first_seen": "2026-09-28T10:58:32+02:00"
   },
+  "w14004010213501805": {
+    "address": "Marzahner Promenade 32",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-01T08:55:00+02:00",
+    "portal_uploaded": "2026-10-01T06:30:05+00:00",
+    "site_first_seen": "2026-10-01T08:54:30+02:00"
+  },
   "w14004012804800503": {
     "address": "Franz-Stenzer-Straße 15, 12679, Marzahn-Hellersdorf",
     "company": "degewo",
@@ -2991,6 +3018,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w14004060201600602": {
+    "address": "Blumberger Damm 204",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-01T08:55:00+02:00",
+    "portal_uploaded": "2026-10-01T06:50:02+00:00",
+    "site_first_seen": "2026-10-01T08:54:30+02:00"
   },
   "w14004072302500103": {
     "address": "Belziger Ring 32",
