@@ -39,6 +39,10 @@
   52.4235884,
   13.5901598
  ],
+ "Am Springebruch 3, 13469 Berlin": [
+  52.6134651,
+  13.3455942
+ ],
  "An den Buckower Feldern 13, 12349 Berlin": [
   52.4148234,
   13.4348321
@@ -50,6 +54,10 @@
  "Barbarastraße 26, Berlin": [
   52.4324425,
   13.3413802
+ ],
+ "Belziger Ring 42, Berlin": [
+  52.5634795,
+  13.5759746
  ],
  "Blumberger Damm 204, Berlin": [
   52.5537525,
@@ -67,6 +75,10 @@
   52.5436845,
   13.2333378
  ],
+ "Cecilienstraße 232, 12619 Berlin": [
+  52.5224678,
+  13.5900288
+ ],
  "Cecilienstraße 234, 12619 Berlin": [
   52.522686,
   13.5903774
@@ -82,6 +94,10 @@
  "Daumstr. 52A, 13599 Berlin": [
   52.5509974,
   13.2270378
+ ],
+ "David-Friedländer-Weg 104, 13057 Berlin": [
+  52.5731235,
+  13.5620324
  ],
  "Dolgenseestr. 8a, 10319 Berlin": [
   52.4939026,
@@ -151,6 +167,14 @@
   52.5376574,
   13.4882538
  ],
+ "Havemannstraße 11, Berlin": [
+  52.5691452,
+  13.5710249
+ ],
+ "Havemannstraße 16, Berlin": [
+  52.5684865,
+  13.5701133
+ ],
  "Heerstr. 455, 13593 Berlin": [
   52.5204077,
   13.15782
@@ -158,6 +182,18 @@
  "Heilmannring 26A, 13627 Berlin": [
   52.5372409,
   13.2898481
+ ],
+ "Heilmannring 45, 13627 Berlin": [
+  52.5351169,
+  13.2895171
+ ],
+ "Heilmannring 46, 13627 Berlin": [
+  52.5355748,
+  13.2886477
+ ],
+ "Helene-Weigel-Platz 13, Berlin": [
+  52.5266472,
+  13.5404956
  ],
  "Hohenzollernring 165, 13585 Berlin": [
   52.5406801,
@@ -182,6 +218,10 @@
  "Johanna-Tesch-Straße 17, 12439 Berlin": [
   52.452069,
   13.5389318
+ ],
+ "Kandeler Weg 1, 13583 Berlin": [
+  52.5418132,
+  13.1852433
  ],
  "Karl-Marx-Allee 143, 10243 Berlin": [
   52.516555,
@@ -259,6 +299,10 @@
   52.5513866,
   13.2406612
  ],
+ "Märkische Allee 196, Berlin": [
+  52.5467687,
+  13.5463229
+ ],
  "Neuköllnische Allee 147, 12057 Berlin": [
   52.4607012,
   13.474313
@@ -266,6 +310,10 @@
  "Neuköllnische Allee 149, 12057 Berlin": [
   52.4606986,
   13.4748208
+ ],
+ "Niemegker Straße 24, Berlin": [
+  52.5650086,
+  13.5699339
  ],
  "Nossener Straße 75, 12627 Berlin": [
   52.5296534,
@@ -278,6 +326,18 @@
  "Parchimer Allee 58, Berlin": [
   52.4458844,
   13.450929
+ ],
+ "Parsteiner Ring 11, Berlin": [
+  52.5519228,
+  13.5799058
+ ],
+ "Parsteiner Ring 15, Berlin": [
+  52.5522102,
+  13.5801757
+ ],
+ "Parsteiner Ring 27, Berlin": [
+  52.5522421,
+  13.5812851
  ],
  "Pechsteinstraße 64A, Berlin": [
   52.388182,
@@ -327,6 +387,14 @@
   52.5267292,
   13.3615156
  ],
+ "Siegener Straße 38, 13583 Berlin": [
+  52.5455402,
+  13.1775385
+ ],
+ "Siegener Straße 40, 13583 Berlin": [
+  52.5455407,
+  13.1778904
+ ],
  "Spießweg 38, 13437 Berlin": [
   52.5946501,
   13.3257589
@@ -342,6 +410,10 @@
  "Totilastraße 38, Berlin": [
   52.4566724,
   13.3702543
+ ],
+ "Töpchiner Weg 180, 12309 Berlin": [
+  52.4023413,
+  13.4121259
  ],
  "Vereinsstr. 12A, 12487 Berlin": [
   52.4422189,
@@ -374,6 +446,10 @@
  "Zobeltitzstr. 117, 13403 Berlin": [
   52.5724671,
   13.3067635
+ ],
+ "Zornstraße 4, Berlin": [
+  52.5046424,
+  13.5099874
  ],
  "Zwickauer Damm 12, Berlin": [
   52.4231626,
