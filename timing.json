@@ -1585,6 +1585,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T20:34:29+02:00"
   },
+  "177020106129": {
+    "address": "Möllendorffstraße 74, 10367 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-02T12:56:00+02:00"
+  },
   "177020114129": {
     "address": "Storkower Straße 197, 10369 Berlin",
     "company": "HOWOGE",
@@ -2607,6 +2612,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T18:27:06+00:00"
+  },
+  "esq177020106129": {
+    "address": "Möllendorffstraße 74, 10367, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-02T12:57:08+02:00",
+    "portal_uploaded": "2026-10-02T10:56:07+00:00"
   },
   "esq177020279457": {
     "address": "Schulze-Boysen-Straße 31, 10365, Lichtenberg",
