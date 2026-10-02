@@ -2488,6 +2488,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "71007080601010060": {
+    "address": "Eiserfelder Ring 9, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-02T12:47:03+02:00",
+    "portal_uploaded": "2026-10-02T10:42:04+00:00",
+    "site_first_seen": "2026-10-02T12:47:00+02:00"
+  },
   "71007220401010095": {
     "address": "Zobeltitzstr. 117, 13403 Berlin/Reinickendorf",
     "company": "Gewobag",
