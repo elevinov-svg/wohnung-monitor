@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Wohnung-Monitor: проверяет источники объявлений о квартирах и складывает
-новые подходящие объявления во вкладку "Объявления" Google-таблицы
-и в базу Supabase (таблица listings, см. db.py).
+все найденные объявления (сырые данные) в базу Supabase (таблица listings, см. db.py).
+
+Фильтрация и запись в Google Sheet — отдельный скрипт filter.py.
 
 Запускается периодически (см. .github/workflows/monitor.yml).
 Состояние хранится рядом со скриптом:
-  seen.json    — что мы уже видели (чтобы не писать дубли в таблицу)
+  seen.json    — что мы уже видели (чтобы не писать дубли в базу)
   timing.json  — когда каждая квартира впервые появилась на сайте компании
                  и на портале inberlinwohnen.de (для замера задержки портала)
 
@@ -31,8 +32,8 @@ from bs4 import BeautifulSoup
 
 import geo
 from landeseigene import COMPANY_CHECKERS
-from sheets import append_rows
 from db import insert_listings
+# sheets больше не используется в monitor.py — запись в Sheet делает filter.py
 
 BASE_DIR = Path(__file__).parent
 SOURCES_FILE = BASE_DIR / "sources.yaml"
@@ -294,26 +295,20 @@ def build_db_record(item: dict, source_name: str, source_type: str,
 
 
 def run_self_test() -> int:
-    print("[self-test] Пишу тестовую строку в таблицу 'Объявления'...")
-    test_item = {"title": "ТЕСТ — эту строку можно удалить",
-                 "link": "(нет ссылки, тестовая запись из self_test)"}
-    try:
-        append_rows([build_sheet_row(test_item, "self-test (проверка записи)")])
-    except Exception as exc:  # noqa: BLE001
-        print(f"[self-test] ОШИБКА при записи в таблицу: {exc}")
-        return 1
-    print("[self-test] Успешно записано.")
     print("[self-test] Пишу тестовую запись в базу Supabase...")
     import db
     if not db.SUPABASE_KEY:
         print("[self-test] SUPABASE_KEY не задан — база не проверена")
-        return 0
-    rec = build_db_record({"id": f"self-test-{now_berlin().isoformat()}", **test_item},
-                          "self-test (проверка записи)", "self_test")
+        return 1
+    test_item = {"title": "ТЕСТ — эту строку можно удалить",
+                 "link": "(нет ссылки, тестовая запись из self_test)",
+                 "id": f"self-test-{now_berlin().isoformat()}"}
+    rec = build_db_record(test_item, "self-test (проверка записи)", "self_test")
     if db.insert_listings([rec]) != 1:
         print("[self-test] ОШИБКА при записи в базу (см. сообщение выше)")
         return 1
     print("[self-test] В базу записано.")
+    print("[self-test] Запись в Sheet теперь делает filter.py — запусти его отдельно")
     return 0
 
 
@@ -356,8 +351,6 @@ def main() -> int:
     filters = config.get("filters") or {}
     seen = load_json(SEEN_FILE)
     timing = load_json(TIMING_FILE)
-    # общий список уже записанных в таблицу квартир (сайт компании + портал = одна квартира)
-    sheet_keys = set(seen.get("_sheet_keys", []))
     total_new = 0
 
     for source in sources:
@@ -384,36 +377,27 @@ def main() -> int:
             if it["id"] in seen_ids:
                 continue
             if stype == "company":
-                if it.get("key") in sheet_keys or not passes_filters(it, filters):
+                if not passes_filters(it, filters):
                     continue
                 if not passes_distance(it, filters):
                     continue
-                sheet_keys.add(it.get("key"))
             new_items.append(it)
 
         if new_items:
             label = name
-            rows, records = [], []
+            records = []
             for it in new_items:
                 if source.get("company") == "inberlinwohnen":
                     label = f"inberlinwohnen → {it.get('company')}"
-                rows.append(build_sheet_row(it, label, filters))
                 records.append(build_db_record(it, label, stype, filters))
-            if not DRY_RUN:
-                # база — независимо от таблицы; её ошибки не роняют прогон,
-                # а повторная вставка того же объявления игнорируется
-                insert_listings(records)
+
             if DRY_RUN:
-                for r in rows:
-                    print("[dry-run]", r)
+                for rec in records:
+                    print(f"[dry-run] {rec.get('source')}: {rec.get('address')} ({rec.get('link')})")
             else:
-                try:
-                    append_rows(rows)
-                except Exception as exc:  # noqa: BLE001
-                    print(f"[error] Не удалось записать в таблицу для '{name}': {exc}")
-                    for it in new_items:
-                        sheet_keys.discard(it.get("key"))
-                    continue
+                # Пишем только в Supabase; запись в Sheet делает filter.py
+                insert_listings(records)
+
             total_new += len(new_items)
             for it in new_items:
                 print(f"[new] {name}: {it.get('title')} ({it['link']})")
@@ -425,13 +409,12 @@ def main() -> int:
         # запоминаем всё, что видели (не только прошедшее фильтр)
         seen[name] = sorted({it["id"] for it in items} | seen_ids)
 
-    seen["_sheet_keys"] = sorted(k for k in sheet_keys if k)
     prune_timing(timing)
     geo.save_cache()
     if not DRY_RUN:
         save_json(SEEN_FILE, seen)
         save_json(TIMING_FILE, timing)
-    print(f"Готово. Новых объявлений в таблицу: {total_new}")
+    print(f"Готово. Новых объявлений в Supabase: {total_new}")
     return 0
 
 

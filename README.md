@@ -1,18 +1,20 @@
 # Wohnung-Monitor
 
-Простой скрипт, который раз в 30 минут проверяет источники объявлений
-о квартирах и шлёт уведомления в Telegram о новом.
+Мониторинг квартир в Берлине: парсит источники объявлений, пишет **сырые данные** в Supabase,
+фильтрует и записывает **подходящие квартиры** в Google Sheet.
 
-Сейчас настроен один реальный источник: RSS-фиды FriedrichsHeim eG
-(«для всех» и «только для членов») — я проверил их напрямую, они рабочие.
-Остальные сайты (Gewobag, degewo, SelbstBau и т.д.) добавляются по одному
-через `sources.yaml` — см. шаблоны там же.
+## Архитектура (новая)
 
-Новые объявления пишутся строками во вкладку **"Объявления"** твоей
-таблицы "Поиск квартиры Берлин" (та, что указана в правилах проекта).
-Параллельно те же объявления пишутся в базу данных **Supabase**
-(проект `wohnung-monitor`, таблица `listings`) — см. раздел
-«Supabase» ниже. Таблица Google остаётся как была.
+Два независимых скрипта:
+
+1. **`monitor.py`** (GitHub Actions, каждые 30 мин) — парсит источники, пишет **все объявления** (сырые данные) в Supabase
+2. **`filter.py`** (сервер, каждые 30 мин) — читает Supabase, фильтрует (WG/Zwischenmiete/расстояние), пишет **подходящие** в Google Sheet
+
+### Источники
+
+- **Landeseigene** (HOWOGE, degewo, WBM, GESOBAU, Gewobag, Stadt und Land) — работает в Actions
+- **Kleinanzeigen** — локально на ноутбуке через Chrome remote-debugging (чтобы не ловить бан)
+- **FriedrichsHeim eG** RSS-фиды
 
 Telegram-уведомления пока выключены (`USE_TELEGRAM=false` по умолчанию) —
 код рабочий, включается одной переменной окружения, когда понадобится.
@@ -69,27 +71,64 @@ Telegram-секреты (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`) пока мо
 ## Supabase — база данных
 
 Проект Supabase: `wohnung-monitor` (https://vbkrmzjmmbhtnqjotrnz.supabase.co),
-таблица `public.listings`. Туда пишут все скрипты: облачный `monitor.py`,
-локальный `local/local_monitor.py` и Kleinanzeigen-скрипт (`sheets_sync.py`).
-Код записи — `db.py` (без новых зависимостей, через REST API).
+таблица `public.listings`. Туда пишут **все** скрипты: облачный `monitor.py`,
+локальный `local/local_monitor.py` и Kleinanzeigen-скрипт.
 
-- Одно объявление = одна строка; пара (`source`, `external_id`) уникальна,
-  повторная запись того же объявления игнорируется.
-- Цены/площадь/комнаты — числами; `bruttokalt` (Kalt + Nebenkosten)
-  считается базой автоматически — удобно фильтровать под лимит Jobcenter.
-- Если база недоступна или ключ не задан — скрипт пишет предупреждение
-  и продолжает писать в Google-таблицу как раньше.
+- **Сырые данные** (все объявления) — в Supabase
+- **Отфильтрованные** (подходящие) — в Google Sheet
+
+Код записи — `db.py` (без новых зависимостей, через REST API).
 
 **Настройка (один раз):**
 1. Supabase → проект `wohnung-monitor` → **Project Settings → API Keys** →
-   скопировать **секретный** ключ (`sb_secret_...`; если его нет — нажать
-   «Create new secret key»). Никому не показывать и не класть в репозиторий.
+   скопировать **секретный** ключ (`service_role` key). Никому не показывать и не класть в репозиторий.
 2. GitHub → репозиторий → **Settings → Secrets and variables → Actions →
    New repository secret**: имя `SUPABASE_KEY`, значение — этот ключ.
-3. Локально (для локальных скриптов) — переменная окружения `SUPABASE_KEY`
-   с тем же значением.
+3. На сервере: добавить в Bitwarden (`add_secret "wohnung-monitor-supabase-key" "<key>"`)
 4. Проверка: Actions → Wohnung Monitor → Run workflow с галкой `self_test` —
-   в таблицу и в базу запишется по одной тестовой строке.
+   в базу запишется тестовая строка.
+
+## Настройка фильтра на сервере
+
+`filter.py` запускается на сервере каждые 30 минут через systemd timer.
+
+**1. Создать .env файл с секретами:**
+```bash
+source ~/.bitwarden-functions.sh
+export BW_SESSION=$(bw unlock --raw)
+generate_env_file ~/.secrets/wohnung-filter.env \
+    "wohnung-monitor-supabase-key:SUPABASE_KEY" \
+    "GOOGLE_SERVICE_ACCOUNT_JSON:GOOGLE_SERVICE_ACCOUNT_JSON"
+```
+
+**2. Установить Python-зависимости:**
+```bash
+cd ~/dev/wohnung-monitor
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+**3. Установить systemd service и timer:**
+```bash
+sudo cp wohnung-filter.service /etc/systemd/system/
+sudo cp wohnung-filter.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable wohnung-filter.timer
+sudo systemctl start wohnung-filter.timer
+```
+
+**4. Проверить:**
+```bash
+# Запустить вручную
+sudo systemctl start wohnung-filter.service
+
+# Посмотреть логи
+journalctl -u wohnung-filter.service -n 50
+
+# Статус timer
+systemctl status wohnung-filter.timer
+```
 
 ## Как добавить следующий источник
 

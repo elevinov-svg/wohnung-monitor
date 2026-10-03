@@ -1,0 +1,17 @@
+[Unit]
+Description=Wohnung Monitor Filter - фильтрация квартир из Supabase в Google Sheet
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ed
+WorkingDirectory=/home/ed/dev/wohnung-monitor
+EnvironmentFile=/home/ed/.secrets/wohnung-filter.env
+ExecStart=/usr/bin/python3 /home/ed/dev/wohnung-monitor/filter.py
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=wohnung-filter
+
+[Install]
+WantedBy=multi-user.target
