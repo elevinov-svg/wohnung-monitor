@@ -2282,6 +2282,12 @@
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T06:56:06+00:00"
   },
+  "335173219": {
+    "address": "Friedrichsgracht 57, 10178, Mitte",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:51:08+02:00",
+    "portal_uploaded": "2026-10-04T21:50:05+00:00"
+  },
   "335173231": {
     "address": "Friedrichsgracht 57, 10178, Mitte",
     "company": "WBM",
@@ -2293,6 +2299,12 @@
     "company": "WBM",
     "portal_first_seen": "2026-10-04T20:35:13+02:00",
     "portal_uploaded": "2026-10-04T18:35:06+00:00"
+  },
+  "38546111": {
+    "address": "Propststraße 1, 10178, Mitte",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:51:08+02:00",
+    "portal_uploaded": "2026-10-04T21:50:06+00:00"
   },
   "427333118": {
     "address": "Singerstraße 38, 10243, Friedrichshain-Kreuzberg",
@@ -2542,6 +2554,12 @@
     "address": "Heinersdorfer Strasse 10, 13086 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-30T12:40:42+02:00"
+  },
+  "517515368": {
+    "address": "Heidelberger Straße 79B, 12435, Treptow-Köpenick",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:51:08+02:00",
+    "portal_uploaded": "2026-10-04T21:50:09+00:00"
   },
   "51910111": {
     "address": "Eckertstrasse 2, 10249 Berlin",
