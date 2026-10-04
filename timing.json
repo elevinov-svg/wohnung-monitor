@@ -1648,6 +1648,12 @@
     "portal_uploaded": "2026-09-30T12:54:04+00:00",
     "site_first_seen": "2026-09-30T18:42:51+02:00"
   },
+  "14275118": {
+    "address": "Almstadtstraße 55, 10119, Mitte",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:13:38+02:00",
+    "portal_uploaded": "2026-10-04T18:13:04+00:00"
+  },
   "153255313": {
     "address": "Köpenicker Strasse 112, 10179 Berlin",
     "company": "WBM",
@@ -2204,6 +2210,12 @@
     "company": "WBM",
     "site_first_seen": "2026-10-02T12:51:38+02:00"
   },
+  "1785211186": {
+    "address": "Daumstraße 85, 13599, Spandau",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:13:38+02:00",
+    "portal_uploaded": "2026-10-04T18:13:08+00:00"
+  },
   "1785217288": {
     "address": "Daumstrasse 91, 13599 Berlin",
     "company": "WBM",
@@ -2217,6 +2229,8 @@
   "1785815": {
     "address": "Parkstrasse 44, 13585 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:13:38+02:00",
+    "portal_uploaded": "2026-10-04T18:13:08+00:00",
     "site_first_seen": "2026-09-30T12:49:38+02:00"
   },
   "18142601608": {
