@@ -2386,6 +2386,12 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "512147221": {
+    "address": "Eldenaer Straße 14, 10247, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:09:44+02:00",
+    "portal_uploaded": "2026-10-04T18:09:03+00:00"
+  },
   "5130053157": {
     "address": "Krautstrasse 7, 10243 Berlin",
     "company": "WBM",
@@ -2705,6 +2711,12 @@
     "address": "Pepitapromenade 6, 13587 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-25T12:48:46+02:00"
+  },
+  "60790339581": {
+    "address": "Pepitapromenade 9, 13587, Spandau",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:09:44+02:00",
+    "portal_uploaded": "2026-10-04T18:08:03+00:00"
   },
   "60790345673": {
     "address": "Pepitapromenade 13, 13587 Berlin",
