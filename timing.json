@@ -2793,6 +2793,8 @@
   "60790314194": {
     "address": "Mertensstrasse 30, 13587 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:55:14+02:00",
+    "portal_uploaded": "2026-10-04T21:54:05+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
