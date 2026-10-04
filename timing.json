@@ -2294,6 +2294,12 @@
     "portal_first_seen": "2026-10-04T20:35:13+02:00",
     "portal_uploaded": "2026-10-04T18:35:06+00:00"
   },
+  "427333118": {
+    "address": "Singerstraße 38, 10243, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:47:50+02:00",
+    "portal_uploaded": "2026-10-04T18:47:04+00:00"
+  },
   "501201711508": {
     "address": "Seydlitzstrasse 19, 10557 Berlin",
     "company": "WBM",
@@ -2418,6 +2424,12 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "5086750711": {
+    "address": "Landsberger Allee 313, 13055, Lichtenberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:47:50+02:00",
+    "portal_uploaded": "2026-10-04T18:44:06+00:00"
+  },
   "512147221": {
     "address": "Eldenaer Straße 14, 10247, Friedrichshain-Kreuzberg",
     "company": "WBM",
@@ -2433,6 +2445,18 @@
     "address": "Lichtenberger Strasse 20, 10179 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-09-30T12:58:06+02:00"
+  },
+  "513342165": {
+    "address": "Kleine Markusstraße 5, 10243, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:47:50+02:00",
+    "portal_uploaded": "2026-10-04T18:47:13+00:00"
+  },
+  "5133423117": {
+    "address": "Kleine Markusstraße 7, 10243, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T20:47:50+02:00",
+    "portal_uploaded": "2026-10-04T18:47:22+00:00"
   },
   "51439384": {
     "address": "Friedenstrasse 87, 10249 Berlin",
