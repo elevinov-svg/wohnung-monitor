@@ -2373,26 +2373,40 @@
   "5086750010144": {
     "address": "Konrad-Wolf-Strasse 42C, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:07+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
   "5086750010145": {
     "address": "Konrad-Wolf-Strasse 42C, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:07+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
   "5086750015225": {
     "address": "Konrad-Wolf-Strasse 43, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:46:06+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
   "5086750015234": {
     "address": "Konrad-Wolf-Strasse 43, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:07+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "5086750023369": {
+    "address": "Konrad-Wolf-Straße 44, 13055, Lichtenberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:05+00:00"
   },
   "5086750024396": {
     "address": "Konrad-Wolf-Strasse 44A, 13055 Berlin",
@@ -2409,18 +2423,24 @@
   "5086750026417": {
     "address": "Konrad-Wolf-Strasse 44C, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:06+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
   "5086750026418": {
     "address": "Konrad-Wolf-Strasse 44C, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:06+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
   "5086750027431": {
     "address": "Konrad-Wolf-Strasse 44D, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T20:48:07+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
@@ -2480,6 +2500,12 @@
     "portal_first_seen": "2026-10-04T20:01:08+02:00",
     "portal_uploaded": "2026-10-04T17:38:06+00:00"
   },
+  "5151495200": {
+    "address": "Scharnweberstraße 23, 10247, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T21:14:04+00:00"
+  },
   "515175155": {
     "address": "Mainzer Strasse 25, 10247 Berlin",
     "company": "WBM",
@@ -2493,6 +2519,8 @@
   "515306221": {
     "address": "Gärtnerstrasse 8A, 10245 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:16:15+02:00",
+    "portal_uploaded": "2026-10-04T21:14:05+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
