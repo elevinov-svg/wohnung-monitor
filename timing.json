@@ -2417,6 +2417,8 @@
   "5086750024396": {
     "address": "Konrad-Wolf-Strasse 44A, 13055 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:46:21+02:00",
+    "portal_uploaded": "2026-10-04T21:46:15+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
@@ -2529,6 +2531,12 @@
     "portal_uploaded": "2026-10-04T21:14:05+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "515562115": {
+    "address": "Frankfurter Allee 90, 10247, Friedrichshain-Kreuzberg",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-04T23:46:21+02:00",
+    "portal_uploaded": "2026-10-04T21:46:06+00:00"
   },
   "51751012": {
     "address": "Heinersdorfer Strasse 10, 13086 Berlin",
