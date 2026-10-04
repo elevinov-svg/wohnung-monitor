@@ -178,6 +178,7 @@
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70806-0101-0032/",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70806-0101-0060/",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-72204-0101-0095/",
+    "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-72213-0201-0012/",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73709-0104-0046/",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73710-0101-0003/",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73710-0101-0011/",
@@ -816,6 +817,7 @@
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70805-0101-0019",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70805-0102-0047",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-70806-0101-0060",
+    "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-72213-0201-0012",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-73710-0101-0011",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-77129-0102-0011",
     "https://www.gewobag.de/fuer-mietinteressentinnen/mietangebote/7100-78201-0101-0005",
@@ -861,6 +863,15 @@
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-31130-115.html?t=ibw",
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1771-31130-292.html?t=ibw",
     "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1910-33140-114.html?t=ibw",
-    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1910-33140-125.html?t=ibw"
+    "https://www.howoge.de/wohnungen-gewerbe/wohnungssuche/detail/1910-33140-125.html?t=ibw",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=1-5327/2/3",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=51-453/1/2",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=51-5143/3/33",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7901/4/93",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7903/18/275",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7903/2/45",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7903/22/348",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7903/24/364",
+    "https://www.wbm.de/wohnungen-berlin/angebote/details/?tx_openimmo_immobilie[immobilie]=60-7903/48/698"
   ]
 }
