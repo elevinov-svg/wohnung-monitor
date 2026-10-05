@@ -715,6 +715,12 @@
     "portal_first_seen": "2026-10-01T16:15:58+02:00",
     "portal_uploaded": "2026-10-01T13:25:06+00:00"
   },
+  "1000913000010707792991fd59c74062b5b9dbb260b4367e": {
+    "address": "Eichhorster Weg 44, 13435, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-05T08:04:34+02:00",
+    "portal_uploaded": "2026-10-05T04:21:05+00:00"
+  },
   "1000915000020103780c60b2fee9408bae21ba9b502aad5c": {
     "address": "Senftenberger Ring 76, 13435, Reinickendorf",
     "company": "GESOBAU",
@@ -1751,6 +1757,11 @@
     "address": "Atzpodienstraße 24 A, 10365 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T17:24:35+02:00"
+  },
+  "177020275398": {
+    "address": "Harnackstraße 28, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-05T08:03:43+02:00"
   },
   "177020279457": {
     "address": "Schulze-Boysen-Straße 31, 10365 Berlin",
@@ -3018,6 +3029,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-03T14:16:56+02:00",
     "portal_uploaded": "2026-10-03T12:16:06+00:00"
+  },
+  "esq177020275398": {
+    "address": "Harnackstraße 28, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-05T08:04:34+02:00",
+    "portal_uploaded": "2026-10-05T05:22:05+00:00"
   },
   "esq177020279457": {
     "address": "Schulze-Boysen-Straße 31, 10365, Lichtenberg",
