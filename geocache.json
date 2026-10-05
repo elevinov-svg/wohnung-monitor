@@ -35,6 +35,10 @@
   52.4511151,
   13.4419692
  ],
+ "Am Falkplatz 4, 10437 Berlin": [
+  52.5464767,
+  13.4058644
+ ],
  "Am Kietzer Feld 17, Berlin": [
   52.4235884,
   13.5901598
@@ -67,9 +71,17 @@
   52.475197,
   13.4379958
  ],
+ "Bremer Straße 12, 10551 Berlin": [
+  52.5295779,
+  13.3392274
+ ],
  "Brigittenstraße 28, Berlin": [
   52.4322535,
   13.3409911
+ ],
+ "Bruno-Baum-Straße 22, Berlin": [
+  52.5409788,
+  13.545984
  ],
  "Brunsbütteler Damm 269D, 13591 Berlin": [
   52.5319163,
@@ -78,6 +90,10 @@
  "Burscheider Weg 58A, 13599 Berlin": [
   52.5436845,
   13.2333378
+ ],
+ "Bülowstr. 89, 10783 Berlin": [
+  52.4985388,
+  13.3607518
  ],
  "Cecilienstraße 232, 12619 Berlin": [
   52.5224678,
@@ -114,6 +130,10 @@
  "Dominicusstraße 37, Berlin": [
   52.4811176,
   13.350501
+ ],
+ "Drontheimer Straße 26, 13359 Berlin": [
+  52.5596573,
+  13.3767035
  ],
  "Dröpkeweg 9, 12353 Berlin": [
   52.4193493,
@@ -155,6 +175,10 @@
   52.5556907,
   13.1491524
  ],
+ "Friedrichstr. 4, 10969 Berlin": [
+  52.5006061,
+  13.3917224
+ ],
  "Fritz-Erler-Allee 38, Berlin": [
   52.4336434,
   13.457325
@@ -166,6 +190,10 @@
  "Galenstr. 9, 13597 Berlin": [
   52.5363762,
   13.195462
+ ],
+ "Glambecker Ring 71, Berlin": [
+  52.5541451,
+  13.5776446
  ],
  "Graunstraße 12, Berlin": [
   52.5457023,
@@ -218,6 +246,10 @@
  "Hohenzollernring 171B, 13585 Berlin": [
   52.5391253,
   13.1953276
+ ],
+ "Hosemannstr. 34, 10409 Berlin": [
+  52.5490184,
+  13.4404548
  ],
  "Im Eck 3, Berlin": [
   52.4155672,
@@ -283,6 +315,10 @@
   52.5402198,
   13.4334872
  ],
+ "Liverpooler Straße 10, Berlin": [
+  52.5578802,
+  13.3411446
+ ],
  "Ludwig-Renn-Straße 60, Berlin": [
   52.5539139,
   13.5616511
@@ -339,6 +375,10 @@
   52.4339556,
   13.5536064
  ],
+ "Pallasstraße 14, Berlin": [
+  52.4946549,
+  13.3565501
+ ],
  "Parchimer Allee 58, Berlin": [
   52.4458844,
   13.450929
@@ -394,6 +434,10 @@
  "Scharnweberstraße 111, 13405 Berlin": [
   52.5657897,
   13.3201392
+ ],
+ "Schluchseestr. 59, 13469 Berlin": [
+  52.6073748,
+  13.335375
  ],
  "Schluchseestr. 77, 13469 Berlin": [
   52.6087797,
@@ -474,6 +518,10 @@
  "Wilsnacker Strasse 59, 10559 Berlin": [
   52.5278216,
   13.3513109
+ ],
+ "Winterfeldtstr. 18, 10781 Berlin": [
+  52.4965893,
+  13.3583238
  ],
  "Wittenberger Straße 21, Berlin": [
   52.5653058,
