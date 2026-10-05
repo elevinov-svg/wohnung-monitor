@@ -1954,6 +1954,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "17702510444": {
+    "address": "Silberberger Straße 11, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T00:07:43+02:00"
+  },
   "17702630516": {
     "address": "Dönhoffstraße 29 HH, 10318 Berlin",
     "company": "HOWOGE",
@@ -3246,6 +3251,12 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T11:29:05+00:00"
   },
+  "esq17702510444": {
+    "address": "Silberberger Straße 11, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-06T00:08:31+02:00",
+    "portal_uploaded": "2026-10-05T16:19:04+00:00"
+  },
   "esq177026318177": {
     "address": "Ilsestraße 36B, 10318, Lichtenberg",
     "company": "HOWOGE",
@@ -3585,6 +3596,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11002221500100401": {
+    "address": "Gartenfelder Straße 47",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T00:08:31+02:00",
+    "portal_uploaded": "2026-10-05T15:59:05+00:00",
+    "site_first_seen": "2026-10-06T00:08:00+02:00"
   },
   "w11002240600010101": {
     "address": "Bismarckstraße 17",
