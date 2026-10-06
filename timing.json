@@ -664,6 +664,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
   },
+  "10000016804030177": {
+    "address": "Prenzlauer Allee 112, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T09:01:09+00:00",
+    "site_first_seen": "2026-10-06T11:15:15+02:00"
+  },
   "10000026401090045": {
     "address": "Ella-Kay-Str. 6, 10405 Berlin/Pankow",
     "company": "Gewobag",
@@ -928,6 +935,13 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
   },
+  "1001020900089": {
+    "address": "John-Locke-Str. 2, 12305 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T07:36:05+00:00",
+    "site_first_seen": "2026-10-06T11:15:17+02:00"
+  },
   "1001025100036": {
     "address": "Dessauerstr. 54a, 12249 Berlin",
     "company": "Stadt und Land",
@@ -1103,6 +1117,27 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
   },
+  "1001518000143": {
+    "address": "Weißenhöher Str. 73, 12683 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T08:43:06+00:00",
+    "site_first_seen": "2026-10-06T11:15:17+02:00"
+  },
+  "1001518000157": {
+    "address": "Weißenhöher Str. 73, 12683 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T08:08:05+00:00",
+    "site_first_seen": "2026-10-06T11:15:17+02:00"
+  },
+  "1001518000327": {
+    "address": "Weißenhöher Str. 79, 12683 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T09:08:05+00:00",
+    "site_first_seen": "2026-10-06T11:15:17+02:00"
+  },
   "1001518200077": {
     "address": "Albert-Kuntz-Str. 54, 12627 Berlin",
     "company": "Stadt und Land",
@@ -1141,6 +1176,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001524600203": {
+    "address": "Knyphausenweg 4, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-06T11:15:17+02:00"
   },
   "1001524600218": {
     "address": "Knyphausenweg 8, 12349 Berlin",
@@ -1241,6 +1281,8 @@
   "1001527600027": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T09:05:04+00:00",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
@@ -2341,6 +2383,8 @@
   "1785215264": {
     "address": "Daumstrasse 89, 13599 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T05:21:07+00:00",
     "site_first_seen": "2026-10-05T17:08:39+02:00"
   },
   "1785217288": {
@@ -2873,11 +2917,26 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104602010149": {
+    "address": "Moderlieschenstr. 82, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T11:15:15+02:00"
+  },
+  "60113104602060178": {
+    "address": "Moderlieschenstr. 72, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T11:15:15+02:00"
+  },
   "60113104603010189": {
     "address": "Alandstr. 53, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104603010190": {
+    "address": "Alandstr. 53, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T11:15:15+02:00"
   },
   "60113104603010223": {
     "address": "Alandstr. 53, 13599 Berlin/Spandau",
@@ -3409,6 +3468,12 @@
     "portal_first_seen": "2026-10-02T13:22:26+02:00",
     "portal_uploaded": "2026-10-02T11:21:05+00:00"
   },
+  "esq177114559251": {
+    "address": "Anne-Frank-Straße 18, 12524, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T09:12:06+00:00"
+  },
   "esq177114559270": {
     "address": "Anne-Frank-Straße 18, 12524, Treptow-Köpenick",
     "company": "HOWOGE",
@@ -3647,6 +3712,13 @@
     "address": "Lipschitzallee 45",
     "company": "degewo",
     "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w11001220700220502": {
+    "address": "Ahrensdorfer Straße 23",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T08:54:06+00:00",
+    "site_first_seen": "2026-10-06T11:14:50+02:00"
   },
   "w11002201700060203": {
     "address": "Osdorfer Straße 104",
@@ -4389,6 +4461,13 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T12:20:04+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w14004038803600501": {
+    "address": "Wittenberger Straße 53",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T11:15:18+02:00",
+    "portal_uploaded": "2026-10-06T08:20:04+00:00",
+    "site_first_seen": "2026-10-06T11:14:50+02:00"
   },
   "w14004040505600402": {
     "address": "Köthener Straße 22",
