@@ -1347,6 +1347,11 @@
     "portal_uploaded": "2026-10-02T13:21:04+00:00",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
   },
+  "1001527600045": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-06T11:38:49+02:00"
+  },
   "1001527600047": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
@@ -2319,6 +2324,11 @@
     "address": "Brusebergstraße 22, 13407 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T11:33:06+02:00"
+  },
+  "177131100236": {
+    "address": "Brusebergstraße 28, 13407 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T11:38:09+02:00"
   },
   "17713112016": {
     "address": "Celsiusstraße 72, 12207 Berlin",
@@ -3567,6 +3577,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T11:33:49+02:00",
     "portal_uploaded": "2026-10-06T09:33:04+00:00"
+  },
+  "esq177131100236": {
+    "address": "Brusebergstraße 28, 13407, Reinickendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-06T11:38:51+02:00",
+    "portal_uploaded": "2026-10-06T09:37:05+00:00"
   },
   "esq177131125326": {
     "address": "Fahrenheitstraße 21, 12207, Steglitz-Zehlendorf",
