@@ -167,6 +167,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103607010313": {
+    "address": "Daumstr. 66, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
+  },
   "01000103608010317": {
     "address": "Daumstr. 64A, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -179,10 +184,20 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103610010450": {
+    "address": "Daumstr. 60, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
+  },
   "01000103610010454": {
     "address": "Daumstr. 60, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-10-01T16:15:51+02:00"
+  },
+  "01000103611010465": {
+    "address": "Daumstr. 58, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
   },
   "01000103611010466": {
     "address": "Daumstr. 58, 13599 Berlin/Spandau",
@@ -232,12 +247,22 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103614020623": {
+    "address": "Daumstr. 52, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
+  },
   "01000110810030280": {
     "address": "Seegefelder Str. 28B, 13583 Berlin/Spandau",
     "company": "Gewobag",
     "portal_first_seen": "2026-10-06T12:04:47+02:00",
     "portal_uploaded": "2026-10-06T10:01:09+00:00",
     "site_first_seen": "2026-10-06T12:04:44+02:00"
+  },
+  "01000110813060378": {
+    "address": "Kemmannweg 17, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
   },
   "01000110815030442": {
     "address": "Galenstr. 9, 13597 Berlin/Spandau",
@@ -529,6 +554,8 @@
   "01000255906040198": {
     "address": "David-Friedländer-Weg 104, 13057 Berlin/Lichtenberg",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T15:08:04+00:00",
     "site_first_seen": "2026-10-02T12:41:48+02:00"
   },
   "01000255906050200": {
@@ -552,6 +579,8 @@
   "01000256301030076": {
     "address": "Rhinstr. 143 B, 10315 Berlin/Lichtenberg",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:32:05+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
@@ -565,8 +594,17 @@
   "01000256301030116": {
     "address": "Rhinstr. 143 B, 10315 Berlin/Lichtenberg",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:37:06+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "01000256301030130": {
+    "address": "Rhinstr. 143 B, 10315 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:57:07+00:00",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
   },
   "01000256301040150": {
     "address": "Rhinstr. 143 C, 10315 Berlin/Lichtenberg",
@@ -743,6 +781,11 @@
     "address": "Schwyzer Straße 26 a, 13349 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-09-30T18:42:28+02:00"
+  },
+  "1000751000550931d3e3f08bd73442059833d7cd22bdaf71": {
+    "address": "Schwyzer Straße 26 c, 13349 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-06T18:09:09+02:00"
   },
   "1000794000010007bb64f5723cb5469cbccb376ea3dcb033": {
     "address": "Gartenplatz 2, 13355, Mitte",
@@ -1518,6 +1561,11 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "10032420000711288a17b439d2cb479ca1ed30902d975981": {
+    "address": "Alte Hellersdorfer Straße 108P, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-06T18:09:09+02:00"
+  },
   "1003243000021013370ae9148e404f56907845550b0537a9": {
     "address": "Zossener Straße 138, 12629 Berlin",
     "company": "GESOBAU",
@@ -1908,10 +1956,50 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-30T12:40:00+02:00"
   },
+  "177020508186": {
+    "address": "Baikalstraße 21, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770205378": {
+    "address": "Huronseestraße 40, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "177020549124": {
+    "address": "Sewanstraße 240, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
   "17702054918": {
     "address": "Sewanstraße 222, 10319 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T17:24:35+02:00"
+  },
+  "177020549185": {
+    "address": "Sewanstraße 252, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702056150": {
+    "address": "Dolgenseestraße 26, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702057167": {
+    "address": "Dolgenseestraße 32A, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702057224": {
+    "address": "Dolgenseestraße 27, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "177020573152": {
+    "address": "Sewanstraße 174, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
   "17702058423": {
     "address": "Marie-Curie-Allee 11, 10315 Berlin",
@@ -2057,6 +2145,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T18:55:03+02:00"
   },
+  "177027664330": {
+    "address": "Alfred-Kowalke-Straße 28 C, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
   "17702768630": {
     "address": "Melli-Beese-Straße 68, 12487 Berlin",
     "company": "HOWOGE",
@@ -2102,6 +2195,96 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "17702769723": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702769747": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702769771": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17702769795": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979986": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979987": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979988": {
+    "address": "Schkeuditzer Straße 3A, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979989": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979990": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979991": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979992": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979993": {
+    "address": "Schkeuditzer Straße 3A, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979994": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979995": {
+    "address": "Schkeuditzer Straße 3B, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979996": {
+    "address": "Schkeuditzer Straße 3, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979997": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979998": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "1770276979999": {
+    "address": "Schkeuditzer Straße 3C, 12627 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
   "17711031928": {
     "address": "Küstriner Straße 6, 13055 Berlin",
@@ -2210,6 +2393,21 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T10:53:48+02:00"
   },
+  "17711341323": {
+    "address": "Vincent-van-Gogh-Straße 30, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17711359513": {
+    "address": "Welsestraße 89, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17711359542": {
+    "address": "Welsestraße 93, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
   "177113630209": {
     "address": "Friedrich-Richter-Straße 49, 13125 Berlin",
     "company": "HOWOGE",
@@ -2226,6 +2424,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "177114555460": {
+    "address": "Klara-Weyl-Straße 19, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
   "17711455831": {
     "address": "Wilhelm-Hoff-Straße 23, 12489 Berlin",
@@ -2336,6 +2539,11 @@
     "address": "Brusebergstraße 28, 13407 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T11:38:09+02:00"
+  },
+  "17713111010": {
+    "address": "Brusebergstraße 12, 13407 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
   "17713112016": {
     "address": "Celsiusstraße 72, 12207 Berlin",
@@ -3232,6 +3440,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "71007490304030056": {
+    "address": "Breitehornweg 17, 14089 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-06T18:09:31+02:00"
+  },
   "71007630201050186": {
     "address": "Mellener Str. 11, 12305 Berlin/Tempelhof-Schöneberg",
     "company": "Gewobag",
@@ -3339,6 +3552,12 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T10:07:07+00:00"
   },
+  "esq1770205378": {
+    "address": "Huronseestraße 40, 10319, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:37:07+00:00"
+  },
   "esq17702055153": {
     "address": "Sewanstraße 256B, 10319, Lichtenberg",
     "company": "HOWOGE",
@@ -3362,6 +3581,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T12:04:47+02:00",
     "portal_uploaded": "2026-10-06T10:02:10+00:00"
+  },
+  "esq17702057167": {
+    "address": "Dolgenseestraße 32A, 10319, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:42:07+00:00"
   },
   "esq177020575146": {
     "address": "Huronseestraße 34, 10319, Lichtenberg",
@@ -4031,6 +4256,16 @@
     "company": "degewo",
     "site_first_seen": "2026-09-29T17:24:54+02:00"
   },
+  "w11400052900550607": {
+    "address": "Waldsassener Straße 29",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w11400052902902602": {
+    "address": "Waldsassener Straße 29",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
   "w11400053600430302": {
     "address": "Waldsassener Straße 51B",
     "company": "degewo",
@@ -4136,6 +4371,23 @@
     "address": "Pallasstraße 14",
     "company": "degewo",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w11500014500190401": {
+    "address": "Heilbronner Straße 4A",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w11500024510751075": {
+    "address": "Schlangenbader Straße 33C",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w11500024700120012": {
+    "address": "Schlangenbader Straße 34",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T14:52:05+00:00",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
   "w11500040400180502": {
     "address": "Mariannenplatz 8",
@@ -4262,6 +4514,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13002160100190301": {
+    "address": "Rathenaustraße 44",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T15:53:05+00:00",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
   "w13004110300640203": {
     "address": "Joachimstraße 6",
     "company": "degewo",
@@ -4335,6 +4594,20 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13005510100210306": {
+    "address": "Abram-Joffe-Straße 8",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T15:30:06+00:00",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w13005510100690202": {
+    "address": "Katharina-Boll-Dornberger-Straße 28",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-06T18:09:34+02:00",
+    "portal_uploaded": "2026-10-06T15:27:05+00:00",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
   "w13006021800690704": {
     "address": "Alfred-Randt-Straße 42",
     "company": "degewo",
@@ -4350,6 +4623,16 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w13006280200170101": {
+    "address": "Köpenzeile 120",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w13006590500400102": {
+    "address": "Zur Nachtheide 48",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
   "w13006622100660304": {
     "address": "Wendenschloßstraße 130B",
@@ -4420,6 +4703,11 @@
     "address": "Bruno-Baum-Straße 22",
     "company": "degewo",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w14004008807901105": {
+    "address": "Bruno-Baum-Straße 22",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
   "w14004008813201802": {
     "address": "Bruno-Baum-Straße 22",
@@ -4678,6 +4966,11 @@
     "portal_first_seen": "2026-09-30T23:15:11+02:00",
     "portal_uploaded": "2026-09-30T17:36:06+00:00",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
+  },
+  "w15003170300460701": {
+    "address": "Tramper Weg 6",
+    "company": "degewo",
+    "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
   "w31102191400200102": {
     "address": "Am Omnibushof 12",

@@ -423,6 +423,10 @@
   52.5505863,
   13.5510608
  ],
+ "Rathenaustraße 44, Berlin": [
+  52.4611342,
+  13.5316541
+ ],
  "Regattastraße 103, Berlin": [
   52.4191066,
   13.5793001
@@ -443,6 +447,14 @@
   52.5657897,
   13.3201392
  ],
+ "Schlangenbader Straße 33C, Berlin": [
+  52.4712137,
+  13.3063246
+ ],
+ "Schlangenbader Straße 34, Berlin": [
+  52.4711078,
+  13.3077407
+ ],
  "Schluchseestr. 59, 13469 Berlin": [
   52.6073748,
   13.335375
@@ -450,6 +462,10 @@
  "Schluchseestr. 77, 13469 Berlin": [
   52.6087797,
   13.3372512
+ ],
+ "Schwyzer Straße 26 c, 13349 Berlin": [
+  52.5593894,
+  13.3590506
  ],
  "Schönefelder Chaussee 213, 12524 Berlin": [
   52.4036128,
@@ -546,6 +562,10 @@
  "Zornstraße 4, Berlin": [
   52.5046424,
   13.5099874
+ ],
+ "Zur Nachtheide 48, Berlin": [
+  52.4259476,
+  13.5898087
  ],
  "Zwickauer Damm 12, Berlin": [
   52.4231626,
