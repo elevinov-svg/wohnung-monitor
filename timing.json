@@ -603,6 +603,8 @@
   "01000255906050200": {
     "address": "David-Friedländer-Weg 106, 13057 Berlin/Lichtenberg",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T17:55:04+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
@@ -3805,6 +3807,12 @@
     "portal_first_seen": "2026-09-26T08:27:59+02:00",
     "portal_uploaded": "2026-09-26T04:59:02+00:00"
   },
+  "esq17702059827": {
+    "address": "Reichenberger Straße 4, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:58:06+00:00"
+  },
   "esq17702081559": {
     "address": "Elli-Voigt-Straße 2, 10367, Lichtenberg",
     "company": "HOWOGE",
@@ -3834,6 +3842,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T18:29:22+02:00",
     "portal_uploaded": "2026-10-06T16:24:05+00:00"
+  },
+  "esq1770247818": {
+    "address": "Weseler Straße 14, 10318, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:04:08+00:00"
   },
   "esq17702478863": {
     "address": "Scheffelstraße 36, 10367, Lichtenberg",
@@ -3936,6 +3950,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-01T08:55:00+02:00",
     "portal_uploaded": "2026-10-01T05:16:05+00:00"
+  },
+  "esq177114003132": {
+    "address": "Konrad-Wolf-Straße 6, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T16:18:04+00:00"
   },
   "esq17711455831": {
     "address": "Wilhelm-Hoff-Straße 23, 12489, Treptow-Köpenick",
@@ -4765,6 +4785,13 @@
     "portal_uploaded": "2026-09-29T15:57:04+00:00",
     "site_first_seen": "2026-09-25T17:27:26+02:00"
   },
+  "w13002060100020102": {
+    "address": "Goethestraße 7",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:47:05+00:00",
+    "site_first_seen": "2026-10-07T22:04:59+02:00"
+  },
   "w13002070600070302": {
     "address": "Griechische Allee 15",
     "company": "degewo",
@@ -4907,6 +4934,13 @@
     "portal_uploaded": "2026-10-07T07:05:06+00:00",
     "site_first_seen": "2026-10-07T09:07:56+02:00"
   },
+  "w13006021800410101": {
+    "address": "Alfred-Randt-Straße 42",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:52:03+00:00",
+    "site_first_seen": "2026-10-07T22:04:59+02:00"
+  },
   "w13006021800690704": {
     "address": "Alfred-Randt-Straße 42",
     "company": "degewo",
@@ -4916,6 +4950,13 @@
     "address": "Alfred-Randt-Straße 48",
     "company": "degewo",
     "site_first_seen": "2026-10-01T16:15:15+02:00"
+  },
+  "w13006021801790502": {
+    "address": "Alfred-Randt-Straße 48",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:46:06+00:00",
+    "site_first_seen": "2026-10-07T22:04:59+02:00"
   },
   "w13006030200110403": {
     "address": "Am Kietzer Feld 17",
@@ -4946,6 +4987,13 @@
     "address": "Köpenzeile 120",
     "company": "degewo",
     "site_first_seen": "2026-10-06T18:09:01+02:00"
+  },
+  "w13006420400680302": {
+    "address": "Pablo-Neruda-Straße 20",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T15:38:05+00:00",
+    "site_first_seen": "2026-10-07T22:04:59+02:00"
   },
   "w13006590500400102": {
     "address": "Zur Nachtheide 48",
@@ -4996,6 +5044,13 @@
     "portal_first_seen": "2026-10-07T09:19:06+02:00",
     "portal_uploaded": "2026-10-07T07:15:05+00:00",
     "site_first_seen": "2026-10-07T09:18:38+02:00"
+  },
+  "w13007180500180203": {
+    "address": "Löbauer Weg 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T22:05:34+02:00",
+    "portal_uploaded": "2026-10-07T16:11:04+00:00",
+    "site_first_seen": "2026-10-07T22:04:59+02:00"
   },
   "w14000608000020102": {
     "address": "Joachim-Ringelnatz-Straße 2",
