@@ -123,6 +123,10 @@
   52.522686,
   13.5903774
  ],
+ "Charlottenstraße 17D, Berlin": [
+  52.4392314,
+  13.5859859
+ ],
  "Clara-Müller-Jahnke-Straße 26, Berlin": [
   52.4305006,
   13.7158358
@@ -283,6 +287,10 @@
   52.5490184,
   13.4404548
  ],
+ "Hönower Straße 25 A, 12623 Berlin": [
+  52.5069609,
+  13.6124128
+ ],
  "Im Eck 3, Berlin": [
   52.4155672,
   13.3957491
@@ -314,6 +322,10 @@
  "Karl-Marx-Allee 95, 10243 Berlin": [
   52.5175254,
   13.4421284
+ ],
+ "Karlstraße 38, Berlin": [
+  52.4395431,
+  13.5787973
  ],
  "Kletterrosenweg 8, 12526 Berlin": [
   52.4059518,
@@ -487,6 +499,10 @@
   52.5657897,
   13.3201392
  ],
+ "Schlangenbader Straße 25, Berlin": [
+  52.4732169,
+  13.3072159
+ ],
  "Schlangenbader Straße 33C, Berlin": [
   52.4712137,
   13.3063246
@@ -495,6 +511,10 @@
   52.4711078,
   13.3077407
  ],
+ "Schliemannstr. 9, 10437 Berlin": [
+  52.5417979,
+  13.4178915
+ ],
  "Schluchseestr. 59, 13469 Berlin": [
   52.6073748,
   13.335375
@@ -502,6 +522,10 @@
  "Schluchseestr. 77, 13469 Berlin": [
   52.6087797,
   13.3372512
+ ],
+ "Schwielowseestr. 18, 13599 Berlin": [
+  52.5573487,
+  13.2255254
  ],
  "Schwyzer Straße 26 c, 13349 Berlin": [
   52.5593894,
@@ -514,6 +538,10 @@
  "Seeburger Straße 19a, 13581 Berlin": [
   52.5277153,
   13.1875212
+ ],
+ "Seegefelder Straße 36, 13583 Berlin": [
+  52.536743,
+  13.1924492
  ],
  "Senftenberger Straße 1B, 12627 Berlin": [
   52.5382134,
@@ -539,6 +567,14 @@
   52.4373073,
   13.5004374
  ],
+ "Steffelbauerstraße 1, Berlin": [
+  52.4593766,
+  13.5370824
+ ],
+ "Südekumzeile 17, 13591 Berlin": [
+  52.5302596,
+  13.1508471
+ ],
  "Südekumzeile 17A, 13591 Berlin": [
   52.5300301,
   13.1509635
@@ -555,6 +591,10 @@
   52.4566724,
   13.3702543
  ],
+ "Treptower Strasse 16, 12059 Berlin": [
+  52.4796429,
+  13.450428
+ ],
  "Töpchiner Weg 180, 12309 Berlin": [
   52.4023413,
   13.4121259
@@ -562,6 +602,14 @@
  "Vereinsstr. 12A, 12487 Berlin": [
   52.4422189,
   13.5034566
+ ],
+ "Waltroper Platz 8- 10, 12207 Berlin": [
+  52.41922,
+  13.3080129
+ ],
+ "Warthestr. 39, 12051 Berlin": [
+  52.4692669,
+  13.4212545
  ],
  "Warthestr. 42 C, 12051 Berlin": [
   52.4692729,
