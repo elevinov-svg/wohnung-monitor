@@ -4649,6 +4649,13 @@
     "portal_uploaded": "2026-10-06T15:27:05+00:00",
     "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
+  "w13006010100370402": {
+    "address": "Am Kietzer Feld 5",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:08:25+02:00",
+    "portal_uploaded": "2026-10-07T07:05:06+00:00",
+    "site_first_seen": "2026-10-07T09:07:56+02:00"
+  },
   "w13006021800690704": {
     "address": "Alfred-Randt-Straße 42",
     "company": "degewo",
@@ -4664,6 +4671,12 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w13006030400230402": {
+    "address": "Am Kietzer Feld 20, 12557, Treptow-Köpenick",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:08:25+02:00",
+    "portal_uploaded": "2026-10-07T07:07:06+00:00"
   },
   "w13006280200170101": {
     "address": "Köpenzeile 120",
