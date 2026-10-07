@@ -4672,6 +4672,12 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13006030200360401": {
+    "address": "Am Kietzer Feld 21, 12557, Treptow-Köpenick",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:19:06+02:00",
+    "portal_uploaded": "2026-10-07T07:17:05+00:00"
+  },
   "w13006030400230402": {
     "address": "Am Kietzer Feld 20, 12557, Treptow-Köpenick",
     "company": "degewo",
@@ -4707,6 +4713,13 @@
     "portal_first_seen": "2026-10-06T11:52:06+02:00",
     "portal_uploaded": "2026-10-06T09:51:05+00:00",
     "site_first_seen": "2026-10-06T11:51:48+02:00"
+  },
+  "w13007100104130101": {
+    "address": "Gilgenburger Straße 8",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:19:06+02:00",
+    "portal_uploaded": "2026-10-07T07:15:05+00:00",
+    "site_first_seen": "2026-10-07T09:18:38+02:00"
   },
   "w14000608000020102": {
     "address": "Joachim-Ringelnatz-Straße 2",
