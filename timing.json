@@ -1506,6 +1506,13 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
   },
+  "1001677500137": {
+    "address": "Gondeker Str. 21, 12437 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-07T09:35:06+02:00",
+    "portal_uploaded": "2026-10-07T07:33:04+00:00",
+    "site_first_seen": "2026-10-07T09:35:03+02:00"
+  },
   "1001731700029": {
     "address": "Alte Berliner Straße 26 c, 15366 Dahlwitz-Hoppegarten",
     "company": "Stadt und Land",
@@ -1737,6 +1744,11 @@
     "address": "Neue Grottkauer Straße 22, 12619 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
+  },
+  "1050820600182": {
+    "address": "Neue Grottkauer Straße 40, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-07T09:35:03+02:00"
   },
   "1050820700231": {
     "address": "Maxie-Wander-Straße 4, 12619 Berlin",
