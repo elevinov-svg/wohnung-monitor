@@ -457,6 +457,13 @@
     "portal_uploaded": "2026-10-02T10:30:06+00:00",
     "site_first_seen": "2026-10-02T12:41:48+02:00"
   },
+  "01000161003010183": {
+    "address": "Reichweindamm 4, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-07T16:53:05+02:00",
+    "portal_uploaded": "2026-10-07T14:50:05+00:00",
+    "site_first_seen": "2026-10-07T16:53:03+02:00"
+  },
   "01000162501010005": {
     "address": "Heilmannring 46, 13627 Berlin/Charlottenburg-Wilmersdorf",
     "company": "Gewobag",
@@ -1914,6 +1921,8 @@
   "120005113": {
     "address": "Christoph-Ruden-Strasse 12, 12349 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-07T16:53:05+02:00",
+    "portal_uploaded": "2026-10-07T14:49:06+00:00",
     "site_first_seen": "2026-10-07T16:47:09+02:00"
   },
   "14275118": {
