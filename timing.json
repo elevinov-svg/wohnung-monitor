@@ -2399,6 +2399,11 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "17711288216": {
+    "address": "Hagenower Ring 77, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-07T09:23:21+02:00"
+  },
   "17711328419": {
     "address": "Grevesmühlener Straße 20, 13059 Berlin",
     "company": "HOWOGE",
@@ -3736,6 +3741,12 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T10:06:07+00:00"
   },
+  "esq17711288216": {
+    "address": "Hagenower Ring 77, 13059, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-07T09:25:32+02:00",
+    "portal_uploaded": "2026-10-07T07:22:07+00:00"
+  },
   "esq17711332051": {
     "address": "Demminer Straße 47, 13059, Lichtenberg",
     "company": "HOWOGE",
@@ -4445,6 +4456,20 @@
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
   },
+  "w11500050401730202": {
+    "address": "Burgemeisterstraße 40",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:25:32+02:00",
+    "portal_uploaded": "2026-10-07T07:19:05+00:00",
+    "site_first_seen": "2026-10-07T09:25:00+02:00"
+  },
+  "w11500050410090401": {
+    "address": "Burgemeisterstraße 39A",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T09:25:32+02:00",
+    "portal_uploaded": "2026-10-07T07:20:04+00:00",
+    "site_first_seen": "2026-10-07T09:25:00+02:00"
+  },
   "w11500139300300701": {
     "address": "Helmholtzstraße 34",
     "company": "degewo",
@@ -4676,7 +4701,8 @@
     "address": "Am Kietzer Feld 21, 12557, Treptow-Köpenick",
     "company": "degewo",
     "portal_first_seen": "2026-10-07T09:19:06+02:00",
-    "portal_uploaded": "2026-10-07T07:17:05+00:00"
+    "portal_uploaded": "2026-10-07T07:17:05+00:00",
+    "site_first_seen": "2026-10-07T09:25:00+02:00"
   },
   "w13006030400230402": {
     "address": "Am Kietzer Feld 20, 12557, Treptow-Köpenick",
