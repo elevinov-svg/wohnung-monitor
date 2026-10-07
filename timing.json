@@ -2196,6 +2196,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "1770247818": {
+    "address": "Weseler Straße 14, 10318 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-07T17:02:25+02:00"
+  },
   "17702478863": {
     "address": "Scheffelstraße 36, 10367 Berlin",
     "company": "HOWOGE",
@@ -2509,6 +2514,11 @@
     "address": "Vincent-van-Gogh-Straße 30, 13057 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:08:40+02:00"
+  },
+  "17711358916": {
+    "address": "Welsestraße 57, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-07T17:02:25+02:00"
   },
   "17711359513": {
     "address": "Welsestraße 89, 13057 Berlin",
@@ -3915,6 +3925,12 @@
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T06:06:08+00:00"
   },
+  "esq17711358916": {
+    "address": "Welsestraße 57, 13057, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-07T17:03:54+02:00",
+    "portal_uploaded": "2026-10-07T15:03:07+00:00"
+  },
   "esq177113630209": {
     "address": "Friedrich-Richter-Straße 49, 13125, Pankow",
     "company": "HOWOGE",
@@ -4761,6 +4777,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w13002110400360403": {
+    "address": "Kottmeierstraße 51",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T17:03:54+02:00",
+    "portal_uploaded": "2026-10-07T15:01:10+00:00",
+    "site_first_seen": "2026-10-07T17:03:21+02:00"
   },
   "w13002160100190301": {
     "address": "Rathenaustraße 44",
