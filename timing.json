@@ -1911,6 +1911,12 @@
     "company": "WBM",
     "site_first_seen": "2026-09-30T12:40:42+02:00"
   },
+  "1707222000130102384aaed380b64d6283c1d12964c06e43": {
+    "address": "Eisenzahnstraße 21A, 10709, Charlottenburg-Wilmersdorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T05:09:03+00:00"
+  },
   "177020101153": {
     "address": "Alfred-Jung-Straße 22, 10369 Berlin",
     "company": "HOWOGE",
@@ -4580,6 +4586,13 @@
     "portal_uploaded": "2026-09-24T12:11:07+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
   },
+  "w13004190100840302": {
+    "address": "Grüne Trift 156",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T06:24:05+00:00",
+    "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
   "w13004190101700504": {
     "address": "Zur Nachtheide 94",
     "company": "degewo",
@@ -4708,6 +4721,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
   },
+  "w14004001004200402": {
+    "address": "Marchwitzastraße 8",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T06:49:05+00:00",
+    "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
   "w14004002702000504": {
     "address": "Allee der Kosmonauten 68, 12681, Marzahn-Hellersdorf",
     "company": "degewo",
@@ -4721,6 +4741,19 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T12:54:05+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w14004003204600203": {
+    "address": "Marchwitzastraße 37",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T06:50:04+00:00",
+    "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
+  "w14004006013200403": {
+    "address": "Märkische Allee 122, 12681, Marzahn-Hellersdorf",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T06:53:04+00:00"
   },
   "w14004006212101602": {
     "address": "Helene-Weigel-Platz 13",
@@ -4944,6 +4977,13 @@
     "address": "Ludwig-Renn-Straße 60",
     "company": "degewo",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w14005181100280404": {
+    "address": "Bärensteinstraße 5",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-07T08:54:24+02:00",
+    "portal_uploaded": "2026-10-07T05:48:04+00:00",
+    "site_first_seen": "2026-10-07T08:53:53+02:00"
   },
   "w14005181100570202": {
     "address": "Pöhlbergstraße 9",
