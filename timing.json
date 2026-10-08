@@ -833,6 +833,8 @@
   "10000060401020016": {
     "address": "Sonnenallee 42, 12045 Berlin/Neukölln",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-08T16:22:43+02:00",
+    "portal_uploaded": "2026-10-08T14:18:05+00:00",
     "site_first_seen": "2026-10-08T16:17:35+02:00"
   },
   "1000028001010140bda17e1f9f8b4440ad4129c0643faaaf": {
@@ -2228,6 +2230,11 @@
     "address": "Reichenberger Straße 4, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-07T22:09:45+02:00"
+  },
+  "1770205988": {
+    "address": "Reichenberger Straße 4, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-08T16:21:21+02:00"
   },
   "177020704150": {
     "address": "Rüdickenstraße 33 B, 13053 Berlin",
@@ -3739,6 +3746,13 @@
     "portal_uploaded": "2026-10-02T10:42:04+00:00",
     "site_first_seen": "2026-10-02T12:47:00+02:00"
   },
+  "71007080601010061": {
+    "address": "Eiserfelder Ring 9, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-08T16:22:43+02:00",
+    "portal_uploaded": "2026-10-08T14:21:05+00:00",
+    "site_first_seen": "2026-10-08T16:22:40+02:00"
+  },
   "71007220401010095": {
     "address": "Zobeltitzstr. 117, 13403 Berlin/Reinickendorf",
     "company": "Gewobag",
@@ -5199,6 +5213,13 @@
     "address": "Charlottenstraße 17D",
     "company": "degewo",
     "site_first_seen": "2026-10-07T16:15:48+02:00"
+  },
+  "w13006070900580604": {
+    "address": "Charlottenstraße 17C",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-08T16:22:43+02:00",
+    "portal_uploaded": "2026-10-08T14:21:05+00:00",
+    "site_first_seen": "2026-10-08T16:22:11+02:00"
   },
   "w13006070900650611": {
     "address": "Charlottenstraße 17C",
