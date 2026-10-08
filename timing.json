@@ -2542,6 +2542,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
+  "17711020519": {
+    "address": "Strausberger Straße 20, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-08T16:37:32+02:00"
+  },
   "17711031928": {
     "address": "Küstriner Straße 6, 13055 Berlin",
     "company": "HOWOGE",
@@ -2643,6 +2648,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "1771128131": {
+    "address": "Woldegker Straße 12, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-08T16:37:32+02:00"
   },
   "17711288216": {
     "address": "Hagenower Ring 77, 13059 Berlin",
@@ -4077,6 +4087,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-30T18:42:53+02:00",
     "portal_uploaded": "2026-09-30T16:17:06+00:00"
+  },
+  "esq17711020519": {
+    "address": "Strausberger Straße 20, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-08T16:38:25+02:00",
+    "portal_uploaded": "2026-10-08T14:37:07+00:00"
   },
   "esq17711144643": {
     "address": "Seefelder Straße 48, 13053, Lichtenberg",
