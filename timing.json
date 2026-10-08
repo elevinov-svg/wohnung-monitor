@@ -386,6 +386,13 @@
     "portal_uploaded": "2026-09-28T12:05:02+00:00",
     "site_first_seen": "2026-09-28T18:56:05+02:00"
   },
+  "01000124010020628": {
+    "address": "Todtnauer Zeile 6, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-08T16:28:02+02:00",
+    "portal_uploaded": "2026-10-08T14:25:04+00:00",
+    "site_first_seen": "2026-10-08T16:27:58+02:00"
+  },
   "01000124018010960": {
     "address": "Tegernauer Zeile 2, 13469 Berlin/Reinickendorf",
     "company": "Gewobag",
@@ -4250,6 +4257,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-03T18:16:53+02:00",
     "portal_uploaded": "2026-10-03T16:16:07+00:00"
+  },
+  "esq177114591320": {
+    "address": "Pablo-Picasso-Straße 35A, 13057, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-08T16:28:02+02:00",
+    "portal_uploaded": "2026-10-08T14:27:06+00:00"
   },
   "esq177131100110": {
     "address": "Brusebergstraße 22, 13407, Reinickendorf",
