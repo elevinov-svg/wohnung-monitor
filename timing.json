@@ -2814,6 +2814,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T10:17:55+02:00"
   },
+  "19253325816": {
+    "address": "Baumbachstraße 7, 13189 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-08T08:42:51+02:00"
+  },
   "194033410142": {
     "address": "Landsberger Allee 183, 10369 Berlin",
     "company": "HOWOGE",
@@ -4117,6 +4122,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:16:05+00:00"
+  },
+  "esq19253325816": {
+    "address": "Baumbachstraße 7, 13189, Pankow",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-08T08:43:46+02:00",
+    "portal_uploaded": "2026-10-08T06:42:05+00:00"
   },
   "esq195033551244": {
     "address": "Mellenseestraße 54, 10319, Lichtenberg",
