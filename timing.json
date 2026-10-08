@@ -830,6 +830,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-01T16:15:51+02:00"
   },
+  "10000060401020016": {
+    "address": "Sonnenallee 42, 12045 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-08T16:17:35+02:00"
+  },
   "1000028001010140bda17e1f9f8b4440ad4129c0643faaaf": {
     "address": "Gerichtstraße 13, 13347 Berlin",
     "company": "GESOBAU",
@@ -3986,6 +3991,12 @@
     "portal_first_seen": "2026-10-07T22:05:34+02:00",
     "portal_uploaded": "2026-10-07T15:58:06+00:00"
   },
+  "esq1770205988": {
+    "address": "Reichenberger Straße 4, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-08T16:17:41+02:00",
+    "portal_uploaded": "2026-10-08T14:17:06+00:00"
+  },
   "esq17702081559": {
     "address": "Elli-Voigt-Straße 2, 10367, Lichtenberg",
     "company": "HOWOGE",
@@ -5188,6 +5199,13 @@
     "address": "Charlottenstraße 17D",
     "company": "degewo",
     "site_first_seen": "2026-10-07T16:15:48+02:00"
+  },
+  "w13006070900650611": {
+    "address": "Charlottenstraße 17C",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-08T16:17:41+02:00",
+    "portal_uploaded": "2026-10-08T14:17:05+00:00",
+    "site_first_seen": "2026-10-08T16:17:04+02:00"
   },
   "w13006280200170101": {
     "address": "Köpenzeile 120",
