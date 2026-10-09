@@ -44,6 +44,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103116010258": {
+    "address": "Daumstr. 105, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
   "01000103119010326": {
     "address": "Templiner-See-Str. 7, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -326,6 +331,13 @@
     "address": "Kandeler Weg 1, 13583 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-10-02T12:41:48+02:00"
+  },
+  "01000111301010125": {
+    "address": "Kandeler Weg 1, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T12:40:07+00:00",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
   },
   "01000111815010203": {
     "address": "Paul-Gerhardt-Ring 11, 13589 Berlin/Spandau",
@@ -767,6 +779,13 @@
     "portal_uploaded": "2026-10-02T09:47:05+00:00",
     "site_first_seen": "2026-10-02T12:41:48+02:00"
   },
+  "03000523701010007": {
+    "address": "Stockumer Str. 1, 13507 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T11:41:06+00:00",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
   "03000563302020033": {
     "address": "Halemweg 4, 13627 Berlin/Charlottenburg-Wilmersdorf",
     "company": "Gewobag",
@@ -805,6 +824,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
   },
+  "10000016002020077": {
+    "address": "Schwedter Str. 31, 10435 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T13:12:05+00:00",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
   "10000016802030077": {
     "address": "Ostseestr. 22, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -818,6 +844,12 @@
     "portal_first_seen": "2026-10-06T11:15:18+02:00",
     "portal_uploaded": "2026-10-06T09:01:09+00:00",
     "site_first_seen": "2026-10-06T11:15:15+02:00"
+  },
+  "10000021701030021": {
+    "address": "Winsstraße 43, 10405, Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T13:15:05+00:00"
   },
   "10000026202030084": {
     "address": "Grellstr. 47A, 10409 Berlin/Pankow",
@@ -841,6 +873,13 @@
     "portal_first_seen": "2026-10-09T02:12:00+02:00",
     "portal_uploaded": "2026-10-08T21:56:08+00:00",
     "site_first_seen": "2026-10-09T02:11:57+02:00"
+  },
+  "10000030701020021": {
+    "address": "Jablonskistr. 25, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T13:16:05+00:00",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
   },
   "10000034401020012": {
     "address": "Grellstr. 63, 10409 Berlin/Pankow",
@@ -1074,6 +1113,16 @@
     "address": "Bayernring 16, 12101 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
+  },
+  "1001018200010": {
+    "address": "Heinrich-Schlusnus-Str. 12, 12057 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
+  },
+  "1001018200171": {
+    "address": "Heinrich-Schlusnus-Str. 8, 12057 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
   },
   "1001018300023": {
     "address": "Fritzi-Massary-Str. 83, 12057 Berlin",
@@ -1341,6 +1390,11 @@
     "address": "Adele-Sandrock-Str. 113, 12627 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-01T16:15:54+02:00"
+  },
+  "1001521700051": {
+    "address": "Pöhlbergstr. 31, 12685 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
   },
   "1001521700190": {
     "address": "Pöhlbergstr. 45, 12685 Berlin",
@@ -1643,10 +1697,20 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
   },
+  "1001639900018": {
+    "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
+  },
   "1001639900019": {
     "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
+  },
+  "1001639900020": {
+    "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
   },
   "1001639900027": {
     "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
@@ -1654,6 +1718,11 @@
     "portal_first_seen": "2026-09-29T10:58:14+02:00",
     "portal_uploaded": "2026-09-29T05:17:03+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
+  },
+  "1001639900030": {
+    "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
   },
   "1001647000104": {
     "address": "Otto-Franke-Str. 55, 12489 Berlin",
@@ -1798,6 +1867,11 @@
     "address": "Hönower Straße 25 A, 12623 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-07T16:16:36+02:00"
+  },
+  "1050516000216": {
+    "address": "Hasenholzer Allee 40, 12685 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-09T15:42:17+02:00"
   },
   "1050517700084": {
     "address": "Kienbergstr. 21, 12685 Berlin",
@@ -3296,6 +3370,8 @@
   "512781662": {
     "address": "Bernauer Strasse 29, 10115 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T11:29:05+00:00",
     "site_first_seen": "2026-10-08T15:56:38+02:00"
   },
   "5130053157": {
@@ -3667,11 +3743,21 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104701040105": {
+    "address": "Rotfederstraße 60, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
   "60113104701050157": {
     "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104701050158": {
+    "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
   },
   "60113104701050165": {
     "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
@@ -3717,6 +3803,13 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "60790314205": {
+    "address": "Mertensstrasse 30, 13587 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T10:49:07+00:00",
+    "site_first_seen": "2026-10-09T15:41:49+02:00"
+  },
   "60790318275": {
     "address": "Pepitapromenade 14, 13587, Spandau",
     "company": "WBM",
@@ -3743,6 +3836,11 @@
     "portal_uploaded": "2026-10-04T17:55:14+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "60790325384": {
+    "address": "Goltzstrasse 48, 13587 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-09T15:41:49+02:00"
   },
   "60790327401": {
     "address": "Pepitapromenade 6, 13587 Berlin",
@@ -3928,6 +4026,11 @@
     "address": "Potsdamer Str. 134- 136, 10783 Berlin/Tempelhof-Schöneberg",
     "company": "Gewobag",
     "site_first_seen": "2026-09-29T17:25:17+02:00"
+  },
+  "71007700701020058": {
+    "address": "Bülowstr. 94, 10783 Berlin/Tempelhof-Schöneberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-09T15:42:16+02:00"
   },
   "71007701301010016": {
     "address": "Bülowstr. 89, 10783 Berlin/Tempelhof-Schöneberg",
@@ -4509,6 +4612,8 @@
   "w11000253101020304": {
     "address": "Clara-Müller-Jahnke-Straße 9",
     "company": "degewo",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T12:52:04+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -4528,6 +4633,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11000253200750103": {
+    "address": "Clara-Müller-Jahnke-Straße 48",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-09T15:42:21+02:00",
+    "portal_uploaded": "2026-10-09T12:49:04+00:00",
+    "site_first_seen": "2026-10-09T15:41:43+02:00"
   },
   "w11000253200900302": {
     "address": "Clara-Müller-Jahnke-Straße 52",
@@ -4978,6 +5090,11 @@
     "address": "Pechsteinstraße 64A",
     "company": "degewo",
     "site_first_seen": "2026-10-01T16:15:15+02:00"
+  },
+  "w11401180200570904": {
+    "address": "Friedrich-Kayßler-Weg 1",
+    "company": "degewo",
+    "site_first_seen": "2026-10-09T15:41:43+02:00"
   },
   "w11401180600780605": {
     "address": "Theodor-Loos-Weg 15A",
@@ -5606,6 +5723,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-30T18:42:16+02:00"
   },
+  "w14004014910301405": {
+    "address": "Ludwig-Renn-Straße 33",
+    "company": "degewo",
+    "site_first_seen": "2026-10-09T15:41:43+02:00"
+  },
   "w14004032301800306": {
     "address": "Märkische Allee 280",
     "company": "degewo",
@@ -5802,6 +5924,11 @@
     "address": "Graunstraße 12",
     "company": "degewo",
     "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w15000076300850702": {
+    "address": "Brunnenstraße 56",
+    "company": "degewo",
+    "site_first_seen": "2026-10-09T15:41:43+02:00"
   },
   "w15000080700970101": {
     "address": "Dannenwalder Weg 140",
