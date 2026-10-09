@@ -2460,6 +2460,16 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "17702471318": {
+    "address": "Massower Straße 4, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
+  "1770247134": {
+    "address": "Einbecker Straße 109, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
   "1770247818": {
     "address": "Weseler Straße 14, 10318 Berlin",
     "company": "HOWOGE",
@@ -2720,6 +2730,11 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "1771121557": {
+    "address": "Borner Straße 18, 13051 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
   "17711235266": {
     "address": "Zingster Straße 31, 13051 Berlin",
     "company": "HOWOGE",
@@ -2809,6 +2824,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
+  "17711352012": {
+    "address": "Wartiner Straße 27, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
   "17711352327": {
     "address": "Wartiner Straße 57, 13057 Berlin",
     "company": "HOWOGE",
@@ -2870,6 +2890,11 @@
     "address": "Wilhelm-Hoff-Straße 23, 12489 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T13:20:41+02:00"
+  },
+  "17711455832": {
+    "address": "Wilhelm-Hoff-Straße 23, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
   },
   "17711455861": {
     "address": "Alexander-von-Humboldt-Weg 11, 12489 Berlin",
@@ -3128,6 +3153,16 @@
     "address": "Rudolf-Seiffert-Straße 25, 10369 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T12:40:21+02:00"
+  },
+  "19503355731": {
+    "address": "Ribbecker Straße 3, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
+  "195033559244": {
+    "address": "Schulze-Boysen-Straße 69, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-09T21:17:44+02:00"
   },
   "31032314215": {
     "address": "Fischerinsel 10,18.11, 10179, Mitte",
@@ -4224,6 +4259,12 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T11:37:05+00:00"
   },
+  "esq177024015305": {
+    "address": "Wolfgang-Heinz-Straße 40, 13125, Pankow",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T17:02:06+00:00"
+  },
   "esq177024062324": {
     "address": "Gehrenseestraße 77, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -4235,6 +4276,18 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T18:29:22+02:00",
     "portal_uploaded": "2026-10-06T16:24:05+00:00"
+  },
+  "esq17702471318": {
+    "address": "Massower Straße 4, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T17:03:06+00:00"
+  },
+  "esq1770247134": {
+    "address": "Einbecker Straße 109, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T17:04:07+00:00"
   },
   "esq1770247818": {
     "address": "Weseler Straße 14, 10318, Lichtenberg",
@@ -4314,6 +4367,12 @@
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T16:11:07+00:00"
   },
+  "esq1771121557": {
+    "address": "Borner Straße 18, 13051, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T16:52:03+00:00"
+  },
   "esq17711235266": {
     "address": "Zingster Straße 31, 13051, Lichtenberg",
     "company": "HOWOGE",
@@ -4368,6 +4427,12 @@
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T06:06:08+00:00"
   },
+  "esq17711352012": {
+    "address": "Wartiner Straße 27, 13057, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T16:49:06+00:00"
+  },
   "esq17711358916": {
     "address": "Welsestraße 57, 13057, Lichtenberg",
     "company": "HOWOGE",
@@ -4391,6 +4456,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-02T13:27:10+02:00",
     "portal_uploaded": "2026-10-02T11:23:05+00:00"
+  },
+  "esq17711455832": {
+    "address": "Wilhelm-Hoff-Straße 23, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T16:48:05+00:00"
   },
   "esq17711455861": {
     "address": "Alexander-von-Humboldt-Weg 11, 12489, Treptow-Köpenick",
@@ -4547,6 +4618,18 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-07T16:16:39+02:00",
     "portal_uploaded": "2026-10-07T13:27:08+00:00"
+  },
+  "esq19503355731": {
+    "address": "Ribbecker Straße 3, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T17:05:04+00:00"
+  },
+  "esq195033559244": {
+    "address": "Schulze-Boysen-Straße 69, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-09T21:18:31+02:00",
+    "portal_uploaded": "2026-10-09T17:07:05+00:00"
   },
   "w11000062300020002": {
     "address": "Alt-Britz 23",
