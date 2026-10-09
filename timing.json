@@ -1902,6 +1902,13 @@
     "portal_uploaded": "2026-10-01T14:12:05+00:00",
     "site_first_seen": "2026-10-01T16:15:54+02:00"
   },
+  "1050820500225": {
+    "address": "Maxie-Wander-Straße 13, 12619 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-09T08:31:57+02:00",
+    "portal_uploaded": "2026-10-09T06:30:07+00:00",
+    "site_first_seen": "2026-10-09T08:31:55+02:00"
+  },
   "1050820500424": {
     "address": "Neue Grottkauer Straße 22, 12619 Berlin",
     "company": "Stadt und Land",
@@ -5349,6 +5356,13 @@
     "portal_first_seen": "2026-10-08T16:17:41+02:00",
     "portal_uploaded": "2026-10-08T14:17:05+00:00",
     "site_first_seen": "2026-10-08T16:17:04+02:00"
+  },
+  "w13006240300030201": {
+    "address": "Igelsteig 8",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-09T08:31:57+02:00",
+    "portal_uploaded": "2026-10-09T06:31:07+00:00",
+    "site_first_seen": "2026-10-09T08:31:24+02:00"
   },
   "w13006280200170101": {
     "address": "Köpenzeile 120",
