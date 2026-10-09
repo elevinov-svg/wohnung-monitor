@@ -529,6 +529,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000213201010067": {
+    "address": "Amrumer Str. 36, 13353 Berlin/Mitte",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-09T08:56:47+02:00",
+    "portal_uploaded": "2026-10-09T06:54:06+00:00",
+    "site_first_seen": "2026-10-09T08:56:43+02:00"
+  },
   "01000223101020102": {
     "address": "Adalbertstr. 96, 10999 Berlin/Friedrichshain-Kreuzberg",
     "company": "Gewobag",
