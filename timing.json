@@ -2252,6 +2252,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-08T15:56:09+02:00"
   },
+  "177020110147": {
+    "address": "Anton-Saefkow-Platz 3, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-10T01:25:23+02:00"
+  },
   "17702011090": {
     "address": "Anton-Saefkow-Platz 3, 10369 Berlin",
     "company": "HOWOGE",
@@ -4144,6 +4149,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-02T12:57:08+02:00",
     "portal_uploaded": "2026-10-02T10:56:07+00:00"
+  },
+  "esq177020110147": {
+    "address": "Anton-Saefkow-Platz 3, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-10T01:26:11+02:00",
+    "portal_uploaded": "2026-10-09T20:57:07+00:00"
   },
   "esq17702011090": {
     "address": "Anton-Saefkow-Platz 3, 10369, Lichtenberg",
