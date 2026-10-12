@@ -263,6 +263,10 @@
   52.5541451,
   13.5776446
  ],
+ "Goethestraße 59, Berlin": [
+  52.5879353,
+  13.3583763
+ ],
  "Goethestraße 7, Berlin": [
   52.463994,
   13.514986
@@ -399,6 +403,10 @@
   52.5166996,
   13.4366033
  ],
+ "Kottmeierstraße 21, Berlin": [
+  52.4626804,
+  13.527405
+ ],
  "Kottmeierstraße 27, Berlin": [
   52.4622259,
   13.5276704
@@ -410,6 +418,10 @@
  "Krautstrasse 7, 10243 Berlin": [
   52.5165363,
   13.428295
+ ],
+ "Käthe-Dorsch-Ring 4, Berlin": [
+  52.4248203,
+  13.4792023
  ],
  "Köpenicker Strasse 112, 10179 Berlin": [
   52.5096901,
@@ -486,6 +498,10 @@
  "Merseburger Straße 9, Berlin": [
   52.5675648,
   13.554318
+ ],
+ "Moderlieschenstr. 28, 13599 Berlin": [
+  52.5496983,
+  13.2451359
  ],
  "Moderlieschenstr. 32, 13599 Berlin": [
   52.5513866,
@@ -599,6 +615,10 @@
   52.5321697,
   13.5176325
  ],
+ "Ringenwalder Straße 31, Berlin": [
+  52.5509841,
+  13.5803708
+ ],
  "Rotfederstraße 60, 13599 Berlin": [
   52.5523892,
   13.2399837
@@ -651,6 +671,10 @@
   52.536743,
   13.1924492
  ],
+ "Seegefelder Straße 38, 13583 Berlin": [
+  52.5368789,
+  13.1920875
+ ],
  "Senftenberger Straße 1B, 12627 Berlin": [
   52.5382134,
   13.6001468
@@ -702,6 +726,10 @@
  "Thaliaweg 13, Berlin": [
   52.4344636,
   13.344691
+ ],
+ "Thomas-Mann-Straße 4, 10409 Berlin": [
+  52.5426637,
+  13.4426001
  ],
  "Tirschenreuther Ring 13, Berlin": [
   52.4091005,
@@ -779,6 +807,10 @@
   52.5653058,
   13.5668922
  ],
+ "Zabel-Krüger-Damm 50, 13469 Berlin": [
+  52.6102663,
+  13.3355862
+ ],
  "Zobeltitzstr. 117, 13403 Berlin": [
   52.5724671,
   13.3067635
@@ -786,6 +818,10 @@
  "Zornstraße 4, Berlin": [
   52.5046424,
   13.5099874
+ ],
+ "Zur Nachtheide 4, Berlin": [
+  52.4253301,
+  13.5877719
  ],
  "Zur Nachtheide 48, Berlin": [
   52.4259476,
