@@ -3805,6 +3805,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-29T10:54:25+02:00"
   },
+  "60113104601070106": {
+    "address": "Alandstr. 51, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-12T22:12:51+02:00"
+  },
   "60113104601070109": {
     "address": "Alandstr. 51, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -5602,6 +5607,8 @@
   "w13002110100270103": {
     "address": "Kottmeierstraße 21",
     "company": "degewo",
+    "portal_first_seen": "2026-10-12T22:12:54+02:00",
+    "portal_uploaded": "2026-10-12T14:03:08+00:00",
     "site_first_seen": "2026-10-12T21:58:01+02:00"
   },
   "w13002110300120403": {
