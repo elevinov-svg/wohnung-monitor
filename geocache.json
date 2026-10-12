@@ -63,6 +63,10 @@
   52.4892132,
   13.4608365
  ],
+ "Amanlisweg 10, Berlin": [
+  52.534644,
+  13.5502817
+ ],
  "Amrumer Straße 36, 13353 Berlin": [
   52.5460533,
   13.3450468
@@ -455,6 +459,14 @@
   52.5364916,
   13.5403297
  ],
+ "Martha-Arendsee-Straße 24, Berlin": [
+  52.5365619,
+  13.5409875
+ ],
+ "Marzahner Promenade 14, Berlin": [
+  52.5425769,
+  13.5458591
+ ],
  "Marzahner Promenade 32, Berlin": [
   52.5442769,
   13.5499498
@@ -502,6 +514,10 @@
  "Neuköllnische Allee 149, 12057 Berlin": [
   52.4606986,
   13.4748208
+ ],
+ "Niemegker Straße 2, Berlin": [
+  52.5656402,
+  13.5655734
  ],
  "Niemegker Straße 24, Berlin": [
   52.5650086,
@@ -703,9 +719,21 @@
   52.4023413,
   13.4121259
  ],
+ "Venusstraße 28, Berlin": [
+  52.405511,
+  13.526972
+ ],
  "Vereinsstr. 12A, 12487 Berlin": [
   52.4422189,
   13.5034566
+ ],
+ "Walter-Franck-Zeile 7, Berlin": [
+  52.4217398,
+  13.4690074
+ ],
+ "Walter-Franck-Zeile 9, Berlin": [
+  52.4220416,
+  13.4687958
  ],
  "Waltroper Platz 8- 10, 12207 Berlin": [
   52.41922,
