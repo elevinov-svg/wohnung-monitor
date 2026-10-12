@@ -1223,6 +1223,11 @@
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
+  "1001043800018": {
+    "address": "Tiburtiusstr. 5, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-12T13:07:26+02:00"
+  },
   "1001044900122": {
     "address": "Kalker Str. 2, 12524 Berlin",
     "company": "Stadt und Land",
@@ -6188,6 +6193,8 @@
   "w31102191400200102": {
     "address": "Am Omnibushof 12",
     "company": "degewo",
+    "portal_first_seen": "2026-10-12T13:07:28+02:00",
+    "portal_uploaded": "2026-10-12T11:05:07+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   }
