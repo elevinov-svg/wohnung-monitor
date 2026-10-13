@@ -5375,6 +5375,11 @@
     "company": "degewo",
     "site_first_seen": "2026-10-13T11:02:52+02:00"
   },
+  "w11005211100960304": {
+    "address": "Stralsunder Straße 14",
+    "company": "degewo",
+    "site_first_seen": "2026-10-13T11:17:56+02:00"
+  },
   "w11005211302040104": {
     "address": "Seidenschwanzstraße 36",
     "company": "degewo",
@@ -6229,6 +6234,13 @@
     "portal_first_seen": "2026-10-13T11:03:34+02:00",
     "portal_uploaded": "2026-10-13T08:23:04+00:00",
     "site_first_seen": "2026-10-13T11:02:52+02:00"
+  },
+  "w14004030507700901": {
+    "address": "Lea-Grundig-Straße 76",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-13T11:18:26+02:00",
+    "portal_uploaded": "2026-10-13T09:17:03+00:00",
+    "site_first_seen": "2026-10-13T11:17:56+02:00"
   },
   "w14004032301800306": {
     "address": "Märkische Allee 280",
