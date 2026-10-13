@@ -87,6 +87,10 @@
   52.5634795,
   13.5759746
  ],
+ "Bisamstraße 60, Berlin": [
+  52.5161451,
+  13.6375377
+ ],
  "Blumberger Damm 204, Berlin": [
   52.5537525,
   13.5750867
@@ -335,6 +339,10 @@
   52.5266472,
   13.5404956
  ],
+ "Hessenring 30, 12101 Berlin": [
+  52.474713,
+  13.3746059
+ ],
  "Hohenzollernring 165, 13585 Berlin": [
   52.5406801,
   13.1948185
@@ -518,6 +526,10 @@
  "Märkische Allee 196, Berlin": [
   52.5467687,
   13.5463229
+ ],
+ "Nalepastraße 220, Berlin": [
+  52.4644429,
+  13.5076259
  ],
  "Neue Grottkauer Straße 40, 12619 Berlin": [
   52.5281504,
@@ -707,6 +719,14 @@
   52.4593766,
   13.5370824
  ],
+ "Stralsunder Straße 14, Berlin": [
+  52.5396918,
+  13.3940394
+ ],
+ "Stralsunder Straße 16, Berlin": [
+  52.539715,
+  13.3941969
+ ],
  "Südekumzeile 17, 13591 Berlin": [
   52.5302596,
   13.1508471
@@ -806,6 +826,10 @@
  "Wittenberger Straße 21, Berlin": [
   52.5653058,
   13.5668922
+ ],
+ "Wuhlestraße 19, Berlin": [
+  52.5269223,
+  13.5689771
  ],
  "Zabel-Krüger-Damm 50, 13469 Berlin": [
   52.6102663,
