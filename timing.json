@@ -40,6 +40,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103101030034": {
+    "address": "Daumstr. 147, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-13T11:44:40+02:00",
+    "portal_uploaded": "2026-10-13T09:39:04+00:00",
+    "site_first_seen": "2026-10-13T11:44:37+02:00"
+  },
   "01000103102020056": {
     "address": "Zernseestraße 6, 13599, Spandau",
     "company": "Gewobag",
@@ -4453,6 +4460,12 @@
     "portal_first_seen": "2026-10-08T16:17:41+02:00",
     "portal_uploaded": "2026-10-08T14:17:06+00:00"
   },
+  "esq17702076735": {
+    "address": "Hauptstraße 44, 10317, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-13T11:44:40+02:00",
+    "portal_uploaded": "2026-10-13T09:42:05+00:00"
+  },
   "esq177020775211": {
     "address": "Hauptstraße 56A, 10317, Lichtenberg",
     "company": "HOWOGE",
@@ -4566,6 +4579,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-08T21:43:10+02:00",
     "portal_uploaded": "2026-10-08T14:57:07+00:00"
+  },
+  "esq1771100837": {
+    "address": "Konrad-Wolf-Straße 121, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-13T11:44:40+02:00",
+    "portal_uploaded": "2026-10-13T09:43:05+00:00"
   },
   "esq17711010130": {
     "address": "Sandinostraße 12A, 13055, Lichtenberg",
@@ -5895,6 +5914,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13005321100350205": {
+    "address": "Rudower Straße 47",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-13T11:44:40+02:00",
+    "portal_uploaded": "2026-10-13T09:39:04+00:00",
+    "site_first_seen": "2026-10-13T11:44:08+02:00"
+  },
   "w13005510100130206": {
     "address": "Abram-Joffe-Straße 8",
     "company": "degewo",
@@ -6492,6 +6518,13 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w15000201101410302": {
+    "address": "Varnhagenstraße 37",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-13T11:44:40+02:00",
+    "portal_uploaded": "2026-10-13T09:41:04+00:00",
+    "site_first_seen": "2026-10-13T11:44:08+02:00"
   },
   "w15003170300310502": {
     "address": "Tramper Weg 6",
