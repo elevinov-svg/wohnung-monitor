@@ -2700,6 +2700,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T18:55:03+02:00"
   },
+  "17702645089": {
+    "address": "Roßmäßlerstraße 23, 10318 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-13T23:56:47+02:00"
+  },
   "17702681576": {
     "address": "Alt-Friedrichsfelde 41, 10315 Berlin",
     "company": "HOWOGE",
@@ -4667,6 +4672,12 @@
     "portal_first_seen": "2026-09-28T18:56:10+02:00",
     "portal_uploaded": "2026-09-28T14:46:06+00:00"
   },
+  "esq17702645089": {
+    "address": "Roßmäßlerstraße 23, 10318, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-13T23:57:37+02:00",
+    "portal_uploaded": "2026-10-13T17:57:04+00:00"
+  },
   "esq17702681576": {
     "address": "Alt-Friedrichsfelde 41, 10315, Lichtenberg",
     "company": "HOWOGE",
@@ -5945,6 +5956,8 @@
   "w13003090200080402": {
     "address": "Filehner Straße 73",
     "company": "degewo",
+    "portal_first_seen": "2026-10-13T23:57:37+02:00",
+    "portal_uploaded": "2026-10-13T13:38:06+00:00",
     "site_first_seen": "2026-10-13T19:05:11+02:00"
   },
   "w13003280100460301": {
