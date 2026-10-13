@@ -2494,6 +2494,11 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "17702076735": {
+    "address": "Hauptstraße 44, 10317 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-13T11:49:01+02:00"
+  },
   "177020775211": {
     "address": "Hauptstraße 56 A, 10317 Berlin",
     "company": "HOWOGE",
@@ -2831,6 +2836,11 @@
     "address": "Berkenbrücker Steig 4, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-08T21:42:07+02:00"
+  },
+  "1771100837": {
+    "address": "Konrad-Wolf-Straße 121, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-13T11:49:01+02:00"
   },
   "17711010130": {
     "address": "Sandinostraße 12A, 13055 Berlin",
@@ -3708,7 +3718,8 @@
     "address": "Heidelberger Straße 79B, 12435, Treptow-Köpenick",
     "company": "WBM",
     "portal_first_seen": "2026-10-04T23:51:08+02:00",
-    "portal_uploaded": "2026-10-04T21:50:09+00:00"
+    "portal_uploaded": "2026-10-04T21:50:09+00:00",
+    "site_first_seen": "2026-10-13T11:49:44+02:00"
   },
   "517515485": {
     "address": "Heidelberger Strasse 80, 12435 Berlin",
