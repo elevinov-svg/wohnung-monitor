@@ -1628,6 +1628,13 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
+  "1001527600011": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-14T08:33:05+02:00",
+    "portal_uploaded": "2026-10-14T06:31:05+00:00",
+    "site_first_seen": "2026-10-14T08:33:03+02:00"
+  },
   "1001527600017": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
@@ -5727,6 +5734,12 @@
     "portal_uploaded": "2026-09-28T13:41:05+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11400068100490803": {
+    "address": "Wutzkyallee 53, 12353, Neukölln",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-14T08:33:05+02:00",
+    "portal_uploaded": "2026-10-14T06:33:03+00:00"
   },
   "w11401170200360201": {
     "address": "Theodor-Loos-Weg 33",
