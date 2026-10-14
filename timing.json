@@ -5645,6 +5645,13 @@
     "portal_uploaded": "2026-10-12T10:26:05+00:00",
     "site_first_seen": "2026-10-12T12:29:00+02:00"
   },
+  "w11400064402892601": {
+    "address": "Zwickauer Damm 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-14T07:59:58+02:00",
+    "portal_uploaded": "2026-10-14T05:57:04+00:00",
+    "site_first_seen": "2026-10-14T07:59:27+02:00"
+  },
   "w11400064403032705": {
     "address": "Zwickauer Damm 12",
     "company": "degewo",
@@ -5682,6 +5689,12 @@
     "address": "Agnes-Straub-Weg 2",
     "company": "degewo",
     "site_first_seen": "2026-10-01T16:15:15+02:00"
+  },
+  "w11400066304861404": {
+    "address": "Agnes-Straub-Weg 2, 12353, Neukölln",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-14T07:59:58+02:00",
+    "portal_uploaded": "2026-10-14T05:59:04+00:00"
   },
   "w11400066407440506": {
     "address": "Theodor-Loos-Weg 11",
