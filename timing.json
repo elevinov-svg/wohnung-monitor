@@ -72,6 +72,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103108010179": {
+    "address": "Zernseestr. 7, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T14:46:06+00:00",
+    "site_first_seen": "2026-10-14T17:56:51+02:00"
+  },
   "01000103116010258": {
     "address": "Daumstr. 105, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -544,6 +551,11 @@
     "portal_uploaded": "2026-10-07T14:50:05+00:00",
     "site_first_seen": "2026-10-07T16:53:03+02:00"
   },
+  "01000161108020318": {
+    "address": "Wirmerzeile 8, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-14T17:56:51+02:00"
+  },
   "01000161703020130": {
     "address": "Reichweindamm 43, 13627 Berlin/Charlottenburg-Wilmersdorf",
     "company": "Gewobag",
@@ -608,6 +620,13 @@
     "portal_uploaded": "2026-09-24T09:05:04+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "01000193101020039": {
+    "address": "Blasewitzer Ring 16, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:52:02+00:00",
+    "site_first_seen": "2026-10-14T17:56:51+02:00"
   },
   "01000213201010067": {
     "address": "Amrumer Str. 36, 13353 Berlin/Mitte",
@@ -913,6 +932,13 @@
     "portal_uploaded": "2026-10-06T09:01:09+00:00",
     "site_first_seen": "2026-10-06T11:15:15+02:00"
   },
+  "10000018401020033": {
+    "address": "Gaudystr. 16A, 10437 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:50:04+00:00",
+    "site_first_seen": "2026-10-14T17:56:51+02:00"
+  },
   "10000018501050071": {
     "address": "Thomas-Mann-Str. 4, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -1083,6 +1109,12 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T10:41:03+00:00"
   },
+  "10009110000704818d891464cb8e4a2fa35136c24844ea9e": {
+    "address": "Senftenberger Ring 14, 13439, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:44:03+00:00"
+  },
   "1000911000100774693f9eb9db4b42faa788ad0e2aa881c9": {
     "address": "Wilhelmsruher Damm 118, 13439, Reinickendorf",
     "company": "GESOBAU",
@@ -1141,6 +1173,12 @@
     "company": "GESOBAU",
     "portal_first_seen": "2026-09-29T17:25:20+02:00",
     "portal_uploaded": "2026-09-29T14:16:05+00:00"
+  },
+  "10009830000511205536b232d7d3492687b2f3bde05de549": {
+    "address": "Roedernallee 118C, 13437, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:23:03+00:00"
   },
   "1000983000081050d927edceeb38454f8ec82482cc99f428": {
     "address": "Roedernallee 118F, 13437, Reinickendorf",
@@ -1567,6 +1605,18 @@
     "address": "Dyrekeweg 1, 12349 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-30T12:41:13+02:00"
+  },
+  "1001524800032": {
+    "address": "Gensweg 9, 12349 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:14:05+00:00",
+    "site_first_seen": "2026-10-14T17:56:55+02:00"
+  },
+  "1001524800140": {
+    "address": "In den Bauerngärten 11, 12349 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-14T17:56:55+02:00"
   },
   "1001524800180": {
     "address": "An den Buckower Feldern 19, 12349 Berlin",
@@ -2491,6 +2541,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:08:40+02:00"
   },
+  "17702053497": {
+    "address": "Dolgenseestraße 40, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-14T17:55:48+02:00"
+  },
   "1770205378": {
     "address": "Huronseestraße 40, 10319 Berlin",
     "company": "HOWOGE",
@@ -3073,6 +3128,16 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-07T09:23:21+02:00"
   },
+  "17711322532": {
+    "address": "Warnitzer Straße 20, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-14T17:55:48+02:00"
+  },
+  "17711322874": {
+    "address": "Warnitzer Straße 32, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-14T17:55:48+02:00"
+  },
   "17711328419": {
     "address": "Grevesmühlener Straße 20, 13059 Berlin",
     "company": "HOWOGE",
@@ -3246,6 +3311,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-03T18:24:59+02:00"
   },
+  "177114591116": {
+    "address": "Seehausener Straße 31, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-14T17:55:48+02:00"
+  },
   "17711459114": {
     "address": "Seehausener Straße 29, 13057 Berlin",
     "company": "HOWOGE",
@@ -3263,6 +3333,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "177114591329": {
+    "address": "Pablo-Picasso-Straße 35A, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-14T17:55:48+02:00"
   },
   "17711459179": {
     "address": "Seehausener Straße 31, 13057 Berlin",
@@ -4443,6 +4518,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-06T18:09:31+02:00"
   },
+  "71007591502020043": {
+    "address": "Neufertstr. 14, 14059 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T14:10:05+00:00",
+    "site_first_seen": "2026-10-14T17:56:51+02:00"
+  },
   "71007630201050186": {
     "address": "Mellener Str. 11, 12305 Berlin/Tempelhof-Schöneberg",
     "company": "Gewobag",
@@ -5041,6 +5123,12 @@
     "portal_first_seen": "2026-10-03T18:16:53+02:00",
     "portal_uploaded": "2026-10-03T16:16:07+00:00"
   },
+  "esq177114591116": {
+    "address": "Seehausener Straße 31, 13057, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:23:05+00:00"
+  },
   "esq177114591320": {
     "address": "Pablo-Picasso-Straße 35A, 13057, Lichtenberg",
     "company": "HOWOGE",
@@ -5531,6 +5619,8 @@
   "w11004201401940503": {
     "address": "Am Falkenberg 11",
     "company": "degewo",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T13:16:05+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -6147,6 +6237,13 @@
     "portal_first_seen": "2026-10-07T08:54:24+02:00",
     "portal_uploaded": "2026-10-07T06:24:05+00:00",
     "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
+  "w13004190100900404": {
+    "address": "Grüne Trift 156",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-14T17:56:57+02:00",
+    "portal_uploaded": "2026-10-14T14:04:05+00:00",
+    "site_first_seen": "2026-10-14T17:56:20+02:00"
   },
   "w13004190101700504": {
     "address": "Zur Nachtheide 94",
