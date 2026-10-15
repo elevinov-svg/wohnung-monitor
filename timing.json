@@ -282,6 +282,34 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000103613010511": {
+    "address": "Daumstr. 54B, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T15:09:05+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "01000103613010512": {
+    "address": "Daumstr. 54B, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T15:12:05+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "01000103613010514": {
+    "address": "Daumstr. 54B, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T15:11:04+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "01000103613010515": {
+    "address": "Daumstr. 54B, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T15:10:04+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
   "01000103613010525": {
     "address": "Daumstr. 54B, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -574,6 +602,13 @@
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T14:53:05+00:00",
     "site_first_seen": "2026-10-13T19:05:44+02:00"
+  },
+  "01000171103010129": {
+    "address": "Dora-Mendler-Str. 14, 12355 Berlin/Neukölln",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T14:30:05+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
   },
   "01000171701010002": {
     "address": "Tellstr. 8, 12045 Berlin/Neukölln",
@@ -2497,6 +2532,11 @@
     "company": "WBM",
     "site_first_seen": "2026-10-13T19:05:13+02:00"
   },
+  "177020101135": {
+    "address": "Alfred-Jung-Straße 22, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-15T19:39:09+02:00"
+  },
   "177020101153": {
     "address": "Alfred-Jung-Straße 22, 10369 Berlin",
     "company": "HOWOGE",
@@ -2809,6 +2849,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-30T18:41:46+02:00"
   },
+  "177024062355": {
+    "address": "Josef-Höhn-Straße 2, 13053 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-15T19:39:09+02:00"
+  },
   "177024063360": {
     "address": "Wartenberger Straße 66, 13053 Berlin",
     "company": "HOWOGE",
@@ -3087,6 +3132,11 @@
     "address": "Neustrelitzer Straße 65, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-13T19:04:50+02:00"
+  },
+  "17711130620": {
+    "address": "Suermondtstraße 59, 13053 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-15T19:39:09+02:00"
   },
   "17711144643": {
     "address": "Seefelder Straße 48, 13053 Berlin",
@@ -4276,6 +4326,21 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-12T22:07:50+02:00"
   },
+  "60113104603010255": {
+    "address": "Alandstr. 53, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "60113104603010262": {
+    "address": "Alandstr. 53, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "60113104603010267": {
+    "address": "Alandstr. 53, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
   "60113104604030307": {
     "address": "Moderlieschenstr. 94, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -4315,11 +4380,31 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104604080372": {
+    "address": "Alandstr. 67, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "60113104604080375": {
+    "address": "Alandstr. 67, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
   "60113104604090377": {
     "address": "Alandstr. 69, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104604090409": {
+    "address": "Alandstr. 69, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
+  "60113104604090416": {
+    "address": "Alandstr. 69, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
   },
   "60113104604090419": {
     "address": "Alandstr. 69, 13599 Berlin/Spandau",
@@ -4616,6 +4701,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "71007371002030104": {
+    "address": "Neptunstr. 26, 13409 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T14:35:09+00:00",
+    "site_first_seen": "2026-10-15T19:40:03+02:00"
+  },
   "71007380002010044": {
     "address": "Falkentaler Steig 51, 13467 Berlin/Reinickendorf",
     "company": "Gewobag",
@@ -4754,6 +4846,12 @@
     "address": "Wollankstr. 122, 13187 Berlin/Pankow",
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
+  },
+  "esq177020101135": {
+    "address": "Alfred-Jung-Straße 22, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T16:18:06+00:00"
   },
   "esq177020101153": {
     "address": "Alfred-Jung-Straße 22, 10369, Lichtenberg",
@@ -4965,6 +5063,12 @@
     "portal_first_seen": "2026-09-30T18:42:53+02:00",
     "portal_uploaded": "2026-09-30T16:16:06+00:00"
   },
+  "esq177024062355": {
+    "address": "Josef-Höhn-Straße 2, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T16:19:05+00:00"
+  },
   "esq177024063360": {
     "address": "Wartenberger Straße 66, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -5061,6 +5165,12 @@
     "portal_first_seen": "2026-10-08T16:38:25+02:00",
     "portal_uploaded": "2026-10-08T14:37:07+00:00"
   },
+  "esq17711031928": {
+    "address": "Küstriner Straße 6, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T16:20:04+00:00"
+  },
   "esq17711039356": {
     "address": "Große-Leege-Straße 114, 13055, Lichtenberg",
     "company": "HOWOGE",
@@ -5072,6 +5182,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T16:18:07+00:00"
+  },
+  "esq17711130620": {
+    "address": "Suermondtstraße 59, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-15T19:40:07+02:00",
+    "portal_uploaded": "2026-10-15T16:22:05+00:00"
   },
   "esq17711144643": {
     "address": "Seefelder Straße 48, 13053, Lichtenberg",
