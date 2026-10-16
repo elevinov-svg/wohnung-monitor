@@ -2589,6 +2589,13 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "15327317": {
+    "address": "Köpenicker Strasse 107, 10179 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-16T19:40:21+02:00",
+    "portal_uploaded": "2026-10-16T15:49:04+00:00",
+    "site_first_seen": "2026-10-16T19:39:48+02:00"
+  },
   "15327319": {
     "address": "Köpenicker Strasse 107, 10179 Berlin",
     "company": "WBM",
@@ -2616,6 +2623,13 @@
     "portal_first_seen": "2026-10-08T15:57:10+02:00",
     "portal_uploaded": "2026-10-08T13:09:07+00:00",
     "site_first_seen": "2026-10-08T15:56:38+02:00"
+  },
+  "15327537": {
+    "address": "Köpenicker Strasse 111, 10179 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-16T19:40:21+02:00",
+    "portal_uploaded": "2026-10-16T16:48:06+00:00",
+    "site_first_seen": "2026-10-16T19:39:48+02:00"
   },
   "15327752": {
     "address": "Köpenicker Strasse 115, 10179 Berlin",
@@ -5753,6 +5767,16 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-09T21:18:31+02:00",
     "portal_uploaded": "2026-10-09T17:07:05+00:00"
+  },
+  "httpswwwdegewodeimmosuchedetailsseniorenresidenzaltbritzbarrierefreie1zimmerwohnungerstab60jahren": {
+    "address": "Alt-Britz 23",
+    "company": "degewo",
+    "site_first_seen": "2026-10-16T19:39:46+02:00"
+  },
+  "httpswwwdegewodeimmosuchedetailsseniorenresidenzaltbritzbarrierefreie1zimmerwohnungerstab60jahren2": {
+    "address": "Alt-Britz 27",
+    "company": "degewo",
+    "site_first_seen": "2026-10-16T19:39:46+02:00"
   },
   "w11000062300020002": {
     "address": "Alt-Britz 23",
