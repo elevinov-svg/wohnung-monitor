@@ -99,6 +99,10 @@
   52.5634795,
   13.5759746
  ],
+ "Berliner Straße 60, 13189 Berlin": [
+  52.5571061,
+  13.4137909
+ ],
  "Bisamstraße 60, Berlin": [
   52.5161451,
   13.6375377
@@ -162,6 +166,10 @@
  "Bülowstr. 94, 10783 Berlin": [
   52.498622,
   13.3593125
+ ],
+ "Cauerstrasse 11, 10587 Berlin": [
+  52.5170318,
+  13.3175338
  ],
  "Cecilienstraße 232, 12619 Berlin": [
   52.5224678,
@@ -298,6 +306,10 @@
  "Gaudystr. 16A, 10437 Berlin": [
   52.5461073,
   13.4076989
+ ],
+ "Gaudystr. 17, 10437 Berlin": [
+  52.5460285,
+  13.4071583
  ],
  "Gensweg 9, 12349 Berlin": [
   52.4145951,
@@ -458,6 +470,10 @@
  "Karlstraße 38, Berlin": [
   52.4395431,
   13.5787973
+ ],
+ "Kilianistraße 6, Berlin": [
+  52.4633025,
+  13.5163483
  ],
  "Kirschenbaumstr. 16, 12524 Berlin": [
   52.4099817,
@@ -691,6 +707,10 @@
   52.5407984,
   13.4471423
  ],
+ "Poschingerstraße 35, Berlin": [
+  52.4623624,
+  13.3345332
+ ],
  "Potsdamer Straße 130, 10783 Berlin": [
   52.4991072,
   13.362292
@@ -747,6 +767,10 @@
   52.5657897,
   13.3201392
  ],
+ "Schillerpromenade 8, Berlin": [
+  52.4762857,
+  13.4218981
+ ],
  "Schlangenbader Straße 25, Berlin": [
   52.4732169,
   13.3072159
@@ -782,6 +806,10 @@
  "Schönefelder Chaussee 213, 12524 Berlin": [
   52.4036128,
   13.5265248
+ ],
+ "Schönefelder Chaussee 219, 12524 Berlin": [
+  52.4037353,
+  13.5259129
  ],
  "Seeburger Straße 19a, 13581 Berlin": [
   52.5277153,
@@ -926,6 +954,10 @@
  "Wasserwerkstrasse 1, 13589 Berlin": [
   52.55177,
   13.1652527
+ ],
+ "Weißenhöher Straße 71, 12683 Berlin": [
+  52.5078549,
+  13.553806
  ],
  "Weißenhöher Straße 73, 12683 Berlin": [
   52.5076038,
