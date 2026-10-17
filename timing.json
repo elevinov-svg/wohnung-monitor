@@ -694,6 +694,12 @@
     "portal_uploaded": "2026-10-14T13:52:02+00:00",
     "site_first_seen": "2026-10-14T17:56:51+02:00"
   },
+  "01000210103020120": {
+    "address": "Steegerstraße 16A, 13359, Mitte",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-17T13:02:57+02:00",
+    "portal_uploaded": "2026-10-17T11:02:08+00:00"
+  },
   "01000213201010067": {
     "address": "Amrumer Str. 36, 13353 Berlin/Mitte",
     "company": "Gewobag",
@@ -1150,6 +1156,13 @@
     "portal_first_seen": "2026-10-08T16:22:43+02:00",
     "portal_uploaded": "2026-10-08T14:18:05+00:00",
     "site_first_seen": "2026-10-08T16:17:35+02:00"
+  },
+  "10000080101020018": {
+    "address": "Exerzierstraße 3, 13357 Berlin/Mitte",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-17T13:02:57+02:00",
+    "portal_uploaded": "2026-10-17T10:58:05+00:00",
+    "site_first_seen": "2026-10-17T13:02:55+02:00"
   },
   "1000028001010140bda17e1f9f8b4440ad4129c0643faaaf": {
     "address": "Gerichtstraße 13, 13347 Berlin",
