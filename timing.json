@@ -2556,6 +2556,18 @@
     "portal_uploaded": "2026-10-14T11:59:05+00:00",
     "site_first_seen": "2026-10-14T13:57:17+02:00"
   },
+  "123023883203": {
+    "address": "Iranische Straße 4B, 13347, Mitte",
+    "company": "berlinovo",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T07:24:04+00:00"
+  },
+  "123023883210": {
+    "address": "Iranische Straße 4B, 13347, Mitte",
+    "company": "berlinovo",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T07:26:04+00:00"
+  },
   "14275118": {
     "address": "Almstadtstraße 55, 10119, Mitte",
     "company": "WBM",
@@ -2761,6 +2773,11 @@
     "address": "Landsberger Allee 186, 10369 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-12T12:19:04+02:00"
+  },
+  "1770202327": {
+    "address": "Hubertusstraße 18, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-19T11:16:00+02:00"
   },
   "177020258221": {
     "address": "Schottstraße 36, 10365 Berlin",
@@ -3311,6 +3328,11 @@
     "address": "Sandinostraße 12A, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-08T21:42:07+02:00"
+  },
+  "1771101025": {
+    "address": "Küstriner Straße 37, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-19T11:16:00+02:00"
   },
   "17711020519": {
     "address": "Strausberger Straße 20, 13055 Berlin",
@@ -5164,6 +5186,12 @@
     "portal_first_seen": "2026-10-12T12:20:06+02:00",
     "portal_uploaded": "2026-10-12T09:12:05+00:00"
   },
+  "esq1770202327": {
+    "address": "Hubertusstraße 18, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T05:22:05+00:00"
+  },
   "esq177020275398": {
     "address": "Harnackstraße 28, 10365, Lichtenberg",
     "company": "HOWOGE",
@@ -5433,6 +5461,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-08T21:43:10+02:00",
     "portal_uploaded": "2026-10-08T14:48:06+00:00"
+  },
+  "esq1771101025": {
+    "address": "Küstriner Straße 37, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T05:53:06+00:00"
   },
   "esq17711020519": {
     "address": "Strausberger Straße 20, 13055, Lichtenberg",
@@ -6064,6 +6098,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11002221100450303": {
+    "address": "Avenue Jean Mermoz 29",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T08:33:05+00:00",
+    "site_first_seen": "2026-10-19T11:16:47+02:00"
+  },
   "w11002221500100401": {
     "address": "Gartenfelder Straße 47",
     "company": "degewo",
@@ -6496,6 +6537,13 @@
     "portal_first_seen": "2026-09-30T12:46:13+02:00",
     "portal_uploaded": "2026-09-30T10:43:07+00:00",
     "site_first_seen": "2026-09-30T12:45:49+02:00"
+  },
+  "w11400064700480102": {
+    "address": "Theodor-Loos-Weg 24",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T06:41:06+00:00",
+    "site_first_seen": "2026-10-19T11:16:47+02:00"
   },
   "w11400064801900704": {
     "address": "Feuchtwangerweg 7",
@@ -7647,6 +7695,13 @@
     "address": "Niemegker Straße 2",
     "company": "degewo",
     "site_first_seen": "2026-10-12T12:19:28+02:00"
+  },
+  "w14005001705300401": {
+    "address": "Hans-Fallada-Straße 18",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T11:17:16+02:00",
+    "portal_uploaded": "2026-10-19T08:54:03+00:00",
+    "site_first_seen": "2026-10-19T11:16:47+02:00"
   },
   "w14005003802600403": {
     "address": "Allee der Kosmonauten 97C, 12681, Marzahn-Hellersdorf",
