@@ -1640,6 +1640,8 @@
   "1001513400240": {
     "address": "Warthestr. 39, 12051 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-19T11:56:56+02:00",
+    "portal_uploaded": "2026-10-19T09:53:06+00:00",
     "site_first_seen": "2026-10-07T16:16:36+02:00"
   },
   "1001513400318": {
@@ -5793,6 +5795,12 @@
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:02:05+00:00"
   },
+  "esq177131125717": {
+    "address": "Osdorfer Straße 48, 12207, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-19T11:56:56+02:00",
+    "portal_uploaded": "2026-10-19T09:52:06+00:00"
+  },
   "esq177131130115": {
     "address": "Mercatorweg 9, 12207, Steglitz-Zehlendorf",
     "company": "HOWOGE",
@@ -6617,6 +6625,13 @@
     "address": "Käthe-Dorsch-Ring 1",
     "company": "degewo",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
+  },
+  "w11400067500540503": {
+    "address": "Fritz-Erler-Allee 166",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T11:56:56+02:00",
+    "portal_uploaded": "2026-10-19T09:53:05+00:00",
+    "site_first_seen": "2026-10-19T11:56:28+02:00"
   },
   "w11400067500600702": {
     "address": "Fritz-Erler-Allee 166",
