@@ -4895,6 +4895,13 @@
     "portal_uploaded": "2026-10-07T13:15:06+00:00",
     "site_first_seen": "2026-10-07T16:16:26+02:00"
   },
+  "71007070201010114": {
+    "address": "Meraner Str. 45, 10825 Berlin/Tempelhof-Schöneberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-19T12:03:19+02:00",
+    "portal_uploaded": "2026-10-19T10:01:12+00:00",
+    "site_first_seen": "2026-10-19T12:03:14+02:00"
+  },
   "71007080106030571": {
     "address": "Freudenberger Weg 25, 13583 Berlin/Spandau",
     "company": "Gewobag",
@@ -6545,6 +6552,12 @@
     "portal_uploaded": "2026-10-12T10:26:05+00:00",
     "site_first_seen": "2026-10-12T12:29:00+02:00"
   },
+  "w11400064402712407": {
+    "address": "Zwickauer Damm 12, 12353, Neukölln",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T12:03:19+02:00",
+    "portal_uploaded": "2026-10-19T10:03:09+00:00"
+  },
   "w11400064402892601": {
     "address": "Zwickauer Damm 12",
     "company": "degewo",
@@ -6613,6 +6626,13 @@
     "address": "Theodor-Loos-Weg 11",
     "company": "degewo",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w11400066611171304": {
+    "address": "Friedrich-Kayßler-Weg 3",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-19T12:03:19+02:00",
+    "portal_uploaded": "2026-10-19T10:02:10+00:00",
+    "site_first_seen": "2026-10-19T12:02:46+02:00"
   },
   "w11400067300410601": {
     "address": "Agnes-Straub-Weg 1",
