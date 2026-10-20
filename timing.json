@@ -1623,10 +1623,32 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-25T17:27:58+02:00"
   },
+  "1001047100277": {
+    "address": "Rubusweg 12, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
   "1001047100302": {
     "address": "Rubusweg 6, 12524 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
+  },
+  "10012660000110055e7c577871814091be5abf054860b6cc": {
+    "address": "Dietzgenstraße 20, 13156 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-20T13:02:24+02:00"
+  },
+  "1001300000019": {
+    "address": "Franz-Körner-Str. 11, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001300000037": {
+    "address": "Franz-Körner-Str. 11, 12347 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:11:05+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
   },
   "1001368200033": {
     "address": "Martin-Luther-Str. 10, 15370 Fredersdorf",
@@ -1749,6 +1771,46 @@
     "address": "Mausohrweg 8, 12589 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-12T21:58:43+02:00"
+  },
+  "1001516300098": {
+    "address": "Mausohrweg 12, 12589 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:00:07+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001516300106": {
+    "address": "Mausohrweg 12, 12589 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001516300112": {
+    "address": "Mausohrweg 14, 12589 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:01:10+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001516300124": {
+    "address": "Mausohrweg 14, 12589 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T09:59:03+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001516300125": {
+    "address": "Mausohrweg 14, 12589 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T09:58:03+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001516300136": {
+    "address": "Mausohrweg 16, 12589 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T09:57:03+00:00",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
   },
   "1001518000127": {
     "address": "Weißenhöher Str. 71, 12683 Berlin",
@@ -2261,6 +2323,26 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-30T18:42:51+02:00"
   },
+  "1001732201004": {
+    "address": "Mühlenbecker Straße 15, 16348 Wandlitz",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001732201005": {
+    "address": "Mühlenbecker Straße 15, 16348 Wandlitz",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "1001732201006": {
+    "address": "Mühlenbecker Straße 15, 16348 Wandlitz",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-20T13:02:46+02:00"
+  },
+  "10030230011003989f39b2f68c83478ab6b3476907199552": {
+    "address": "Vesaliusstraße 28, 13187 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-20T13:02:24+02:00"
+  },
   "10030520001813154426a322c6024bdc8ffeefc1cd5ec3a7": {
     "address": "Harzburger Straße 1, 13187 Berlin",
     "company": "GESOBAU",
@@ -2342,10 +2424,20 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "1003247000101156d9b382d3c6d74862adc3ea9b52062e0c": {
+    "address": "Sarah-Kirsch-Straße 5, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-20T13:02:24+02:00"
+  },
   "100324700011117432ee3015cb5949a29b4cb9ba724d4e9d": {
     "address": "Sarah-Kirsch-Straße 7, 12629 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-09-29T10:54:08+02:00"
+  },
+  "10032470001813251933eed379c74e96912854b0c00ac686": {
+    "address": "Ingeborg-Feustel-Straße 1, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-20T13:02:24+02:00"
   },
   "10032470001813267c3939356a944777ad30c10e45557c09": {
     "address": "Ingeborg-Feustel-Straße 1, 12629 Berlin",
@@ -4583,6 +4675,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104502070221": {
+    "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-20T13:02:45+02:00"
+  },
   "60113104502070230": {
     "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -6210,6 +6307,13 @@
     "portal_uploaded": "2026-10-12T09:36:06+00:00",
     "site_first_seen": "2026-10-12T12:19:28+02:00"
   },
+  "w11001201500510303": {
+    "address": "Dominicusstraße 39",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:00:07+00:00",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w11001210400010101": {
     "address": "Lipschitzallee 43",
     "company": "degewo",
@@ -6235,6 +6339,11 @@
     "portal_first_seen": "2026-10-06T11:15:18+02:00",
     "portal_uploaded": "2026-10-06T08:54:06+00:00",
     "site_first_seen": "2026-10-06T11:14:50+02:00"
+  },
+  "w11002180201680309": {
+    "address": "Emmichstraße 4A",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
   "w11002191300880303": {
     "address": "Hallesches Ufer 52",
@@ -6725,6 +6834,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-12T12:19:28+02:00"
   },
+  "w11400064901080104": {
+    "address": "Walter-Franck-Zeile 9",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:59:05+00:00",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w11400064901370603": {
     "address": "Walter-Franck-Zeile 9",
     "company": "degewo",
@@ -6858,10 +6974,20 @@
     "portal_uploaded": "2026-10-06T14:52:05+00:00",
     "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
+  "w11500024701200120": {
+    "address": "Schlangenbader Straße 31",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w11500040400180502": {
     "address": "Mariannenplatz 8",
     "company": "degewo",
     "site_first_seen": "2026-09-25T12:26:27+02:00"
+  },
+  "w11500042700400405": {
+    "address": "Retzowstraße 60",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
   "w11500042702070503": {
     "address": "Retzowstraße 54A",
@@ -6944,6 +7070,11 @@
     "address": "Falkenstraße 9",
     "company": "degewo",
     "site_first_seen": "2026-10-01T16:15:15+02:00"
+  },
+  "w11502170500270309": {
+    "address": "Steglitzer Damm 60",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
   "w11502170500430505": {
     "address": "Steglitzer Damm 60",
@@ -7253,6 +7384,16 @@
     "portal_uploaded": "2026-10-14T10:08:05+00:00",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
   },
+  "w13005140200010101": {
+    "address": "Flemmingstraße 26",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
+  "w13005140700090303": {
+    "address": "Flemmingstraße 2",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w13005300500148132": {
     "address": "Regattastraße 103",
     "company": "degewo",
@@ -7437,6 +7578,11 @@
     "portal_first_seen": "2026-10-06T11:52:06+02:00",
     "portal_uploaded": "2026-10-06T09:51:05+00:00",
     "site_first_seen": "2026-10-06T11:51:48+02:00"
+  },
+  "w13007030100270402": {
+    "address": "Albert-Schweitzer-Straße 38",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
   "w13007100103200302": {
     "address": "Stillerzeile 78",
@@ -7840,6 +7986,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w14004058907601103": {
+    "address": "Marzahner Promenade 14",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-20T13:02:49+02:00",
+    "portal_uploaded": "2026-10-20T10:21:06+00:00",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w14004058911401601": {
     "address": "Marzahner Promenade 14",
     "company": "degewo",
@@ -7995,6 +8148,11 @@
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
   },
+  "w14005700209000401": {
+    "address": "Ribbecker Straße 57",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
   "w15000070200110103": {
     "address": "Liverpooler Straße 10",
     "company": "degewo",
@@ -8060,6 +8218,11 @@
     "address": "Berliner Straße 126",
     "company": "degewo",
     "site_first_seen": "2026-10-19T18:37:38+02:00"
+  },
+  "w31100061400120403": {
+    "address": "Am Straßenbahnhof 30",
+    "company": "degewo",
+    "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
   "w31100230401840301": {
     "address": "Köpenicker Landstraße 49",
