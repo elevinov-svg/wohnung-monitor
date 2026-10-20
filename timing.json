@@ -1347,6 +1347,12 @@
     "portal_first_seen": "2026-10-17T12:49:05+02:00",
     "portal_uploaded": "2026-10-17T10:47:06+00:00"
   },
+  "1000983000081110ed26b0eb8cd54f2bbbde1f92a4cee0ac": {
+    "address": "Roedernallee 118F, 13437, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T14:28:05+00:00"
+  },
   "100098300008111126bf9cbf3504446f811ef5190334056f": {
     "address": "Roedernallee 118F, 13437, Reinickendorf",
     "company": "GESOBAU",
@@ -1435,6 +1441,8 @@
   "1001019100044": {
     "address": "Neuköllnische Allee 147, 12057 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T13:00:05+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
   },
   "1001019100052": {
@@ -1443,6 +1451,20 @@
     "portal_first_seen": "2026-09-26T10:23:49+02:00",
     "portal_uploaded": "2026-09-26T07:50:05+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
+  },
+  "1001020100181": {
+    "address": "Steinstr. 83, 12307 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T13:19:07+00:00",
+    "site_first_seen": "2026-10-20T17:39:29+02:00"
+  },
+  "1001020300065": {
+    "address": "John-Locke-Str. 13, 12305 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T13:18:04+00:00",
+    "site_first_seen": "2026-10-20T17:39:29+02:00"
   },
   "1001020600010": {
     "address": "Lichtenrader Damm 216, 12305 Berlin",
@@ -3383,6 +3405,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "17702768718": {
+    "address": "Bahrfeldtstraße 33, 10245 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-20T17:38:10+02:00"
   },
   "1770276922": {
     "address": "Rummelsburger Straße 25f, 10315 Berlin",
@@ -5689,6 +5716,12 @@
     "portal_first_seen": "2026-10-12T21:58:44+02:00",
     "portal_uploaded": "2026-10-12T16:18:06+00:00"
   },
+  "esq17702768718": {
+    "address": "Bahrfeldtstraße 33, 10245, Friedrichshain-Kreuzberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T14:47:06+00:00"
+  },
   "esq17702769616": {
     "address": "Kirchsteig 113, 12524, Treptow-Köpenick",
     "company": "HOWOGE",
@@ -7356,6 +7389,13 @@
     "address": "Am Bahndamm 31",
     "company": "degewo",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
+  },
+  "w13004200100130207": {
+    "address": "Schützenstraße 11",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-20T17:39:30+02:00",
+    "portal_uploaded": "2026-10-20T15:03:07+00:00",
+    "site_first_seen": "2026-10-20T17:38:58+02:00"
   },
   "w13004200101610202": {
     "address": "Schützenstraße 11B",
