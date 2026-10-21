@@ -7472,6 +7472,12 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w13005030100340203": {
+    "address": "Ahornallee 20, 12555, Treptow-Köpenick",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T09:00:46+02:00",
+    "portal_uploaded": "2026-10-21T06:57:02+00:00"
+  },
   "w13005030200020102": {
     "address": "Ahornallee 13",
     "company": "degewo",
@@ -7488,6 +7494,13 @@
     "address": "Flemmingstraße 2",
     "company": "degewo",
     "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
+  "w13005180300040202": {
+    "address": "Gutenbergstraße 9",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T09:00:46+02:00",
+    "portal_uploaded": "2026-10-21T06:56:04+00:00",
+    "site_first_seen": "2026-10-21T09:00:02+02:00"
   },
   "w13005300500148132": {
     "address": "Regattastraße 103",
