@@ -6798,6 +6798,13 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11400060903020201": {
+    "address": "Fritz-Reuter-Allee 11",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T08:23:39+02:00",
+    "portal_uploaded": "2026-10-21T05:05:03+00:00",
+    "site_first_seen": "2026-10-21T08:23:02+02:00"
+  },
   "w11400061001920201": {
     "address": "Parchimer Allee 58",
     "company": "degewo",
@@ -7069,6 +7076,20 @@
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:04:05+00:00",
     "site_first_seen": "2026-09-28T10:18:12+02:00"
+  },
+  "w11500050200650202": {
+    "address": "Greveweg 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T08:23:39+02:00",
+    "portal_uploaded": "2026-10-21T05:03:04+00:00",
+    "site_first_seen": "2026-10-21T08:23:02+02:00"
+  },
+  "w11500050400430101": {
+    "address": "Wittekindstraße 46",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T08:23:39+02:00",
+    "portal_uploaded": "2026-10-21T05:04:05+00:00",
+    "site_first_seen": "2026-10-21T08:23:02+02:00"
   },
   "w11500050400760101": {
     "address": "Friedrich-Wilhelm-Straße 50A",
