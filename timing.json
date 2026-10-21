@@ -673,7 +673,8 @@
     "address": "Sachsendamm 67, 10829, Tempelhof-Schöneberg",
     "company": "Gewobag",
     "portal_first_seen": "2026-10-21T15:00:35+02:00",
-    "portal_uploaded": "2026-10-21T12:59:06+00:00"
+    "portal_uploaded": "2026-10-21T12:59:06+00:00",
+    "site_first_seen": "2026-10-21T19:32:40+02:00"
   },
   "01000190402010122": {
     "address": "Graetschelsteig 16, 13595 Berlin/Spandau",
@@ -1742,6 +1743,26 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-21T14:14:04+02:00"
   },
+  "1001510600037": {
+    "address": "Bruno-Bürgel-Weg 39 A, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
+  "1001510600079": {
+    "address": "Bruno-Bürgel-Weg 41 A, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
+  "1001510600088": {
+    "address": "Bruno-Bürgel-Weg 41 A, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
+  "1001510600093": {
+    "address": "Bruno-Bürgel-Weg 43, 12439 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
   "1001510900018": {
     "address": "Otto-Franke-Str. 70, 12489 Berlin",
     "company": "Stadt und Land",
@@ -1755,6 +1776,25 @@
     "portal_uploaded": "2026-09-28T09:55:03+00:00",
     "site_first_seen": "2026-09-28T18:56:07+02:00"
   },
+  "1001511000100": {
+    "address": "Kletterrosenweg 10, 12526 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T14:37:01+00:00",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
+  "1001511000114": {
+    "address": "Kletterrosenweg 10, 12526 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
+  "1001511000121": {
+    "address": "Kletterrosenweg 9, 12526 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T14:35:04+00:00",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
   "1001511100055": {
     "address": "Gardeschützenweg 11C, 12203 Berlin",
     "company": "Stadt und Land",
@@ -1766,6 +1806,11 @@
     "address": "Katharina-Boll-Dornberger-Str. 13, 12489 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-16T15:28:36+02:00"
+  },
+  "1001512200024": {
+    "address": "Glienicker Weg 122A, 12489 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
   },
   "1001512700062": {
     "address": "Sterndamm 82, 12487 Berlin",
@@ -1981,6 +2026,11 @@
     "portal_first_seen": "2026-10-19T18:38:17+02:00",
     "portal_uploaded": "2026-10-19T14:57:07+00:00",
     "site_first_seen": "2026-10-19T18:38:11+02:00"
+  },
+  "1001523900140": {
+    "address": "Nelkenweg 91, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
   },
   "1001524600003": {
     "address": "Gensweg 3, 12349 Berlin",
@@ -2379,6 +2429,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T16:04:41+02:00"
   },
+  "1001654000132": {
+    "address": "Wassermannstr. 86, 12489 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
+  },
   "1001656200028": {
     "address": "Nipkowstr. 62, 12489 Berlin",
     "company": "Stadt und Land",
@@ -2668,6 +2723,11 @@
     "portal_first_seen": "2026-09-29T17:25:20+02:00",
     "portal_uploaded": "2026-09-29T13:03:04+00:00",
     "site_first_seen": "2026-09-29T17:25:18+02:00"
+  },
+  "1050820100757": {
+    "address": "Etkar-André-Straße 15, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-21T19:32:42+02:00"
   },
   "1050820400094": {
     "address": "Erich-Kästner-Straße 31, 12619 Berlin",
@@ -4563,6 +4623,27 @@
     "portal_first_seen": "2026-10-04T20:47:50+02:00",
     "portal_uploaded": "2026-10-04T18:44:06+00:00"
   },
+  "511108326": {
+    "address": "Landsberger Allee 68A, 10249 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T17:19:07+00:00",
+    "site_first_seen": "2026-10-21T19:32:15+02:00"
+  },
+  "511108328": {
+    "address": "Landsberger Allee 68A, 10249 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T17:19:08+00:00",
+    "site_first_seen": "2026-10-21T19:32:15+02:00"
+  },
+  "5111086111": {
+    "address": "Landsberger Allee 68D, 10249 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T17:19:09+00:00",
+    "site_first_seen": "2026-10-21T19:32:15+02:00"
+  },
   "512147221": {
     "address": "Eldenaer Straße 14, 10247, Friedrichshain-Kreuzberg",
     "company": "WBM",
@@ -5637,6 +5718,18 @@
     "portal_first_seen": "2026-10-06T18:09:34+02:00",
     "portal_uploaded": "2026-10-06T14:37:07+00:00"
   },
+  "esq17702054413": {
+    "address": "Am Tierpark 64, 10319, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T16:17:04+00:00"
+  },
+  "esq177020545180": {
+    "address": "Erich-Kurz-Straße 7, 10319, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T16:19:06+00:00"
+  },
   "esq177020549185": {
     "address": "Sewanstraße 252, 10319, Lichtenberg",
     "company": "HOWOGE",
@@ -5936,6 +6029,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-27T14:20:01+02:00",
     "portal_uploaded": "2026-09-27T12:17:04+00:00"
+  },
+  "esq1771114479": {
+    "address": "Seefelder Straße 50, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T16:20:07+00:00"
   },
   "esq17711208156": {
     "address": "Barther Straße 5, 13051, Lichtenberg",
@@ -7224,6 +7323,12 @@
     "address": "Schlangenbader Straße 31",
     "company": "degewo",
     "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
+  "w11500024701680168": {
+    "address": "Schlangenbader Straße 26, 14197, Charlottenburg-Wilmersdorf",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-21T19:32:43+02:00",
+    "portal_uploaded": "2026-10-21T15:27:03+00:00"
   },
   "w11500040400180502": {
     "address": "Mariannenplatz 8",
