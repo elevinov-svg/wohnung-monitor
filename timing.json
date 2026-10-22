@@ -608,6 +608,13 @@
     "portal_uploaded": "2026-10-07T14:50:05+00:00",
     "site_first_seen": "2026-10-07T16:53:03+02:00"
   },
+  "01000161003010185": {
+    "address": "Reichweindamm 4, 13627 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T13:37:07+00:00",
+    "site_first_seen": "2026-10-22T17:32:47+02:00"
+  },
   "01000161108020318": {
     "address": "Wirmerzeile 8, 13627 Berlin/Charlottenburg-Wilmersdorf",
     "company": "Gewobag",
@@ -1738,6 +1745,11 @@
     "portal_uploaded": "2026-10-20T10:11:05+00:00",
     "site_first_seen": "2026-10-20T13:02:46+02:00"
   },
+  "1001300000095": {
+    "address": "Pintschallee 5, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-22T17:32:49+02:00"
+  },
   "1001368200033": {
     "address": "Martin-Luther-Str. 10, 15370 Fredersdorf",
     "company": "Stadt und Land",
@@ -2575,6 +2587,12 @@
     "address": "Alte Hellersdorfer Straße 108P, 12629 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-10-06T18:09:09+02:00"
+  },
+  "1003242000071128c9334c96cce742bba016ecc70cdbccf7": {
+    "address": "Alte Hellersdorfer Straße 108P, 12629, Marzahn-Hellersdorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T12:49:07+00:00"
   },
   "1003243000021013370ae9148e404f56907845550b0537a9": {
     "address": "Zossener Straße 138, 12629 Berlin",
@@ -4138,6 +4156,16 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T18:31:40+02:00"
   },
+  "177114563236": {
+    "address": "Frankfurter Allee 218, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T17:31:08+02:00"
+  },
+  "177114563327": {
+    "address": "Frankfurter Allee 218, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T17:31:08+02:00"
+  },
   "177114563366": {
     "address": "Frankfurter Allee 218, 10365 Berlin",
     "company": "HOWOGE",
@@ -5507,6 +5535,13 @@
     "portal_uploaded": "2026-10-08T14:21:05+00:00",
     "site_first_seen": "2026-10-08T16:22:40+02:00"
   },
+  "71007080601010088": {
+    "address": "Eiserfelder Ring 9, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T14:14:07+00:00",
+    "site_first_seen": "2026-10-22T17:32:47+02:00"
+  },
   "71007080601010096": {
     "address": "Eiserfelder Ring 9, 13583 Berlin/Spandau",
     "company": "Gewobag",
@@ -5705,6 +5740,11 @@
     "address": "Wollankstr. 122, 13187 Berlin/Pankow",
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
+  },
+  "80653263901020023": {
+    "address": "Cunostr. 7, 14199 Berlin/Charlottenburg-Wilmersdorf",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-22T17:32:47+02:00"
   },
   "esq177020101135": {
     "address": "Alfred-Jung-Straße 22, 10369, Lichtenberg",
@@ -6366,6 +6406,18 @@
     "portal_first_seen": "2026-10-02T18:32:49+02:00",
     "portal_uploaded": "2026-10-02T14:22:07+00:00"
   },
+  "esq177114563236": {
+    "address": "Frankfurter Allee 218, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T14:52:10+00:00"
+  },
+  "esq177114563327": {
+    "address": "Frankfurter Allee 218, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T15:03:09+00:00"
+  },
   "esq177114563366": {
     "address": "Frankfurter Allee 218, 10365, Lichtenberg",
     "company": "HOWOGE",
@@ -6888,6 +6940,8 @@
   "w11002252300040104": {
     "address": "Amberbaumallee 10",
     "company": "degewo",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T14:59:05+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -8091,6 +8145,11 @@
     "company": "degewo",
     "site_first_seen": "2026-10-20T13:02:12+02:00"
   },
+  "w13007030600430202": {
+    "address": "Albert-Schweitzer-Straße 25",
+    "company": "degewo",
+    "site_first_seen": "2026-10-22T17:32:17+02:00"
+  },
   "w13007100103200302": {
     "address": "Stillerzeile 78",
     "company": "degewo",
@@ -8109,6 +8168,13 @@
     "address": "Stillerzeile 30",
     "company": "degewo",
     "site_first_seen": "2026-10-19T18:37:38+02:00"
+  },
+  "w13007150100230401": {
+    "address": "Karl-Frank-Straße 36",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T13:23:04+00:00",
+    "site_first_seen": "2026-10-22T17:32:17+02:00"
   },
   "w13007180500180203": {
     "address": "Löbauer Weg 12",
@@ -8219,6 +8285,13 @@
     "portal_first_seen": "2026-10-07T08:54:24+02:00",
     "portal_uploaded": "2026-10-07T06:50:04+00:00",
     "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
+  "w14004003414001708": {
+    "address": "Helene-Weigel-Platz 14",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T14:56:07+00:00",
+    "site_first_seen": "2026-10-22T17:32:17+02:00"
   },
   "w14004003419602408": {
     "address": "Helene-Weigel-Platz 14, 12681, Marzahn-Hellersdorf",
@@ -8678,6 +8751,13 @@
     "address": "Graunstraße 12",
     "company": "degewo",
     "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w15000075700520204": {
+    "address": "Graunstraße 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-22T17:32:52+02:00",
+    "portal_uploaded": "2026-10-22T13:31:08+00:00",
+    "site_first_seen": "2026-10-22T17:32:17+02:00"
   },
   "w15000076300850702": {
     "address": "Brunnenstraße 56",
