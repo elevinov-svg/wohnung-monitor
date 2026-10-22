@@ -1053,6 +1053,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-16T10:29:35+02:00"
   },
+  "10000018201030118": {
+    "address": "Landsberger Allee 81, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:44:07+00:00",
+    "site_first_seen": "2026-10-22T12:27:58+02:00"
+  },
   "10000018401020033": {
     "address": "Gaudystr. 16A, 10437 Berlin/Pankow",
     "company": "Gewobag",
@@ -1887,6 +1894,13 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001514600016": {
+    "address": "Waldowstr. 49, 12623 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:29:04+00:00",
+    "site_first_seen": "2026-10-22T12:28:01+02:00"
   },
   "1001514700020": {
     "address": "An den Buckower Feldern 16, 12349 Berlin",
@@ -2897,6 +2911,19 @@
     "portal_uploaded": "2026-09-30T12:54:04+00:00",
     "site_first_seen": "2026-09-30T18:42:51+02:00"
   },
+  "11295234": {
+    "address": "Otto-Dix-Strasse 20, 10557 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T10:19:05+00:00",
+    "site_first_seen": "2026-10-22T12:27:33+02:00"
+  },
+  "11296111": {
+    "address": "Otto-Dix-Straße 15, 10557, Mitte",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T10:00:08+00:00"
+  },
   "120005113": {
     "address": "Christoph-Ruden-Strasse 12, 12349 Berlin",
     "company": "WBM",
@@ -3178,6 +3205,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-19T18:36:54+02:00"
   },
+  "17702044126": {
+    "address": "Marie-Curie-Allee 104, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T12:27:05+02:00"
+  },
   "177020508186": {
     "address": "Baikalstraße 21, 10319 Berlin",
     "company": "HOWOGE",
@@ -3434,6 +3466,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-01T16:14:46+02:00"
   },
+  "177024058104": {
+    "address": "Weserstraße 34 A, 10247 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T12:27:05+02:00"
+  },
   "17702405963": {
     "address": "Stillerzeile 24, 12587 Berlin",
     "company": "HOWOGE",
@@ -3454,6 +3491,11 @@
     "address": "Josef-Höhn-Straße 2, 13053 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-15T19:39:09+02:00"
+  },
+  "177024062578": {
+    "address": "Josef-Höhn-Straße 18, 13053 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T12:27:05+02:00"
   },
   "177024063360": {
     "address": "Wartenberger Straße 66, 13053 Berlin",
@@ -3505,6 +3547,11 @@
     "address": "Silberberger Straße 11, 12489 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T00:07:43+02:00"
+  },
+  "17702612549": {
+    "address": "Wandlitzstraße 55, 10318 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T12:27:05+02:00"
   },
   "17702630516": {
     "address": "Dönhoffstraße 29 HH, 10318 Berlin",
@@ -3879,6 +3926,11 @@
     "address": "Rostocker Straße 32, 13059 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-14T08:12:57+02:00"
+  },
+  "17711281115": {
+    "address": "Woldegker Straße 8, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-22T12:27:05+02:00"
   },
   "1771128131": {
     "address": "Woldegker Straße 12, 13059 Berlin",
@@ -5280,6 +5332,11 @@
     "portal_first_seen": "2026-10-04T20:01:08+02:00",
     "portal_uploaded": "2026-10-04T17:55:18+00:00"
   },
+  "60790321302": {
+    "address": "Mertensstrasse 34, 13587 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-22T12:27:33+02:00"
+  },
   "60790322348": {
     "address": "Mertensstrasse 36, 13587 Berlin",
     "company": "WBM",
@@ -5716,6 +5773,12 @@
     "portal_first_seen": "2026-10-19T18:38:17+02:00",
     "portal_uploaded": "2026-10-19T15:32:09+00:00"
   },
+  "esq17702044126": {
+    "address": "Marie-Curie-Allee 104, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T09:17:09+00:00"
+  },
   "esq17702053484": {
     "address": "Dolgenseestraße 40, 10319, Lichtenberg",
     "company": "HOWOGE",
@@ -5902,6 +5965,12 @@
     "portal_first_seen": "2026-10-15T19:40:07+02:00",
     "portal_uploaded": "2026-10-15T16:19:05+00:00"
   },
+  "esq177024062578": {
+    "address": "Josef-Höhn-Straße 18, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:19:08+00:00"
+  },
   "esq177024063360": {
     "address": "Wartenberger Straße 66, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -5943,6 +6012,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T00:08:31+02:00",
     "portal_uploaded": "2026-10-05T16:19:04+00:00"
+  },
+  "esq17702612549": {
+    "address": "Wandlitzstraße 55, 10318, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:03:09+00:00"
   },
   "esq177026318177": {
     "address": "Ilsestraße 36B, 10318, Lichtenberg",
@@ -6117,6 +6192,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-14T08:13:54+02:00",
     "portal_uploaded": "2026-10-14T06:12:07+00:00"
+  },
+  "esq17711281115": {
+    "address": "Woldegker Straße 8, 13059, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:04:08+00:00"
   },
   "esq1771128131": {
     "address": "Woldegker Straße 12, 13059, Lichtenberg",
@@ -7720,6 +7801,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
   },
+  "w13004190600270214": {
+    "address": "Am Bahndamm 31",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-22T12:28:03+02:00",
+    "portal_uploaded": "2026-10-22T08:38:06+00:00",
+    "site_first_seen": "2026-10-22T12:27:32+02:00"
+  },
   "w13004200100130207": {
     "address": "Schützenstraße 11",
     "company": "degewo",
@@ -8522,6 +8610,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w14005190701780505": {
+    "address": "Karl-Holtz-Straße 18",
+    "company": "degewo",
+    "site_first_seen": "2026-10-22T12:27:32+02:00"
   },
   "w14005190702070102": {
     "address": "Karl-Holtz-Straße 12",
