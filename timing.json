@@ -2132,6 +2132,8 @@
   "1001524600263": {
     "address": "Dyrekeweg 1, 12349 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T06:20:05+00:00",
     "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001524600267": {
@@ -3113,6 +3115,8 @@
   "15327752": {
     "address": "Köpenicker Strasse 115, 10179 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:49:08+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
@@ -4319,6 +4323,11 @@
     "address": "Fahrenheitstraße 19, 12207 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T07:17:24+02:00"
+  },
+  "177131125372": {
+    "address": "Fahrenheitstraße 15, 12207 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-23T08:18:55+02:00"
   },
   "177131125574": {
     "address": "Osdorfer Straße 42, 12207 Berlin",
@@ -6518,6 +6527,12 @@
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:02:05+00:00"
   },
+  "esq177131125372": {
+    "address": "Fahrenheitstraße 15, 12207, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:32:03+00:00"
+  },
   "esq177131125717": {
     "address": "Osdorfer Straße 48, 12207, Steglitz-Zehlendorf",
     "company": "HOWOGE",
@@ -8347,6 +8362,20 @@
     "portal_uploaded": "2026-10-14T10:55:03+00:00",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
   },
+  "w14004008800800206": {
+    "address": "Bruno-Baum-Straße 22",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:24:05+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
+  "w14004008803700603": {
+    "address": "Bruno-Baum-Straße 22",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:26:04+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
   "w14004008807801104": {
     "address": "Bruno-Baum-Straße 22",
     "company": "degewo",
@@ -8431,10 +8460,24 @@
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
   },
+  "w14004012202900801": {
+    "address": "Märkische Allee 204",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:40:04+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
   "w14004012408200104": {
     "address": "Zühlsdorfer Straße 14",
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
+  },
+  "w14004012505900902": {
+    "address": "Franz-Stenzer-Straße 3",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:34:02+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
   },
   "w14004012804800503": {
     "address": "Franz-Stenzer-Straße 15, 12679, Marzahn-Hellersdorf",
@@ -8442,6 +8485,20 @@
     "portal_first_seen": "2026-09-30T13:20:07+02:00",
     "portal_uploaded": "2026-09-30T11:19:03+00:00",
     "site_first_seen": "2026-09-30T13:23:36+02:00"
+  },
+  "w14004013409601002": {
+    "address": "Franz-Stenzer-Straße 33",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:35:04+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
+  "w14004013501600602": {
+    "address": "Franz-Stenzer-Straße 35",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:38:03+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
   },
   "w14004013812800303": {
     "address": "Raoul-Wallenberg-Straße 7",
@@ -8454,6 +8511,13 @@
     "address": "Raoul-Wallenberg-Straße 7",
     "company": "degewo",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w14004013814200701": {
+    "address": "Raoul-Wallenberg-Straße 7",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:20:11+02:00",
+    "portal_uploaded": "2026-10-23T05:29:05+00:00",
+    "site_first_seen": "2026-10-23T08:19:41+02:00"
   },
   "w14004013815100902": {
     "address": "Raoul-Wallenberg-Straße 7",
