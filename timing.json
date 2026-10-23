@@ -2146,6 +2146,8 @@
   "1001524600267": {
     "address": "Dyrekeweg 1, 12349 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-23T08:52:36+02:00",
+    "portal_uploaded": "2026-10-23T06:50:05+00:00",
     "site_first_seen": "2026-09-30T12:41:13+02:00"
   },
   "1001524600268": {
@@ -7638,6 +7640,13 @@
     "address": "Renatenweg 13",
     "company": "degewo",
     "site_first_seen": "2026-09-30T18:42:16+02:00"
+  },
+  "w11500142310070501": {
+    "address": "Havensteinstraße 28",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-23T08:52:36+02:00",
+    "portal_uploaded": "2026-10-23T06:50:05+00:00",
+    "site_first_seen": "2026-10-23T08:52:06+02:00"
   },
   "w11500142310170502": {
     "address": "Havensteinstraße 38",
