@@ -470,6 +470,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000123801070080": {
+    "address": "Titiseestr. 25, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-25T14:36:58+01:00",
+    "portal_uploaded": "2026-10-25T12:42:07+00:00",
+    "site_first_seen": "2026-10-25T14:36:55+01:00"
+  },
   "01000123802040280": {
     "address": "Schluchseestr. 59, 13469 Berlin/Reinickendorf",
     "company": "Gewobag",
@@ -515,6 +522,13 @@
     "address": "Tegernauer Zeile 2, 13469 Berlin/Reinickendorf",
     "company": "Gewobag",
     "site_first_seen": "2026-09-28T18:56:05+02:00"
+  },
+  "01000124103010072": {
+    "address": "Schluchseestr. 9, 13469 Berlin/Reinickendorf",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-25T14:36:58+01:00",
+    "portal_uploaded": "2026-10-25T12:28:05+00:00",
+    "site_first_seen": "2026-10-25T14:36:55+01:00"
   },
   "01000124105010116": {
     "address": "Schluchseestr. 13, 13469 Berlin/Reinickendorf",
