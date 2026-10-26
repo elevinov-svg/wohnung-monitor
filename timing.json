@@ -4700,6 +4700,12 @@
     "portal_first_seen": "2026-10-23T13:58:39+02:00",
     "portal_uploaded": "2026-10-23T11:48:06+00:00"
   },
+  "30382006309": {
+    "address": "Lubminer Straße 26, 12619, Marzahn-Hellersdorf",
+    "company": "berlinovo",
+    "portal_first_seen": "2026-10-26T13:29:06+01:00",
+    "portal_uploaded": "2026-10-26T12:25:08+00:00"
+  },
   "31032314215": {
     "address": "Fischerinsel 10,18.11, 10179, Mitte",
     "company": "berlinovo",
@@ -7405,6 +7411,11 @@
     "portal_uploaded": "2026-09-29T13:56:04+00:00",
     "site_first_seen": "2026-09-29T17:24:54+02:00"
   },
+  "w11004220102590302": {
+    "address": "Eisenhutweg 62B",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
+  },
   "w11004220102730105": {
     "address": "Eisenhutweg 64",
     "company": "degewo",
@@ -8413,6 +8424,11 @@
     "portal_uploaded": "2026-10-07T07:07:06+00:00",
     "site_first_seen": "2026-10-07T09:13:30+02:00"
   },
+  "w13006059000020102": {
+    "address": "Ewaldstraße 98B",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
+  },
   "w13006070800310309": {
     "address": "Charlottenstraße 17D",
     "company": "degewo",
@@ -8457,6 +8473,11 @@
     "portal_first_seen": "2026-10-07T22:05:34+02:00",
     "portal_uploaded": "2026-10-07T15:38:05+00:00",
     "site_first_seen": "2026-10-07T22:04:59+02:00"
+  },
+  "w13006583000330103": {
+    "address": "Wendenschloßstraße 109A",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w13006590200150401": {
     "address": "Zur Nachtheide 24",
@@ -8513,7 +8534,8 @@
     "address": "Albert-Schweitzer-Straße 23, 12587, Treptow-Köpenick",
     "company": "degewo",
     "portal_first_seen": "2026-10-26T13:23:27+01:00",
-    "portal_uploaded": "2026-10-26T10:46:05+00:00"
+    "portal_uploaded": "2026-10-26T10:46:05+00:00",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w13007030600430202": {
     "address": "Albert-Schweitzer-Straße 25",
@@ -8686,13 +8708,15 @@
     "address": "Allee der Kosmonauten 200, 12685, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-10-26T13:23:27+01:00",
-    "portal_uploaded": "2026-10-26T12:19:05+00:00"
+    "portal_uploaded": "2026-10-26T12:19:05+00:00",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w14004008014301904": {
     "address": "Allee der Kosmonauten 200, 12685, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-10-26T13:23:27+01:00",
-    "portal_uploaded": "2026-10-26T12:18:04+00:00"
+    "portal_uploaded": "2026-10-26T12:18:04+00:00",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w14004008106300905": {
     "address": "Allee der Kosmonauten 202",
@@ -8757,7 +8781,8 @@
     "address": "Amanlisweg 10, 12685, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-10-26T13:23:27+01:00",
-    "portal_uploaded": "2026-10-26T12:16:05+00:00"
+    "portal_uploaded": "2026-10-26T12:16:05+00:00",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w14004009415502008": {
     "address": "Amanlisweg 10",
@@ -8823,6 +8848,16 @@
     "portal_first_seen": "2026-10-23T08:20:11+02:00",
     "portal_uploaded": "2026-10-23T05:40:04+00:00",
     "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
+  "w14004012404800301": {
+    "address": "Zühlsdorfer Straße 12",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
+  },
+  "w14004012407601001": {
+    "address": "Zühlsdorfer Straße 12",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w14004012408200104": {
     "address": "Zühlsdorfer Straße 14",
@@ -8892,7 +8927,8 @@
     "address": "Ludwig-Renn-Straße 31, 12679, Marzahn-Hellersdorf",
     "company": "degewo",
     "portal_first_seen": "2026-10-26T13:23:27+01:00",
-    "portal_uploaded": "2026-10-26T10:23:07+00:00"
+    "portal_uploaded": "2026-10-26T10:23:07+00:00",
+    "site_first_seen": "2026-10-26T13:28:28+01:00"
   },
   "w14004014910301405": {
     "address": "Ludwig-Renn-Straße 33",

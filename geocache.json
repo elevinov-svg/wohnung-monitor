@@ -36,6 +36,10 @@
   52.4392733,
   13.6038677
  ],
+ "Allee der Kosmonauten 200, Berlin": [
+  52.5419129,
+  13.5649028
+ ],
  "Allee der Kosmonauten 202, Berlin": [
   52.5422775,
   13.5647811
@@ -295,6 +299,10 @@
  "Emmichstraße 4A, Berlin": [
   52.4279738,
   13.3562423
+ ],
+ "Ewaldstraße 98B, Berlin": [
+  52.4054419,
+  13.5516786
  ],
  "Exerzierstraße 3, 13357 Berlin": [
   52.5535122,
@@ -1219,5 +1227,9 @@
  "Zwickauer Damm 12, Berlin": [
   52.4231626,
   13.483328
+ ],
+ "Zühlsdorfer Straße 12, Berlin": [
+  52.5474371,
+  13.5491169
  ]
 }
