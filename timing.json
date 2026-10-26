@@ -2170,6 +2170,13 @@
     "portal_uploaded": "2026-10-06T08:08:05+00:00",
     "site_first_seen": "2026-10-06T11:15:17+02:00"
   },
+  "1001518000184": {
+    "address": "Elsa-Ledetsch-Weg 1, 12683 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-26T13:34:50+01:00",
+    "portal_uploaded": "2026-10-26T12:33:05+00:00",
+    "site_first_seen": "2026-10-26T13:34:47+01:00"
+  },
   "1001518000261": {
     "address": "Heino-Schmieden-Weg 1, 12683 Berlin",
     "company": "Stadt und Land",
@@ -8941,6 +8948,12 @@
     "portal_first_seen": "2026-10-13T11:03:34+02:00",
     "portal_uploaded": "2026-10-13T08:23:04+00:00",
     "site_first_seen": "2026-10-13T11:02:52+02:00"
+  },
+  "w14004027808700301": {
+    "address": "Wuhlestraße 25, 12683, Marzahn-Hellersdorf",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-26T13:34:50+01:00",
+    "portal_uploaded": "2026-10-26T12:34:04+00:00"
   },
   "w14004030507700901": {
     "address": "Lea-Grundig-Straße 76",
