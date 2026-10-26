@@ -2575,6 +2575,8 @@
   "1001611700002": {
     "address": "Am Plänterwald 36, 12435 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-26T13:58:45+01:00",
+    "portal_uploaded": "2026-10-26T12:54:06+00:00",
     "site_first_seen": "2026-10-26T13:52:22+01:00"
   },
   "1001611900300": {
@@ -7792,6 +7794,13 @@
     "portal_first_seen": "2026-10-14T08:33:05+02:00",
     "portal_uploaded": "2026-10-14T06:33:03+00:00",
     "site_first_seen": "2026-10-14T08:45:12+02:00"
+  },
+  "w11400068100620302": {
+    "address": "Wutzkyallee 51",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-26T13:58:45+01:00",
+    "portal_uploaded": "2026-10-26T12:53:05+00:00",
+    "site_first_seen": "2026-10-26T13:58:10+01:00"
   },
   "w11401170200360201": {
     "address": "Theodor-Loos-Weg 33",
