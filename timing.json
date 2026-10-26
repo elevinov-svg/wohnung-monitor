@@ -2507,6 +2507,8 @@
   "1001527600044": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-26T13:52:26+01:00",
+    "portal_uploaded": "2026-10-26T12:47:05+00:00",
     "site_first_seen": "2026-10-26T13:46:13+01:00"
   },
   "1001527600045": {
@@ -2569,6 +2571,11 @@
     "address": "Am Treptower Park 19, 12435 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-09T15:51:24+02:00"
+  },
+  "1001611700002": {
+    "address": "Am Plänterwald 36, 12435 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-26T13:52:22+01:00"
   },
   "1001611900300": {
     "address": "Galileistr. 44, 12435 Berlin",
