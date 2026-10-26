@@ -433,6 +433,13 @@
     "portal_uploaded": "2026-10-09T12:40:07+00:00",
     "site_first_seen": "2026-10-09T15:42:16+02:00"
   },
+  "01000111401010001": {
+    "address": "Kandeler Weg 2, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:46:05+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
+  },
   "01000111815010203": {
     "address": "Paul-Gerhardt-Ring 11, 13589 Berlin/Spandau",
     "company": "Gewobag",
@@ -732,12 +739,47 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-23T13:58:33+02:00"
   },
+  "01000192801060174": {
+    "address": "Obstallee 12, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:57:07+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
+  },
+  "01000192905020196": {
+    "address": "Blasewitzer Ring 1, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T17:21:07+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
+  },
+  "01000193101010001": {
+    "address": "Blasewitzer Ring 14, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:39:03+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
+  },
   "01000193101020039": {
     "address": "Blasewitzer Ring 16, 13593 Berlin/Spandau",
     "company": "Gewobag",
     "portal_first_seen": "2026-10-14T17:56:57+02:00",
     "portal_uploaded": "2026-10-14T13:52:02+00:00",
     "site_first_seen": "2026-10-14T17:56:51+02:00"
+  },
+  "01000193301120183": {
+    "address": "Heerstr. 406, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:50:04+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
+  },
+  "01000193301130194": {
+    "address": "Heerstr. 404, 13593 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:54:06+00:00",
+    "site_first_seen": "2026-10-26T19:48:48+01:00"
   },
   "01000210103020120": {
     "address": "Steegerstraße 16A, 13359, Mitte",
@@ -3799,6 +3841,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-11T17:53:38+02:00"
   },
+  "17702470159": {
+    "address": "Alfred-Jung-Straße 33, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-26T19:48:00+01:00"
+  },
   "17702471318": {
     "address": "Massower Straße 4, 10315 Berlin",
     "company": "HOWOGE",
@@ -6384,6 +6431,12 @@
     "portal_first_seen": "2026-10-11T17:54:25+02:00",
     "portal_uploaded": "2026-10-11T12:19:05+00:00"
   },
+  "esq17702470159": {
+    "address": "Alfred-Jung-Straße 33, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T17:28:06+00:00"
+  },
   "esq17702471318": {
     "address": "Massower Straße 4, 10315, Lichtenberg",
     "company": "HOWOGE",
@@ -8058,6 +8111,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-21T14:13:29+02:00"
   },
+  "w13000240901400501": {
+    "address": "Müggelheimer Straße 56",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T14:47:06+00:00",
+    "site_first_seen": "2026-10-26T19:48:14+01:00"
+  },
   "w13000607800040104": {
     "address": "Joachimstraße 8",
     "company": "degewo",
@@ -8132,6 +8192,13 @@
     "portal_first_seen": "2026-10-07T22:05:34+02:00",
     "portal_uploaded": "2026-10-07T15:47:05+00:00",
     "site_first_seen": "2026-10-07T22:04:59+02:00"
+  },
+  "w13002070400080303": {
+    "address": "Griechische Allee 10",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T18:47:04+00:00",
+    "site_first_seen": "2026-10-26T19:48:14+01:00"
   },
   "w13002070600070302": {
     "address": "Griechische Allee 15",
@@ -8386,6 +8453,8 @@
   "w13005510100130206": {
     "address": "Abram-Joffe-Straße 8",
     "company": "degewo",
+    "portal_first_seen": "2026-10-26T19:48:52+01:00",
+    "portal_uploaded": "2026-10-26T16:12:06+00:00",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
@@ -8482,6 +8551,11 @@
     "portal_first_seen": "2026-10-08T16:17:41+02:00",
     "portal_uploaded": "2026-10-08T14:17:05+00:00",
     "site_first_seen": "2026-10-08T16:17:04+02:00"
+  },
+  "w13006091000630202": {
+    "address": "Grüne Trift 6",
+    "company": "degewo",
+    "site_first_seen": "2026-10-26T19:48:14+01:00"
   },
   "w13006240300030201": {
     "address": "Igelsteig 8",
