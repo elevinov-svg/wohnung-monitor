@@ -2270,6 +2270,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-16T15:28:36+02:00"
   },
+  "1001518000426": {
+    "address": "Heino-Schmieden-Weg 11, 12683 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-27T20:50:40+01:00"
+  },
   "1001518200004": {
     "address": "Albert-Kuntz-Str. 50, 12627 Berlin",
     "company": "Stadt und Land",
@@ -3943,6 +3948,31 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "17702510311": {
+    "address": "Selchowstraße 17A, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "17702510315": {
+    "address": "Selchowstraße 17B, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "17702510317": {
+    "address": "Selchowstraße 17B, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "17702510324": {
+    "address": "Selchowstraße 17C, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "1770251038": {
+    "address": "Selchowstraße 17A, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
   "17702510444": {
     "address": "Silberberger Straße 11, 12489 Berlin",
     "company": "HOWOGE",
@@ -4524,6 +4554,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-05T17:08:10+02:00"
   },
+  "177114563170": {
+    "address": "Frankfurter Allee 218, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
   "177114563213": {
     "address": "Frankfurter Allee 218, 10365 Berlin",
     "company": "HOWOGE",
@@ -4833,6 +4868,46 @@
     "address": "Schulze-Boysen-Straße 69, 10365 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
+  "1950335621": {
+    "address": "Stienitzseestraße 27, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356225": {
+    "address": "Stienitzseestraße 31, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356252": {
+    "address": "Stienitzseestraße 35, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356258": {
+    "address": "Stienitzseestraße 35, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356262": {
+    "address": "Stienitzseestraße 37, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356273": {
+    "address": "Stienitzseestraße 39, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356277": {
+    "address": "Stienitzseestraße 39, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
+  },
+  "19503356288": {
+    "address": "Stienitzseestraße 41, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T20:49:56+01:00"
   },
   "30382005128": {
     "address": "Lubminer Straße 31, 12619, Marzahn-Hellersdorf",
@@ -5570,6 +5645,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-12T22:21:53+02:00"
   },
+  "60113104601070125": {
+    "address": "Alandstr. 51, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-27T20:50:39+01:00"
+  },
   "60113104602010146": {
     "address": "Moderlieschenstr. 82, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -5716,6 +5796,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "60113104604090408": {
+    "address": "Alandstr. 69, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-27T20:50:39+01:00"
   },
   "60113104604090409": {
     "address": "Alandstr. 69, 13599 Berlin/Spandau",
@@ -6576,6 +6661,18 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T11:29:05+00:00"
   },
+  "esq17702510317": {
+    "address": "Selchowstraße 17B, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T18:13:04+00:00"
+  },
+  "esq17702510324": {
+    "address": "Selchowstraße 17C, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T18:17:06+00:00"
+  },
   "esq17702510444": {
     "address": "Silberberger Straße 11, 12489, Treptow-Köpenick",
     "company": "HOWOGE",
@@ -7061,6 +7158,54 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-09T21:18:31+02:00",
     "portal_uploaded": "2026-10-09T17:07:05+00:00"
+  },
+  "esq1950335621": {
+    "address": "Stienitzseestraße 27, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T18:26:06+00:00"
+  },
+  "esq19503356225": {
+    "address": "Stienitzseestraße 31, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T18:47:08+00:00"
+  },
+  "esq19503356252": {
+    "address": "Stienitzseestraße 35, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:07:09+00:00"
+  },
+  "esq19503356258": {
+    "address": "Stienitzseestraße 35, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:02:06+00:00"
+  },
+  "esq19503356262": {
+    "address": "Stienitzseestraße 37, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:18:06+00:00"
+  },
+  "esq19503356273": {
+    "address": "Stienitzseestraße 39, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:23:06+00:00"
+  },
+  "esq19503356277": {
+    "address": "Stienitzseestraße 39, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:27:07+00:00"
+  },
+  "esq19503356288": {
+    "address": "Stienitzseestraße 41, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-27T20:50:42+01:00",
+    "portal_uploaded": "2026-10-27T19:33:07+00:00"
   },
   "httpswwwdegewodeimmosuchedetails1zimmerwohnunginkoepenick": {
     "address": "Zur Nachtheide 4",
