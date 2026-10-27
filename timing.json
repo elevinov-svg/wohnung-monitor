@@ -1879,6 +1879,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-21T14:14:04+02:00"
   },
+  "1001047100207": {
+    "address": "Ortolfstr. 58, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-27T15:49:14+01:00"
+  },
   "1001047100220": {
     "address": "Rubusweg 24, 12524 Berlin",
     "company": "Stadt und Land",
@@ -1944,6 +1949,11 @@
     "address": "Martin-Luther-Str. 30a, 15370 Fredersdorf",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-21T08:49:30+02:00"
+  },
+  "1001368300004": {
+    "address": "Martin-Luther-Str. 30a, 15370 Fredersdorf",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-27T15:49:14+01:00"
   },
   "1001368400035": {
     "address": "Tieckstr. 20 I, 15370 Fredersdorf",
@@ -2272,6 +2282,20 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
   },
+  "1001518200134": {
+    "address": "Albert-Kuntz-Str. 56, 12627 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T14:49:06+00:00",
+    "site_first_seen": "2026-10-27T15:49:14+01:00"
+  },
+  "1001518200170": {
+    "address": "Albert-Kuntz-Str. 58, 12627 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T14:26:06+00:00",
+    "site_first_seen": "2026-10-27T15:49:14+01:00"
+  },
   "1001518200283": {
     "address": "Adele-Sandrock-Str. 113, 12627 Berlin",
     "company": "Stadt und Land",
@@ -2487,6 +2511,8 @@
   "1001527600025": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T13:49:05+00:00",
     "site_first_seen": "2026-10-19T18:38:11+02:00"
   },
   "1001527600026": {
@@ -3123,6 +3149,11 @@
     "portal_uploaded": "2026-10-09T06:30:07+00:00",
     "site_first_seen": "2026-10-09T08:31:55+02:00"
   },
+  "1050820500345": {
+    "address": "Neue Grottkauer Straße 10, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-27T15:49:14+01:00"
+  },
   "1050820500424": {
     "address": "Neue Grottkauer Straße 22, 12619 Berlin",
     "company": "Stadt und Land",
@@ -3668,6 +3699,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
+  },
+  "177020767127": {
+    "address": "Hauptstraße 49 A, 10317 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-27T15:48:25+01:00"
   },
   "17702076735": {
     "address": "Hauptstraße 44, 10317 Berlin",
@@ -4896,6 +4932,11 @@
     "portal_uploaded": "2026-10-08T06:49:06+00:00",
     "site_first_seen": "2026-10-08T08:47:49+02:00"
   },
+  "5051850320440": {
+    "address": "Brunsbütteler Damm 291B, 13591 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-27T15:48:42+01:00"
+  },
   "5051850323537": {
     "address": "Brunsbütteler Damm 297B, 13591 Berlin",
     "company": "WBM",
@@ -4922,6 +4963,11 @@
     "address": "Brunsbütteler Damm 269D, 13591 Berlin",
     "company": "WBM",
     "site_first_seen": "2026-10-02T18:32:10+02:00"
+  },
+  "505185048123": {
+    "address": "Brunsbütteler Damm 269C, 13591 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-27T15:48:42+01:00"
   },
   "505185048124": {
     "address": "Brunsbütteler Damm 269C, 13591 Berlin",
@@ -5131,6 +5177,13 @@
     "portal_uploaded": "2026-10-09T11:29:05+00:00",
     "site_first_seen": "2026-10-08T15:56:38+02:00"
   },
+  "513004494": {
+    "address": "Krautstrasse 4, 10243 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T14:49:06+00:00",
+    "site_first_seen": "2026-10-27T15:48:42+01:00"
+  },
   "5130053157": {
     "address": "Krautstrasse 7, 10243 Berlin",
     "company": "WBM",
@@ -5196,6 +5249,11 @@
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T16:50:37+00:00",
     "site_first_seen": "2026-10-13T19:05:13+02:00"
+  },
+  "5140166291": {
+    "address": "Singerstrasse 51, 10243 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-27T15:48:42+01:00"
   },
   "51439384": {
     "address": "Friedenstrasse 87, 10249 Berlin",
@@ -6160,6 +6218,13 @@
     "address": "Wollankstr. 122, 13187 Berlin/Pankow",
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
+  },
+  "71007913301010003": {
+    "address": "Slabystr. 7, 12459 Berlin/Treptow-Köpenick",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T14:23:05+00:00",
+    "site_first_seen": "2026-10-27T15:49:12+01:00"
   },
   "80653263901020023": {
     "address": "Cunostr. 7, 14199 Berlin/Charlottenburg-Wilmersdorf",
@@ -7177,6 +7242,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11000509900020101": {
+    "address": "Trappenweg 16C",
+    "company": "degewo",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
+  },
   "w11001190200050105": {
     "address": "Horstwalder Straße 1",
     "company": "degewo",
@@ -7389,6 +7459,11 @@
     "portal_uploaded": "2026-10-12T10:16:07+00:00",
     "site_first_seen": "2026-10-12T12:19:28+02:00"
   },
+  "w11004172000460409": {
+    "address": "Venusstraße 28",
+    "company": "degewo",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
+  },
   "w11004190801390102": {
     "address": "Kleeblattstraße 16",
     "company": "degewo",
@@ -7500,6 +7575,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11004220101190102": {
+    "address": "Eisenhutweg 70B",
+    "company": "degewo",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
   },
   "w11004220101230202": {
     "address": "Eisenhutweg 70B",
@@ -8085,6 +8165,11 @@
     "address": "Thaliaweg 13",
     "company": "degewo",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w11500507100610301": {
+    "address": "Coburger Straße 47",
+    "company": "degewo",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
   },
   "w11500507200090502": {
     "address": "Falkenstraße 9",
@@ -8802,6 +8887,13 @@
     "portal_uploaded": "2026-10-07T06:49:05+00:00",
     "site_first_seen": "2026-10-07T08:53:53+02:00"
   },
+  "w14004001200500301": {
+    "address": "Marchwitzastraße 16",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T13:56:04+00:00",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
+  },
   "w14004002702000504": {
     "address": "Allee der Kosmonauten 68, 12681, Marzahn-Hellersdorf",
     "company": "degewo",
@@ -8815,6 +8907,13 @@
     "portal_first_seen": "2026-09-24T16:04:45+02:00",
     "portal_uploaded": "2026-09-24T12:54:05+00:00",
     "site_first_seen": "2026-09-24T16:04:01+02:00"
+  },
+  "w14004003111400904": {
+    "address": "Luise-Zietz-Straße 129",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T13:36:06+00:00",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
   },
   "w14004003204600203": {
     "address": "Marchwitzastraße 37",
@@ -8954,6 +9053,13 @@
     "portal_first_seen": "2026-10-01T08:55:00+02:00",
     "portal_uploaded": "2026-10-01T06:30:05+00:00",
     "site_first_seen": "2026-10-01T08:54:30+02:00"
+  },
+  "w14004010303900701": {
+    "address": "Marzahner Promenade 34",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T14:07:05+00:00",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
   },
   "w14004010500900303": {
     "address": "Marzahner Promenade 37",
@@ -9312,6 +9418,13 @@
     "portal_first_seen": "2026-10-05T17:09:18+02:00",
     "portal_uploaded": "2026-10-05T13:33:04+00:00",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w14005180500650202": {
+    "address": "Eugen-Roth-Weg 8",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-27T15:49:15+01:00",
+    "portal_uploaded": "2026-10-27T13:10:07+00:00",
+    "site_first_seen": "2026-10-27T15:48:39+01:00"
   },
   "w14005180501200702": {
     "address": "Eugen-Roth-Weg 10",
