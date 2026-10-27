@@ -868,6 +868,13 @@
     "portal_uploaded": "2026-10-08T13:05:06+00:00",
     "site_first_seen": "2026-10-08T15:57:06+02:00"
   },
+  "01000254301010004": {
+    "address": "Konrad-Wolf-Str. 119, 13055 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-27T09:14:16+01:00",
+    "portal_uploaded": "2026-10-27T08:07:05+00:00",
+    "site_first_seen": "2026-10-27T09:14:13+01:00"
+  },
   "01000254502010024": {
     "address": "Marienstr. 15, 12459 Berlin/Treptow-Köpenick",
     "company": "Gewobag",
@@ -1455,6 +1462,18 @@
     "company": "GESOBAU",
     "portal_first_seen": "2026-10-26T06:49:25+01:00",
     "portal_uploaded": "2026-10-26T04:03:04+00:00"
+  },
+  "10009120000908143ef4294144bc40e98243d25eb113748c": {
+    "address": "Wesendorfer Straße 1, 13439, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-27T09:14:16+01:00",
+    "portal_uploaded": "2026-10-27T06:37:05+00:00"
+  },
+  "100091300001031720d3bd6529984e98aea7d48cde39f60d": {
+    "address": "Eichhorster Weg 44, 13435, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-10-27T09:14:16+01:00",
+    "portal_uploaded": "2026-10-27T05:40:06+00:00"
   },
   "1000913000010707792991fd59c74062b5b9dbb260b4367e": {
     "address": "Eichhorster Weg 44, 13435, Reinickendorf",
@@ -2808,6 +2827,16 @@
     "address": "Mühlenbecker Straße 16, 16348 Wandlitz",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-23T13:58:37+02:00"
+  },
+  "10023560000310219366241157fb4bb9bcc515fad4f35d75": {
+    "address": "Mühlenstraße 24A, 13187 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-27T09:13:48+01:00"
+  },
+  "10030200000810233e96e870559c4de1b86e54fa1db6f058": {
+    "address": "Rolandstraße 70, 13156 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-27T09:13:48+01:00"
   },
   "10030230011003989f39b2f68c83478ab6b3476907199552": {
     "address": "Vesaliusstraße 28, 13187 Berlin",
