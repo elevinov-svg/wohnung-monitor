@@ -1352,6 +1352,8 @@
   "10000048001020035": {
     "address": "Gubitzstr. 50a, 10409 Berlin/Pankow",
     "company": "Gewobag",
+    "portal_first_seen": "2026-10-28T22:37:55+01:00",
+    "portal_uploaded": "2026-10-28T14:29:04+00:00",
     "site_first_seen": "2026-10-28T18:01:16+01:00"
   },
   "10000048001020042": {
@@ -7212,6 +7214,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-24T20:35:11+02:00",
     "portal_uploaded": "2026-09-24T15:01:08+00:00"
+  },
+  "esq177114559490": {
+    "address": "Mohnweg 15, 12524, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-28T22:37:55+01:00",
+    "portal_uploaded": "2026-10-28T14:36:11+00:00"
   },
   "esq17711455964": {
     "address": "Anne-Frank-Straße 6, 12524, Treptow-Köpenick",
