@@ -674,6 +674,11 @@
     "portal_uploaded": "2026-10-28T11:30:06+00:00",
     "site_first_seen": "2026-10-28T12:33:37+01:00"
   },
+  "01000170701010008": {
+    "address": "Quarzweg 115, 12349 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-28T18:01:16+01:00"
+  },
   "01000171103010129": {
     "address": "Dora-Mendler-Str. 14, 12355 Berlin/Neukölln",
     "company": "Gewobag",
@@ -1344,6 +1349,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
   },
+  "10000048001020035": {
+    "address": "Gubitzstr. 50a, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-28T18:01:16+01:00"
+  },
   "10000048001020042": {
     "address": "Gubitzstr. 50a, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -1579,6 +1589,11 @@
     "portal_first_seen": "2026-10-14T17:56:57+02:00",
     "portal_uploaded": "2026-10-14T13:23:03+00:00"
   },
+  "10009830000511279a1e13f683f84ba39dca376ac6dce52b": {
+    "address": "Roedernallee 118C, 13437 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-28T18:00:46+01:00"
+  },
   "1000983000081050d927edceeb38454f8ec82482cc99f428": {
     "address": "Roedernallee 118F, 13437, Reinickendorf",
     "company": "GESOBAU",
@@ -1608,6 +1623,11 @@
     "company": "GESOBAU",
     "portal_first_seen": "2026-10-17T12:49:05+02:00",
     "portal_uploaded": "2026-10-17T10:48:04+00:00"
+  },
+  "100098300010115208caf54798e3403db9fcc2dde87024ef": {
+    "address": "Roedernallee 118H, 13437 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-28T18:00:46+01:00"
   },
   "1001002100155": {
     "address": "Bayernring 25c, 12101 Berlin",
@@ -2598,6 +2618,11 @@
     "portal_uploaded": "2026-09-24T13:38:01+00:00",
     "site_first_seen": "2026-09-24T16:04:41+02:00"
   },
+  "1001527600032": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
   "1001527600033": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
@@ -2612,6 +2637,11 @@
     "portal_uploaded": "2026-10-16T08:01:08+00:00",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
+  },
+  "1001527600035": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
   },
   "1001527600036": {
     "address": "Dröpkeweg 9, 12353 Berlin",
@@ -2710,6 +2740,21 @@
     "site_first_seen": "2026-09-24T11:22:29+02:00",
     "site_first_seen_baseline": true
   },
+  "1001600600022": {
+    "address": "Karl-Kunger-Str. 14, 12435 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
+  "1001602900025": {
+    "address": "Karl-Kunger-Str. 6 HH, 12435 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
+  "1001605300026": {
+    "address": "Wildenbruchstr. 51 R, 12435 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
   "1001607400006": {
     "address": "Am Treptower Park 19, 12435 Berlin",
     "company": "Stadt und Land",
@@ -2726,6 +2771,11 @@
     "address": "Galileistr. 44, 12435 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-08T15:57:07+02:00"
+  },
+  "1001611900344": {
+    "address": "Galileistr. 50, 12435 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
   },
   "1001612400006": {
     "address": "Orionstr. 31A, 12435 Berlin",
@@ -3064,6 +3114,20 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-07T16:16:36+02:00"
   },
+  "1050516000106": {
+    "address": "Hasenholzer Allee 28, 12685 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:28:06+00:00",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
+  "1050516000148": {
+    "address": "Hasenholzer Allee 34, 12685 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:26:06+00:00",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
+  },
   "1050516000216": {
     "address": "Hasenholzer Allee 40, 12685 Berlin",
     "company": "Stadt und Land",
@@ -3082,6 +3146,11 @@
     "portal_first_seen": "2026-09-26T00:43:28+02:00",
     "portal_uploaded": "2026-09-25T21:14:03+00:00",
     "site_first_seen": "2026-09-25T17:27:58+02:00"
+  },
+  "1050523100380": {
+    "address": "Venusstr. 24, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-28T18:01:18+01:00"
   },
   "1050523200106": {
     "address": "Schönefelder Chaussee 205, 12524 Berlin",
@@ -4037,6 +4106,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-22T12:27:05+02:00"
   },
+  "17702614124": {
+    "address": "Harzer Straße 40, 12059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-28T18:00:22+01:00"
+  },
   "17702630516": {
     "address": "Dönhoffstraße 29 HH, 10318 Berlin",
     "company": "HOWOGE",
@@ -4067,6 +4141,11 @@
     "address": "Alt-Friedrichsfelde 41, 10315 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-30T18:41:46+02:00"
+  },
+  "17702763973": {
+    "address": "Schwarzmeerstraße 60, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-28T18:00:22+01:00"
   },
   "177027640105": {
     "address": "Schwarzmeerstraße 68, 10319 Berlin",
@@ -4560,6 +4639,11 @@
     "address": "Konrad-Wolf-Straße 6, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-07T22:09:45+02:00"
+  },
+  "1771140056": {
+    "address": "Konrad-Wolf-Straße 13, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-28T18:00:22+01:00"
   },
   "177114007130": {
     "address": "Konrad-Wolf-Straße 29A, 13055 Berlin",
@@ -5269,6 +5353,20 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "50867500544": {
+    "address": "Konrad-Wolf-Strasse 41D, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:49:07+00:00",
+    "site_first_seen": "2026-10-28T18:00:40+01:00"
+  },
+  "50867500793": {
+    "address": "Konrad-Wolf-Strasse 42, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:49:12+00:00",
+    "site_first_seen": "2026-10-28T18:00:40+01:00"
+  },
   "5086750711": {
     "address": "Landsberger Allee 313, 13055, Lichtenberg",
     "company": "WBM",
@@ -5302,6 +5400,13 @@
     "portal_first_seen": "2026-10-21T19:32:43+02:00",
     "portal_uploaded": "2026-10-21T17:19:09+00:00",
     "site_first_seen": "2026-10-21T19:32:15+02:00"
+  },
+  "511133113": {
+    "address": "Mollstrasse 26, 10249 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:49:06+00:00",
+    "site_first_seen": "2026-10-28T18:00:40+01:00"
   },
   "512065204": {
     "address": "Platz der Vereinten Nationen 27, 10249 Berlin",
@@ -6375,11 +6480,26 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "71007770201071008": {
+    "address": "Am Eichenquast 52, 12353 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-28T18:01:16+01:00"
+  },
+  "71007770902010058": {
+    "address": "Mollnerweg 34, 12353 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-28T18:01:16+01:00"
+  },
   "71007771001020041": {
     "address": "Mollnerweg 35A, 12353 Berlin/Neukölln",
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "71007771101010026": {
+    "address": "Ringslebenstr. 76A, 12353 Berlin/Neukölln",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-28T18:01:16+01:00"
   },
   "71007790501040020": {
     "address": "Am Springebruch 3, 13469 Berlin/Reinickendorf",
@@ -6768,6 +6888,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-22T12:28:03+02:00",
     "portal_uploaded": "2026-10-22T08:03:09+00:00"
+  },
+  "esq17702614124": {
+    "address": "Harzer Straße 40, 12059, Neukölln",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T15:43:05+00:00"
   },
   "esq177026318177": {
     "address": "Ilsestraße 36B, 10318, Lichtenberg",
@@ -7735,6 +7861,13 @@
     "portal_uploaded": "2026-10-21T11:25:04+00:00",
     "site_first_seen": "2026-10-21T14:13:29+02:00"
   },
+  "w11004190802200307": {
+    "address": "Kleeblattstraße 24",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:26:06+00:00",
+    "site_first_seen": "2026-10-28T18:00:33+01:00"
+  },
   "w11004190802940301": {
     "address": "Bohnsdorfer Weg 117",
     "company": "degewo",
@@ -8160,6 +8293,11 @@
     "portal_uploaded": "2026-09-28T09:53:04+00:00",
     "site_first_seen": "2026-09-28T18:55:37+02:00"
   },
+  "w11400065600110205": {
+    "address": "Theodor-Loos-Weg 17",
+    "company": "degewo",
+    "site_first_seen": "2026-10-28T18:00:33+01:00"
+  },
   "w11400066304030205": {
     "address": "Agnes-Straub-Weg 2",
     "company": "degewo",
@@ -8318,6 +8456,13 @@
     "portal_first_seen": "2026-10-21T19:32:43+02:00",
     "portal_uploaded": "2026-10-21T15:27:03+00:00",
     "site_first_seen": "2026-10-21T20:13:15+02:00"
+  },
+  "w11500039010030503": {
+    "address": "Bayernallee 10",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:00:07+00:00",
+    "site_first_seen": "2026-10-28T18:00:33+01:00"
   },
   "w11500040400180502": {
     "address": "Mariannenplatz 8",
@@ -8964,6 +9109,20 @@
     "portal_first_seen": "2026-10-14T13:21:36+02:00",
     "portal_uploaded": "2026-10-14T10:34:04+00:00",
     "site_first_seen": "2026-10-14T13:20:47+02:00"
+  },
+  "w13006381800370604": {
+    "address": "Müggelschlößchenweg 36",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:40:06+00:00",
+    "site_first_seen": "2026-10-28T18:00:33+01:00"
+  },
+  "w13006420200420403": {
+    "address": "Pablo-Neruda-Straße 25",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-28T18:01:27+01:00",
+    "portal_uploaded": "2026-10-28T16:32:06+00:00",
+    "site_first_seen": "2026-10-28T18:00:33+01:00"
   },
   "w13006420400680302": {
     "address": "Pablo-Neruda-Straße 20",
