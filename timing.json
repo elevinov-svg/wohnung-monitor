@@ -4866,15 +4866,45 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T12:26:09+02:00"
   },
+  "177114576457": {
+    "address": "Karl-Ziegler-Straße 3, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
+  },
+  "177114576507": {
+    "address": "Karl-Ziegler-Straße 5, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
+  },
+  "177114576524": {
+    "address": "Karl-Ziegler-Straße 5, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
+  },
+  "177114576542": {
+    "address": "Karl-Ziegler-Straße 5, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
+  },
   "177114576619": {
     "address": "Karl-Ziegler-Straße 7, 12489 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T13:15:34+02:00"
   },
+  "177114576626": {
+    "address": "Karl-Ziegler-Straße 7, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
+  },
   "177114576642": {
     "address": "Karl-Ziegler-Straße 7, 12489 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T13:15:34+02:00"
+  },
+  "177114576647": {
+    "address": "Karl-Ziegler-Straße 7, 12489 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-29T21:27:00+01:00"
   },
   "17711457683": {
     "address": "Alexander-von-Humboldt-Weg 5, 12489 Berlin",
@@ -6467,6 +6497,13 @@
     "portal_uploaded": "2026-10-14T16:11:06+00:00",
     "site_first_seen": "2026-10-14T18:14:23+02:00"
   },
+  "71007080601010108": {
+    "address": "Eiserfelder Ring 9, 13583 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T16:28:04+00:00",
+    "site_first_seen": "2026-10-29T21:27:35+01:00"
+  },
   "71007220401010095": {
     "address": "Zobeltitzstr. 117, 13403 Berlin/Reinickendorf",
     "company": "Gewobag",
@@ -6533,6 +6570,13 @@
     "address": "Freudstr. 4, 13589 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-10-23T13:58:33+02:00"
+  },
+  "71007460201010015": {
+    "address": "Freudstr. 11, 13589 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T16:51:03+00:00",
+    "site_first_seen": "2026-10-29T21:27:35+01:00"
   },
   "71007460201010020": {
     "address": "Freudstr. 11, 13589 Berlin/Spandau",
@@ -7430,17 +7474,53 @@
     "portal_first_seen": "2026-10-02T18:32:49+02:00",
     "portal_uploaded": "2026-10-02T14:12:06+00:00"
   },
+  "esq177114576457": {
+    "address": "Karl-Ziegler-Straße 3, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:06:06+00:00"
+  },
+  "esq177114576507": {
+    "address": "Karl-Ziegler-Straße 5, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:10:10+00:00"
+  },
+  "esq177114576524": {
+    "address": "Karl-Ziegler-Straße 5, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:29:04+00:00"
+  },
+  "esq177114576542": {
+    "address": "Karl-Ziegler-Straße 5, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:31:04+00:00"
+  },
   "esq177114576619": {
     "address": "Karl-Ziegler-Straße 7, 12489, Treptow-Köpenick",
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-02T13:22:26+02:00",
     "portal_uploaded": "2026-10-02T11:17:06+00:00"
   },
+  "esq177114576626": {
+    "address": "Karl-Ziegler-Straße 7, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:32:05+00:00"
+  },
   "esq177114576642": {
     "address": "Karl-Ziegler-Straße 7, 12489, Treptow-Köpenick",
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-02T13:22:26+02:00",
     "portal_uploaded": "2026-10-02T11:19:05+00:00"
+  },
+  "esq177114576647": {
+    "address": "Karl-Ziegler-Straße 7, 12489, Treptow-Köpenick",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-29T21:27:39+01:00",
+    "portal_uploaded": "2026-10-29T17:33:05+00:00"
   },
   "esq17711457683": {
     "address": "Alexander-von-Humboldt-Weg 5, 12489, Treptow-Köpenick",
