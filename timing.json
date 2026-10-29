@@ -2148,6 +2148,8 @@
   "1001510900018": {
     "address": "Otto-Franke-Str. 70, 12489 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-29T16:44:22+01:00",
+    "portal_uploaded": "2026-10-29T15:42:06+00:00",
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
