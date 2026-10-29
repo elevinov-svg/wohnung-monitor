@@ -24,6 +24,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "01000101812020191": {
+    "address": "Gorgasring 25A, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-29T09:47:30+01:00",
+    "portal_uploaded": "2026-10-29T08:44:05+00:00",
+    "site_first_seen": "2026-10-29T09:47:26+01:00"
+  },
   "01000102603010086": {
     "address": "Gartenfelder Str. 56, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -5690,6 +5697,11 @@
     "address": "Moderlieschenstr. 18, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-09-30T18:42:49+02:00"
+  },
+  "60113104501020024": {
+    "address": "Moderlieschenstr. 16, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-10-29T09:47:26+01:00"
   },
   "60113104501030039": {
     "address": "Moderlieschenstr. 14, 13599 Berlin/Spandau",
