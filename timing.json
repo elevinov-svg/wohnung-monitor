@@ -3311,6 +3311,8 @@
   "1050820500476": {
     "address": "Maxie-Wander-Straße 27, 12619 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-29T09:17:38+01:00",
+    "portal_uploaded": "2026-10-29T08:14:15+00:00",
     "site_first_seen": "2026-10-29T09:13:47+01:00"
   },
   "1050820600182": {
@@ -3353,6 +3355,13 @@
     "portal_first_seen": "2026-10-02T12:42:02+02:00",
     "portal_uploaded": "2026-10-02T09:43:05+00:00",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
+  },
+  "1050821400168": {
+    "address": "Ernst-Bloch-Straße 33, 12619 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-29T09:17:38+01:00",
+    "portal_uploaded": "2026-10-29T08:16:05+00:00",
+    "site_first_seen": "2026-10-29T09:17:36+01:00"
   },
   "1050821700198": {
     "address": "Ernst-Bloch-Straße 8, 12619 Berlin",
