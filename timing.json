@@ -2003,6 +2003,11 @@
     "portal_uploaded": "2026-10-22T19:55:04+00:00",
     "site_first_seen": "2026-10-22T17:32:49+02:00"
   },
+  "1001368100031": {
+    "address": "Martin-Luther-Str. 28A, 15370 Fredersdorf",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-10-29T09:06:27+01:00"
+  },
   "1001368200033": {
     "address": "Martin-Luther-Str. 10, 15370 Fredersdorf",
     "company": "Stadt und Land",
@@ -3100,6 +3105,11 @@
     "address": "Ingeborg-Feustel-Straße 1, 12629 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-09-24T16:04:20+02:00"
+  },
+  "100324700023141916a0f4111dd94735a0213ab9335eca10": {
+    "address": "Kastanienallee 51, 12627 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-10-29T09:06:01+01:00"
   },
   "1003247000231448bcb8ced64fa24b86b3b1c0003d0c2fee": {
     "address": "Kastanienallee 51, 12627 Berlin",
@@ -4963,6 +4973,13 @@
     "portal_first_seen": "2026-09-29T04:12:22+02:00",
     "portal_uploaded": "2026-09-29T00:19:04+00:00"
   },
+  "18525369": {
+    "address": "Jacobystrasse 3, 10179 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-29T09:06:29+01:00",
+    "portal_uploaded": "2026-10-29T08:00:07+00:00",
+    "site_first_seen": "2026-10-29T09:05:54+01:00"
+  },
   "1901330309": {
     "address": "Kaiser-Wilhelm-Straße 18a, 12247 Berlin",
     "company": "HOWOGE",
@@ -5088,6 +5105,13 @@
     "company": "WBM",
     "portal_first_seen": "2026-10-04T20:35:13+02:00",
     "portal_uploaded": "2026-10-04T18:35:06+00:00"
+  },
+  "38520393": {
+    "address": "Karl-Marx-Allee 23, 10178 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-29T09:06:29+01:00",
+    "portal_uploaded": "2026-10-29T07:39:06+00:00",
+    "site_first_seen": "2026-10-29T09:05:54+01:00"
   },
   "385374316": {
     "address": "Rathausstrasse 13, 10178 Berlin",
@@ -8162,6 +8186,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-01T16:15:15+02:00"
   },
+  "w11400055600120403": {
+    "address": "Pechsteinstraße 60",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-29T09:06:29+01:00",
+    "portal_uploaded": "2026-10-29T08:04:05+00:00",
+    "site_first_seen": "2026-10-29T09:05:49+01:00"
+  },
   "w11400057001060502": {
     "address": "Maximilian-Kaller-Straße 23D",
     "company": "degewo",
@@ -8336,6 +8367,13 @@
     "portal_first_seen": "2026-10-19T12:03:19+02:00",
     "portal_uploaded": "2026-10-19T10:02:10+00:00",
     "site_first_seen": "2026-10-19T12:02:46+02:00"
+  },
+  "w11400066704340604": {
+    "address": "Theodor-Loos-Weg 16",
+    "company": "degewo",
+    "portal_first_seen": "2026-10-29T09:06:29+01:00",
+    "portal_uploaded": "2026-10-29T06:35:07+00:00",
+    "site_first_seen": "2026-10-29T09:05:49+01:00"
   },
   "w11400067300410601": {
     "address": "Agnes-Straub-Weg 1",
