@@ -889,6 +889,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-02T18:32:41+02:00"
   },
+  "01000252010010758": {
+    "address": "Goeckestr. 11, 13055 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-10-29T09:21:30+01:00",
+    "portal_uploaded": "2026-10-29T08:19:04+00:00",
+    "site_first_seen": "2026-10-29T09:21:26+01:00"
+  },
   "01000252011010753": {
     "address": "Goeckestr. 16, 13055 Berlin/Lichtenberg",
     "company": "Gewobag",
@@ -1684,6 +1691,13 @@
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T11:45:05+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
+  },
+  "1001017400381": {
+    "address": "Neuköllnische Allee 99, 12057 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-10-29T09:21:30+01:00",
+    "portal_uploaded": "2026-10-29T08:21:03+00:00",
+    "site_first_seen": "2026-10-29T09:21:28+01:00"
   },
   "1001018200010": {
     "address": "Heinrich-Schlusnus-Str. 12, 12057 Berlin",
