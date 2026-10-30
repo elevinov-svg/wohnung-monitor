@@ -5491,6 +5491,20 @@
     "portal_uploaded": "2026-10-29T20:51:17+00:00",
     "site_first_seen": "2026-10-29T21:50:22+01:00"
   },
+  "5086750014219": {
+    "address": "Konrad-Wolf-Strasse 42G, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T23:49:15+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
+  "5086750015220": {
+    "address": "Konrad-Wolf-Strasse 43, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T21:51:15+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
   "5086750015225": {
     "address": "Konrad-Wolf-Strasse 43, 13055 Berlin",
     "company": "WBM",
@@ -5512,17 +5526,50 @@
     "company": "WBM",
     "site_first_seen": "2026-10-05T17:08:39+02:00"
   },
+  "5086750022348": {
+    "address": "Konrad-Wolf-Strasse 43G, 13055 Berlin",
+    "company": "WBM",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
   "5086750023369": {
     "address": "Konrad-Wolf-Straße 44, 13055, Lichtenberg",
     "company": "WBM",
     "portal_first_seen": "2026-10-04T23:16:15+02:00",
     "portal_uploaded": "2026-10-04T20:48:05+00:00"
   },
+  "5086750023371": {
+    "address": "Konrad-Wolf-Strasse 44, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T22:51:10+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
+  "5086750023376": {
+    "address": "Konrad-Wolf-Strasse 44, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T22:51:10+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
   "5086750023380": {
     "address": "Konrad-Wolf-Straße 44, 13055, Lichtenberg",
     "company": "WBM",
     "portal_first_seen": "2026-10-04T23:24:46+02:00",
     "portal_uploaded": "2026-10-04T20:48:06+00:00"
+  },
+  "5086750024391": {
+    "address": "Konrad-Wolf-Strasse 44A, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T22:51:13+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
+  "5086750024395": {
+    "address": "Konrad-Wolf-Strasse 44A, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T22:51:14+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
   },
   "5086750024396": {
     "address": "Konrad-Wolf-Strasse 44A, 13055 Berlin",
@@ -5554,6 +5601,20 @@
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
   },
+  "5086750026424": {
+    "address": "Konrad-Wolf-Strasse 44C, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T22:51:15+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
+  "5086750026426": {
+    "address": "Konrad-Wolf-Strasse 44C, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T23:49:10+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
+  },
   "5086750027431": {
     "address": "Konrad-Wolf-Strasse 44D, 13055 Berlin",
     "company": "WBM",
@@ -5561,6 +5622,13 @@
     "portal_uploaded": "2026-10-04T20:48:07+00:00",
     "site_first_seen": "2026-09-24T11:22:25+02:00",
     "site_first_seen_baseline": true
+  },
+  "5086750027434": {
+    "address": "Konrad-Wolf-Strasse 44D, 13055 Berlin",
+    "company": "WBM",
+    "portal_first_seen": "2026-10-30T01:09:52+01:00",
+    "portal_uploaded": "2026-10-29T23:49:13+00:00",
+    "site_first_seen": "2026-10-30T01:09:18+01:00"
   },
   "50867500544": {
     "address": "Konrad-Wolf-Strasse 41D, 13055 Berlin",
