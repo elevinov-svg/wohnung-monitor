@@ -3940,6 +3940,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-05T08:03:43+02:00"
   },
+  "1770202773": {
+    "address": "Frankfurter Allee 213, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-30T19:47:33+01:00"
+  },
   "177020279457": {
     "address": "Schulze-Boysen-Straße 31, 10365 Berlin",
     "company": "HOWOGE",
@@ -7094,6 +7099,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-05T08:04:34+02:00",
     "portal_uploaded": "2026-10-05T05:22:05+00:00"
+  },
+  "esq1770202773": {
+    "address": "Frankfurter Allee 213, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-30T19:48:13+01:00",
+    "portal_uploaded": "2026-10-30T18:46:09+00:00"
   },
   "esq177020279457": {
     "address": "Schulze-Boysen-Straße 31, 10365, Lichtenberg",
