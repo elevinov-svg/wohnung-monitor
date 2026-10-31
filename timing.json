@@ -4605,6 +4605,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-19T11:16:00+02:00"
   },
+  "17711020436": {
+    "address": "Strausberger Straße 18, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-31T16:43:34+01:00"
+  },
   "17711020519": {
     "address": "Strausberger Straße 20, 13055 Berlin",
     "company": "HOWOGE",
@@ -7521,6 +7526,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-19T11:17:16+02:00",
     "portal_uploaded": "2026-10-19T05:53:06+00:00"
+  },
+  "esq17711020436": {
+    "address": "Strausberger Straße 18, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-31T16:44:11+01:00",
+    "portal_uploaded": "2026-10-31T15:43:06+00:00"
   },
   "esq17711020519": {
     "address": "Strausberger Straße 20, 13055, Lichtenberg",
