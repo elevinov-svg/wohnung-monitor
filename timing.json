@@ -4585,6 +4585,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-08T21:42:07+02:00"
   },
+  "17711007314": {
+    "address": "Konrad-Wolf-Straße 105, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-31T16:05:41+01:00"
+  },
   "1771100837": {
     "address": "Konrad-Wolf-Straße 121, 13055 Berlin",
     "company": "HOWOGE",
@@ -4620,6 +4625,16 @@
     "address": "Neustrelitzer Straße 65, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-13T19:04:50+02:00"
+  },
+  "1771109124": {
+    "address": "Konrad-Wolf-Straße 115, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-31T16:05:41+01:00"
+  },
+  "1771109309": {
+    "address": "Schöneicher Straße 1, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-10-31T16:05:41+01:00"
   },
   "17711130620": {
     "address": "Suermondtstraße 59, 13053 Berlin",
@@ -7478,6 +7493,12 @@
     "portal_first_seen": "2026-10-08T21:43:10+02:00",
     "portal_uploaded": "2026-10-08T14:57:07+00:00"
   },
+  "esq17711007314": {
+    "address": "Konrad-Wolf-Straße 105, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-31T16:06:29+01:00",
+    "portal_uploaded": "2026-10-31T14:03:05+00:00"
+  },
   "esq1771100837": {
     "address": "Konrad-Wolf-Straße 121, 13055, Lichtenberg",
     "company": "HOWOGE",
@@ -7519,6 +7540,18 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T16:18:07+00:00"
+  },
+  "esq1771109124": {
+    "address": "Konrad-Wolf-Straße 115, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-31T16:06:29+01:00",
+    "portal_uploaded": "2026-10-31T14:14:04+00:00"
+  },
+  "esq1771109309": {
+    "address": "Schöneicher Straße 1, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-10-31T16:06:29+01:00",
+    "portal_uploaded": "2026-10-31T14:28:05+00:00"
   },
   "esq17711130620": {
     "address": "Suermondtstraße 59, 13053, Lichtenberg",
