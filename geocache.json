@@ -84,6 +84,10 @@
   52.4162587,
   13.4352891
  ],
+ "Am Plänterwald 22, 12435 Berlin": [
+  52.4819148,
+  13.4799226
+ ],
  "Am Plänterwald 36, 12435 Berlin": [
   52.482121,
   13.4806119
@@ -391,6 +395,10 @@
  "Galenstr. 9, 13597 Berlin": [
   52.5363762,
   13.195462
+ ],
+ "Galileistr. 32, 12435 Berlin": [
+  52.4797591,
+  13.4780047
  ],
  "Galileistr. 44, 12435 Berlin": [
   52.4793772,
@@ -740,6 +748,10 @@
   52.4244315,
   13.4801866
  ],
+ "Köpenicker Landstr. 52, 12435 Berlin": [
+  52.4786777,
+  13.476579
+ ],
  "Köpenicker Strasse 112, 10179 Berlin": [
   52.5096901,
   13.4193726
@@ -839,6 +851,18 @@
  "Marzahner Promenade 44, Berlin": [
   52.545216,
   13.5538782
+ ],
+ "Maulbeerallee 27, 13593 Berlin": [
+  52.5233295,
+  13.1678809
+ ],
+ "Maulbeerallee 27a, 13593 Berlin": [
+  52.5231283,
+  13.1677872
+ ],
+ "Maulbeerallee 35b, 13593 Berlin": [
+  52.5232634,
+  13.1661513
  ],
  "Maxie-Wander-Straße 13, 12619 Berlin": [
   52.5276933,
@@ -952,6 +976,10 @@
   52.4506588,
   13.5415004
  ],
+ "Orionstr. 15, 12435 Berlin": [
+  52.4812214,
+  13.4810511
+ ],
  "Otto-Franke-Straße 55, 12489 Berlin": [
   52.4339556,
   13.5536064
@@ -1051,6 +1079,10 @@
  "Regattastraße 103, Berlin": [
   52.4191066,
   13.5793001
+ ],
+ "Retzowstraße 56, Berlin": [
+  52.4265687,
+  13.3422251
  ],
  "Retzowstraße 60, Berlin": [
   52.4268762,
@@ -1375,6 +1407,10 @@
  "Westfalenring 32, 12207 Berlin": [
   52.408378,
   13.3060003
+ ],
+ "Wichurastraße 115, Berlin": [
+  52.4301579,
+  13.3645073
  ],
  "Wilhelm-Kuhr-Straße 50, Berlin": [
   52.5648645,
