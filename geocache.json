@@ -272,6 +272,10 @@
   52.4285625,
   13.3437111
  ],
+ "Dessauerstraße 45B, Berlin": [
+  52.427101,
+  13.3435553
+ ],
  "Dillgesstraße 18, Berlin": [
   52.4342945,
   13.3432471
@@ -892,6 +896,10 @@
   52.524659,
   13.4231729
  ],
+ "Motzstraße 80, Berlin": [
+  52.4942105,
+  13.3360448
+ ],
  "Myliusgarten 26, Berlin": [
   52.4514992,
   13.6235283
@@ -1184,6 +1192,10 @@
   52.5593894,
   13.3590506
  ],
+ "Schönefelder Chaussee 185, 12524 Berlin": [
+  52.4044308,
+  13.5245762
+ ],
  "Schönefelder Chaussee 213, 12524 Berlin": [
   52.4036128,
   13.5265248
@@ -1191,6 +1203,10 @@
  "Schönefelder Chaussee 219, 12524 Berlin": [
   52.4037353,
   13.5259129
+ ],
+ "Schönefelder Chaussee 251, 12524 Berlin": [
+  52.4013457,
+  13.5224813
  ],
  "Schützenstraße 11, Berlin": [
   52.5510788,
@@ -1239,6 +1255,10 @@
  "Singerstrasse 51, 10243 Berlin": [
   52.5140049,
   13.436471
+ ],
+ "Siriusstr. 11, 12524 Berlin": [
+  52.401751,
+  13.5257198
  ],
  "Slabystr. 7, 12459 Berlin": [
   52.4575658,
@@ -1439,6 +1459,10 @@
  "Wuhlestraße 19, Berlin": [
   52.5269223,
   13.5689771
+ ],
+ "Wuhlestraße 23, Berlin": [
+  52.5270758,
+  13.5684531
  ],
  "Wutzkyallee 51, Berlin": [
   52.4247165,
