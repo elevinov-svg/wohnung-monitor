@@ -180,6 +180,10 @@
   52.4322535,
   13.3409911
  ],
+ "Brittendorfer Weg 20, 14167 Berlin": [
+  52.435368,
+  13.2765489
+ ],
  "Brunnenstraße 56, Berlin": [
   52.5390244,
   13.3959852
@@ -420,6 +424,10 @@
   52.5461343,
   13.2489651
  ],
+ "Gatower Straße 35, 13595 Berlin": [
+  52.5168991,
+  13.1871439
+ ],
  "Gaudystr. 16A, 10437 Berlin": [
   52.5461073,
   13.4076989
@@ -455,6 +463,10 @@
  "Gondeker Straße 21, 12437 Berlin": [
   52.4638449,
   13.4905238
+ ],
+ "Graetschelsteig 16, 13595 Berlin": [
+  52.5168428,
+  13.1884516
  ],
  "Graunstraße 12, Berlin": [
   52.5457023,
@@ -511,6 +523,10 @@
  "Havemannstraße 16, Berlin": [
   52.5684865,
   13.5701133
+ ],
+ "Heerstr. 282, 13595 Berlin": [
+  52.5159289,
+  13.1870761
  ],
  "Heerstr. 417, 13593 Berlin": [
   52.5194027,
@@ -751,6 +767,10 @@
  "Käthe-Dorsch-Ring 7, Berlin": [
   52.4244315,
   13.4801866
+ ],
+ "Köpenicker Landstr. 46, 12435 Berlin": [
+  52.4792391,
+  13.4755609
  ],
  "Köpenicker Landstr. 52, 12435 Berlin": [
   52.4786777,
@@ -1064,6 +1084,10 @@
   52.4987205,
   13.3621389
  ],
+ "Prinzregentenstraße 94, Berlin": [
+  52.4918101,
+  13.333337
+ ],
  "Raoul-Wallenberg-Straße 13, Berlin": [
   52.5502969,
   13.5519625
@@ -1288,6 +1312,10 @@
   52.4498008,
   13.3470145
  ],
+ "Sterndamm 121, 12487 Berlin": [
+  52.4416153,
+  13.5010588
+ ],
  "Stillerzeile 30, Berlin": [
   52.4565712,
   13.6132563
@@ -1423,6 +1451,14 @@
  "Wendenschloßstraße 132, Berlin": [
   52.4398367,
   13.5815531
+ ],
+ "Wendenschloßstraße 369, Berlin": [
+  52.424376,
+  13.5874875
+ ],
+ "Wendenschloßstraße 373, Berlin": [
+  52.4240732,
+  13.5875796
  ],
  "Westfalenring 32, 12207 Berlin": [
   52.408378,
