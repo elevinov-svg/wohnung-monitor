@@ -4567,10 +4567,20 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "177020778111": {
+    "address": "Genslerstraße 17 A, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
   "177020778161": {
     "address": "Genslerstraße 17 D, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-12T21:57:44+02:00"
+  },
+  "177020778169": {
+    "address": "Genslerstraße 17 D, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "17702077841": {
     "address": "Genslerstraße 16 A, 13055 Berlin",
@@ -4582,6 +4592,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-02T14:08:58+01:00"
   },
+  "177020803248": {
+    "address": "Elli-Voigt-Straße 16, 10367 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
   "1770208133": {
     "address": "Ruschestraße 35, 10367 Berlin",
     "company": "HOWOGE",
@@ -4591,6 +4606,11 @@
     "address": "Elli-Voigt-Straße 6, 10367 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-03T20:08:01+01:00"
+  },
+  "177020815318": {
+    "address": "Elli-Voigt-Straße 9, 10367 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "1770208155": {
     "address": "Elli-Voigt-Straße 1, 10367 Berlin",
@@ -5124,6 +5144,16 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-31T16:32:06+01:00"
   },
+  "177110238109": {
+    "address": "Goeckestraße 37 d, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
+  "17711024315": {
+    "address": "Werneuchener Straße 18, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
   "17711031928": {
     "address": "Küstriner Straße 6, 13055 Berlin",
     "company": "HOWOGE",
@@ -5174,6 +5204,11 @@
     "address": "Suermondtstraße 60, 13053 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-16T10:26:07+02:00"
+  },
+  "1771113614": {
+    "address": "Gembitzer Straße 17, 13053 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "17711136332": {
     "address": "Gembitzer Straße 25, 13053 Berlin",
@@ -5231,6 +5266,11 @@
     "address": "Borner Straße 18, 13051 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-09T21:17:44+02:00"
+  },
+  "17711221125": {
+    "address": "Falkenberger Chaussee 5, 13051 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "17711235266": {
     "address": "Zingster Straße 31, 13051 Berlin",
@@ -5290,6 +5330,11 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "17711269157": {
+    "address": "Ernst-Barlach-Straße 53, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
   "17711269813": {
     "address": "Egon-Erwin-Kisch-Straße 55, 13059 Berlin",
     "company": "HOWOGE",
@@ -5299,6 +5344,11 @@
     "address": "Warnemünder Straße 6, 13059 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-16T15:27:19+02:00"
+  },
+  "1771127793": {
+    "address": "Rostocker Straße 10, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "17711278110": {
     "address": "Rostocker Straße 26, 13059 Berlin",
@@ -5325,6 +5375,11 @@
     "address": "Woldegker Straße 24, 13059 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-12T12:19:04+02:00"
+  },
+  "1771128158": {
+    "address": "Woldegker Straße 28, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "1771128461": {
     "address": "Ernst-Barlach-Straße 8, 13059 Berlin",
@@ -5528,10 +5583,25 @@
     "site_first_seen": "2026-09-24T11:21:57+02:00",
     "site_first_seen_baseline": true
   },
+  "17711454474": {
+    "address": "Berliner Straße 51 H2, 10713 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
   "177114555196": {
     "address": "Im Lindenhof 24, 10365 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-14T13:19:37+02:00"
+  },
+  "177114555202": {
+    "address": "Im Lindenhof 24, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
+  },
+  "177114555240": {
+    "address": "Im Lindenhof 26, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
   "177114555460": {
     "address": "Klara-Weyl-Straße 19, 10365 Berlin",
