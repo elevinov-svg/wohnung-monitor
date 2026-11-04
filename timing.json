@@ -86,6 +86,11 @@
     "portal_uploaded": "2026-10-14T14:46:06+00:00",
     "site_first_seen": "2026-10-14T17:56:51+02:00"
   },
+  "01000103116010224": {
+    "address": "Daumstr. 105, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
+  },
   "01000103116010258": {
     "address": "Daumstr. 105, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -405,6 +410,11 @@
     "address": "Daumstr. 52, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-10-06T18:09:31+02:00"
+  },
+  "01000103614020624": {
+    "address": "Daumstr. 52, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
   },
   "01000110810030280": {
     "address": "Seegefelder Str. 28B, 13583 Berlin/Spandau",
@@ -936,6 +946,11 @@
     "portal_uploaded": "2026-10-17T11:02:08+00:00",
     "site_first_seen": "2026-10-17T13:07:39+02:00"
   },
+  "01000213101010074": {
+    "address": "Amrumer Str. 16, 13353 Berlin/Mitte",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
+  },
   "01000213201010067": {
     "address": "Amrumer Str. 36, 13353 Berlin/Mitte",
     "company": "Gewobag",
@@ -1112,6 +1127,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-02T12:41:48+02:00"
   },
+  "01000256101010112": {
+    "address": "Altenhofer Str. 30, 13055 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T14:57:06+00:00",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
+  },
   "01000256201030197": {
     "address": "Rhinstr. 149, 10315 Berlin/Lichtenberg",
     "company": "Gewobag",
@@ -1238,6 +1260,13 @@
     "address": "Dolgenseestr. 9, 10319 Berlin/Lichtenberg",
     "company": "Gewobag",
     "site_first_seen": "2026-10-01T16:15:51+02:00"
+  },
+  "01000257216010127": {
+    "address": "Drossener Str. 6, 13053 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T14:34:07+00:00",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
   },
   "01000258001010008": {
     "address": "Malchower Weg 99, 13053 Berlin/Lichtenberg",
@@ -2502,6 +2531,11 @@
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
+  "1001514500033": {
+    "address": "Kaiser-Wilhelm-Str. 113D, 12247 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
+  },
   "1001514600016": {
     "address": "Waldowstr. 49, 12623 Berlin",
     "company": "Stadt und Land",
@@ -3193,6 +3227,16 @@
     "portal_uploaded": "2026-10-30T12:04:08+00:00",
     "site_first_seen": "2026-10-30T14:20:55+01:00"
   },
+  "1001624000029": {
+    "address": "Ellernweg 35, 12487 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
+  },
+  "1001624000037": {
+    "address": "Ellernweg 37, 12487 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
+  },
   "1001629500089": {
     "address": "Sterndamm 141, 12487 Berlin",
     "company": "Stadt und Land",
@@ -3316,6 +3360,11 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-21T19:32:42+02:00"
   },
+  "1001654000153": {
+    "address": "Wassermannstr. 90, 12489 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
+  },
   "1001656200011": {
     "address": "Glienicker Weg 152B, 12489 Berlin",
     "company": "Stadt und Land",
@@ -3429,6 +3478,16 @@
     "address": "Harzburger Straße 8, 13187 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-10-29T16:25:21+01:00"
+  },
+  "100320300001100145f8a2844cc642f1bd29bacfe0f3a32d": {
+    "address": "Martin-Riesenburger-Straße 46, 12627 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-04T16:10:08+01:00"
+  },
+  "10032030000310738a991efde75b4d2a9b1112460af8645f": {
+    "address": "Lichtenhainer Straße 13C, 12627 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-04T16:10:08+01:00"
   },
   "10032090000110018399c19cd5af441bac189a24c5fc518b": {
     "address": "Hellersdorfer Straße 91A, 12619, Marzahn-Hellersdorf",
@@ -3574,6 +3633,11 @@
     "address": "Hönower Straße 25 A, 12623 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-07T16:16:36+02:00"
+  },
+  "1050514800512": {
+    "address": "Rabensteiner Str. 54, 12689 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
   },
   "1050516000106": {
     "address": "Hasenholzer Allee 28, 12685 Berlin",
@@ -3805,6 +3869,11 @@
     "portal_uploaded": "2026-10-01T13:51:05+00:00",
     "site_first_seen": "2026-10-01T16:15:54+02:00"
   },
+  "1050820400233": {
+    "address": "Erich-Kästner-Straße 51, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
+  },
   "1050820400367": {
     "address": "Peter-Edel-Straße 13, 12619 Berlin",
     "company": "Stadt und Land",
@@ -3842,6 +3911,11 @@
     "portal_first_seen": "2026-10-29T09:17:38+01:00",
     "portal_uploaded": "2026-10-29T08:14:15+00:00",
     "site_first_seen": "2026-10-29T09:13:47+01:00"
+  },
+  "1050820600110": {
+    "address": "Neue Grottkauer Straße 30, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
   },
   "1050820600182": {
     "address": "Neue Grottkauer Straße 40, 12619 Berlin",
@@ -3890,6 +3964,11 @@
     "portal_first_seen": "2026-10-29T09:17:38+01:00",
     "portal_uploaded": "2026-10-29T08:16:05+00:00",
     "site_first_seen": "2026-10-29T09:17:36+01:00"
+  },
+  "1050821700011": {
+    "address": "Lily-Braun-Straße 1, 12619 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-04T16:10:46+01:00"
   },
   "1050821700198": {
     "address": "Ernst-Bloch-Straße 8, 12619 Berlin",
@@ -6957,6 +7036,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104604080358": {
+    "address": "Alandstr. 67, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T16:10:37+01:00"
+  },
   "60113104604080362": {
     "address": "Alandstr. 67, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -8180,6 +8264,12 @@
     "portal_first_seen": "2026-10-15T19:40:07+02:00",
     "portal_uploaded": "2026-10-15T16:22:05+00:00"
   },
+  "esq1771113614": {
+    "address": "Gembitzer Straße 17, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T15:00:11+00:00"
+  },
   "esq17711136332": {
     "address": "Gembitzer Straße 25, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -8781,6 +8871,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
   },
+  "w11000072800690512": {
+    "address": "Wilhelm-Kuhr-Straße 50",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T14:10:05+00:00",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
   "w11000073900150203": {
     "address": "Ackerstraße 116",
     "company": "degewo",
@@ -8990,6 +9087,44 @@
     "address": "Osdorfer Straße 104",
     "company": "degewo",
     "site_first_seen": "2026-10-02T18:32:08+02:00"
+  },
+  "w11002220901330503": {
+    "address": "Wasserwerkstraße 23",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11002220902470502": {
+    "address": "Wasserwerkstraße 31",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11002220903130302": {
+    "address": "Wasserwerkstraße 37",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T15:03:08+00:00",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11002220903570403": {
+    "address": "Wasserwerkstraße 39",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T15:04:08+00:00",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11002220905650805": {
+    "address": "Pionierstraße 185",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T14:43:05+00:00",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11002220905871103": {
+    "address": "Pionierstraße 185",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-04T16:10:52+01:00",
+    "portal_uploaded": "2026-11-04T14:42:06+00:00",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w11002221100340401": {
     "address": "Avenue Jean Mermoz 31",
@@ -9391,10 +9526,20 @@
     "portal_uploaded": "2026-10-13T08:06:03+00:00",
     "site_first_seen": "2026-10-13T11:02:52+02:00"
   },
+  "w11021220300450402": {
+    "address": "Eisenacher Straße 20C",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
   "w11400051500070301": {
     "address": "Intzestraße 21",
     "company": "degewo",
     "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w11400052400820302": {
+    "address": "Tirschenreuther Ring 7",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w11400052605860902": {
     "address": "Tirschenreuther Ring 13",
@@ -9836,6 +9981,16 @@
     "portal_first_seen": "2026-10-21T19:32:43+02:00",
     "portal_uploaded": "2026-10-21T15:27:03+00:00",
     "site_first_seen": "2026-10-21T20:13:15+02:00"
+  },
+  "w11500026800138222": {
+    "address": "Lübecker Straße 14",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w11500029210030601": {
+    "address": "Pohlstraße 85",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w11500039010030503": {
     "address": "Bayernallee 10",
@@ -10536,6 +10691,11 @@
     "company": "degewo",
     "site_first_seen": "2026-10-26T19:48:14+01:00"
   },
+  "w13006240100390402": {
+    "address": "Igelsteig 5",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
   "w13006240300030201": {
     "address": "Igelsteig 8",
     "company": "degewo",
@@ -10689,6 +10849,11 @@
     "portal_first_seen": "2026-10-22T17:32:52+02:00",
     "portal_uploaded": "2026-10-22T13:23:04+00:00",
     "site_first_seen": "2026-10-22T17:32:17+02:00"
+  },
+  "w13007180300230202": {
+    "address": "Löbauer Weg 6",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w13007180500180203": {
     "address": "Löbauer Weg 12",
@@ -10904,6 +11069,11 @@
     "portal_uploaded": "2026-10-02T14:17:06+00:00",
     "site_first_seen": "2026-10-02T18:32:08+02:00"
   },
+  "w14004008906500908": {
+    "address": "Bruno-Baum-Straße 26",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
   "w14004009008700301": {
     "address": "Martha-Arendsee-Straße 14",
     "company": "degewo",
@@ -11035,6 +11205,16 @@
     "portal_first_seen": "2026-10-23T08:20:11+02:00",
     "portal_uploaded": "2026-10-23T05:34:02+00:00",
     "site_first_seen": "2026-10-23T08:19:41+02:00"
+  },
+  "w14004012603201102": {
+    "address": "Franz-Stenzer-Straße 5",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
+  "w14004012803800202": {
+    "address": "Franz-Stenzer-Straße 15",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w14004012804800503": {
     "address": "Franz-Stenzer-Straße 15, 12679, Marzahn-Hellersdorf",
@@ -11391,6 +11571,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w14005190701550206": {
+    "address": "Karl-Holtz-Straße 18",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
+  },
   "w14005190701780505": {
     "address": "Karl-Holtz-Straße 18",
     "company": "degewo",
@@ -11412,6 +11597,11 @@
     "address": "Karl-Holtz-Straße 4",
     "company": "degewo",
     "site_first_seen": "2026-10-07T16:15:48+02:00"
+  },
+  "w14005190704010405": {
+    "address": "Karl-Holtz-Straße 4",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w14005700108800402": {
     "address": "Zornstraße 1",
@@ -11453,6 +11643,11 @@
     "address": "Brunnenstraße 56",
     "company": "degewo",
     "site_first_seen": "2026-10-09T15:41:43+02:00"
+  },
+  "w15000076600060302": {
+    "address": "Gleimstraße 4",
+    "company": "degewo",
+    "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
   "w15000080700970101": {
     "address": "Dannenwalder Weg 140",

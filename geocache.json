@@ -56,6 +56,10 @@
   52.4511151,
   13.4419692
  ],
+ "Altenhofer Straße 30, 13055 Berlin": [
+  52.5344734,
+  13.4837248
+ ],
  "Am Bahndamm 31, Berlin": [
   52.459487,
   13.5776851
@@ -111,6 +115,10 @@
  "Amanlisweg 10, Berlin": [
   52.534644,
   13.5502817
+ ],
+ "Amrumer Straße 16, 13353 Berlin": [
+  52.5440851,
+  13.3475116
  ],
  "Amrumer Straße 36, 13353 Berlin": [
   52.5460533,
@@ -192,6 +200,10 @@
   52.5409788,
   13.545984
  ],
+ "Bruno-Baum-Straße 26, Berlin": [
+  52.5405742,
+  13.54502
+ ],
  "Brunsbütteler Damm 269D, 13591 Berlin": [
   52.5319163,
   13.1560851
@@ -259,6 +271,10 @@
  "Danziger Straße 159A, 10407 Berlin": [
   52.5337604,
   13.4388424
+ ],
+ "Daumstr. 105, 13599 Berlin": [
+  52.5557405,
+  13.2257014
  ],
  "Daumstr. 147, 13599 Berlin": [
   52.5569344,
@@ -612,6 +628,10 @@
   52.5069609,
   13.6124128
  ],
+ "Igelsteig 5, Berlin": [
+  52.4237869,
+  13.5891524
+ ],
  "Im Eck 3, Berlin": [
   52.4155672,
   13.3957491
@@ -651,6 +671,10 @@
  "John-Locke-Straße 13, 12305 Berlin": [
   52.3933611,
   13.3999295
+ ],
+ "Kaiser-Wilhelm-Straße 113D, 12247 Berlin": [
+  52.4389136,
+  13.3514903
  ],
  "Kandeler Weg 1, 13583 Berlin": [
   52.5418132,
@@ -844,9 +868,17 @@
   52.4556206,
   13.6130833
  ],
+ "Löbauer Weg 6, Berlin": [
+  52.4557636,
+  13.6141921
+ ],
  "Löwestrasse 25A, 10249 Berlin": [
   52.518067,
   13.4475548
+ ],
+ "Lübecker Straße 14, Berlin": [
+  52.5286699,
+  13.3455021
  ],
  "Marchwitzastraße 37, Berlin": [
   52.5244868,
@@ -968,6 +1000,10 @@
   52.4644429,
   13.5076259
  ],
+ "Neue Grottkauer Straße 30, 12619 Berlin": [
+  52.5283401,
+  13.5962602
+ ],
  "Neue Grottkauer Straße 40, 12619 Berlin": [
   52.5281504,
   13.5974396
@@ -1079,6 +1115,10 @@
  "Pintschstr. 14, 10249 Berlin": [
   52.5234173,
   13.4478435
+ ],
+ "Pionierstraße 185, Berlin": [
+  52.5558677,
+  13.1664484
  ],
  "Poschingerstraße 35, Berlin": [
   52.4623624,
@@ -1444,9 +1484,25 @@
   52.4382908,
   13.5533699
  ],
+ "Wassermannstr. 90, 12489 Berlin": [
+  52.438022,
+  13.5537234
+ ],
  "Wasserwerkstrasse 1, 13589 Berlin": [
   52.55177,
   13.1652527
+ ],
+ "Wasserwerkstraße 31, Berlin": [
+  52.5544937,
+  13.165587
+ ],
+ "Wasserwerkstraße 37, Berlin": [
+  52.5548394,
+  13.165154
+ ],
+ "Wasserwerkstraße 39, Berlin": [
+  52.5549942,
+  13.16614
  ],
  "Weidenweg 29, 10249 Berlin": [
   52.518014,
