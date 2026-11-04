@@ -1304,6 +1304,27 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
   },
+  "10000015605040441": {
+    "address": "John-Schehr-Str. 56, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T20:43:06+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
+  "10000015806040004": {
+    "address": "Liselotte-Herrmann-Str. 15, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T22:29:05+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
+  "10000016002020067": {
+    "address": "Schwedter Str. 31, 10435 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T20:33:05+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
   "10000016002020077": {
     "address": "Schwedter Str. 31, 10435 Berlin/Pankow",
     "company": "Gewobag",
@@ -1381,6 +1402,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-26T13:23:19+01:00"
   },
+  "10000019202010053": {
+    "address": "Danziger Str. 159A, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T22:09:05+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
   "10000021701030021": {
     "address": "Winsstraße 43, 10405, Pankow",
     "company": "Gewobag",
@@ -1411,11 +1439,32 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-07T16:16:26+02:00"
   },
+  "10000026401020246": {
+    "address": "Ella-Kay-Str. 20, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T22:11:04+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
+  "10000026401060133": {
+    "address": "Ella-Kay-Str. 12, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T20:35:05+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
   "10000026401090045": {
     "address": "Ella-Kay-Str. 6, 10405 Berlin/Pankow",
     "company": "Gewobag",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
+  },
+  "10000026601010135": {
+    "address": "Ella-Kay-Str. 50, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T22:15:04+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
   },
   "10000026801010042": {
     "address": "Lilli-Henoch-Str. 19, 10405 Berlin/Pankow",
@@ -1466,6 +1515,13 @@
     "portal_first_seen": "2026-10-08T15:57:10+02:00",
     "portal_uploaded": "2026-10-08T13:22:05+00:00",
     "site_first_seen": "2026-10-08T15:57:06+02:00"
+  },
+  "10000035201030037": {
+    "address": "Pasteurstr. 32, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T20:40:05+00:00",
+    "site_first_seen": "2026-11-04T01:06:32+01:00"
   },
   "10000042001030017": {
     "address": "Am Falkplatz 4, 10437 Berlin/Pankow",
@@ -7262,6 +7318,8 @@
   "71007370901040046": {
     "address": "Gotthardstr. 16, 13407 Berlin/Reinickendorf",
     "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T01:06:41+01:00",
+    "portal_uploaded": "2026-11-03T20:01:08+00:00",
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
