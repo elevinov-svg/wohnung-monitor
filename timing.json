@@ -1031,6 +1031,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-02T18:32:41+02:00"
   },
+  "01000252008020492": {
+    "address": "Simon-Bolivar-Str. 42B, 13055 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
+  },
   "01000252010010758": {
     "address": "Goeckestr. 11, 13055 Berlin/Lichtenberg",
     "company": "Gewobag",
@@ -1495,6 +1500,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "10000026501070011": {
+    "address": "Ella-Kay-Str. 26, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T20:30:07+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
+  },
   "10000026601010135": {
     "address": "Ella-Kay-Str. 50, 10405 Berlin/Pankow",
     "company": "Gewobag",
@@ -1513,6 +1525,13 @@
     "portal_first_seen": "2026-10-09T02:12:00+02:00",
     "portal_uploaded": "2026-10-08T21:56:08+00:00",
     "site_first_seen": "2026-10-09T02:11:57+02:00"
+  },
+  "10000027001010024": {
+    "address": "Danziger Str. 109, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T20:20:06+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
   },
   "10000027101010118": {
     "address": "Conrad-Blenkle-Str. 1, 10407 Berlin/Pankow",
@@ -1533,6 +1552,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-16T10:29:35+02:00"
   },
+  "10000028101010015": {
+    "address": "Einsteinstr. 4A, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
+  },
   "10000030701020021": {
     "address": "Jablonskistr. 25, 10405 Berlin/Pankow",
     "company": "Gewobag",
@@ -1545,6 +1569,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-16T10:29:35+02:00"
   },
+  "10000032401010017": {
+    "address": "Pappelallee 86, 10437 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T16:58:05+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
+  },
   "10000034401020012": {
     "address": "Grellstr. 63, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -1552,12 +1583,26 @@
     "portal_uploaded": "2026-10-08T13:22:05+00:00",
     "site_first_seen": "2026-10-08T15:57:06+02:00"
   },
+  "10000034901030026": {
+    "address": "Kopenhagener Str. 73, 10437 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T16:57:04+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
+  },
   "10000035201030037": {
     "address": "Pasteurstr. 32, 10407 Berlin/Pankow",
     "company": "Gewobag",
     "portal_first_seen": "2026-11-04T01:06:41+01:00",
     "portal_uploaded": "2026-11-03T20:40:05+00:00",
     "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
+  "10000038501050046": {
+    "address": "Winsstr. 17, 10405 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T20:34:05+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
   },
   "10000042001030017": {
     "address": "Am Falkplatz 4, 10437 Berlin/Pankow",
@@ -1588,6 +1633,13 @@
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T10:02:10+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
+  },
+  "10000048001010006": {
+    "address": "Gubitzstr. 50, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T16:54:04+00:00",
+    "site_first_seen": "2026-11-04T22:25:52+01:00"
   },
   "10000048001010011": {
     "address": "Gubitzstr. 50, 10409 Berlin/Pankow",
@@ -1979,6 +2031,13 @@
     "portal_first_seen": "2026-10-12T12:20:06+02:00",
     "portal_uploaded": "2026-10-12T09:20:08+00:00",
     "site_first_seen": "2026-10-09T15:42:17+02:00"
+  },
+  "1001018200025": {
+    "address": "Heinrich-Schlusnus-Str. 12, 12057 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T19:07:06+00:00",
+    "site_first_seen": "2026-11-04T22:26:02+01:00"
   },
   "1001018200171": {
     "address": "Heinrich-Schlusnus-Str. 8, 12057 Berlin",
@@ -2389,6 +2448,8 @@
   "1001510600088": {
     "address": "Bruno-Bürgel-Weg 41 A, 12439 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T17:21:09+00:00",
     "site_first_seen": "2026-10-21T19:32:42+02:00"
   },
   "1001510600093": {
@@ -4594,6 +4655,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-04T16:14:03+01:00"
   },
+  "17702077817": {
+    "address": "Genslerstraße 16, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T22:24:53+01:00"
+  },
   "17702077841": {
     "address": "Genslerstraße 16 A, 13055 Berlin",
     "company": "HOWOGE",
@@ -5740,6 +5806,11 @@
     "address": "Rotkamp 4, 13053 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-03T18:24:59+02:00"
+  },
+  "177114589144": {
+    "address": "Rotkamp 4, 13053 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-04T22:24:53+01:00"
   },
   "17711458934": {
     "address": "Rüdickenstraße 25, 13053 Berlin",
@@ -8027,6 +8098,12 @@
     "portal_first_seen": "2026-10-12T21:58:44+02:00",
     "portal_uploaded": "2026-10-12T14:17:05+00:00"
   },
+  "esq17702077817": {
+    "address": "Genslerstraße 16, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T17:15:06+00:00"
+  },
   "esq17702077841": {
     "address": "Genslerstraße 16A, 13055, Lichtenberg",
     "company": "HOWOGE",
@@ -8692,6 +8769,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-03T18:16:53+02:00",
     "portal_uploaded": "2026-10-03T16:16:07+00:00"
+  },
+  "esq177114589144": {
+    "address": "Rotkamp 4, 13053, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-04T22:26:04+01:00",
+    "portal_uploaded": "2026-11-04T17:25:07+00:00"
   },
   "esq17711458934": {
     "address": "Rüdickenstraße 25, 13053, Lichtenberg",
