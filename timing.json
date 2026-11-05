@@ -9945,6 +9945,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-12T12:19:28+02:00"
   },
+  "w11400064900960802": {
+    "address": "Walter-Franck-Zeile 7",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:37:20+01:00",
+    "portal_uploaded": "2026-11-05T09:36:07+00:00",
+    "site_first_seen": "2026-11-05T10:36:44+01:00"
+  },
   "w11400064901080104": {
     "address": "Walter-Franck-Zeile 9",
     "company": "degewo",
@@ -11885,6 +11892,12 @@
     "portal_first_seen": "2026-10-05T17:09:18+02:00",
     "portal_uploaded": "2026-10-05T13:35:04+00:00",
     "site_first_seen": "2026-10-05T17:08:32+02:00"
+  },
+  "w15000072100050102": {
+    "address": "Holländerstraße 103, 13407, Mitte",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:37:20+01:00",
+    "portal_uploaded": "2026-11-05T09:37:03+00:00"
   },
   "w15000075700390101": {
     "address": "Graunstraße 12",
