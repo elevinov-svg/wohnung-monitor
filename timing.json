@@ -6060,6 +6060,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T10:17:55+02:00"
   },
+  "19203320523": {
+    "address": "Schöneberger Straße 11, 12163 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-05T10:31:59+01:00"
+  },
   "19213323049": {
     "address": "Langhansstraße 4A, 13086 Berlin",
     "company": "HOWOGE",
@@ -8882,6 +8887,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-28T10:18:35+02:00",
     "portal_uploaded": "2026-09-28T07:16:05+00:00"
+  },
+  "esq19203320523": {
+    "address": "Schöneberger Straße 11, 12163, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-05T10:33:07+01:00",
+    "portal_uploaded": "2026-11-05T09:30:05+00:00"
   },
   "esq19253325816": {
     "address": "Baumbachstraße 7, 13189, Pankow",
