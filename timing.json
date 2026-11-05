@@ -1776,6 +1776,12 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T10:41:03+00:00"
   },
+  "10009070001403018fa9fd2d14e64fcab1b8cd1c3b182557": {
+    "address": "Wilhelmsruher Damm 131, 13439, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T03:34:04+00:00"
+  },
   "10009110000201845780b3cb7ba54351bbbde2a0dbc5ba1a": {
     "address": "Senftenberger Ring 8, 13439, Reinickendorf",
     "company": "GESOBAU",
@@ -1793,6 +1799,12 @@
     "company": "GESOBAU",
     "portal_first_seen": "2026-10-01T16:15:58+02:00",
     "portal_uploaded": "2026-10-01T13:25:06+00:00"
+  },
+  "1000911000110842e2a490e26a1649d7bc4ff8d9ae414ec8": {
+    "address": "Wilhelmsruher Damm 120, 13439, Reinickendorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T06:02:07+00:00"
   },
   "1000912000040298a1bb8b844f874e2a9ef820b8b0a4a1f2": {
     "address": "Senftenberger Ring 24, 13435, Reinickendorf",
@@ -6904,6 +6916,11 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "60113104501050059": {
+    "address": "Moderlieschenstr. 30, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-05T10:02:14+01:00"
+  },
   "60113104501060080": {
     "address": "Moderlieschenstr. 28, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -9795,6 +9812,13 @@
     "portal_uploaded": "2026-10-05T06:36:07+00:00",
     "site_first_seen": "2026-10-05T08:43:41+02:00"
   },
+  "w11400063700610313": {
+    "address": "Gutschmidtstraße 7",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:17:06+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
+  },
   "w11400063801940802": {
     "address": "Käthe-Dorsch-Ring 12",
     "company": "degewo",
@@ -9845,6 +9869,13 @@
     "portal_first_seen": "2026-10-12T12:29:25+02:00",
     "portal_uploaded": "2026-10-12T10:26:05+00:00",
     "site_first_seen": "2026-10-12T12:29:00+02:00"
+  },
+  "w11400064402182002": {
+    "address": "Zwickauer Damm 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:48:05+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
   "w11400064402712407": {
     "address": "Zwickauer Damm 12, 12353, Neukölln",
@@ -10200,6 +10231,13 @@
     "portal_first_seen": "2026-10-16T15:28:40+02:00",
     "portal_uploaded": "2026-10-16T12:17:04+00:00",
     "site_first_seen": "2026-10-16T15:27:55+02:00"
+  },
+  "w11500050100210303": {
+    "address": "Greveweg 3",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:15:07+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
   "w11500050101100202": {
     "address": "Totilastraße 24",
@@ -11374,6 +11412,13 @@
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
   },
+  "w14004012502700903": {
+    "address": "Franz-Stenzer-Straße 1",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:11:04+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
+  },
   "w14004012505900902": {
     "address": "Franz-Stenzer-Straße 3",
     "company": "degewo",
@@ -11643,10 +11688,24 @@
     "company": "degewo",
     "site_first_seen": "2026-09-28T10:58:32+02:00"
   },
+  "w14004075303400202": {
+    "address": "Belziger Ring 26",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:18:07+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
+  },
   "w14004077313200203": {
     "address": "Havemannstraße 11",
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
+  },
+  "w14004077709900202": {
+    "address": "Eichhorster Straße 12",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:52:06+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
   "w14004079205500403": {
     "address": "Klandorfer Straße 16",
@@ -11664,6 +11723,13 @@
     "address": "Niemegker Straße 24",
     "company": "degewo",
     "site_first_seen": "2026-10-02T12:41:10+02:00"
+  },
+  "w14004081222601001": {
+    "address": "Havemannstraße 38",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:37:08+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
   "w14004083200500301": {
     "address": "Schwarzwurzelstraße 80",
@@ -11877,6 +11943,13 @@
     "address": "Am Straßenbahnhof 30",
     "company": "degewo",
     "site_first_seen": "2026-10-20T13:02:12+02:00"
+  },
+  "w31100061800290203": {
+    "address": "Gradestraße 22",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-05T10:02:23+01:00",
+    "portal_uploaded": "2026-11-05T08:19:06+00:00",
+    "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
   "w31100230401840301": {
     "address": "Köpenicker Landstraße 49",
