@@ -1412,6 +1412,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-07T16:16:26+02:00"
   },
+  "10000011501010009": {
+    "address": "Oderberger Str. 1, 10435 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T00:19:36+01:00",
+    "portal_uploaded": "2026-11-05T19:25:06+00:00",
+    "site_first_seen": "2026-11-06T00:19:28+01:00"
+  },
   "10000014201020003": {
     "address": "Greifswalder Str. 81, 10405 Berlin/Pankow",
     "company": "Gewobag",
@@ -1448,6 +1455,13 @@
     "portal_first_seen": "2026-11-04T01:06:41+01:00",
     "portal_uploaded": "2026-11-03T20:43:06+00:00",
     "site_first_seen": "2026-11-04T01:06:32+01:00"
+  },
+  "10000015605100054": {
+    "address": "Hans-Otto-Str. 56, 10407 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T00:19:36+01:00",
+    "portal_uploaded": "2026-11-05T20:12:06+00:00",
+    "site_first_seen": "2026-11-06T00:19:28+01:00"
   },
   "10000015806040004": {
     "address": "Liselotte-Herrmann-Str. 15, 10407 Berlin/Pankow",
