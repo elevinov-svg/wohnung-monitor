@@ -1067,6 +1067,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-01T16:15:51+02:00"
   },
+  "01000254602010022": {
+    "address": "Maximilianstr. 44a, 13187 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-05T10:43:27+01:00",
+    "portal_uploaded": "2026-11-05T09:39:05+00:00",
+    "site_first_seen": "2026-11-05T10:43:23+01:00"
+  },
   "01000255101010001": {
     "address": "Kiefholzstr. 403, 12435 Berlin/Treptow-Köpenick",
     "company": "Gewobag",
@@ -11897,7 +11904,8 @@
     "address": "Holländerstraße 103, 13407, Mitte",
     "company": "degewo",
     "portal_first_seen": "2026-11-05T10:37:20+01:00",
-    "portal_uploaded": "2026-11-05T09:37:03+00:00"
+    "portal_uploaded": "2026-11-05T09:37:03+00:00",
+    "site_first_seen": "2026-11-05T10:43:02+01:00"
   },
   "w15000075700390101": {
     "address": "Graunstraße 12",
