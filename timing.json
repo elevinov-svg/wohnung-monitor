@@ -1046,6 +1046,13 @@
     "portal_uploaded": "2026-10-17T11:02:08+00:00",
     "site_first_seen": "2026-10-17T13:07:39+02:00"
   },
+  "01000212901060086": {
+    "address": "Bärbel-Bohley-Ring 14, 13355 Berlin/Mitte",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:22:03+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
+  },
   "01000213101010074": {
     "address": "Amrumer Str. 16, 13353 Berlin/Mitte",
     "company": "Gewobag",
@@ -1154,6 +1161,13 @@
     "portal_first_seen": "2026-10-08T15:57:10+02:00",
     "portal_uploaded": "2026-10-08T13:05:06+00:00",
     "site_first_seen": "2026-10-08T15:57:06+02:00"
+  },
+  "01000253901030020": {
+    "address": "Breite Str. 12, 13187 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:25:06+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
   },
   "01000254301010004": {
     "address": "Konrad-Wolf-Str. 119, 13055 Berlin/Lichtenberg",
@@ -1473,6 +1487,13 @@
     "site_first_seen": "2026-09-24T11:22:49+02:00",
     "site_first_seen_baseline": true
   },
+  "10000015501030213": {
+    "address": "Paul-Grasse-Str. 24, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:13:08+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
+  },
   "10000015501040023": {
     "address": "Gubitzstr. 23, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -1524,6 +1545,13 @@
     "portal_first_seen": "2026-10-09T15:42:21+02:00",
     "portal_uploaded": "2026-10-09T13:12:05+00:00",
     "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
+  "10000016802030072": {
+    "address": "Ostseestr. 22, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:21:06+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
   },
   "10000016802030077": {
     "address": "Ostseestr. 22, 10409 Berlin/Pankow",
@@ -1580,6 +1608,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-12T21:58:36+02:00"
   },
+  "10000018601020076": {
+    "address": "Hanns-Eisler-Str. 88, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:38:07+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
+  },
   "10000018801010019": {
     "address": "Pieskower Weg 52, 10409 Berlin/Pankow",
     "company": "Gewobag",
@@ -1620,10 +1655,22 @@
     "portal_uploaded": "2026-10-16T13:39:04+00:00",
     "site_first_seen": "2026-10-16T15:44:55+02:00"
   },
+  "10000022001010089": {
+    "address": "Hanns-Eisler-Str. 4, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
+  },
   "10000022101010004": {
     "address": "Hanns-Eisler-Str. 2, 10409 Berlin/Pankow",
     "company": "Gewobag",
     "site_first_seen": "2026-10-16T10:29:35+02:00"
+  },
+  "10000025401080052": {
+    "address": "Ostseestr. 118, 10409 Berlin/Pankow",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T15:05:07+00:00",
+    "site_first_seen": "2026-11-06T19:57:05+01:00"
   },
   "10000026202030081": {
     "address": "Grellstr. 47A, 10409 Berlin/Pankow",
@@ -8738,6 +8785,30 @@
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T16:18:07+00:00"
   },
+  "esq177110506161": {
+    "address": "Genslerstraße 40, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T17:12:07+00:00"
+  },
+  "esq177110506162": {
+    "address": "Genslerstraße 40, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T17:18:08+00:00"
+  },
+  "esq177110506163": {
+    "address": "Genslerstraße 40A, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T17:19:05+00:00"
+  },
+  "esq177110506164": {
+    "address": "Genslerstraße 40A, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-06T19:57:16+01:00",
+    "portal_uploaded": "2026-11-06T17:20:06+00:00"
+  },
   "esq177110506195": {
     "address": "Heiligenstadter Straße 8, 13055, Lichtenberg",
     "company": "HOWOGE",
@@ -9440,6 +9511,11 @@
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
   },
+  "w11000253100400204": {
+    "address": "Clara-Müller-Jahnke-Straße 11",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
+  },
   "w11000253101020304": {
     "address": "Clara-Müller-Jahnke-Straße 9",
     "company": "degewo",
@@ -9489,6 +9565,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11000253300190303": {
+    "address": "Wolfgang-Steinitz-Straße 29C",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w11000253300360102": {
     "address": "Wolfgang-Steinitz-Straße 24",
@@ -9609,6 +9690,11 @@
     "address": "Osdorfer Straße 104",
     "company": "degewo",
     "site_first_seen": "2026-10-02T18:32:08+02:00"
+  },
+  "w11002201701240202": {
+    "address": "Scheelestraße 136",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w11002220901330503": {
     "address": "Wasserwerkstraße 23",
@@ -9920,6 +10006,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w11004220100520302": {
+    "address": "Eisenhutweg 72",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w11004220101190102": {
     "address": "Eisenhutweg 70B",
@@ -10883,6 +10974,11 @@
     "portal_uploaded": "2026-10-26T18:47:04+00:00",
     "site_first_seen": "2026-10-26T19:48:14+01:00"
   },
+  "w13002070500190303": {
+    "address": "Griechische Allee 8",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
+  },
   "w13002070600070302": {
     "address": "Griechische Allee 15",
     "company": "degewo",
@@ -11098,6 +11194,11 @@
     "company": "degewo",
     "site_first_seen": "2026-09-24T11:22:14+02:00",
     "site_first_seen_baseline": true
+  },
+  "w13004230301260405": {
+    "address": "Zur Nachtheide 4",
+    "company": "degewo",
+    "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w13004230301310504": {
     "address": "Zur Nachtheide 4",
