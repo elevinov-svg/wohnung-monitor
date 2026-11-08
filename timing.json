@@ -2561,13 +2561,6 @@
     "portal_uploaded": "2026-10-20T05:53:03+00:00",
     "site_first_seen": "2026-10-20T07:52:27+02:00"
   },
-  "1001514100099": {
-    "address": "Bornsdorfer Str. 37B, 12053 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T18:11:06+00:00",
-    "site_first_seen": "2026-09-24T20:35:09+02:00"
-  },
   "1001514100118": {
     "address": "Bornsdorfer Str. 37B, 12053 Berlin",
     "company": "Stadt und Land",
@@ -2918,13 +2911,6 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T09:04:05+00:00",
     "site_first_seen": "2026-09-30T12:41:13+02:00"
-  },
-  "1001524800194": {
-    "address": "An den Buckower Feldern 17, 12349 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T15:03:07+00:00",
-    "site_first_seen": "2026-09-24T20:35:09+02:00"
   },
   "1001524800197": {
     "address": "An den Buckower Feldern 17, 12349 Berlin",
@@ -4212,11 +4198,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-15T19:39:09+02:00"
   },
-  "177020101153": {
-    "address": "Alfred-Jung-Straße 22, 10369 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-24T20:34:29+02:00"
-  },
   "177020106129": {
     "address": "Möllendorffstraße 74, 10367 Berlin",
     "company": "HOWOGE",
@@ -5152,11 +5133,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T12:40:21+02:00"
   },
-  "17711212448": {
-    "address": "Dierhagener Straße 22, 13051 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-24T20:34:29+02:00"
-  },
   "1771121557": {
     "address": "Borner Straße 18, 13051 Berlin",
     "company": "HOWOGE",
@@ -5182,20 +5158,10 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-09-25T17:27:10+02:00"
   },
-  "17711247154": {
-    "address": "Ribnitzer Straße 29, 13051 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-24T20:34:29+02:00"
-  },
   "1771125015": {
     "address": "Prerower Platz 6, 13051 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-29T17:24:35+02:00"
-  },
-  "17711260140": {
-    "address": "Doberaner Straße 116, 13051 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-24T20:34:29+02:00"
   },
   "17711266218": {
     "address": "Am Berl 16, 13051 Berlin",
@@ -7519,12 +7485,6 @@
     "portal_first_seen": "2026-10-15T19:40:07+02:00",
     "portal_uploaded": "2026-10-15T16:18:06+00:00"
   },
-  "esq177020101153": {
-    "address": "Alfred-Jung-Straße 22, 10369, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T18:27:06+00:00"
-  },
   "esq177020106129": {
     "address": "Möllendorffstraße 74, 10367, Lichtenberg",
     "company": "HOWOGE",
@@ -8173,12 +8133,6 @@
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T12:13:05+00:00"
   },
-  "esq17711212448": {
-    "address": "Dierhagener Straße 22, 13051, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T16:11:07+00:00"
-  },
   "esq1771121557": {
     "address": "Borner Straße 18, 13051, Lichtenberg",
     "company": "HOWOGE",
@@ -8196,18 +8150,6 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-30T23:15:11+02:00",
     "portal_uploaded": "2026-09-30T11:51:07+00:00"
-  },
-  "esq17711247154": {
-    "address": "Ribnitzer Straße 29, 13051, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T16:13:05+00:00"
-  },
-  "esq17711260140": {
-    "address": "Doberaner Straße 116, 13051, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T16:14:06+00:00"
   },
   "esq17711266218": {
     "address": "Am Berl 16, 13051, Lichtenberg",
@@ -8346,24 +8288,6 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-06T11:15:18+02:00",
     "portal_uploaded": "2026-10-06T09:12:06+00:00"
-  },
-  "esq177114559270": {
-    "address": "Anne-Frank-Straße 18, 12524, Treptow-Köpenick",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T14:56:05+00:00"
-  },
-  "esq177114559325": {
-    "address": "Anne-Frank-Straße 22, 12524, Treptow-Köpenick",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T15:12:51+00:00"
-  },
-  "esq177114559387": {
-    "address": "Anne-Frank-Straße 26, 12524, Treptow-Köpenick",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-24T20:35:11+02:00",
-    "portal_uploaded": "2026-09-24T15:01:08+00:00"
   },
   "esq177114559490": {
     "address": "Mohnweg 15, 12524, Treptow-Köpenick",
