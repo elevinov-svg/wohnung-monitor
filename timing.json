@@ -1244,10 +1244,24 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-01T16:15:51+02:00"
   },
+  "01000257102020320": {
+    "address": "Dolgenseestr. 9f, 10319 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-08T23:44:31+01:00",
+    "portal_uploaded": "2026-11-08T22:32:04+00:00",
+    "site_first_seen": "2026-11-08T23:44:25+01:00"
+  },
   "01000257102030392": {
     "address": "Dolgenseestr. 9e, 10319 Berlin/Lichtenberg",
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
+  },
+  "01000257102060575": {
+    "address": "Dolgenseestr. 9b, 10319 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-08T23:44:31+01:00",
+    "portal_uploaded": "2026-11-08T22:33:05+00:00",
+    "site_first_seen": "2026-11-08T23:44:25+01:00"
   },
   "01000257102080657": {
     "address": "Dolgenseestr. 9, 10319 Berlin/Lichtenberg",
@@ -5765,6 +5779,11 @@
     "portal_uploaded": "2026-10-29T08:00:07+00:00",
     "site_first_seen": "2026-10-29T09:05:54+01:00"
   },
+  "1901330309": {
+    "address": "Kaiser-Wilhelm-Straße 18a, 12247 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-08T23:43:41+01:00"
+  },
   "191033140114": {
     "address": "Soldiner Straße 71, 13359 Berlin",
     "company": "HOWOGE",
@@ -7467,6 +7486,13 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
   },
+  "71007913001010006": {
+    "address": "Edisonstr. 28, 12459 Berlin/Treptow-Köpenick",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-08T23:44:31+01:00",
+    "portal_uploaded": "2026-11-08T22:25:06+00:00",
+    "site_first_seen": "2026-11-08T23:44:25+01:00"
+  },
   "71007913301010003": {
     "address": "Slabystr. 7, 12459 Berlin/Treptow-Köpenick",
     "company": "Gewobag",
@@ -8439,6 +8465,12 @@
     "portal_first_seen": "2026-10-06T11:38:51+02:00",
     "portal_uploaded": "2026-10-06T09:37:05+00:00"
   },
+  "esq177131125251": {
+    "address": "Celsiusstraße 68, 12207, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-08T23:44:31+01:00",
+    "portal_uploaded": "2026-11-08T20:07:07+00:00"
+  },
   "esq177131125325": {
     "address": "Fahrenheitstraße 21, 12207, Steglitz-Zehlendorf",
     "company": "HOWOGE",
@@ -8480,6 +8512,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-09-29T10:54:27+02:00",
     "portal_uploaded": "2026-09-29T07:22:05+00:00"
+  },
+  "esq1901330309": {
+    "address": "Kaiser-Wilhelm-Straße 18A, 12247, Steglitz-Zehlendorf",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-08T23:44:31+01:00",
+    "portal_uploaded": "2026-11-08T20:02:08+00:00"
   },
   "esq191033140114": {
     "address": "Soldiner Straße 71, 13359, Mitte",
