@@ -1658,6 +1658,8 @@
   "10000022001010089": {
     "address": "Hanns-Eisler-Str. 4, 10409 Berlin/Pankow",
     "company": "Gewobag",
+    "portal_first_seen": "2026-11-08T07:57:24+01:00",
+    "portal_uploaded": "2026-11-06T14:57:06+00:00",
     "site_first_seen": "2026-11-06T19:57:05+01:00"
   },
   "10000022101010004": {
@@ -9694,6 +9696,8 @@
   "w11002201701240202": {
     "address": "Scheelestraße 136",
     "company": "degewo",
+    "portal_first_seen": "2026-11-08T07:57:24+01:00",
+    "portal_uploaded": "2026-11-06T14:10:09+00:00",
     "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w11002220901330503": {
@@ -10010,6 +10014,8 @@
   "w11004220100520302": {
     "address": "Eisenhutweg 72",
     "company": "degewo",
+    "portal_first_seen": "2026-11-08T07:57:24+01:00",
+    "portal_uploaded": "2026-11-06T14:17:06+00:00",
     "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w11004220101190102": {
@@ -11198,6 +11204,8 @@
   "w13004230301260405": {
     "address": "Zur Nachtheide 4",
     "company": "degewo",
+    "portal_first_seen": "2026-11-08T07:57:24+01:00",
+    "portal_uploaded": "2026-11-06T13:46:06+00:00",
     "site_first_seen": "2026-11-06T19:56:54+01:00"
   },
   "w13004230301310504": {
