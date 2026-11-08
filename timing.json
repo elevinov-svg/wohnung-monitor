@@ -3010,6 +3010,11 @@
     "portal_uploaded": "2026-09-25T23:02:06+00:00",
     "site_first_seen": "2026-09-25T12:26:57+02:00"
   },
+  "1001527600029": {
+    "address": "Dröpkeweg 9, 12353 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-08T20:01:55+01:00"
+  },
   "1001527600032": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
@@ -8723,6 +8728,11 @@
     "company": "degewo",
     "site_first_seen": "2026-11-08T15:12:46+01:00"
   },
+  "w11000072800260203": {
+    "address": "Wilhelm-Kuhr-Straße 50",
+    "company": "degewo",
+    "site_first_seen": "2026-11-08T20:01:21+01:00"
+  },
   "w11000072800680510": {
     "address": "Wilhelm-Kuhr-Straße 50",
     "company": "degewo",
@@ -9970,6 +9980,11 @@
     "portal_uploaded": "2026-11-02T16:26:06+00:00",
     "site_first_seen": "2026-11-02T23:24:57+01:00"
   },
+  "w13000607800200201": {
+    "address": "Joachimstraße 8A",
+    "company": "degewo",
+    "site_first_seen": "2026-11-08T20:01:21+01:00"
+  },
   "w13001030200030103": {
     "address": "Fritz-Kirsch-Zeile 32",
     "company": "degewo",
@@ -10127,6 +10142,11 @@
     "address": "Igelsteig 7A",
     "company": "degewo",
     "site_first_seen": "2026-11-08T15:12:46+01:00"
+  },
+  "w13004190100260204": {
+    "address": "Igelsteig 7A",
+    "company": "degewo",
+    "site_first_seen": "2026-11-08T20:01:21+01:00"
   },
   "w13004190100840302": {
     "address": "Grüne Trift 156",
