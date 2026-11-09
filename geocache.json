@@ -68,6 +68,10 @@
   52.5464767,
   13.4058644
  ],
+ "Am Grünen Anger 25, 12487 Berlin": [
+  52.4493961,
+  13.5130636
+ ],
  "Am Kietzer Feld 17, Berlin": [
   52.4235884,
   13.5901598
@@ -584,6 +588,10 @@
   52.4365109,
   13.4500121
  ],
+ "Hagedornstr. 57, 12487 Berlin": [
+  52.4497241,
+  13.5142876
+ ],
  "Hallesches Ufer 52, Berlin": [
   52.5003886,
   13.3837293
@@ -595,6 +603,10 @@
  "Hanns-Eisler-Straße 4, 10409 Berlin": [
   52.543269,
   13.4443007
+ ],
+ "Hanns-Eisler-Straße 86, 10409 Berlin": [
+  52.539894,
+  13.45096
  ],
  "Hanns-Eisler-Straße 88, 10409 Berlin": [
   52.5397886,
@@ -904,6 +916,10 @@
   52.4839466,
   13.2956389
  ],
+ "Landjägerstraße 20, Berlin": [
+  52.4439589,
+  13.5806703
+ ],
  "Landsberger Allee 81, 10407 Berlin": [
   52.5270738,
   13.4484152
@@ -1016,6 +1032,10 @@
   52.5232634,
   13.1661513
  ],
+ "Maulbeerallee 37, 13593 Berlin": [
+  52.5231472,
+  13.1659332
+ ],
  "Maxie-Wander-Straße 13, 12619 Berlin": [
   52.5276933,
   13.5940372
@@ -1067,6 +1087,10 @@
  "Märkische Allee 200, Berlin": [
   52.5471107,
   13.5465793
+ ],
+ "Müggelheimer Straße 58, Berlin": [
+  52.4436379,
+  13.5803125
  ],
  "Müggelschlößchenweg 36, Berlin": [
   52.4413452,
@@ -1139,6 +1163,10 @@
  "Oberspreestr. 47, 12439 Berlin": [
   52.4506588,
   13.5415004
+ ],
+ "Obstallee 47, 13593 Berlin": [
+  52.5208498,
+  13.1644407
  ],
  "Oderberger Straße 1, 10435 Berlin": [
   52.5380638,
@@ -1412,6 +1440,10 @@
   52.5368617,
   13.1914009
  ],
+ "Seegefelder Straße 46A, 13583 Berlin": [
+  52.536915,
+  13.1908236
+ ],
  "Sella-Hasse-Straße 30, Berlin": [
   52.5549639,
   13.5595635
@@ -1660,6 +1692,7 @@
   52.4301579,
   13.3645073
  ],
+ "Wiesenstraße 55 Haus 3A, Berlin": null,
  "Wilhelm-Kuhr-Straße 50, Berlin": [
   52.5648645,
   13.3880116
