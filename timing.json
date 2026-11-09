@@ -4699,6 +4699,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-01T16:14:46+02:00"
   },
+  "17702405561": {
+    "address": "Frankfurter Allee 167, 10365 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-09T22:35:46+01:00"
+  },
   "177024058104": {
     "address": "Weserstraße 34 A, 10247 Berlin",
     "company": "HOWOGE",
@@ -7913,6 +7918,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T11:57:07+00:00"
+  },
+  "esq17702405561": {
+    "address": "Frankfurter Allee 167, 10365, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-09T22:36:37+01:00",
+    "portal_uploaded": "2026-11-09T21:36:08+00:00"
   },
   "esq177024058104": {
     "address": "Weserstraße 34A, 10247, Friedrichshain-Kreuzberg",
