@@ -2229,6 +2229,11 @@
     "portal_uploaded": "2026-11-04T07:40:05+00:00",
     "site_first_seen": "2026-11-04T08:40:32+01:00"
   },
+  "1001044900122": {
+    "address": "Kalker Str. 2, 12524 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-09T22:02:04+01:00"
+  },
   "1001044900132": {
     "address": "Kalker Str. 4, 12524 Berlin",
     "company": "Stadt und Land",
@@ -5678,6 +5683,11 @@
     "address": "Celsiusstraße 68, 12207 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-01T16:14:46+02:00"
+  },
+  "177131125325": {
+    "address": "Fahrenheitstraße 21, 12207 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-09T22:01:20+01:00"
   },
   "177131125326": {
     "address": "Fahrenheitstraße 21, 12207 Berlin",
@@ -10706,6 +10716,11 @@
     "company": "degewo",
     "site_first_seen": "2026-11-08T15:12:46+01:00"
   },
+  "w14000608001620202": {
+    "address": "Cecilienstraße 193",
+    "company": "degewo",
+    "site_first_seen": "2026-11-09T22:01:34+01:00"
+  },
   "w14000608002400103": {
     "address": "Joachim-Ringelnatz-Straße 12",
     "company": "degewo",
@@ -11384,6 +11399,11 @@
     "portal_first_seen": "2026-10-07T08:54:24+02:00",
     "portal_uploaded": "2026-10-07T05:48:04+00:00",
     "site_first_seen": "2026-10-07T08:53:53+02:00"
+  },
+  "w14005181100570202": {
+    "address": "Pöhlbergstraße 9",
+    "company": "degewo",
+    "site_first_seen": "2026-11-09T22:01:34+01:00"
   },
   "w14005181100690306": {
     "address": "Pöhlbergstraße 9",
