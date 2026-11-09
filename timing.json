@@ -3498,6 +3498,17 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-11-08T15:12:51+01:00"
   },
+  "100324200007112723c231b6961b463989766c9364fc9096": {
+    "address": "Alte Hellersdorfer Straße 108P, 12629, Marzahn-Hellersdorf",
+    "company": "GESOBAU",
+    "portal_first_seen": "2026-11-09T11:11:07+01:00",
+    "portal_uploaded": "2026-11-09T10:09:09+00:00"
+  },
+  "10032420000711279bb67068c4fc422bb796475363716ff5": {
+    "address": "Alte Hellersdorfer Straße 108P, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-09T11:10:35+01:00"
+  },
   "10032420000711288a17b439d2cb479ca1ed30902d975981": {
     "address": "Alte Hellersdorfer Straße 108P, 12629 Berlin",
     "company": "GESOBAU",
@@ -5104,6 +5115,11 @@
     "address": "Genslerstraße 48, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-02T14:08:58+01:00"
+  },
+  "177110560147": {
+    "address": "Joachimsthaler Straße 7, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-09T11:10:08+01:00"
   },
   "17711079519": {
     "address": "Freienwalder Straße 22, 13055 Berlin",
@@ -8130,6 +8146,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-11-03T20:08:42+01:00",
     "portal_uploaded": "2026-11-03T17:19:07+00:00"
+  },
+  "esq177110560147": {
+    "address": "Joachimsthaler Straße 7, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-09T11:11:07+01:00",
+    "portal_uploaded": "2026-11-09T10:09:10+00:00"
   },
   "esq17711079519": {
     "address": "Freienwalder Straße 22, 13055, Lichtenberg",
