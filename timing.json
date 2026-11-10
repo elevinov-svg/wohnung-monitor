@@ -9335,10 +9335,24 @@
     "company": "degewo",
     "site_first_seen": "2026-11-04T16:09:51+01:00"
   },
+  "w11400051110190401": {
+    "address": "Friedrichrodaer Straße 125",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-10T12:46:56+01:00",
+    "portal_uploaded": "2026-11-10T11:44:07+00:00",
+    "site_first_seen": "2026-11-10T12:46:43+01:00"
+  },
   "w11400051500070301": {
     "address": "Intzestraße 21",
     "company": "degewo",
     "site_first_seen": "2026-09-30T12:40:37+02:00"
+  },
+  "w11400051600050202": {
+    "address": "Am Horstenstein 29",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-10T12:46:56+01:00",
+    "portal_uploaded": "2026-11-10T11:46:06+00:00",
+    "site_first_seen": "2026-11-10T12:46:43+01:00"
   },
   "w11400052400820302": {
     "address": "Tirschenreuther Ring 7",
