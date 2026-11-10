@@ -28,6 +28,10 @@
   52.5368969,
   13.6193904
  ],
+ "Alfred-Randt-Straße 13, Berlin": [
+  52.4393197,
+  13.598948
+ ],
  "Alfred-Randt-Straße 42, Berlin": [
   52.4392904,
   13.6029102
@@ -51,6 +55,10 @@
  "Allee der Kosmonauten 74, Berlin": [
   52.5254849,
   13.5453676
+ ],
+ "Allee der Kosmonauten 95, Berlin": [
+  52.5266836,
+  13.5462078
  ],
  "Alt-Britz 23, Berlin": [
   52.4511151,
@@ -396,6 +404,10 @@
   52.539443,
   13.4312355
  ],
+ "Elsa-Brändström-Straße 50, Berlin": [
+  52.5595922,
+  13.4210062
+ ],
  "Elsa-Ledetsch-Weg 1, 12683 Berlin": [
   52.5076396,
   13.5546299
@@ -568,6 +580,10 @@
   52.5376574,
   13.4882538
  ],
+ "Grumsiner Straße 21, Berlin": [
+  52.5540088,
+  13.5767705
+ ],
  "Grüne Trift 156, Berlin": [
   52.4250219,
   13.5914854
@@ -735,6 +751,10 @@
  "Joachim-Ringelnatz-Straße 2, Berlin": [
   52.527606,
   13.5751016
+ ],
+ "Joachim-Ringelnatz-Straße 5, Berlin": [
+  52.5278732,
+  13.5755241
  ],
  "Joachim-Ringelnatz-Straße 6, Berlin": [
   52.5273054,
@@ -940,9 +960,21 @@
   52.5590755,
   13.5604025
  ],
+ "Liebensteiner Straße 41, Berlin": [
+  52.5594595,
+  13.5607396
+ ],
+ "Liebensteiner Straße 43, Berlin": [
+  52.5596551,
+  13.5609024
+ ],
  "Lilli-Henoch-Straße 19, 10405 Berlin": [
   52.5402198,
   13.4334872
+ ],
+ "Lindhorstweg 37, 12487 Berlin": [
+  52.4397867,
+  13.5017531
  ],
  "Liverpooler Straße 10, Berlin": [
   52.5578802,
@@ -1312,6 +1344,10 @@
   52.5321697,
   13.5176325
  ],
+ "Ringenwalder Straße 29, Berlin": [
+  52.5510103,
+  13.5801886
+ ],
  "Ringenwalder Straße 31, Berlin": [
   52.5509841,
   13.5803708
@@ -1391,6 +1427,14 @@
  "Schluchseestr. 77, 13469 Berlin": [
   52.6087797,
   13.3372512
+ ],
+ "Schorfheidestraße 22, Berlin": [
+  52.5699951,
+  13.5761419
+ ],
+ "Schorfheidestraße 6, Berlin": [
+  52.5681994,
+  13.5758903
  ],
  "Schwedter Straße 31, 10435 Berlin": [
   52.5367757,
