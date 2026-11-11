@@ -2053,12 +2053,27 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-11-03T20:08:38+01:00"
   },
+  "1001011200049": {
+    "address": "Holzmindener Str. 18a, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T08:23:43+01:00"
+  },
+  "1001011200071": {
+    "address": "Holzmindener Str. 18b, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T08:23:43+01:00"
+  },
   "1001011200073": {
     "address": "Holzmindener Str. 13, 12347 Berlin",
     "company": "Stadt und Land",
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T11:45:05+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
+  },
+  "1001011200554": {
+    "address": "Holzmindener Str. 20, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T08:23:43+01:00"
   },
   "1001017000078": {
     "address": "Oderstr. 33, 12049 Berlin",
