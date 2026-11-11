@@ -2074,6 +2074,11 @@
     "portal_uploaded": "2026-10-15T11:45:05+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
   },
+  "1001011200453": {
+    "address": "Am Straßenbahnhof 21, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T08:31:23+01:00"
+  },
   "1001011200554": {
     "address": "Holzmindener Str. 20, 12347 Berlin",
     "company": "Stadt und Land",
@@ -9382,7 +9387,8 @@
     "address": "Am Falkenberg 11L, 12524, Treptow-Köpenick",
     "company": "degewo",
     "portal_first_seen": "2026-11-11T08:27:45+01:00",
-    "portal_uploaded": "2026-11-11T07:25:05+00:00"
+    "portal_uploaded": "2026-11-11T07:25:05+00:00",
+    "site_first_seen": "2026-11-11T08:31:12+01:00"
   },
   "w11004201400860102": {
     "address": "Am Falkenberg 11G",
