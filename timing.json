@@ -1989,6 +1989,16 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-11-02T14:09:19+01:00"
   },
+  "10009830000811887b0a9ffd16b24d5bbde52c3d641fe936": {
+    "address": "Roedernallee 118F, 13437 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-11T15:58:03+01:00"
+  },
+  "100098300010105992116f5fed764c19bfab6906ef7b7f62": {
+    "address": "Roedernallee 118H, 13437 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-11T15:58:03+01:00"
+  },
   "1000983000101103bf718473d5da48459569cec2e5066ea3": {
     "address": "Roedernallee 118H, 13437, Reinickendorf",
     "company": "GESOBAU",
@@ -2074,6 +2084,11 @@
     "portal_uploaded": "2026-10-15T11:45:05+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
   },
+  "1001011200331": {
+    "address": "Holzmindener Str. 26, 12347 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T15:58:09+01:00"
+  },
   "1001011200393": {
     "address": "Holzmindener Str. 26a, 12347 Berlin",
     "company": "Stadt und Land",
@@ -2094,6 +2109,11 @@
     "portal_first_seen": "2026-11-11T08:27:45+01:00",
     "portal_uploaded": "2026-11-11T07:27:05+00:00",
     "site_first_seen": "2026-11-11T08:23:43+01:00"
+  },
+  "1001011500189": {
+    "address": "Oderstr. 43, 12049 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T15:58:09+01:00"
   },
   "1001017000078": {
     "address": "Oderstr. 33, 12049 Berlin",
@@ -2153,6 +2173,11 @@
     "portal_first_seen": "2026-10-28T11:44:46+01:00",
     "portal_uploaded": "2026-10-28T10:36:07+00:00",
     "site_first_seen": "2026-10-28T11:44:44+01:00"
+  },
+  "1001020500505": {
+    "address": "John-Locke-Str. 15, 12305 Berlin",
+    "company": "Stadt und Land",
+    "site_first_seen": "2026-11-11T15:58:09+01:00"
   },
   "1001020600010": {
     "address": "Lichtenrader Damm 216, 12305 Berlin",
@@ -3527,6 +3552,11 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-10-20T13:02:24+02:00"
   },
+  "1003052000111131f8f5c5ca171b48d0871f10a49cc833b7": {
+    "address": "Mendelstraße 14, 13187 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-11T15:58:03+01:00"
+  },
   "10030520001813154426a322c6024bdc8ffeefc1cd5ec3a7": {
     "address": "Harzburger Straße 1, 13187 Berlin",
     "company": "GESOBAU",
@@ -3536,6 +3566,11 @@
     "address": "Harzburger Straße 1, 13187 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-11-09T21:57:37+01:00"
+  },
+  "10030520001913384eba27e0831546fa9545a0e03514f631": {
+    "address": "Harzburger Straße 2, 13187 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-11T15:58:03+01:00"
   },
   "10030520002112701dcb8acb83a647128414760cae7ebaf7": {
     "address": "Harzburger Straße 8, 13187 Berlin",
@@ -4697,6 +4732,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-03T20:08:01+01:00"
   },
+  "177023146173": {
+    "address": "Münsterlandstraße 6, 10317 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "17702315555": {
     "address": "Rupprechtstraße 23, 10317 Berlin",
     "company": "HOWOGE",
@@ -4711,6 +4751,11 @@
     "address": "Heinrichstraße 21, 10317 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-09T11:06:00+01:00"
+  },
+  "17702362532": {
+    "address": "Heinrichstraße 23, 10317 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "17702365921": {
     "address": "Münsterlandstraße 39, 10317 Berlin",
@@ -4762,6 +4807,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-12T12:19:04+02:00"
   },
+  "177024017316": {
+    "address": "Theodor-Brugsch-Straße 50, 13125 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "177024023126": {
     "address": "Karower Straße 8, 13125 Berlin",
     "company": "HOWOGE",
@@ -4792,6 +4842,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-13T19:04:50+02:00"
   },
+  "177024032196": {
+    "address": "Archenholdstraße 72, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "17702403541": {
     "address": "Franz-Schmidt-Straße 13, 13125 Berlin",
     "company": "HOWOGE",
@@ -4806,6 +4861,11 @@
     "address": "Franz-Schmidt-Straße 13, 13125 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-08T19:57:28+01:00"
+  },
+  "17702404313": {
+    "address": "Alt-Moabit 86b, 10555 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "17702405229": {
     "address": "Dahmestraße 27, 12527 Berlin",
@@ -4871,6 +4931,11 @@
     "address": "Wuhletalstraße 44, 12687 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-10T20:23:01+01:00"
+  },
+  "177024202260": {
+    "address": "Dessauer Straße 25, 12689 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "177024204134": {
     "address": "Geraer Ring 23, 12689 Berlin",
@@ -5247,11 +5312,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-03T20:08:01+01:00"
   },
-  "17711144643": {
-    "address": "Seefelder Straße 48, 13053 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-27T14:19:18+02:00"
-  },
   "17711144649": {
     "address": "Seefelder Straße 48, 13053 Berlin",
     "company": "HOWOGE",
@@ -5422,6 +5482,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-05T18:32:45+01:00"
   },
+  "1771129207": {
+    "address": "Schweriner Ring 58, 13059 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "17711322532": {
     "address": "Warnitzer Straße 20, 13057 Berlin",
     "company": "HOWOGE",
@@ -5477,6 +5542,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-15T14:47:20+02:00"
   },
+  "17711340444": {
+    "address": "Vincent-van-Gogh-Straße 25, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "17711341272": {
     "address": "Vincent-van-Gogh-Straße 26, 13057 Berlin",
     "company": "HOWOGE",
@@ -5511,6 +5581,16 @@
     "address": "Biesenbrower Straße 12, 13057 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-21T14:53:01+02:00"
+  },
+  "17711348120": {
+    "address": "Biesenbrower Straße 20, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "17711348217": {
+    "address": "Biesenbrower Straße 26, 13057 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "17711348815": {
     "address": "Biesenbrower Straße 58, 13057 Berlin",
@@ -5616,6 +5696,126 @@
     "address": "Konrad-Wolf-Straße 29A, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-07T16:15:09+02:00"
+  },
+  "177114538102": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538104": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538110": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538112": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538116": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538137": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538156": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "177114538160": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "17711453824": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "17711453888": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "17711453889": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389985": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389987": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389988": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389989": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389990": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389991": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389992": {
+    "address": "Rosenfelder Ring 86, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389993": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389994": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389995": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389997": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389998": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
+  "1771145389999": {
+    "address": "Rosenfelder Ring 88, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "17711454474": {
     "address": "Berliner Straße 51 H2, 10713 Berlin",
@@ -5802,6 +6002,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-08T19:57:28+01:00"
   },
+  "177114594117": {
+    "address": "Lückstraße 36, 10317 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
+  },
   "17711459622": {
     "address": "Wittenberger Straße 42, 12689 Berlin",
     "company": "HOWOGE",
@@ -5811,6 +6016,11 @@
     "address": "Rosenfelder Straße 13, 10317 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-19T18:36:54+02:00"
+  },
+  "1771310007": {
+    "address": "Halskestraße 10, 12167 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "177131100110": {
     "address": "Brusebergstraße 22, 13407 Berlin",
@@ -5861,6 +6071,11 @@
     "address": "Fahrenheitstraße 21, 12207 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-09-28T10:17:55+02:00"
+  },
+  "177131125338": {
+    "address": "Fahrenheitstraße 19, 12207 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "177131125372": {
     "address": "Fahrenheitstraße 15, 12207 Berlin",
@@ -6021,6 +6236,11 @@
     "address": "Gensinger Straße 12, 10315 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-09T21:57:11+01:00"
+  },
+  "19503355123": {
+    "address": "Mellenseestraße 42, 10319 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T15:57:39+01:00"
   },
   "195033551244": {
     "address": "Mellenseestraße 54, 10319 Berlin",
@@ -8109,6 +8329,12 @@
     "portal_first_seen": "2026-10-15T14:48:30+02:00",
     "portal_uploaded": "2026-10-15T11:57:07+00:00"
   },
+  "esq17702404313": {
+    "address": "Alt-Moabit 86B, 10555, Mitte",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T14:10:09+00:00"
+  },
   "esq17702405561": {
     "address": "Frankfurter Allee 167, 10365, Lichtenberg",
     "company": "HOWOGE",
@@ -8421,12 +8647,6 @@
     "portal_first_seen": "2026-11-03T20:08:42+01:00",
     "portal_uploaded": "2026-11-03T17:21:07+00:00"
   },
-  "esq17711144643": {
-    "address": "Seefelder Straße 48, 13053, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-27T14:20:01+02:00",
-    "portal_uploaded": "2026-09-27T12:17:04+00:00"
-  },
   "esq17711144649": {
     "address": "Seefelder Straße 48, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -8529,6 +8749,12 @@
     "portal_first_seen": "2026-10-07T09:25:32+02:00",
     "portal_uploaded": "2026-10-07T07:22:07+00:00"
   },
+  "esq1771129207": {
+    "address": "Schweriner Ring 58, 13059, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:51:06+00:00"
+  },
   "esq17711332051": {
     "address": "Demminer Straße 47, 13059, Lichtenberg",
     "company": "HOWOGE",
@@ -8588,6 +8814,48 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-07T22:05:34+02:00",
     "portal_uploaded": "2026-10-07T16:18:04+00:00"
+  },
+  "esq1771145389992": {
+    "address": "Rosenfelder Ring 86, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T14:01:15+00:00"
+  },
+  "esq1771145389993": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:39:09+00:00"
+  },
+  "esq1771145389994": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:41:11+00:00"
+  },
+  "esq1771145389995": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:56:05+00:00"
+  },
+  "esq1771145389997": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:50:08+00:00"
+  },
+  "esq1771145389998": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:49:06+00:00"
+  },
+  "esq1771145389999": {
+    "address": "Rosenfelder Ring 88, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T13:55:09+00:00"
   },
   "esq177114555423": {
     "address": "Klara-Weyl-Straße 19, 10365, Lichtenberg",
@@ -9413,10 +9681,20 @@
     "portal_uploaded": "2026-11-11T07:25:05+00:00",
     "site_first_seen": "2026-11-11T08:31:12+01:00"
   },
+  "w11004201400850503": {
+    "address": "Am Falkenberg 11H",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
+  },
   "w11004201400860102": {
     "address": "Am Falkenberg 11G",
     "company": "degewo",
     "site_first_seen": "2026-10-16T15:27:55+02:00"
+  },
+  "w11004201401060104": {
+    "address": "Am Falkenberg 11C",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
   },
   "w11004201401290103": {
     "address": "Am Falkenberg 11B",
@@ -9985,6 +10263,11 @@
     "company": "degewo",
     "site_first_seen": "2026-10-06T18:09:01+02:00"
   },
+  "w11500020101220401": {
+    "address": "Hohenzollerndamm 142",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
+  },
   "w11500020200590401": {
     "address": "Landecker Straße 5",
     "company": "degewo",
@@ -10167,6 +10450,11 @@
     "portal_uploaded": "2026-09-30T13:18:02+00:00",
     "site_first_seen": "2026-09-30T18:42:16+02:00"
   },
+  "w11500142300400401": {
+    "address": "Havensteinstraße 48",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
+  },
   "w11500142301440401": {
     "address": "Renatenweg 13",
     "company": "degewo",
@@ -10188,6 +10476,11 @@
     "address": "Dillgesstraße 43",
     "company": "degewo",
     "site_first_seen": "2026-11-09T21:57:27+01:00"
+  },
+  "w11500142600780301": {
+    "address": "Kaiser-Wilhelm-Straße 71C",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
   },
   "w11500142601840104": {
     "address": "Thaliaweg 13",
@@ -10232,6 +10525,11 @@
     "address": "Steglitzer Damm 60",
     "company": "degewo",
     "site_first_seen": "2026-11-03T20:08:19+01:00"
+  },
+  "w11502170500370409": {
+    "address": "Steglitzer Damm 60",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
   },
   "w11502170500430505": {
     "address": "Steglitzer Damm 60",
@@ -10876,6 +11174,13 @@
     "address": "Wendenschloßstraße 130C",
     "company": "degewo",
     "site_first_seen": "2026-11-02T14:09:12+01:00"
+  },
+  "w13006622400600201": {
+    "address": "Karlstraße 38",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-11T15:58:13+01:00",
+    "portal_uploaded": "2026-11-11T14:01:13+00:00",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
   },
   "w13006622400620301": {
     "address": "Karlstraße 38",
@@ -11655,6 +11960,11 @@
     "portal_uploaded": "2026-11-05T08:18:07+00:00",
     "site_first_seen": "2026-11-05T10:01:41+01:00"
   },
+  "w14004076300800402": {
+    "address": "Schorfheidestraße 36",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
+  },
   "w14004077313200203": {
     "address": "Havemannstraße 11",
     "company": "degewo",
@@ -11750,6 +12060,16 @@
     "portal_first_seen": "2026-10-27T15:49:15+01:00",
     "portal_uploaded": "2026-10-27T13:10:07+00:00",
     "site_first_seen": "2026-10-27T15:48:39+01:00"
+  },
+  "w14005180600510204": {
+    "address": "Ludwig-Renn-Straße 62",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
+  },
+  "w14005180601450704": {
+    "address": "Ludwig-Renn-Straße 60",
+    "company": "degewo",
+    "site_first_seen": "2026-11-11T15:57:54+01:00"
   },
   "w14005181100280404": {
     "address": "Bärensteinstraße 5",
