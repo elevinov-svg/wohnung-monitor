@@ -4392,6 +4392,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-30T14:19:59+01:00"
   },
+  "1770204177": {
+    "address": "Massower Straße 13, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-11T08:00:03+01:00"
+  },
   "17702044126": {
     "address": "Marie-Curie-Allee 104, 10315 Berlin",
     "company": "HOWOGE",
@@ -7790,6 +7795,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-30T14:21:00+01:00",
     "portal_uploaded": "2026-10-30T12:33:05+00:00"
+  },
+  "esq1770204177": {
+    "address": "Massower Straße 13, 10315, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-11T08:01:08+01:00",
+    "portal_uploaded": "2026-11-11T07:00:08+00:00"
   },
   "esq17702044126": {
     "address": "Marie-Curie-Allee 104, 10315, Lichtenberg",
