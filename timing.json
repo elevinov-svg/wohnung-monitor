@@ -3249,6 +3249,13 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-11-04T16:10:46+01:00"
   },
+  "1001627100102": {
+    "address": "Springbornstr. 248, 12487 Berlin",
+    "company": "Stadt und Land",
+    "portal_first_seen": "2026-11-11T07:56:55+01:00",
+    "portal_uploaded": "2026-11-11T05:45:06+00:00",
+    "site_first_seen": "2026-11-11T07:56:53+01:00"
+  },
   "1001629500089": {
     "address": "Sterndamm 141, 12487 Berlin",
     "company": "Stadt und Land",
@@ -3291,6 +3298,8 @@
   "1001639900006": {
     "address": "Johanna-Tesch-Str. 17, 12439 Berlin",
     "company": "Stadt und Land",
+    "portal_first_seen": "2026-11-11T07:56:55+01:00",
+    "portal_uploaded": "2026-11-11T06:16:05+00:00",
     "site_first_seen": "2026-10-28T11:44:44+01:00"
   },
   "1001639900012": {
@@ -9842,6 +9851,13 @@
     "portal_uploaded": "2026-10-26T12:53:05+00:00",
     "site_first_seen": "2026-10-26T13:58:10+01:00"
   },
+  "w11400068300210603": {
+    "address": "Walter-Franck-Zeile 3",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-11T07:56:55+01:00",
+    "portal_uploaded": "2026-11-11T06:18:04+00:00",
+    "site_first_seen": "2026-11-11T07:56:24+01:00"
+  },
   "w11401170200360201": {
     "address": "Theodor-Loos-Weg 33",
     "company": "degewo",
@@ -10899,6 +10915,13 @@
     "address": "Peter-Hille-Straße 39",
     "company": "degewo",
     "site_first_seen": "2026-10-08T21:42:27+02:00"
+  },
+  "w13007220500030201": {
+    "address": "Scharnweberstraße 14",
+    "company": "degewo",
+    "portal_first_seen": "2026-11-11T07:56:55+01:00",
+    "portal_uploaded": "2026-11-11T06:34:04+00:00",
+    "site_first_seen": "2026-11-11T07:56:24+01:00"
   },
   "w14000608000020102": {
     "address": "Joachim-Ringelnatz-Straße 2",
