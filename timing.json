@@ -4703,6 +4703,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-04T22:24:53+01:00"
   },
+  "17702077833": {
+    "address": "Genslerstraße 16, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-12T20:31:42+01:00"
+  },
   "17702077841": {
     "address": "Genslerstraße 16 A, 13055 Berlin",
     "company": "HOWOGE",
@@ -8305,6 +8310,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-11-04T22:26:04+01:00",
     "portal_uploaded": "2026-11-04T17:15:06+00:00"
+  },
+  "esq17702077833": {
+    "address": "Genslerstraße 16, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-12T20:32:37+01:00",
+    "portal_uploaded": "2026-11-12T19:30:07+00:00"
   },
   "esq17702077841": {
     "address": "Genslerstraße 16A, 13055, Lichtenberg",
