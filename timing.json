@@ -157,6 +157,11 @@
     "portal_uploaded": "2026-11-02T00:16:04+00:00",
     "site_first_seen": "2026-09-25T12:26:56+02:00"
   },
+  "01000103215010453": {
+    "address": "Daumstr. 205, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-12T19:47:04+01:00"
+  },
   "01000103215010454": {
     "address": "Daumstr. 205, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -1076,6 +1081,11 @@
     "address": "David-Friedländer-Weg 109, 13057 Berlin/Lichtenberg",
     "company": "Gewobag",
     "site_first_seen": "2026-11-06T12:52:18+01:00"
+  },
+  "01000255902010046": {
+    "address": "Henriette-Herz-Allee 9, 13057 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-12T19:47:04+01:00"
   },
   "01000255906040181": {
     "address": "David-Friedländer-Weg 104, 13057 Berlin/Lichtenberg",
@@ -9693,6 +9703,11 @@
     "address": "Kleeblattstraße 16",
     "company": "degewo",
     "site_first_seen": "2026-11-12T19:42:57+01:00"
+  },
+  "w11004190801390102": {
+    "address": "Kleeblattstraße 16",
+    "company": "degewo",
+    "site_first_seen": "2026-11-12T19:46:37+01:00"
   },
   "w11004190801530302": {
     "address": "Kleeblattstraße 16",
