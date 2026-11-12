@@ -2546,13 +2546,6 @@
     "site_first_seen": "2026-09-24T11:23:09+02:00",
     "site_first_seen_baseline": true
   },
-  "1001511000092": {
-    "address": "Kletterrosenweg 8, 12526 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-29T00:26:45+02:00",
-    "portal_uploaded": "2026-09-28T09:55:03+00:00",
-    "site_first_seen": "2026-09-28T18:56:07+02:00"
-  },
   "1001511000100": {
     "address": "Kletterrosenweg 10, 12526 Berlin",
     "company": "Stadt und Land",
@@ -5278,6 +5271,16 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-13T19:04:50+02:00"
   },
+  "17711048244": {
+    "address": "Neustrelitzer Straße 65, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-13T00:58:33+01:00"
+  },
+  "177110503117": {
+    "address": "Genslerstraße 31, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-13T00:58:33+01:00"
+  },
   "17711050711": {
     "address": "Genslerstraße 48, 13055 Berlin",
     "company": "HOWOGE",
@@ -5697,6 +5700,11 @@
     "address": "Liebenwalder Straße 29, 13055 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-02T14:08:58+01:00"
+  },
+  "17711400160": {
+    "address": "Heiligenstadter Straße 5, 13055 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-13T00:58:33+01:00"
   },
   "177114002106": {
     "address": "Neustrelitzer Straße 67, 13055 Berlin",
@@ -8665,6 +8673,24 @@
     "portal_first_seen": "2026-10-13T19:05:46+02:00",
     "portal_uploaded": "2026-10-13T16:18:07+00:00"
   },
+  "esq17711048244": {
+    "address": "Neustrelitzer Straße 65, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-13T00:59:04+01:00",
+    "portal_uploaded": "2026-11-12T19:36:06+00:00"
+  },
+  "esq177110503117": {
+    "address": "Genslerstraße 31, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-13T00:59:04+01:00",
+    "portal_uploaded": "2026-11-12T19:37:07+00:00"
+  },
+  "esq177110506119": {
+    "address": "Liebenwalder Straße 13, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-13T00:59:04+01:00",
+    "portal_uploaded": "2026-11-12T19:39:04+00:00"
+  },
   "esq177110506161": {
     "address": "Genslerstraße 40, 13055, Lichtenberg",
     "company": "HOWOGE",
@@ -8898,6 +8924,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-01T08:55:00+02:00",
     "portal_uploaded": "2026-10-01T05:16:05+00:00"
+  },
+  "esq17711400160": {
+    "address": "Heiligenstadter Straße 5, 13055, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-13T00:59:04+01:00",
+    "portal_uploaded": "2026-11-12T19:40:04+00:00"
   },
   "esq177114002106": {
     "address": "Neustrelitzer Straße 67, 13055, Lichtenberg",
