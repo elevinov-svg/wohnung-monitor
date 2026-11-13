@@ -255,7 +255,8 @@
     "address": "Daumstraße 62, 13599, Spandau",
     "company": "Gewobag",
     "portal_first_seen": "2026-11-13T07:54:53+01:00",
-    "portal_uploaded": "2026-11-13T06:54:07+00:00"
+    "portal_uploaded": "2026-11-13T06:54:07+00:00",
+    "site_first_seen": "2026-11-13T07:58:49+01:00"
   },
   "01000103610010450": {
     "address": "Daumstr. 60, 13599 Berlin/Spandau",
@@ -1008,6 +1009,13 @@
     "address": "Große-Leege-Str. 68A, 13055 Berlin/Lichtenberg",
     "company": "Gewobag",
     "site_first_seen": "2026-11-08T15:12:54+01:00"
+  },
+  "01000252005040288": {
+    "address": "Große-Leege-Str. 69A, 13055 Berlin/Lichtenberg",
+    "company": "Gewobag",
+    "portal_first_seen": "2026-11-13T07:58:57+01:00",
+    "portal_uploaded": "2026-11-13T06:56:05+00:00",
+    "site_first_seen": "2026-11-13T07:58:49+01:00"
   },
   "01000252007040436": {
     "address": "Große-Leege-Str. 77A, 13055 Berlin/Lichtenberg",
