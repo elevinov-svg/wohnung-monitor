@@ -989,13 +989,6 @@
     "portal_uploaded": "2026-10-15T10:59:04+00:00",
     "site_first_seen": "2026-10-15T14:48:28+02:00"
   },
-  "01000223101020102": {
-    "address": "Adalbertstr. 96, 10999 Berlin/Friedrichshain-Kreuzberg",
-    "company": "Gewobag",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T14:26:05+00:00",
-    "site_first_seen": "2026-09-29T17:25:17+02:00"
-  },
   "01000250901080155": {
     "address": "Karl-Marx-Allee 86, 10243 Berlin/Friedrichshain-Kreuzberg",
     "company": "Gewobag",
@@ -1843,32 +1836,6 @@
     "portal_first_seen": "2026-09-30T12:41:17+02:00",
     "portal_uploaded": "2026-09-30T08:13:03+00:00"
   },
-  "1000794000010007eb5c88112c17467c8059b8164e05ca6a": {
-    "address": "Gartenplatz 2, 13355 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-29T17:24:59+02:00"
-  },
-  "10007940000200162989a65b7bf34492a5b249b6d0dc4b36": {
-    "address": "Gartenplatz 3, 13355 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-29T17:24:59+02:00"
-  },
-  "10007970000200354399ebeac22448cd82bd602edba9b13e": {
-    "address": "Ackerstraße 106, 13355 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-29T17:24:59+02:00"
-  },
-  "1000801000030094a2b6b0f232cd428ba785174bc6752759": {
-    "address": "Schönwalder Straße 1, 13347, Mitte",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T12:56:06+00:00"
-  },
-  "1000801000030094cb2d0b60206e4bcc83e362564bf536f3": {
-    "address": "Schönwalder Straße 1, 13347 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-29T17:24:59+02:00"
-  },
   "1000855000010027cacf9bee331948d988f8feb8910dd4d2": {
     "address": "Senftenberger Ring 45, 13435, Reinickendorf",
     "company": "GESOBAU",
@@ -1980,12 +1947,6 @@
     "portal_first_seen": "2026-11-02T14:09:54+01:00",
     "portal_uploaded": "2026-11-02T12:58:05+00:00"
   },
-  "1000983000051114afd7b0e81c5846f3a752a7420275445a": {
-    "address": "Roedernallee 118C, 13437, Reinickendorf",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T14:16:05+00:00"
-  },
   "10009830000511205536b232d7d3492687b2f3bde05de549": {
     "address": "Roedernallee 118C, 13437, Reinickendorf",
     "company": "GESOBAU",
@@ -2008,12 +1969,6 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-11-12T19:43:03+01:00"
   },
-  "1000983000081050d927edceeb38454f8ec82482cc99f428": {
-    "address": "Roedernallee 118F, 13437, Reinickendorf",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T13:58:04+00:00"
-  },
   "1000983000081092fab27781f6fa4f4d9cf6c4de06837214": {
     "address": "Roedernallee 118F, 13437, Reinickendorf",
     "company": "GESOBAU",
@@ -2025,12 +1980,6 @@
     "company": "GESOBAU",
     "portal_first_seen": "2026-10-20T17:39:30+02:00",
     "portal_uploaded": "2026-10-20T14:28:05+00:00"
-  },
-  "100098300008111126bf9cbf3504446f811ef5190334056f": {
-    "address": "Roedernallee 118F, 13437, Reinickendorf",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T14:28:05+00:00"
   },
   "1000983000081187c0c8a218660541158991a784a23f7cff": {
     "address": "Roedernallee 118F, 13437 Berlin",
@@ -3102,11 +3051,6 @@
     "portal_uploaded": "2026-10-27T13:49:05+00:00",
     "site_first_seen": "2026-10-19T18:38:11+02:00"
   },
-  "1001527600026": {
-    "address": "Dröpkeweg 9, 12353 Berlin",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-29T17:25:18+02:00"
-  },
   "1001527600027": {
     "address": "Dröpkeweg 9, 12353 Berlin",
     "company": "Stadt und Land",
@@ -3598,12 +3542,6 @@
     "portal_first_seen": "2026-10-23T13:58:39+02:00",
     "portal_uploaded": "2026-10-23T11:38:07+00:00"
   },
-  "1003209000021019e629a663ecaa42209df5cc9472004482": {
-    "address": "Hellersdorfer Straße 91B, 12619, Marzahn-Hellersdorf",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T13:01:13+00:00"
-  },
   "1003209000021035d1f75dfc5e1b4dbdb4507ae68e68764e": {
     "address": "Hellersdorfer Straße 91B, 12619 Berlin",
     "company": "GESOBAU",
@@ -3881,13 +3819,6 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-23T13:58:37+02:00"
   },
-  "1050814200130": {
-    "address": "Senftenberger Str. 22, 12627 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T13:03:04+00:00",
-    "site_first_seen": "2026-09-29T17:25:18+02:00"
-  },
   "1050820100007": {
     "address": "John-Heartfield-Straße 1, 12619 Berlin",
     "company": "Stadt und Land",
@@ -3992,11 +3923,6 @@
     "address": "Cecilienstraße 232, 12619 Berlin",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
-  },
-  "1050821100127": {
-    "address": "Cecilienstraße 234, 12619 Berlin",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-29T17:25:18+02:00"
   },
   "1050821200121": {
     "address": "Cecilienstraße 236, 12619 Berlin",
@@ -4415,11 +4341,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T18:31:40+02:00"
   },
-  "1770202599": {
-    "address": "Atzpodienstraße 24 A, 10365 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-29T17:24:35+02:00"
-  },
   "177020275398": {
     "address": "Harnackstraße 28, 10365 Berlin",
     "company": "HOWOGE",
@@ -4564,11 +4485,6 @@
     "address": "Sewanstraße 240, 10319 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:08:40+02:00"
-  },
-  "17702054918": {
-    "address": "Sewanstraße 222, 10319 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-29T17:24:35+02:00"
   },
   "177020549185": {
     "address": "Sewanstraße 252, 10319 Berlin",
@@ -5405,11 +5321,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-11-13T15:48:04+01:00"
   },
-  "1771125015": {
-    "address": "Prerower Platz 6, 13051 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-29T17:24:35+02:00"
-  },
   "17711260027": {
     "address": "Doberaner Straße 106, 13051 Berlin",
     "company": "HOWOGE",
@@ -5554,11 +5465,6 @@
     "address": "Grevesmühlener Straße 10, 13059 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-03T12:39:21+01:00"
-  },
-  "17711328419": {
-    "address": "Grevesmühlener Straße 20, 13059 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-29T17:24:35+02:00"
   },
   "17711328444": {
     "address": "Grevesmühlener Straße 20, 13059 Berlin",
@@ -6263,11 +6169,6 @@
     "address": "Baumbachstraße 7, 13189 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-08T08:42:51+02:00"
-  },
-  "194033410142": {
-    "address": "Landsberger Allee 183, 10369 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-29T17:24:35+02:00"
   },
   "195033542173": {
     "address": "Moldaustraße 30, 10319 Berlin",
@@ -7580,13 +7481,6 @@
     "portal_uploaded": "2026-10-05T14:10:10+00:00",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
   },
-  "71004050401030064": {
-    "address": "Franz-Klühs-Str. 7, 10969 Berlin/Friedrichshain-Kreuzberg",
-    "company": "Gewobag",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T14:32:04+00:00",
-    "site_first_seen": "2026-09-29T17:25:17+02:00"
-  },
   "71004050401040110": {
     "address": "Franz-Klühs-Str. 9, 10969 Berlin/Friedrichshain-Kreuzberg",
     "company": "Gewobag",
@@ -7898,11 +7792,6 @@
     "address": "Bremer Str. 12, 10551 Berlin/Mitte",
     "company": "Gewobag",
     "site_first_seen": "2026-10-05T17:09:03+02:00"
-  },
-  "71007700501010052": {
-    "address": "Potsdamer Str. 134- 136, 10783 Berlin/Tempelhof-Schöneberg",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-29T17:25:17+02:00"
   },
   "71007700701020058": {
     "address": "Bülowstr. 94, 10783 Berlin/Tempelhof-Schöneberg",
@@ -9929,13 +9818,6 @@
     "company": "degewo",
     "site_first_seen": "2026-11-08T15:12:46+01:00"
   },
-  "w11004220101860204": {
-    "address": "Eisenhutweg 60C",
-    "company": "degewo",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T13:56:04+00:00",
-    "site_first_seen": "2026-09-29T17:24:54+02:00"
-  },
   "w11004220102590302": {
     "address": "Eisenhutweg 62B",
     "company": "degewo",
@@ -10069,11 +9951,6 @@
     "address": "Tirschenreuther Ring 13",
     "company": "degewo",
     "site_first_seen": "2026-10-08T15:56:32+02:00"
-  },
-  "w11400052702210201": {
-    "address": "Waldsassener Straße 44",
-    "company": "degewo",
-    "site_first_seen": "2026-09-29T17:24:54+02:00"
   },
   "w11400052900550607": {
     "address": "Waldsassener Straße 29",
@@ -10783,13 +10660,6 @@
     "company": "degewo",
     "site_first_seen": "2026-11-05T18:33:15+01:00"
   },
-  "w13001060700258342": {
-    "address": "Helmholtzstraße 22",
-    "company": "degewo",
-    "portal_first_seen": "2026-09-29T17:25:20+02:00",
-    "portal_uploaded": "2026-09-29T13:04:05+00:00",
-    "site_first_seen": "2026-09-29T17:24:54+02:00"
-  },
   "w13001080300020101": {
     "address": "Nalepastraße 220",
     "company": "degewo",
@@ -10825,13 +10695,6 @@
     "company": "degewo",
     "site_first_seen": "2026-10-16T15:27:55+02:00"
   },
-  "w13002030100760202": {
-    "address": "Fontanestraße 3",
-    "company": "degewo",
-    "portal_first_seen": "2026-09-29T17:58:32+02:00",
-    "portal_uploaded": "2026-09-29T15:57:04+00:00",
-    "site_first_seen": "2026-09-25T17:27:26+02:00"
-  },
   "w13002041700510202": {
     "address": "Firlstraße 39",
     "company": "degewo",
@@ -10857,13 +10720,6 @@
     "address": "Griechische Allee 8",
     "company": "degewo",
     "site_first_seen": "2026-11-06T19:56:54+01:00"
-  },
-  "w13002070600070302": {
-    "address": "Griechische Allee 15",
-    "company": "degewo",
-    "portal_first_seen": "2026-09-29T17:58:32+02:00",
-    "portal_uploaded": "2026-09-29T15:55:04+00:00",
-    "site_first_seen": "2026-09-29T17:58:09+02:00"
   },
   "w13002090100080302": {
     "address": "Kilianistraße 19",
