@@ -164,6 +164,11 @@
     "company": "Gewobag",
     "site_first_seen": "2026-11-12T19:47:04+01:00"
   },
+  "01000103215010454": {
+    "address": "Daumstr. 205, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-13T15:53:08+01:00"
+  },
   "01000103215010458": {
     "address": "Daumstr. 205, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -3628,6 +3633,11 @@
     "company": "GESOBAU",
     "site_first_seen": "2026-11-09T11:06:27+01:00"
   },
+  "10032430001612798b01badb12034c8789f9a2154b981b39": {
+    "address": "Zossener Straße 152, 12629 Berlin",
+    "company": "GESOBAU",
+    "site_first_seen": "2026-11-13T15:53:05+01:00"
+  },
   "100324300023140528fca1122f3a4d388b8bf93f836053c7": {
     "address": "Brigitte-Reimann-Straße 13, 12629 Berlin",
     "company": "GESOBAU",
@@ -6825,6 +6835,8 @@
   "51141813": {
     "address": "Kochhannstrasse 13, 10249 Berlin",
     "company": "WBM",
+    "portal_first_seen": "2026-11-13T15:53:11+01:00",
+    "portal_uploaded": "2026-11-13T14:49:11+00:00",
     "site_first_seen": "2026-11-13T15:48:32+01:00"
   },
   "511433674": {
@@ -7406,6 +7418,11 @@
     "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-10-09T15:42:16+02:00"
+  },
+  "60113104701050165": {
+    "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
+    "company": "Gewobag",
+    "site_first_seen": "2026-11-13T15:53:08+01:00"
   },
   "60113104701050168": {
     "address": "Rotfederstraße 62, 13599 Berlin/Spandau",
