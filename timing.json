@@ -1202,11 +1202,6 @@
     "portal_uploaded": "2026-10-06T14:57:07+00:00",
     "site_first_seen": "2026-10-06T18:09:31+02:00"
   },
-  "01000256301040150": {
-    "address": "Rhinstr. 143 C, 10315 Berlin/Lichtenberg",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
-  },
   "01000256301040158": {
     "address": "Rhinstr. 143 C, 10315 Berlin/Lichtenberg",
     "company": "Gewobag",
@@ -1220,13 +1215,6 @@
     "portal_first_seen": "2026-10-23T13:58:39+02:00",
     "portal_uploaded": "2026-10-23T11:55:05+00:00",
     "site_first_seen": "2026-10-23T13:58:33+02:00"
-  },
-  "01000256301040174": {
-    "address": "Rhinstr. 143 C, 10315 Berlin/Lichtenberg",
-    "company": "Gewobag",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T14:26:07+00:00",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
   },
   "01000256301040193": {
     "address": "Rhinstr. 143 C, 10315 Berlin/Lichtenberg",
@@ -1777,39 +1765,6 @@
     "address": "Nordbahnstraße 12, 13359 Berlin",
     "company": "GESOBAU",
     "site_first_seen": "2026-10-08T15:56:41+02:00"
-  },
-  "1000751000020038576fb4c972a549d89577d174ec85a091": {
-    "address": "Armenische Straße 8, 13349 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-30T18:42:28+02:00"
-  },
-  "1000751000020038af601d9c6aab4c579c95bd6a22088297": {
-    "address": "Armenische Straße 8, 13349, Mitte",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T13:05:05+00:00"
-  },
-  "10007510000702067d4f612052664660ab887fb296dcba2b": {
-    "address": "Ungarnstraße 85, 13349, Mitte",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T12:09:02+00:00"
-  },
-  "1000751000070206d95e73abaeab449f87da4d5abb4e0553": {
-    "address": "Ungarnstraße 85, 13349 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-30T18:42:28+02:00"
-  },
-  "1000751000530899be289b59bb354bf89eed4da6ece3cc3a": {
-    "address": "Schwyzer Straße 26A, 13349, Mitte",
-    "company": "GESOBAU",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T12:54:04+00:00"
-  },
-  "1000751000530899ffb9e3ee3f224a29bbc56b348ac54d78": {
-    "address": "Schwyzer Straße 26 a, 13349 Berlin",
-    "company": "GESOBAU",
-    "site_first_seen": "2026-09-30T18:42:28+02:00"
   },
   "1000751000550931d3e3f08bd73442059833d7cd22bdaf71": {
     "address": "Schwyzer Straße 26 c, 13349 Berlin",
@@ -3383,30 +3338,10 @@
     "portal_uploaded": "2026-10-07T07:33:04+00:00",
     "site_first_seen": "2026-10-07T09:35:03+02:00"
   },
-  "1001731800031": {
-    "address": "Potsdamer Str. 70, 14974 Ludwigsfelde",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
   "1001731800044": {
     "address": "Potsdamer Str. 70, 14974 Ludwigsfelde",
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T18:32:47+02:00"
-  },
-  "1001731800067": {
-    "address": "Potsdamer Str. 72, 14974 Ludwigsfelde",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
-  "1001731800084": {
-    "address": "Potsdamer Str. 78, 14974 Ludwigsfelde",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
-  "1001731800095": {
-    "address": "Potsdamer Str. 78, 14974 Ludwigsfelde",
-    "company": "Stadt und Land",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
   },
   "1001732201004": {
     "address": "Mühlenbecker Straße 15, 16348 Wandlitz",
@@ -3953,27 +3888,6 @@
     "company": "Stadt und Land",
     "site_first_seen": "2026-10-02T12:41:59+02:00"
   },
-  "1050899700069": {
-    "address": "Hoyerswerdaer Str. 41, 12627 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T12:22:05+00:00",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
-  "1050899700126": {
-    "address": "Schwarzheider Str. 29, 12627 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T12:40:06+00:00",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
-  "1050899700133": {
-    "address": "Schwarzheider Str. 29, 12627 Berlin",
-    "company": "Stadt und Land",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T12:54:04+00:00",
-    "site_first_seen": "2026-09-30T18:42:51+02:00"
-  },
   "11295234": {
     "address": "Otto-Dix-Strasse 20, 10557 Berlin",
     "company": "WBM",
@@ -4215,6 +4129,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-02T12:56:00+02:00"
   },
+  "177020106229": {
+    "address": "Möllendorffstraße 75, 10367 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-14T21:26:59+01:00"
+  },
   "177020108133": {
     "address": "Franz-Jacob-Straße 12, 10369 Berlin",
     "company": "HOWOGE",
@@ -4224,6 +4143,11 @@
     "address": "Franz-Jacob-Straße 12, 10369 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-20T18:17:51+02:00"
+  },
+  "177020108294": {
+    "address": "Franz-Jacob-Straße 14, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-14T21:26:59+01:00"
   },
   "17702010865": {
     "address": "Franz-Jacob-Straße 12, 10369 Berlin",
@@ -4284,6 +4208,11 @@
     "address": "Landsberger Allee 166, 10369 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-11-14T10:20:01+01:00"
+  },
+  "17702013221": {
+    "address": "Ernst-Reinke-Straße 15, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-14T21:26:59+01:00"
   },
   "1770202327": {
     "address": "Hubertusstraße 18, 10365 Berlin",
@@ -4760,11 +4689,6 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-14T18:13:26+02:00"
   },
-  "177024062324": {
-    "address": "Gehrenseestraße 77, 13053 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-30T18:41:46+02:00"
-  },
   "177024062355": {
     "address": "Josef-Höhn-Straße 2, 13053 Berlin",
     "company": "HOWOGE",
@@ -4894,11 +4818,6 @@
     "address": "Roßmäßlerstraße 23, 10318 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-13T23:56:47+02:00"
-  },
-  "17702681576": {
-    "address": "Alt-Friedrichsfelde 41, 10315 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-30T18:41:46+02:00"
   },
   "17702763973": {
     "address": "Schwarzmeerstraße 60, 10319 Berlin",
@@ -5254,11 +5173,6 @@
     "address": "Zingster Straße 31, 13051 Berlin",
     "company": "HOWOGE",
     "site_first_seen": "2026-10-06T18:23:20+02:00"
-  },
-  "17711235395": {
-    "address": "Zingster Straße 37, 13051 Berlin",
-    "company": "HOWOGE",
-    "site_first_seen": "2026-09-30T18:41:46+02:00"
   },
   "177112414106": {
     "address": "Wustrower Straße 47, 13051 Berlin",
@@ -6943,11 +6857,6 @@
     "portal_uploaded": "2026-10-29T14:49:07+00:00",
     "site_first_seen": "2026-10-29T16:25:13+01:00"
   },
-  "60113104501010015": {
-    "address": "Moderlieschenstr. 18, 13599 Berlin/Spandau",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
-  },
   "60113104501020024": {
     "address": "Moderlieschenstr. 16, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -6988,11 +6897,6 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-07T16:16:26+02:00"
   },
-  "60113104501070116": {
-    "address": "Moderlieschenstr. 26, 13599 Berlin/Spandau",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
-  },
   "60113104502010141": {
     "address": "Moderlieschenstr. 46, 13599 Berlin/Spandau",
     "company": "Gewobag",
@@ -7013,20 +6917,10 @@
     "company": "Gewobag",
     "site_first_seen": "2026-10-20T13:02:45+02:00"
   },
-  "60113104502070230": {
-    "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
-  },
   "60113104502070254": {
     "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
     "company": "Gewobag",
     "site_first_seen": "2026-11-13T15:48:47+01:00"
-  },
-  "60113104502070256": {
-    "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
-    "company": "Gewobag",
-    "site_first_seen": "2026-09-30T18:42:49+02:00"
   },
   "60113104502070261": {
     "address": "Moderlieschenstr. 32, 13599 Berlin/Spandau",
@@ -7866,11 +7760,23 @@
     "portal_first_seen": "2026-10-02T12:57:08+02:00",
     "portal_uploaded": "2026-10-02T10:56:07+00:00"
   },
+  "esq177020106229": {
+    "address": "Möllendorffstraße 75, 10367, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-14T21:27:41+01:00",
+    "portal_uploaded": "2026-11-14T17:22:06+00:00"
+  },
   "esq177020108136": {
     "address": "Franz-Jacob-Straße 12, 10369, Lichtenberg",
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-20T18:19:07+02:00",
     "portal_uploaded": "2026-10-20T16:17:07+00:00"
+  },
+  "esq177020108294": {
+    "address": "Franz-Jacob-Straße 14, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-14T21:27:41+01:00",
+    "portal_uploaded": "2026-11-14T17:23:09+00:00"
   },
   "esq177020110147": {
     "address": "Anton-Saefkow-Platz 3, 10369, Lichtenberg",
@@ -7913,6 +7819,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-11-14T10:20:55+01:00",
     "portal_uploaded": "2026-11-14T09:20:08+00:00"
+  },
+  "esq17702013221": {
+    "address": "Ernst-Reinke-Straße 15, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-14T21:27:41+01:00",
+    "portal_uploaded": "2026-11-14T17:37:05+00:00"
   },
   "esq1770202327": {
     "address": "Hubertusstraße 18, 10365, Lichtenberg",
@@ -8274,12 +8186,6 @@
     "portal_first_seen": "2026-10-14T18:14:26+02:00",
     "portal_uploaded": "2026-10-14T16:14:05+00:00"
   },
-  "esq177024062324": {
-    "address": "Gehrenseestraße 77, 13053, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T16:16:06+00:00"
-  },
   "esq177024062355": {
     "address": "Josef-Höhn-Straße 2, 13053, Lichtenberg",
     "company": "HOWOGE",
@@ -8375,12 +8281,6 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-13T23:57:37+02:00",
     "portal_uploaded": "2026-10-13T17:57:04+00:00"
-  },
-  "esq17702681576": {
-    "address": "Alt-Friedrichsfelde 41, 10315, Lichtenberg",
-    "company": "HOWOGE",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T16:17:06+00:00"
   },
   "esq177027648100": {
     "address": "Schwarzmeerstraße 26, 10319, Lichtenberg",
@@ -10376,22 +10276,10 @@
     "company": "degewo",
     "site_first_seen": "2026-10-16T15:27:55+02:00"
   },
-  "w11500142200340302": {
-    "address": "Brigittenstraße 28",
-    "company": "degewo",
-    "portal_first_seen": "2026-09-30T18:42:53+02:00",
-    "portal_uploaded": "2026-09-30T13:18:02+00:00",
-    "site_first_seen": "2026-09-30T18:42:16+02:00"
-  },
   "w11500142300400401": {
     "address": "Havensteinstraße 48",
     "company": "degewo",
     "site_first_seen": "2026-11-11T15:57:54+01:00"
-  },
-  "w11500142301440401": {
-    "address": "Renatenweg 13",
-    "company": "degewo",
-    "site_first_seen": "2026-09-30T18:42:16+02:00"
   },
   "w11500142310070501": {
     "address": "Havensteinstraße 28",
@@ -11266,11 +11154,6 @@
     "portal_uploaded": "2026-11-11T06:34:04+00:00",
     "site_first_seen": "2026-11-11T07:56:24+01:00"
   },
-  "w14000608000020102": {
-    "address": "Joachim-Ringelnatz-Straße 2",
-    "company": "degewo",
-    "site_first_seen": "2026-09-30T18:42:16+02:00"
-  },
   "w14000608000550402": {
     "address": "Joachim-Ringelnatz-Straße 6",
     "company": "degewo",
@@ -11628,11 +11511,6 @@
     "portal_first_seen": "2026-10-02T18:32:49+02:00",
     "portal_uploaded": "2026-10-02T13:55:05+00:00",
     "site_first_seen": "2026-10-02T18:32:08+02:00"
-  },
-  "w14004013910900803": {
-    "address": "Raoul-Wallenberg-Straße 13",
-    "company": "degewo",
-    "site_first_seen": "2026-09-30T18:42:16+02:00"
   },
   "w14004014703400507": {
     "address": "Ludwig-Renn-Straße 31, 12679, Marzahn-Hellersdorf",
