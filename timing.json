@@ -4331,6 +4331,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-12T12:19:04+02:00"
   },
+  "177020120249": {
+    "address": "Landsberger Allee 166, 10369 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-14T10:20:01+01:00"
+  },
   "1770202327": {
     "address": "Hubertusstraße 18, 10365 Berlin",
     "company": "HOWOGE",
@@ -6195,6 +6200,11 @@
     "company": "HOWOGE",
     "site_first_seen": "2026-10-07T16:15:09+02:00"
   },
+  "195033554308": {
+    "address": "Rosenfelder Ring 141, 10315 Berlin",
+    "company": "HOWOGE",
+    "site_first_seen": "2026-11-14T10:20:01+01:00"
+  },
   "19503355576": {
     "address": "Rudolf-Seiffert-Straße 8, 10369 Berlin",
     "company": "HOWOGE",
@@ -7972,6 +7982,12 @@
     "company": "HOWOGE",
     "portal_first_seen": "2026-10-12T12:20:06+02:00",
     "portal_uploaded": "2026-10-12T09:12:05+00:00"
+  },
+  "esq177020120249": {
+    "address": "Landsberger Allee 166, 10369, Lichtenberg",
+    "company": "HOWOGE",
+    "portal_first_seen": "2026-11-14T10:20:55+01:00",
+    "portal_uploaded": "2026-11-14T09:20:08+00:00"
   },
   "esq1770202327": {
     "address": "Hubertusstraße 18, 10365, Lichtenberg",
